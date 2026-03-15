@@ -1,0 +1,72 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "services"
+    label: "Notary Services"
+    folder: "content/services"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Short Title", name: "shortTitle", widget: "string", required: false }
+      - { label: "URL Slug", name: "slug", widget: "string" }
+      - { label: "Meta Title", name: "metaTitle", widget: "string", hint: "SEO title shown in search results (60 chars max)" }
+      - { label: "Meta Description", name: "metaDescription", widget: "text", hint: "SEO description shown in search results (160 chars max)" }
+      - label: "Service Type"
+        name: "serviceType"
+        widget: "select"
+        options:
+          - "Legal & Personal"
+          - "Real Estate"
+          - "Court & Legal"
+          - "Business & Misc"
+          - "Wedding Officiant"
+          - "Apostille"
+          - "Translation"
+          - "Mobile Notary"
+      - { label: "Display Order", name: "order", widget: "number", default: 10 }
+      - { label: "Parent Service", name: "parentService", widget: "string", required: false, hint: "Slug of parent service page (e.g., legal-personal)" }
+      - { label: "Featured Image", name: "image", widget: "image", required: false }
+      - { label: "Image Alt Text", name: "imageAlt", widget: "string", required: false, hint: "Describe the image for accessibility and SEO" }
+      - { label: "Page Content", name: "body", widget: "markdown" }
+      - { label: "FAQ Section Title", name: "faqTitle", widget: "string", default: "Frequently Asked Questions", required: false }
+      - label: "FAQs"
+        name: "faqs"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Question", name: "question", widget: "string" }
+          - { label: "Answer", name: "answer", widget: "text" }
+
+  - name: "blog"
+    label: "Blog & Resources"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "URL Slug", name: "slug", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Meta Title", name: "metaTitle", widget: "string", hint: "SEO title (60 chars max)" }
+      - { label: "Meta Description", name: "metaDescription", widget: "text", hint: "SEO description (160 chars max)" }
+      - label: "Service Type"
+        name: "serviceType"
+        widget: "select"
+        options:
+          - "Legal & Personal"
+          - "Real Estate"
+          - "Court & Legal"
+          - "Business & Misc"
+          - "Wedding Officiant"
+          - "Apostille"
+          - "Mobile Notary"
+          - "General"
+      - { label: "Linked Service Page", name: "linkedService", widget: "string", required: false, hint: "Slug of related service page" }
+      - { label: "Featured Image", name: "image", widget: "image", required: false }
+      - { label: "Image Alt Text", name: "imageAlt", widget: "string", required: false }
+      - { label: "Article Content", name: "body", widget: "markdown" }
