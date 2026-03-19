@@ -104,7 +104,7 @@ gtag('config', 'G-4CP7XECRCV');`,
       </head>
       <body className={`${manrope.variable} ${inter.variable} antialiased`}>
         <Header />
-        <main className="pt-16 sm:pt-20">{children}</main>
+        <main className="pt-[88px] sm:pt-[96px]">{children}</main>
         <Footer />
         <FloatingPhoneCTA />
       </body>
