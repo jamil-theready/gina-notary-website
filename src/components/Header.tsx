@@ -22,7 +22,7 @@ export default function Header() {
           <Link href="/" className="flex items-center gap-2 shrink-0">
             <img
               src="/images/gina-gonzalez-notary.jpg"
-              alt="Gina Gonzalez"
+              alt="Gina Gonzalez, Sacramento mobile notary public"
               className="w-8 h-8 rounded-full object-cover hidden sm:block"
             />
             <span className="text-brand-black font-sans font-extrabold text-lg tracking-tight">
@@ -47,7 +47,7 @@ export default function Header() {
           <div className="flex items-center gap-4">
             <a
               href="tel:+14159489967"
-              className="hidden sm:inline-flex items-center gap-2 bg-brand-gold hover:bg-brand-gold-dark text-brand-black font-semibold text-sm px-5 py-2.5 rounded-lg transition-colors"
+              className="hidden sm:inline-flex items-center gap-2 bg-brand-gold hover:bg-brand-gold-dark text-brand-black font-semibold text-sm px-5 py-2.5 rounded-xl transition-colors"
             >
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -91,7 +91,7 @@ export default function Header() {
             ))}
             <a
               href="tel:+14159489967"
-              className="block mt-3 text-center bg-brand-gold hover:bg-brand-gold-dark text-brand-black font-semibold py-3 rounded-lg transition-colors"
+              className="block mt-3 text-center bg-brand-gold hover:bg-brand-gold-dark text-brand-black font-semibold py-3 rounded-xl transition-colors"
             >
               Call (415) 948-9967
             </a>

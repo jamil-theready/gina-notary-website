@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 interface ServiceCardProps {
@@ -5,14 +6,27 @@ interface ServiceCardProps {
   description: string;
   href: string;
   icon?: React.ReactNode;
+  image?: string;
+  imageAlt?: string;
 }
 
-export default function ServiceCard({ title, description, href, icon }: ServiceCardProps) {
+export default function ServiceCard({ title, description, href, icon, image, imageAlt }: ServiceCardProps) {
   return (
     <Link
       href={href}
       className="group block bg-brand-white border border-brand-gray-200 rounded-2xl p-6 sm:p-8 hover:border-brand-gold hover:shadow-lg transition-all duration-200"
     >
+      {image && (
+        <div className="overflow-hidden rounded-xl aspect-video mb-4">
+          <Image
+            src={image}
+            alt={imageAlt || title}
+            width={600}
+            height={338}
+            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+          />
+        </div>
+      )}
       {icon && (
         <div className="w-12 h-12 bg-brand-gold/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-brand-gold/20 transition-colors">
           {icon}

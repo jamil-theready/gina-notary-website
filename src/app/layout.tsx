@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Manrope, Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import FloatingPhoneCTA from "@/components/FloatingPhoneCTA";
 import { localBusinessSchema } from "@/lib/schema";
 import "./globals.css";
 
@@ -85,6 +86,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-4CP7XECRCV" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-4CP7XECRCV');`,
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -96,6 +106,7 @@ export default function RootLayout({
         <Header />
         <main className="pt-16 sm:pt-20">{children}</main>
         <Footer />
+        <FloatingPhoneCTA />
       </body>
     </html>
   );

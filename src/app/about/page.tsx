@@ -13,6 +13,24 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            name: "Gina Gonzalez",
+            jobTitle: "Certified Notary Public",
+            description: "Former lawyer from Peru, NNA certified mobile notary serving Sacramento CA. 10+ years experience, 6,000+ documents notarized.",
+            knowsLanguage: ["English", "Spanish"],
+            worksFor: {
+              "@type": "LocalBusiness",
+              name: "Gina Gonzalez Notary",
+              telephone: "+14159489967",
+            },
+          }),
+        }}
+      />
       <section className="bg-brand-black py-16 sm:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-brand-gold font-sans font-semibold text-sm tracking-wider uppercase mb-3">
@@ -24,6 +42,15 @@ export default function AboutPage() {
           <p className="text-brand-gray-200 text-lg max-w-2xl">
             I marry people, help them buy homes, and sometimes help them &ldquo;unmarry&rdquo; too.
           </p>
+          <a
+            href="tel:+14159489967"
+            className="inline-flex items-center gap-2 text-brand-gold font-semibold mt-4 hover:text-brand-gold-dark transition-colors"
+          >
+            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+            </svg>
+            (415) 948-9967
+          </a>
         </div>
       </section>
 
@@ -33,9 +60,11 @@ export default function AboutPage() {
             {/* Photo */}
             <div className="lg:col-span-2">
               <div className="aspect-[3/4] bg-brand-gray-200 rounded-2xl overflow-hidden sticky top-28">
-                <div className="w-full h-full flex items-center justify-center text-brand-gray-400">
-                  <span className="text-sm">Gina&apos;s Photo</span>
-                </div>
+                <img
+                  src="/images/Gina-notary-website-image.jpg"
+                  alt="Gina Gonzalez, NNA certified mobile notary public in Sacramento California"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
 
@@ -82,7 +111,14 @@ export default function AboutPage() {
 
               {/* Credentials */}
               <div className="bg-brand-gray-50 rounded-2xl p-8">
-                <h3 className="font-sans text-lg font-bold text-brand-black mb-4">Credentials</h3>
+                <div className="flex items-center gap-4 mb-4">
+                  <h3 className="font-sans text-lg font-bold text-brand-black">Credentials</h3>
+                  <img
+                    src="/images/NNA.jpg"
+                    alt="National Notary Association certified member badge"
+                    className="w-14 h-14 object-contain"
+                  />
+                </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   {[
                     "NNA Certified Notary Public",

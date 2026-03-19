@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import ContactForm from "@/components/ContactForm";
+import { localBusinessSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Contact Gina Gonzalez Notary | Sacramento, CA",
@@ -13,6 +14,12 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(localBusinessSchema()),
+        }}
+      />
       <section className="bg-brand-black py-16 sm:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-brand-gold font-sans font-semibold text-sm tracking-wider uppercase mb-3">

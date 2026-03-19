@@ -1,49 +1,45 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 export default function ContactForm() {
-  const [submitted, setSubmitted] = useState(false);
+  const [sending, setSending] = useState(false);
+  const router = useRouter();
 
-  if (submitted) {
-    return (
-      <div className="text-center py-12 px-6 bg-brand-gray-50 rounded-2xl">
-        <svg className="w-16 h-16 text-brand-gold mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-          <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
-        <h3 className="font-sans text-2xl font-bold text-brand-black mb-2">Message Sent</h3>
-        <p className="text-brand-gray-600">
-          Gina will get back to you shortly. For urgent requests, call{" "}
-          <a href="tel:+14159489967" className="text-brand-gold-dark font-semibold">(415) 948-9967</a>.
-        </p>
-      </div>
-    );
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setSending(true);
+
+    const form = e.target as HTMLFormElement;
+    const formData = new FormData(form);
+    formData.append("access_key", "65a02053-b647-4f1f-8619-b5dbefad1f77");
+
+    try {
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData,
+      });
+
+      if (res.ok) {
+        router.push("/thank-you");
+      } else {
+        alert("Something went wrong. Please call (415) 948-9967 instead.");
+        setSending(false);
+      }
+    } catch {
+      alert("Something went wrong. Please call (415) 948-9967 instead.");
+      setSending(false);
+    }
   }
 
   return (
-    <form
-      name="contact"
-      method="POST"
-      data-netlify="true"
-      netlify-honeypot="bot-field"
-      onSubmit={(e) => {
-        e.preventDefault();
-        const form = e.target as HTMLFormElement;
-        fetch("/", {
-          method: "POST",
-          headers: { "Content-Type": "application/x-www-form-urlencoded" },
-          body: new URLSearchParams(new FormData(form) as unknown as Record<string, string>).toString(),
-        })
-          .then(() => setSubmitted(true))
-          .catch(() => alert("Something went wrong. Please call (415) 948-9967 instead."));
-      }}
-    >
-      <input type="hidden" name="form-name" value="contact" />
-      <p className="hidden">
-        <label>
-          Don&apos;t fill this out: <input name="bot-field" />
-        </label>
-      </p>
+    <form onSubmit={handleSubmit}>
+      {/* Web3Forms config */}
+      <input type="hidden" name="subject" value="Gina Notary - New Contact Form Submission" />
+      <input type="hidden" name="from_name" value="Gina Gonzalez Notary Website" />
+      {/* Honeypot */}
+      <input type="checkbox" name="botcheck" className="hidden" tabIndex={-1} autoComplete="off" />
 
       <div className="space-y-5">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
@@ -125,9 +121,10 @@ export default function ContactForm() {
 
         <button
           type="submit"
-          className="w-full bg-brand-gold hover:bg-brand-gold-dark text-brand-black font-bold py-3.5 rounded-lg transition-colors text-lg"
+          disabled={sending}
+          className="w-full bg-brand-gold hover:bg-brand-gold-dark text-brand-black font-bold py-3.5 rounded-xl transition-colors text-lg disabled:opacity-60"
         >
-          Send Message
+          {sending ? "Sending..." : "Send Message"}
         </button>
         <p className="text-sm text-brand-gray-400 text-center">
           Or call directly:{" "}
