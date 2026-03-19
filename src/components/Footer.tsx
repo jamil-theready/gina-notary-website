@@ -100,7 +100,7 @@ export default function Footer() {
               className="rounded-full object-cover"
             />
             <div>
-              <span className="font-sans font-extrabold text-xl text-brand-black">
+              <span className="font-sans font-bold text-xl text-brand-black">
                 Notary Public
               </span>
             </div>

@@ -69,15 +69,15 @@ export default function ServicesPage() {
           __html: JSON.stringify(localBusinessSchema()),
         }}
       />
-      <section className="bg-brand-black py-16 sm:py-24">
+      <section className="bg-brand-gray-50 py-16 sm:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-brand-gold font-sans font-semibold text-sm tracking-wider uppercase mb-3">
             Our Services
           </p>
-          <h1 className="font-sans text-3xl sm:text-5xl font-extrabold text-brand-white mb-4">
+          <h1 className="font-sans text-3xl sm:text-5xl font-bold text-brand-black mb-4">
             Sacramento Notary Services
           </h1>
-          <p className="text-brand-gray-200 text-lg max-w-2xl">
+          <p className="text-brand-gray-600 text-lg max-w-2xl">
             Certified mobile notary services for legal, real estate, business, and personal documents.
             Bilingual in English and Spanish. Same day appointments available.
           </p>

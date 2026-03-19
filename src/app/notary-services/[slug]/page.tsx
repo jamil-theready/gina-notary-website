@@ -80,19 +80,19 @@ export default async function ServicePage({
       )}
 
       {/* Hero */}
-      <section className="bg-brand-black py-16 sm:py-24">
+      <section className="bg-brand-gray-50 py-16 sm:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <nav className="flex items-center gap-2 text-sm text-brand-gray-400 mb-6">
             <Link href="/" className="hover:text-brand-gold transition-colors">Home</Link>
             <span>/</span>
             <Link href="/notary-services/" className="hover:text-brand-gold transition-colors">Services</Link>
             <span>/</span>
-            <span className="text-brand-gray-200">{service.shortTitle || service.title}</span>
+            <span className="text-brand-gray-600">{service.shortTitle || service.title}</span>
           </nav>
-          <h1 className="font-sans text-3xl sm:text-5xl font-extrabold text-brand-white mb-4">
+          <h1 className="font-sans text-3xl sm:text-5xl font-bold text-brand-black mb-4">
             {service.title}
           </h1>
-          <p className="text-brand-gray-200 text-lg max-w-2xl">
+          <p className="text-brand-gray-600 text-lg max-w-2xl">
             {service.metaDescription}
           </p>
           <a

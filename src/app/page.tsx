@@ -263,7 +263,7 @@ function CredentialsAccordion() {
             onClick={() => setOpenIndex(openIndex === i ? null : i)}
             className="w-full flex items-center justify-between py-6 sm:py-8 text-left group"
           >
-            <h3 className="font-sans text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#0a0a0a] pr-4">
+            <h3 className="font-sans text-2xl sm:text-3xl lg:text-4xl font-bold text-[#0a0a0a] pr-4">
               {item.title}
             </h3>
             <span className="shrink-0 w-10 h-10 rounded-full border-2 border-neutral-300 flex items-center justify-center text-neutral-400 group-hover:border-[#f9cf01] group-hover:text-[#0a0a0a] transition-colors">
@@ -407,7 +407,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
             {/* Text */}
             <div>
-              <h1 className="font-sans text-4xl sm:text-5xl lg:text-[3.5rem] font-extrabold text-[#0a0a0a] leading-[1.1] mb-6">
+              <h1 className="font-sans text-4xl sm:text-5xl lg:text-[3.5rem] font-bold text-[#0a0a0a] leading-[1.1] mb-6">
                 Your Trusted{" "}
                 <span className="text-[#f9cf01]">Mobile Notary</span>
                 <br />
@@ -490,7 +490,7 @@ export default function HomePage() {
           <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-12">
             <div>
               <Badge>SERVICES</Badge>
-              <h2 className="font-sans text-3xl sm:text-4xl font-extrabold text-[#0a0a0a] mt-4">
+              <h2 className="font-sans text-3xl sm:text-4xl font-bold text-[#0a0a0a] mt-4">
                 Essential Sacramento Notary Services
               </h2>
             </div>
@@ -544,7 +544,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <Badge>HOW IT WORKS</Badge>
-            <h2 className="font-sans text-3xl sm:text-4xl font-extrabold text-[#0a0a0a] mt-4 mb-6">
+            <h2 className="font-sans text-3xl sm:text-4xl font-bold text-[#0a0a0a] mt-4 mb-6">
               A proven process to achieve your biggest goals
             </h2>
             <Link
@@ -566,7 +566,7 @@ export default function HomePage() {
                 <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
                   {/* Step number */}
                   <div className="flex items-center gap-3 mb-4">
-                    <span className="w-10 h-10 rounded-full bg-[#f9cf01] flex items-center justify-center font-sans text-sm font-extrabold text-[#0a0a0a]">
+                    <span className="w-10 h-10 rounded-full bg-[#f9cf01] flex items-center justify-center font-sans text-sm font-bold text-[#0a0a0a]">
                       {step.num}
                     </span>
                     <span className="font-sans text-xs font-semibold uppercase tracking-wider text-neutral-400">
@@ -618,7 +618,7 @@ export default function HomePage() {
             {/* Left: benefits */}
             <div>
               <Badge>BENEFITS</Badge>
-              <h2 className="font-sans text-3xl sm:text-4xl font-extrabold text-[#0a0a0a] mt-4 mb-10">
+              <h2 className="font-sans text-3xl sm:text-4xl font-bold text-[#0a0a0a] mt-4 mb-10">
                 Why choose Gina as your Notary in Sacramento?
               </h2>
 
@@ -669,7 +669,7 @@ export default function HomePage() {
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Badge>RESULTS</Badge>
-          <h2 className="font-sans text-3xl sm:text-4xl font-extrabold text-white mt-4 mb-4">
+          <h2 className="font-sans text-3xl sm:text-4xl font-bold text-white mt-4 mb-4">
             Trusted by Hundreds, Proven by Results
           </h2>
           <p className="text-neutral-300 max-w-2xl mx-auto mb-14 leading-relaxed">
@@ -684,7 +684,7 @@ export default function HomePage() {
                 key={i}
                 className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8"
               >
-                <div className="font-sans text-5xl sm:text-6xl font-extrabold text-[#f9cf01] mb-2">
+                <div className="font-sans text-5xl sm:text-6xl font-bold text-[#f9cf01] mb-2">
                   {m.value}
                 </div>
                 <div className="text-white font-semibold text-lg mb-3">
@@ -703,7 +703,7 @@ export default function HomePage() {
       <section className="py-16 md:py-24 bg-[#f5f5f5]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-12">
           <Badge>TESTIMONIALS</Badge>
-          <h2 className="font-sans text-3xl sm:text-4xl font-extrabold text-[#0a0a0a] mt-4">
+          <h2 className="font-sans text-3xl sm:text-4xl font-bold text-[#0a0a0a] mt-4">
             Trusted by Our Community
           </h2>
         </div>
@@ -723,7 +723,7 @@ export default function HomePage() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <Badge>CONTACT</Badge>
-            <h2 className="font-sans text-3xl sm:text-4xl font-extrabold text-[#0a0a0a] mt-4 max-w-2xl mx-auto">
+            <h2 className="font-sans text-3xl sm:text-4xl font-bold text-[#0a0a0a] mt-4 max-w-2xl mx-auto">
               Get your documents notarized today by Sacramento Notary Public
             </h2>
           </div>
@@ -826,7 +826,7 @@ export default function HomePage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <Badge>FAQs</Badge>
-            <h2 className="font-sans text-3xl sm:text-4xl font-extrabold text-[#0a0a0a] mt-4">
+            <h2 className="font-sans text-3xl sm:text-4xl font-bold text-[#0a0a0a] mt-4">
               FAQs
             </h2>
           </div>
@@ -874,7 +874,7 @@ export default function HomePage() {
             <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-8 items-end p-8 sm:p-12 lg:p-16">
               {/* Text */}
               <div className="pb-4 lg:pb-8">
-                <h2 className="font-sans text-3xl sm:text-4xl font-extrabold text-white leading-tight mb-6">
+                <h2 className="font-sans text-3xl sm:text-4xl font-bold text-white leading-tight mb-6">
                   Ready to Get Started?
                   <br />
                   Let&apos;s Make It Official!

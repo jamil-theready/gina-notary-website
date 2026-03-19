@@ -31,15 +31,15 @@ export default function AboutPage() {
           }),
         }}
       />
-      <section className="bg-brand-black py-16 sm:py-24">
+      <section className="bg-brand-gray-50 py-16 sm:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-brand-gold font-sans font-semibold text-sm tracking-wider uppercase mb-3">
             About
           </p>
-          <h1 className="font-sans text-3xl sm:text-5xl font-extrabold text-brand-white mb-4">
+          <h1 className="font-sans text-3xl sm:text-5xl font-bold text-brand-black mb-4">
             Meet Gina Gonzalez
           </h1>
-          <p className="text-brand-gray-200 text-lg max-w-2xl">
+          <p className="text-brand-gray-600 text-lg max-w-2xl">
             I marry people, help them buy homes, and sometimes help them &ldquo;unmarry&rdquo; too.
           </p>
           <a

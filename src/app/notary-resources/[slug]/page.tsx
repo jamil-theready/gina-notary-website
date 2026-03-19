@@ -73,14 +73,14 @@ export default async function BlogPostPage({
         }}
       />
 
-      <section className="bg-brand-black py-16 sm:py-20">
+      <section className="bg-brand-gray-50 py-16 sm:py-20">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <nav className="flex items-center gap-2 text-sm text-brand-gray-400 mb-6">
             <Link href="/" className="hover:text-brand-gold transition-colors">Home</Link>
             <span>/</span>
             <Link href="/notary-resources/" className="hover:text-brand-gold transition-colors">Resources</Link>
             <span>/</span>
-            <span className="text-brand-gray-200 truncate">{post.title}</span>
+            <span className="text-brand-gray-600 truncate">{post.title}</span>
           </nav>
           <div className="flex items-center gap-3 mb-4">
             {post.serviceType && (
@@ -98,7 +98,7 @@ export default async function BlogPostPage({
               </span>
             )}
           </div>
-          <h1 className="font-sans text-3xl sm:text-4xl lg:text-5xl font-extrabold text-brand-white leading-tight">
+          <h1 className="font-sans text-3xl sm:text-4xl lg:text-5xl font-bold text-brand-black leading-tight">
             {post.title}
           </h1>
         </div>

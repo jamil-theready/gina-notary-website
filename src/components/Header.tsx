@@ -25,7 +25,7 @@ export default function Header() {
               alt="Gina Gonzalez, Sacramento mobile notary public"
               className="w-8 h-8 rounded-full object-cover hidden sm:block"
             />
-            <span className="text-brand-black font-sans font-extrabold text-lg tracking-tight">
+            <span className="text-brand-black font-sans font-bold text-lg tracking-tight">
               Notary Public
             </span>
           </Link>
