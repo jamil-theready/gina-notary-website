@@ -139,7 +139,7 @@ export default function Footer() {
           {/* Copyright Bar */}
           <div className="mt-12 pt-8 border-t border-brand-black/10">
             <p className="text-brand-gray-600 text-sm">
-              &copy; 2025 Gina Notary Public
+              &copy; {new Date().getFullYear()} Gina Notary Public
             </p>
           </div>
         </div>

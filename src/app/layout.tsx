@@ -49,7 +49,7 @@ export const metadata: Metadata = {
       "Certified mobile notary public and bilingual wedding officiant serving Sacramento, CA. Same day appointments available. Call (415) 948-9967.",
     images: [
       {
-        url: "/images/og-image.jpg",
+        url: "/images/og-image.png",
         width: 1200,
         height: 630,
         alt: "Gina Gonzalez Notary - Sacramento Mobile Notary Public",

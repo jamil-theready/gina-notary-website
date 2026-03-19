@@ -780,7 +780,7 @@ export default function HomePage() {
                 <div className="flex gap-3">
                   {/* Instagram */}
                   <a
-                    href="https://www.instagram.com/"
+                    href="https://www.instagram.com/ginagonzaleznotary/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#f9cf01]/20 transition-colors"
@@ -792,7 +792,7 @@ export default function HomePage() {
                   </a>
                   {/* Facebook */}
                   <a
-                    href="https://www.facebook.com/"
+                    href="https://www.facebook.com/ginagonzaleznotary/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#f9cf01]/20 transition-colors"
@@ -804,7 +804,7 @@ export default function HomePage() {
                   </a>
                   {/* TikTok */}
                   <a
-                    href="https://www.tiktok.com/"
+                    href="https://www.tiktok.com/@ginagonzaleznotary"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#f9cf01]/20 transition-colors"
