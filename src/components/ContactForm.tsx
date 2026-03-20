@@ -38,6 +38,7 @@ export default function ContactForm() {
       {/* Web3Forms config */}
       <input type="hidden" name="subject" value="Gina Notary - New Contact Form Submission" />
       <input type="hidden" name="from_name" value="Gina Gonzalez Notary Website" />
+      <input type="hidden" name="ccemail" value="gina.gonzalez.realtor@gmail.com" />
       {/* Honeypot */}
       <input type="checkbox" name="botcheck" className="hidden" tabIndex={-1} autoComplete="off" />
 
