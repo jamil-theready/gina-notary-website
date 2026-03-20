@@ -9,7 +9,7 @@ import "./globals.css";
 const manrope = Manrope({
   variable: "--font-manrope",
   subsets: ["latin"],
-  weight: ["500", "600", "700", "800"],
+  weight: ["400", "500", "600", "700"],
   display: "swap",
 });
 
@@ -104,7 +104,7 @@ gtag('config', 'G-4CP7XECRCV');`,
       </head>
       <body className={`${manrope.variable} ${inter.variable} antialiased`}>
         <Header />
-        <main className="pt-[88px] sm:pt-[96px]">{children}</main>
+        <main className="pt-[60px] md:pt-[96px]">{children}</main>
         <Footer />
         <FloatingPhoneCTA />
       </body>

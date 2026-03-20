@@ -14,7 +14,7 @@ export default function ServiceCard({ title, description, href, icon, image, ima
   return (
     <Link
       href={href}
-      className="group block bg-brand-white border border-brand-gray-200 rounded-2xl p-6 sm:p-8 hover:border-brand-gold hover:shadow-lg transition-all duration-200"
+      className="group block bg-brand-white rounded-2xl p-6 sm:p-8 shadow-md shadow-black/[0.04] hover:shadow-lg hover:shadow-black/[0.08] transition-all duration-200"
     >
       {image && (
         <div className="overflow-hidden rounded-xl aspect-video mb-4">

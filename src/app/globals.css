@@ -20,6 +20,7 @@ body {
   background: var(--color-brand-white);
   color: var(--color-brand-black);
   font-family: var(--font-body), system-ui, sans-serif;
+  position: relative;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -99,7 +100,158 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--color-brand-gray-600);
 }
 
+/* Background grid overlay - Stripe-inspired clean vertical lines */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image:
+    repeating-linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.04) 0px,
+      rgba(0, 0, 0, 0.04) 1px,
+      transparent 1px,
+      transparent 100%
+    );
+  background-size: calc(100% / 12) 100%;
+}
+
+body > main,
+body > footer {
+  position: relative;
+  z-index: 1;
+}
+
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;
+}
+
+/* Logo carousel infinite scroll */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+  width: max-content;
+}
+
+.animate-scroll:hover {
+  animation-play-state: paused;
+}
+
+/* Sonar pulse animation for timeline dots */
+@keyframes sonar {
+  0% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  70% {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+.animate-sonar {
+  animation: sonar 2s ease-out infinite;
+}
+
+/* Hero floating gradient orbs */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-20px) scale(1.05);
+  }
+}
+
+@keyframes float-delayed {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-15px) scale(1.03);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float-delayed 8s ease-in-out infinite;
+  animation-delay: 2s;
+}
+
+/* Badge orbit animations - each badge traces its own path */
+@keyframes badge-orbit-1 {
+  0%, 100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(6px, -10px) rotate(2deg);
+  }
+  50% {
+    transform: translate(-4px, -6px) rotate(-1deg);
+  }
+  75% {
+    transform: translate(8px, 4px) rotate(1.5deg);
+  }
+}
+
+@keyframes badge-orbit-2 {
+  0%, 100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(-8px, 6px) rotate(-2deg);
+  }
+  50% {
+    transform: translate(5px, 10px) rotate(1deg);
+  }
+  75% {
+    transform: translate(-6px, -4px) rotate(-1.5deg);
+  }
+}
+
+@keyframes badge-orbit-3 {
+  0%, 100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(10px, 5px) rotate(1.5deg);
+  }
+  50% {
+    transform: translate(4px, -8px) rotate(-2deg);
+  }
+  75% {
+    transform: translate(-6px, 6px) rotate(1deg);
+  }
+}
+
+.animate-badge-orbit-1 {
+  animation: badge-orbit-1 5s ease-in-out infinite;
+}
+
+.animate-badge-orbit-2 {
+  animation: badge-orbit-2 6s ease-in-out infinite;
+  animation-delay: 0.5s;
+}
+
+.animate-badge-orbit-3 {
+  animation: badge-orbit-3 7s ease-in-out infinite;
+  animation-delay: 1s;
 }

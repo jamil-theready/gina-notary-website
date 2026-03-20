@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { getAllServices, getServiceBySlug, markdownToHtml } from "@/lib/content";
 import { serviceSchema, faqSchema } from "@/lib/schema";
 import FAQ from "@/components/FAQ";
+import CTASection from "@/components/CTASection";
 import Link from "next/link";
 
 export async function generateStaticParams() {
@@ -80,8 +81,8 @@ export default async function ServicePage({
       )}
 
       {/* Hero */}
-      <section className="bg-brand-gray-50 py-16 sm:py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="bg-brand-gray-50 py-12 sm:py-16">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <nav className="flex items-center gap-2 text-sm text-brand-gray-400 mb-6">
             <Link href="/" className="hover:text-brand-gold transition-colors">Home</Link>
             <span>/</span>
@@ -143,6 +144,8 @@ export default async function ServicePage({
           <FAQ title={service.faqTitle || "Frequently Asked Questions"} faqs={service.faqs} />
         </section>
       )}
+
+      <CTASection />
     </>
   );
 }

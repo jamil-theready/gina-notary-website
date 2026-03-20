@@ -33,6 +33,11 @@ export interface BlogFrontmatter {
   imageAlt: string;
   serviceType: string;
   linkedService?: string;
+  author?: string;
+  quickAnswer?: string;
+  keyTakeaways?: string[];
+  faqTitle?: string;
+  faq?: { question: string; answer: string }[];
 }
 
 function getContentFiles(subdir: string): string[] {
@@ -81,7 +86,39 @@ export function getBlogPostBySlug(
   return posts.find((p) => p.slug === slug) || null;
 }
 
+function slugifyHeading(text: string): string {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, "")
+    .trim()
+    .replace(/\s+/g, "-");
+}
+
+export function extractHeadings(markdown: string): { text: string; id: string }[] {
+  const lines = markdown.split("\n");
+  const headings: { text: string; id: string }[] = [];
+  for (const line of lines) {
+    const match = line.match(/^## (.+)/);
+    if (match) {
+      const text = match[1].trim();
+      headings.push({ text, id: slugifyHeading(text) });
+    }
+  }
+  return headings;
+}
+
 export async function markdownToHtml(markdown: string): Promise<string> {
   const result = await remark().use(gfm).use(html).process(markdown);
-  return result.toString();
+  // Add id attributes to <h2> and <h3> tags for TOC anchor links
+  const withIds = result
+    .toString()
+    .replace(/<h2>(.*?)<\/h2>/g, (_match, text: string) => {
+      const id = slugifyHeading(text.replace(/<[^>]+>/g, ""));
+      return `<h2 id="${id}">${text}</h2>`;
+    })
+    .replace(/<h3>(.*?)<\/h3>/g, (_match, text: string) => {
+      const id = slugifyHeading(text.replace(/<[^>]+>/g, ""));
+      return `<h3 id="${id}">${text}</h3>`;
+    });
+  return withIds;
 }

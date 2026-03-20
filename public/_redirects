@@ -1,2 +1,2 @@
-/blog /notary-resources/ 301
-/blog/* /notary-resources/ 301
+/notary-resources /blog/ 301
+/notary-resources/* /blog/ 301

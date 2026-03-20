@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
   title: "About Gina Gonzalez | Sacramento Notary Public",
@@ -159,6 +160,8 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      <CTASection />
     </>
   );
 }

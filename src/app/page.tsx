@@ -1,8 +1,12 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
+import { Timeline } from "@/components/ui/timeline";
+import { CredentialScrollCards } from "@/components/ui/scroll-cards";
+import CTASection from "@/components/CTASection";
 
 /* ───────────────────────── DATA ───────────────────────── */
 
@@ -10,68 +14,68 @@ const services = [
   {
     title: "Legal & Personal",
     description:
-      "Our Sacramento notary public notarizes powers of attorney, prenuptial agreements, and other personal legal documents with precision and confidentiality, ensuring your sensitive paperwork is legally sound and properly executed every time.",
-    image: "/images/service-legal.png",
+      "Our Sacramento notary public notarizes powers of attorney, prenuptial agreements, and other personal legal documents with precision and confidentiality.",
+    icon: (
+      <svg className="w-6 h-6 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+      </svg>
+    ),
     href: "/notary-services/legal-personal/",
   },
   {
     title: "Court & Proceedings",
     description:
-      "From affidavits to restraining orders, we provide fast, compliant notarization for court-related documents. We help ensure your paperwork meets legal standards and is accepted without delay or complication.",
-    image: "/images/service-court.png",
+      "From affidavits to restraining orders, we provide fast, compliant notarization for court-related documents.",
+    icon: (
+      <svg className="w-6 h-6 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
+      </svg>
+    ),
     href: "/notary-services/court-legal-proceedings/",
   },
   {
     title: "Real Estate & Loans",
     description:
-      "We offer reliable, professional Sacramento notary service for deeds, refinancing forms, and property transfers. Whether you're buying, selling, or borrowing, our Sacramento notary public helps you close with complete peace of mind.",
-    image: "/images/service-realestate.png",
+      "Reliable Sacramento notary service for deeds, refinancing forms, and property transfers. Close with complete peace of mind.",
+    icon: (
+      <svg className="w-6 h-6 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+      </svg>
+    ),
     href: "/notary-services/real-estate-notary-sacramento/",
   },
   {
     title: "Wedding Officiant",
     description:
-      "As a certified wedding officiant, Gina creates warm, customized ceremonies tailored to your unique love story. We handle the legal filing so you can focus on your big day.",
-    image: "/images/service-wedding.png",
+      "As a certified wedding officiant, Gina creates warm, customized ceremonies tailored to your unique love story.",
+    icon: (
+      <svg className="w-6 h-6 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+      </svg>
+    ),
     href: "/notary-services/wedding-officiant-services-in-sacramento-ca/",
   },
   {
     title: "Misc. Docs",
     description:
-      "Need a travel consent form, lease notarization, or DMV paperwork signed? We handle various document types with accuracy and convenience to save you time and stress.",
-    image: "/images/service-misc.png",
+      "Travel consent forms, lease notarization, DMV paperwork. We handle various document types with accuracy.",
+    icon: (
+      <svg className="w-6 h-6 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+      </svg>
+    ),
     href: "/notary-services/business-misc-documents/",
   },
   {
     title: "Apostille",
     description:
-      "We assist with apostille processing for notarized powers of attorney, marriage certificates, and other vital records, ensuring your documents meet international standards for use abroad with no legal hiccups.",
-    image: "/images/service-misc.png",
+      "Apostille processing for powers of attorney, marriage certificates, and vital records for international use.",
+    icon: (
+      <svg className="w-6 h-6 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+    ),
     href: "/notary-services/apostille-services-in-sacramento-ca/",
-  },
-];
-
-const steps = [
-  {
-    num: "01",
-    title: "Reach Out",
-    description:
-      "Reach out to Gina via phone, email, or our website to schedule your appointment. She\u2019ll confirm availability, answer any questions, and help you get started right away.",
-    image: "/images/step-reach-out.jpg",
-  },
-  {
-    num: "02",
-    title: "Gather Documents",
-    description:
-      "Gather all documents that require notarization and ensure they are complete and ready for signing. Don\u2019t forget to bring a valid government-issued ID for each signer involved.",
-    image: "/images/step-gather-docs.jpg",
-  },
-  {
-    num: "03",
-    title: "Complete Notarization",
-    description:
-      "Gina will meet you at your home, office, or any mutually convenient public location. We prioritize your comfort, ensuring privacy, punctuality, and total peace of mind.",
-    image: "/images/step-complete.jpg",
   },
 ];
 
@@ -187,58 +191,40 @@ const testimonials = [
 
 const faqs = [
   {
-    question:
-      "What is the difference between a notary acknowledgment and a jurat?",
-    answer:
-      "An acknowledgement verifies the signer\u2019s identity and confirms they signed willingly. A jurat requires the signer to swear or affirm the document\u2019s truthfulness before the notary in Sacramento, CA.",
+    question: "What is the difference between a notary acknowledgment and a jurat?",
+    answer: "An acknowledgement verifies the signer\u2019s identity and confirms they signed willingly. A jurat requires the signer to swear or affirm the document\u2019s truthfulness before the notary in Sacramento, CA.",
   },
   {
-    question:
-      "Can you notarize out-of-state or international documents?",
-    answer:
-      "Yes, I can notarize documents intended for use out of state or internationally, but you may need to follow additional steps like obtaining an apostille for international use.",
+    question: "Can you notarize out-of-state or international documents?",
+    answer: "Yes, I can notarize documents intended for use out of state or internationally, but you may need to follow additional steps like obtaining an apostille for international use.",
   },
   {
-    question:
-      "Are remote online notarizations (RON) available?",
-    answer:
-      "California does not currently allow remote online notarizations, but I provide in-person mobile notary services for your convenience.",
+    question: "Are remote online notarizations (RON) available?",
+    answer: "California does not currently allow remote online notarizations, but I provide in-person mobile notary services for your convenience.",
   },
   {
-    question:
-      "What type of ID is acceptable for notarization?",
-    answer:
-      "Acceptable IDs include government-issued photo IDs such as a driver\u2019s license, passport, or state ID. Expired IDs may be acceptable if they meet specific state requirements.",
+    question: "What type of ID is acceptable for notarization?",
+    answer: "Acceptable IDs include government-issued photo IDs such as a driver\u2019s license, passport, or state ID. Expired IDs may be acceptable if they meet specific state requirements.",
   },
   {
-    question:
-      "Do I need witnesses for my notarized document?",
-    answer:
-      "Some documents, such as wills or deeds, may require witnesses in addition to notarization. It\u2019s the signer\u2019s responsibility to provide witnesses, but I can guide you on the requirements.",
+    question: "Do I need witnesses for my notarized document?",
+    answer: "Some documents, such as wills or deeds, may require witnesses in addition to notarization. It\u2019s the signer\u2019s responsibility to provide witnesses, but I can guide you on the requirements.",
   },
   {
-    question:
-      "How much does mobile notary service cost in Sacramento?",
-    answer:
-      "California sets a maximum fee of $15 per signature per notarized document. Mobile notaries may charge an additional travel fee depending on distance. Call (415) 948-9967 for a quick quote.",
+    question: "How much does mobile notary service cost in Sacramento?",
+    answer: "California sets a maximum fee of $15 per signature per notarized document. Mobile notaries may charge an additional travel fee depending on distance. Call (415) 948-9967 for a quick quote.",
   },
   {
-    question:
-      "What documents are required for notary in Sacramento?",
-    answer:
-      "Common documents needing notarization include powers of attorney, affidavits, contracts, and real estate papers. I ensure every document is properly notarized under California notary laws for West Sacramento clients.",
+    question: "What documents are required for notary in Sacramento?",
+    answer: "Common documents needing notarization include powers of attorney, affidavits, contracts, and real estate papers. I ensure every document is properly notarized under California notary laws for West Sacramento clients.",
   },
   {
-    question:
-      "Is your mobile notary service available on weekends in Sacramento?",
-    answer:
-      "Yes, I offer flexible scheduling including evenings and weekends in Sacramento, so your notarization needs can be met without disrupting your busy workweek or personal commitments.",
+    question: "Is your mobile notary service available on weekends in Sacramento?",
+    answer: "Yes, I offer flexible scheduling including evenings and weekends in Sacramento, so your notarization needs can be met without disrupting your busy workweek or personal commitments.",
   },
   {
-    question:
-      "How quickly can you arrive for mobile notary services in Sacramento?",
-    answer:
-      "I strive for fast, reliable service and usually can reach West Sacramento clients within a few hours or on the same day, depending on scheduling and location.",
+    question: "How quickly can you arrive for mobile notary services in Sacramento?",
+    answer: "I strive for fast, reliable service and usually can reach West Sacramento clients within a few hours or on the same day, depending on scheduling and location.",
   },
 ];
 
@@ -246,7 +232,7 @@ const faqs = [
 
 function Badge({ children }: { children: React.ReactNode }) {
   return (
-    <span className="inline-flex px-4 py-1.5 bg-[#f5f5f5] rounded-full text-xs font-semibold uppercase tracking-wider text-neutral-500">
+    <span className="inline-flex px-4 py-1.5 bg-brand-gray-50 rounded-full text-xs font-semibold uppercase tracking-wider text-brand-gray-400">
       {children}
     </span>
   );
@@ -256,17 +242,17 @@ function CredentialsAccordion() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <div className="divide-y divide-neutral-200">
+    <div className="divide-y divide-brand-gray-200">
       {credentials.map((item, i) => (
         <div key={i}>
           <button
             onClick={() => setOpenIndex(openIndex === i ? null : i)}
             className="w-full flex items-center justify-between py-6 sm:py-8 text-left group"
           >
-            <h3 className="font-sans text-2xl sm:text-3xl lg:text-4xl font-bold text-[#0a0a0a] pr-4">
+            <h3 className="font-sans text-2xl sm:text-3xl lg:text-4xl font-semibold text-brand-black pr-4">
               {item.title}
             </h3>
-            <span className="shrink-0 w-10 h-10 rounded-full border-2 border-neutral-300 flex items-center justify-center text-neutral-400 group-hover:border-[#f9cf01] group-hover:text-[#0a0a0a] transition-colors">
+            <span className="shrink-0 w-10 h-10 rounded-full border-2 border-brand-gray-200 flex items-center justify-center text-brand-gray-400 group-hover:border-brand-gold group-hover:text-brand-black transition-colors">
               {openIndex === i ? (
                 <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M20 12H4" />
@@ -285,7 +271,7 @@ function CredentialsAccordion() {
               opacity: openIndex === i ? 1 : 0,
             }}
           >
-            <p className="pb-6 sm:pb-8 text-neutral-600 leading-relaxed max-w-3xl text-base sm:text-lg">
+            <p className="pb-6 sm:pb-8 text-brand-gray-600 leading-relaxed max-w-3xl text-base sm:text-lg">
               {item.description}
             </p>
           </div>
@@ -310,13 +296,13 @@ function TestimonialMarquee() {
         {doubled.map((t, i) => (
           <div
             key={i}
-            className="w-[340px] shrink-0 bg-white rounded-2xl border border-neutral-200 p-6 sm:p-8"
+            className="w-[340px] shrink-0 bg-white rounded-2xl shadow-md shadow-black/[0.04] p-6 sm:p-8"
           >
             <div className="flex gap-1 mb-4">
               {[...Array(5)].map((_, j) => (
                 <svg
                   key={j}
-                  className="w-4 h-4 text-[#f9cf01]"
+                  className="w-4 h-4 text-brand-gold"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >
@@ -324,10 +310,10 @@ function TestimonialMarquee() {
                 </svg>
               ))}
             </div>
-            <p className="text-neutral-700 leading-relaxed mb-5 text-base">
+            <p className="text-brand-gray-600 leading-relaxed mb-5 text-base">
               &ldquo;{t.quote}&rdquo;
             </p>
-            <p className="font-semibold text-[#0a0a0a] text-sm">{t.name}</p>
+            <p className="font-semibold text-brand-black text-sm">{t.name}</p>
           </div>
         ))}
       </div>
@@ -349,17 +335,17 @@ function FAQSection() {
       {faqs.map((faq, i) => (
         <div
           key={i}
-          className="border border-neutral-200 rounded-xl overflow-hidden"
+          className="border border-brand-gray-100 rounded-xl overflow-hidden"
         >
           <button
             onClick={() => setOpenIndex(openIndex === i ? null : i)}
-            className="w-full flex items-center justify-between px-6 py-5 text-left hover:bg-[#f5f5f5] transition-colors"
+            className="w-full flex items-center justify-between px-6 py-5 text-left hover:bg-brand-gray-50 transition-colors"
           >
-            <span className="font-sans font-semibold text-[#0a0a0a] pr-4">
+            <span className="font-sans font-semibold text-brand-black pr-4">
               {faq.question}
             </span>
             <svg
-              className={`w-5 h-5 text-neutral-400 shrink-0 transition-transform duration-200 ${
+              className={`w-5 h-5 text-brand-gray-400 shrink-0 transition-transform duration-200 ${
                 openIndex === i ? "rotate-180" : ""
               }`}
               fill="none"
@@ -377,7 +363,7 @@ function FAQSection() {
               opacity: openIndex === i ? 1 : 0,
             }}
           >
-            <div className="px-6 pb-5 text-neutral-600 text-base leading-relaxed">
+            <div className="px-6 pb-5 text-brand-gray-600 text-base leading-relaxed">
               {faq.answer}
             </div>
           </div>
@@ -387,33 +373,90 @@ function FAQSection() {
   );
 }
 
+/* ────────────────────── TIMELINE DATA ─────────────────── */
+
+function HowItWorksTimeline() {
+  const data = [
+    {
+      title: "Reach Out",
+      content: (
+        <div>
+          <h4 className="text-sm font-medium text-brand-gray-400 uppercase tracking-wider mb-3">Step 01</h4>
+          <p className="text-brand-gray-600 text-base leading-relaxed mb-6 max-w-md">
+            Reach out to Gina via phone, email, or our website to schedule your appointment. She will confirm availability, answer any questions, and help you get started right away.
+          </p>
+          <div className="rounded-2xl overflow-hidden">
+            <img
+              src="/images/step-reach-out.jpg"
+              alt="Contact Gina Gonzalez for notary services"
+              className="w-full h-48 md:h-64 object-cover rounded-2xl shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset]"
+            />
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "Gather Documents",
+      content: (
+        <div>
+          <h4 className="text-sm font-medium text-brand-gray-400 uppercase tracking-wider mb-3">Step 02</h4>
+          <p className="text-brand-gray-600 text-base leading-relaxed mb-6 max-w-md">
+            Gather all documents that require notarization and ensure they are complete and ready for signing. Bring a valid government-issued ID for each signer involved.
+          </p>
+          <div className="rounded-2xl overflow-hidden">
+            <img
+              src="/images/step-gather-docs.jpg"
+              alt="Gather documents for notarization"
+              className="w-full h-48 md:h-64 object-cover rounded-2xl shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset]"
+            />
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "Complete Notarization",
+      content: (
+        <div>
+          <h4 className="text-sm font-medium text-brand-gray-400 uppercase tracking-wider mb-3">Step 03</h4>
+          <p className="text-brand-gray-600 text-base leading-relaxed mb-6 max-w-md">
+            Gina will meet you at your home, office, or any mutually convenient public location. We prioritize your comfort, ensuring privacy, punctuality, and total peace of mind.
+          </p>
+          <div className="rounded-2xl overflow-hidden">
+            <img
+              src="/images/step-complete.jpg"
+              alt="Complete notarization with Gina"
+              className="w-full h-48 md:h-64 object-cover rounded-2xl shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset]"
+            />
+          </div>
+        </div>
+      ),
+    },
+  ];
+
+  return <Timeline data={data} />;
+}
+
 /* ────────────────────── MAIN PAGE ─────────────────────── */
 
 export default function HomePage() {
   return (
     <>
       {/* ─── 1. HERO ─── */}
-      <section className="relative bg-[#f5f5f5] overflow-hidden">
-        {/* subtle bg pattern */}
-        <div
-          className="absolute inset-0 opacity-[0.04]"
-          style={{
-            backgroundImage: "url(/images/hero-bg.jpg)",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-        />
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-28">
+      <section className="relative overflow-hidden bg-white">
+        {/* Animated gradient orbs */}
+        <div className="absolute top-20 left-10 w-72 h-72 bg-brand-gold/5 rounded-full blur-3xl animate-float" />
+        <div className="absolute bottom-20 right-10 w-96 h-96 bg-brand-gold/3 rounded-full blur-3xl animate-float-delayed" />
+        <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 sm:pt-10 lg:pt-12 pb-0">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
             {/* Text */}
             <div>
-              <h1 className="font-sans text-4xl sm:text-5xl lg:text-[3.5rem] font-bold text-[#0a0a0a] leading-[1.1] mb-6">
+              <h1 className="font-sans text-4xl sm:text-5xl lg:text-[3.25rem] font-semibold text-brand-black leading-[1.1] mb-6">
                 Your Trusted{" "}
-                <span className="text-[#f9cf01]">Mobile Notary</span>
+                <span className="text-brand-gold-dark whitespace-nowrap">Mobile Notary</span>
                 <br />
                 in Sacramento, CA
               </h1>
-              <p className="text-neutral-600 text-lg leading-relaxed mb-8 max-w-lg">
+              <p className="text-brand-gray-600 text-lg leading-relaxed mb-8 max-w-lg">
                 Your Mobile Notary public service is here to serve you in West
                 Sacramento CA and empower you with essential tools to navigate
                 legal processes confidently. Your paperwork, our priority.
@@ -421,7 +464,7 @@ export default function HomePage() {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
                   href="#contact"
-                  className="inline-flex items-center justify-center gap-2 bg-[#0a0a0a] hover:bg-neutral-800 text-white font-semibold px-7 py-3.5 rounded-xl transition-colors"
+                  className="inline-flex items-center justify-center gap-2 bg-brand-black hover:bg-brand-gray-800 text-white font-semibold px-7 py-3.5 rounded-xl transition-colors"
                 >
                   Get Notarized
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -430,7 +473,7 @@ export default function HomePage() {
                 </Link>
                 <Link
                   href="/notary-services/"
-                  className="inline-flex items-center justify-center gap-2 border border-neutral-300 hover:border-neutral-400 text-[#0a0a0a] font-semibold px-7 py-3.5 rounded-xl transition-colors bg-white"
+                  className="inline-flex items-center justify-center gap-2 border border-brand-gray-200 hover:border-brand-gray-400 text-brand-black font-semibold px-7 py-3.5 rounded-xl transition-colors bg-white"
                 >
                   Notary Services
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -438,45 +481,46 @@ export default function HomePage() {
                   </svg>
                 </Link>
               </div>
-              <p className="text-neutral-500 text-base mt-4">
-                Or call now:{" "}
-                <a href="tel:+14159489967" className="text-[#0a0a0a] font-semibold hover:text-[#d4a800] transition-colors">(415) 948-9967</a>
-              </p>
             </div>
 
             {/* Photo + Badges */}
-            <div className="relative flex justify-center lg:justify-end">
+            <div className="relative flex justify-center lg:justify-end self-end mb-[-1px]">
               <div className="relative">
+                {/* Gina photo - no card, no background */}
                 <img
-                  src="/images/gina-hero-full.png"
+                  src="/images/gina@2x.png"
                   alt="Gina Gonzalez mobile notary public Sacramento CA"
-                  className="w-72 sm:w-80 lg:w-[26rem] object-contain relative z-10"
+                  className="relative w-72 sm:w-80 lg:w-[22rem] object-cover z-10"
                 />
 
-                {/* Mobile badge */}
-                <div className="absolute top-12 -left-6 sm:-left-10 bg-white rounded-full px-4 py-2 shadow-md flex items-center gap-2 z-20">
-                  <span className="w-8 h-8 bg-[#f9cf01]/10 rounded-full flex items-center justify-center">
-                    <svg className="w-4 h-4 text-[#d4a800]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                {/* Mobile badge - orbiting animation */}
+                <div className="absolute top-12 -left-6 sm:-left-10 bg-white rounded-full px-4 py-2 shadow-md flex items-center gap-2 z-20 animate-badge-orbit-1">
+                  <span className="w-8 h-8 bg-brand-gold/10 rounded-full flex items-center justify-center">
+                    <svg className="w-4 h-4 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
                     </svg>
                   </span>
-                  <span className="text-sm font-medium text-[#0a0a0a]">mobile</span>
+                  <span className="text-sm font-medium text-brand-black">mobile</span>
                 </div>
 
-                {/* English & Spanish badge */}
-                <div className="absolute top-1/2 -right-4 sm:-right-10 bg-white rounded-full px-4 py-2 shadow-md flex items-center gap-2 z-20">
-                  <span className="w-8 h-8 bg-[#f9cf01] rounded-full flex items-center justify-center text-xs font-bold text-[#0a0a0a]">
-                    xA
+                {/* English & Spanish badge - orbiting animation */}
+                <div className="absolute top-1/2 -right-4 sm:-right-10 bg-white rounded-full px-4 py-2.5 shadow-md flex items-center gap-2.5 z-20 animate-badge-orbit-2">
+                  <span className="w-8 h-8 bg-brand-gold/10 rounded-full flex items-center justify-center">
+                    <svg className="w-4 h-4 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
+                    </svg>
                   </span>
-                  <span className="text-sm font-medium text-[#0a0a0a]">English &amp; Spanish</span>
+                  <span className="text-sm font-medium text-brand-black">English &amp; Spanish</span>
                 </div>
 
-                {/* Signature box */}
-                <div className="absolute -bottom-4 -left-4 sm:-left-10 bg-white rounded-xl border-2 border-dashed border-[#f9cf01] px-6 py-4 shadow-md z-20">
-                  <p className="text-xs text-neutral-400 mb-1">Signature</p>
-                  <p className="text-2xl text-[#0a0a0a]" style={{ fontFamily: "cursive" }}>
-                    Gina
-                  </p>
+                {/* Signature box - orbiting animation */}
+                <div className="absolute bottom-8 -left-6 sm:-left-12 bg-white/90 backdrop-blur-sm rounded-xl border-2 border-dashed border-brand-gold px-6 py-4 shadow-lg z-20 animate-badge-orbit-3">
+                  <p className="text-xs text-brand-gray-400 mb-1.5">Signature</p>
+                  <img
+                    src="/images/signature@2x.png"
+                    alt="Gina Gonzalez signature"
+                    className="h-10 w-auto"
+                  />
                 </div>
               </div>
             </div>
@@ -484,19 +528,59 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ─── LOGO CAROUSEL ─── */}
+      <section className="py-10 md:py-14 bg-brand-gray-50 overflow-hidden">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <p className="text-center text-brand-gray-600 font-medium text-base mb-6">
+            Teaming up with the best companies in Sacramento
+          </p>
+        </div>
+        <div className="relative">
+          <div className="flex animate-scroll gap-16 items-center">
+            {[
+              { src: "/images/companies/anniemac.jpg", alt: "AnnieMac Home Mortgage" },
+              { src: "/images/companies/america-first.png", alt: "America First Credit Union" },
+              { src: "/images/companies/waterstone.png", alt: "Waterstone Mortgage" },
+              { src: "/images/companies/fairway.jpg", alt: "Fairway Independent Mortgage" },
+              { src: "/images/companies/federal-savings.png", alt: "The Federal Savings Bank" },
+              { src: "/images/companies/snapdocs.png", alt: "Snapdocs" },
+              { src: "/images/companies/pmi.png", alt: "PMI" },
+              { src: "/images/companies/preferred-rate.png", alt: "Preferred Rate" },
+            ].concat([
+              { src: "/images/companies/anniemac.jpg", alt: "AnnieMac Home Mortgage" },
+              { src: "/images/companies/america-first.png", alt: "America First Credit Union" },
+              { src: "/images/companies/waterstone.png", alt: "Waterstone Mortgage" },
+              { src: "/images/companies/fairway.jpg", alt: "Fairway Independent Mortgage" },
+              { src: "/images/companies/federal-savings.png", alt: "The Federal Savings Bank" },
+              { src: "/images/companies/snapdocs.png", alt: "Snapdocs" },
+              { src: "/images/companies/pmi.png", alt: "PMI" },
+              { src: "/images/companies/preferred-rate.png", alt: "Preferred Rate" },
+            ]).map((logo, i) => (
+              <img
+                key={i}
+                src={logo.src}
+                alt={logo.alt}
+                className="h-8 md:h-10 w-auto max-w-[120px] md:max-w-[140px] object-contain shrink-0 grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300 mix-blend-multiply"
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ─── 2. SERVICES ─── */}
       <section className="py-16 md:py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-12">
             <div>
               <Badge>SERVICES</Badge>
-              <h2 className="font-sans text-3xl sm:text-4xl font-bold text-[#0a0a0a] mt-4">
-                Essential Sacramento Notary Services
+              <h2 className="font-sans text-3xl sm:text-5xl font-semibold text-brand-black mt-4 max-w-xl">
+                Essential Sacramento{" "}
+                <span className="text-brand-gold-dark">Notary Services</span>
               </h2>
             </div>
             <Link
               href="/notary-services/"
-              className="inline-flex items-center gap-1 text-[#0a0a0a] font-semibold hover:gap-2 transition-all shrink-0"
+              className="inline-flex items-center gap-1 text-brand-black font-semibold hover:gap-2 transition-all shrink-0"
             >
               View All Services
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -510,131 +594,89 @@ export default function HomePage() {
               <Link
                 key={s.href}
                 href={s.href}
-                className="group block bg-white border border-neutral-200 rounded-2xl overflow-hidden hover:shadow-lg transition-all duration-200"
+                className="group flex flex-col bg-white rounded-2xl p-6 shadow-md shadow-black/[0.04] hover:shadow-lg hover:shadow-black/[0.08] transition-all duration-200"
               >
-                <div className="aspect-[16/10] overflow-hidden bg-neutral-100">
-                  <img
-                    src={s.image}
-                    alt={s.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
+                {/* Icon top-left */}
+                <div className="w-12 h-12 rounded-xl bg-brand-gold/10 flex items-center justify-center mb-4">
+                  {s.icon}
                 </div>
-                <div className="p-6">
-                  <h3 className="font-sans text-lg font-bold text-[#0a0a0a] mb-2 group-hover:text-[#d4a800] transition-colors">
-                    {s.title}
-                  </h3>
-                  <p className="text-neutral-600 text-base leading-relaxed mb-4">
-                    {s.description}
-                  </p>
-                  <span className="inline-flex items-center gap-1 text-[#0a0a0a] font-semibold text-sm group-hover:gap-2 transition-all">
-                    Learn more
-                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-                    </svg>
-                  </span>
-                </div>
+                <h3 className="font-sans text-lg font-semibold text-brand-black mb-2 group-hover:text-brand-gold-dark transition-colors">
+                  {s.title}
+                </h3>
+                <p className="text-brand-gray-600 text-sm leading-relaxed mb-4 flex-1">
+                  {s.description}
+                </p>
+                <span className="inline-flex items-center gap-1 text-brand-black font-semibold text-sm group-hover:gap-2 transition-all mt-auto">
+                  Learn more
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </span>
               </Link>
             ))}
           </div>
         </div>
       </section>
 
-      {/* ─── 3. HOW IT WORKS ─── */}
-      <section className="py-16 md:py-24 bg-[#f5f5f5]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
+      {/* ─── 3. HOW IT WORKS (Timeline) ─── */}
+      <section className="relative py-16 md:py-24 overflow-hidden" style={{ background: "linear-gradient(to bottom, #f5f5f5 0%, #ffffff 100%)" }}>
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] bg-[radial-gradient(ellipse_at_center,rgba(249,207,1,0.08)_0%,transparent_70%)] pointer-events-none" />
+        <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-8">
             <Badge>HOW IT WORKS</Badge>
-            <h2 className="font-sans text-3xl sm:text-4xl font-bold text-[#0a0a0a] mt-4 mb-6">
-              A proven process to achieve your biggest goals
+            <h2 className="font-sans text-3xl sm:text-5xl font-semibold text-brand-black mt-4 max-w-xl mx-auto">
+              A proven process to{" "}
+              <span className="text-brand-gold-dark">achieve your goals</span>
             </h2>
-            <Link
-              href="#contact"
-              className="inline-flex items-center justify-center gap-2 bg-[#0a0a0a] hover:bg-neutral-800 text-white font-semibold px-7 py-3.5 rounded-xl transition-colors"
-            >
-              Get Notarized
-            </Link>
           </div>
 
-          <div className="space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-12">
-            {steps.map((step, i) => (
-              <div key={step.num} className="relative">
-                {/* Timeline connector (desktop) */}
-                {i < steps.length - 1 && (
-                  <div className="hidden lg:block absolute top-10 left-[calc(50%+2rem)] right-[-2rem] h-px border-t-2 border-dashed border-neutral-300 z-0" />
-                )}
-
-                <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
-                  {/* Step number */}
-                  <div className="flex items-center gap-3 mb-4">
-                    <span className="w-10 h-10 rounded-full bg-[#f9cf01] flex items-center justify-center font-sans text-sm font-bold text-[#0a0a0a]">
-                      {step.num}
-                    </span>
-                    <span className="font-sans text-xs font-semibold uppercase tracking-wider text-neutral-400">
-                      Step {step.num}
-                    </span>
-                  </div>
-
-                  {/* Image */}
-                  <div className="w-full aspect-[4/3] rounded-2xl overflow-hidden bg-neutral-200 mb-6">
-                    <img
-                      src={step.image}
-                      alt={step.title}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-
-                  <h3 className="font-sans text-xl font-bold text-[#0a0a0a] mb-2">
-                    {step.title}
-                  </h3>
-                  <p className="text-neutral-600 text-base leading-relaxed max-w-sm">
-                    {step.description}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
+          <HowItWorksTimeline />
         </div>
       </section>
 
-      {/* ─── 4. CREDENTIALS ACCORDION ─── */}
-      <section className="py-16 md:py-24" style={{ background: "linear-gradient(to bottom, #ffffff, #f9f7f2)" }}>
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <CredentialsAccordion />
+      {/* ─── 4. CREDENTIALS (Stacking Scroll Cards) ─── */}
+      <section className="relative" style={{ background: "linear-gradient(180deg, #ffffff 0%, #fdfaf0 40%, #faf5e4 100%)" }}>
+        <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 md:pt-24">
+          {/* Sticky title with matching gradient background so cards don't overlap */}
+          <div className="sticky top-[60px] z-40 text-center pb-8 pt-6">
+            <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[200vw]" style={{ top: "-60px", background: "linear-gradient(to bottom, #fdfaf0 0%, #fdfaf0 30%, rgba(253,250,240,0.95) 70%, transparent 100%)" }} />
+            <div className="relative">
+              <Badge>CREDENTIALS</Badge>
+            </div>
+            <h2 className="relative font-sans text-3xl sm:text-5xl font-semibold text-brand-black mt-4 max-w-xl mx-auto">
+              Why Gina is{" "}
+              <span className="text-brand-gold-dark">Qualified</span>
+            </h2>
+          </div>
+          <CredentialScrollCards data={credentials} />
         </div>
+        <div className="relative h-16 md:h-24" />
       </section>
 
       {/* ─── 5. BENEFITS / WHY CHOOSE GINA ─── */}
       <section className="relative py-16 md:py-24 overflow-hidden">
-        <div
-          className="absolute inset-0 opacity-[0.05]"
-          style={{
-            backgroundImage: "url(/images/benefits-bg.jpg)",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-        />
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-            {/* Left: benefits */}
             <div>
               <Badge>BENEFITS</Badge>
-              <h2 className="font-sans text-3xl sm:text-4xl font-bold text-[#0a0a0a] mt-4 mb-10">
-                Why choose Gina as your Notary in Sacramento?
+              <h2 className="font-sans text-3xl sm:text-5xl font-semibold text-brand-black mt-4 mb-10 max-w-lg">
+                Why choose Gina as your{" "}
+                <span className="text-brand-gold-dark">Notary</span> in Sacramento?
               </h2>
 
               <div className="space-y-8">
                 {benefits.map((b, i) => (
                   <div key={i} className="flex gap-4">
-                    <span className="shrink-0 w-10 h-10 rounded-full bg-[#f9cf01]/20 flex items-center justify-center mt-0.5">
-                      <svg className="w-5 h-5 text-[#d4a800]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <span className="shrink-0 w-10 h-10 rounded-full bg-brand-gold/20 flex items-center justify-center mt-0.5">
+                      <svg className="w-6 h-6 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                       </svg>
                     </span>
                     <div>
-                      <h3 className="font-sans text-lg font-bold text-[#0a0a0a] mb-1">
+                      <h3 className="font-sans text-lg font-semibold text-brand-black mb-1">
                         {b.title}
                       </h3>
-                      <p className="text-neutral-600 text-base leading-relaxed">
+                      <p className="text-brand-gray-600 text-base leading-relaxed">
                         {b.description}
                       </p>
                     </div>
@@ -643,7 +685,6 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* Right: phone mockup */}
             <div className="flex justify-center lg:justify-end">
               <img
                 src="/images/phone-mockup.png"
@@ -656,43 +697,44 @@ export default function HomePage() {
       </section>
 
       {/* ─── 6. METRICS / RESULTS ─── */}
-      <section className="relative py-16 md:py-24 overflow-hidden">
-        {/* Dark background with image overlay */}
-        <div className="absolute inset-0">
-          <img
-            src="/images/metrics-bg.jpg"
-            alt=""
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-[#0a0a0a]/85" />
-        </div>
-
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="py-16 md:py-24 bg-brand-gray-50">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Badge>RESULTS</Badge>
-          <h2 className="font-sans text-3xl sm:text-4xl font-bold text-white mt-4 mb-4">
-            Trusted by Hundreds, Proven by Results
+          <h2 className="font-sans text-3xl sm:text-5xl font-semibold text-brand-black mt-4 mb-4 max-w-xl mx-auto">
+            Trusted by Hundreds,{" "}
+            <span className="text-brand-gold-dark">Proven by Results</span>
           </h2>
-          <p className="text-neutral-300 max-w-2xl mx-auto mb-14 leading-relaxed">
+          <p className="text-brand-gray-600 max-w-2xl mx-auto mb-14 leading-relaxed">
             These key metrics showcase Gina&apos;s dedication to accuracy, reliability,
-            and exceptional Sacramento notary service, trusted by clients across
-            Sacramento and beyond.
+            and exceptional Sacramento notary service.
           </p>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {metrics.map((m, i) => (
               <div
                 key={i}
-                className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8"
+                className="rounded-2xl p-6 md:p-8 flex flex-row md:flex-col items-center md:items-center gap-4 md:gap-0 text-center"
               >
-                <div className="font-sans text-5xl sm:text-6xl font-bold text-[#f9cf01] mb-2">
+                <div
+                  className="font-sans text-5xl md:text-6xl font-bold shrink-0 md:mb-3"
+                  style={{
+                    background: "linear-gradient(180deg, #d4af00 0%, #b8960a 50%, #9a7d0a 100%)",
+                    WebkitBackgroundClip: "text",
+                    WebkitTextFillColor: "transparent",
+                    filter: "drop-shadow(0 2px 4px rgba(0,0,0,0.15))",
+                    letterSpacing: "-0.02em",
+                  }}
+                >
                   {m.value}
                 </div>
-                <div className="text-white font-semibold text-lg mb-3">
-                  {m.label}
+                <div>
+                  <div className="text-brand-black font-semibold text-base md:text-lg md:mb-3">
+                    {m.label}
+                  </div>
+                  <p className="text-brand-gray-600 text-sm leading-relaxed hidden md:block">
+                    {m.description}
+                  </p>
                 </div>
-                <p className="text-neutral-400 text-base leading-relaxed">
-                  {m.description}
-                </p>
               </div>
             ))}
           </div>
@@ -700,11 +742,12 @@ export default function HomePage() {
       </section>
 
       {/* ─── 7. TESTIMONIALS MARQUEE ─── */}
-      <section className="py-16 md:py-24 bg-[#f5f5f5]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-12">
+      <section className="py-16 md:py-24 bg-white">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-12">
           <Badge>TESTIMONIALS</Badge>
-          <h2 className="font-sans text-3xl sm:text-4xl font-bold text-[#0a0a0a] mt-4">
-            Trusted by Our Community
+          <h2 className="font-sans text-3xl sm:text-5xl font-semibold text-brand-black mt-4 max-w-xl mx-auto">
+            Trusted by Our{" "}
+            <span className="text-brand-gold-dark">Community</span>
           </h2>
         </div>
         <TestimonialMarquee />
@@ -712,110 +755,64 @@ export default function HomePage() {
 
       {/* ─── 8. CONTACT ─── */}
       <section id="contact" className="relative py-16 md:py-24 overflow-hidden">
-        <div
-          className="absolute inset-0 opacity-[0.06]"
-          style={{
-            backgroundImage: "url(/images/contact-bg.png)",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-        />
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
+        {/* Curved gold gradient background - arc sweep */}
+        <div className="absolute inset-0 pointer-events-none overflow-hidden">
+          {/* Main arc */}
+          <div
+            className="absolute left-1/2 -translate-x-1/2"
+            style={{
+              bottom: "-60%",
+              width: "180%",
+              height: "100%",
+              borderRadius: "50%",
+              background: "radial-gradient(ellipse at 50% 30%, rgba(249,207,1,0.18) 0%, rgba(249,207,1,0.1) 30%, rgba(249,207,1,0.04) 60%, transparent 80%)",
+            }}
+          />
+          {/* Softer outer glow */}
+          <div
+            className="absolute left-1/2 -translate-x-1/2"
+            style={{
+              bottom: "-40%",
+              width: "200%",
+              height: "80%",
+              borderRadius: "50%",
+              background: "radial-gradient(ellipse at 50% 40%, rgba(249,207,1,0.08) 0%, rgba(249,207,1,0.03) 50%, transparent 80%)",
+            }}
+          />
+          {/* Top fade into section */}
+          <div
+            className="absolute inset-x-0 bottom-0 h-full"
+            style={{
+              background: "linear-gradient(to bottom, transparent 0%, rgba(253,248,230,0.3) 70%, rgba(253,248,230,0.5) 100%)",
+            }}
+          />
+        </div>
+
+        <div className="relative max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
             <Badge>CONTACT</Badge>
-            <h2 className="font-sans text-3xl sm:text-4xl font-bold text-[#0a0a0a] mt-4 max-w-2xl mx-auto">
-              Get your documents notarized today by Sacramento Notary Public
+            <h2 className="font-sans text-3xl sm:text-5xl font-semibold text-brand-black mt-4 max-w-xl mx-auto">
+              Get your documents{" "}
+              <span className="text-brand-gold-dark">notarized today</span>
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
-            {/* Form */}
-            <div className="bg-white/70 backdrop-blur-md border border-neutral-200 rounded-2xl p-6 sm:p-8">
-              <ContactForm />
-            </div>
+          <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 sm:p-10" style={{ boxShadow: "0 25px 60px rgba(0,0,0,0.1), 0 10px 25px rgba(0,0,0,0.06), 0 4px 10px rgba(0,0,0,0.04)" }}>
+            <ContactForm />
 
-            {/* Contact info card */}
-            <div className="bg-[#0a0a0a] rounded-2xl p-6 sm:p-8 lg:p-10 text-white flex flex-col justify-between">
-              <div>
-                <h3 className="font-sans text-2xl font-bold mb-6">
-                  Contact Gina
-                </h3>
-
-                <div className="space-y-5">
-                  {/* Phone */}
-                  <a
-                    href="tel:+14159489967"
-                    className="flex items-center gap-4 group"
-                  >
-                    <span className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center shrink-0 group-hover:bg-[#f9cf01]/20 transition-colors">
-                      <svg className="w-5 h-5 text-[#f9cf01]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                      </svg>
-                    </span>
-                    <span className="text-neutral-300 group-hover:text-white transition-colors">
-                      (415) 948-9967
-                    </span>
-                  </a>
-
-                  {/* Email */}
-                  <a
-                    href="mailto:gina.gonzalez.realtor@gmail.com"
-                    className="flex items-center gap-4 group"
-                  >
-                    <span className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center shrink-0 group-hover:bg-[#f9cf01]/20 transition-colors">
-                      <svg className="w-5 h-5 text-[#f9cf01]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                      </svg>
-                    </span>
-                    <span className="text-neutral-300 group-hover:text-white transition-colors text-sm sm:text-base break-all">
-                      gina.gonzalez.realtor@gmail.com
-                    </span>
-                  </a>
-                </div>
-              </div>
-
-              {/* Social links */}
-              <div className="mt-8 pt-6 border-t border-white/10">
-                <p className="text-neutral-400 text-sm mb-4">Follow Gina</p>
-                <div className="flex gap-3">
-                  {/* Instagram */}
-                  <a
-                    href="https://www.instagram.com/ginagonzaleznotary/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#f9cf01]/20 transition-colors"
-                    aria-label="Instagram"
-                  >
-                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
-                    </svg>
-                  </a>
-                  {/* Facebook */}
-                  <a
-                    href="https://www.facebook.com/ginagonzaleznotary/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#f9cf01]/20 transition-colors"
-                    aria-label="Facebook"
-                  >
-                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
-                    </svg>
-                  </a>
-                  {/* TikTok */}
-                  <a
-                    href="https://www.tiktok.com/@ginagonzaleznotary"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[#f9cf01]/20 transition-colors"
-                    aria-label="TikTok"
-                  >
-                    <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 0010.86 4.48v-7.1a8.16 8.16 0 005.58 2.18v-3.45a4.85 4.85 0 01-3.77-1.84 4.84 4.84 0 01-1.06-2.78h3.45V6.69h1.38z" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
+            <div className="mt-8 pt-6 border-t border-brand-gray-100 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8">
+              <a href="tel:+14159489967" className="flex items-center gap-2 text-sm text-brand-gray-600 hover:text-brand-gold-dark transition-colors">
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg>
+                (415) 948-9967
+              </a>
+              <a href="mailto:gina.gonzalez.realtor@gmail.com" className="flex items-center gap-2 text-sm text-brand-gray-600 hover:text-brand-gold-dark transition-colors">
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                gina.gonzalez.realtor@gmail.com
+              </a>
             </div>
           </div>
         </div>
@@ -826,90 +823,19 @@ export default function HomePage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <Badge>FAQs</Badge>
-            <h2 className="font-sans text-3xl sm:text-4xl font-bold text-[#0a0a0a] mt-4">
-              FAQs
+            <h2 className="font-sans text-3xl sm:text-4xl font-semibold text-brand-black mt-4 max-w-md mx-auto">
+              Frequently Asked Questions
             </h2>
           </div>
 
           <FAQSection />
 
-          {/* Still got questions */}
-          <div className="text-center mt-12 p-8 bg-[#f5f5f5] rounded-2xl">
-            <h3 className="font-sans text-xl font-bold text-[#0a0a0a] mb-2">
-              Still got questions?
-            </h3>
-            <p className="text-neutral-600 text-sm mb-5">
-              If you don&apos;t find an answer to your question here, please
-              don&apos;t hesitate to contact us directly.
-            </p>
-            <Link
-              href="/contact/"
-              className="inline-flex items-center justify-center gap-2 bg-[#0a0a0a] hover:bg-neutral-800 text-white font-semibold px-7 py-3.5 rounded-xl transition-colors"
-            >
-              Get in touch
-            </Link>
-          </div>
         </div>
       </section>
 
       {/* ─── 10. CTA ─── */}
-      <section
-        className="py-16 md:py-24"
-        style={{
-          background:
-            "radial-gradient(ellipse at bottom center, rgba(249,207,1,0.25) 0%, transparent 60%), #f5f5f5",
-        }}
-      >
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="relative bg-[#0a0a0a] rounded-3xl overflow-hidden">
-            {/* Subtle gradient overlay */}
-            <div
-              className="absolute inset-0"
-              style={{
-                background:
-                  "linear-gradient(135deg, rgba(249,207,1,0.08) 0%, transparent 50%)",
-              }}
-            />
+      <CTASection />
 
-            <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-8 items-end p-8 sm:p-12 lg:p-16">
-              {/* Text */}
-              <div className="pb-4 lg:pb-8">
-                <h2 className="font-sans text-3xl sm:text-4xl font-bold text-white leading-tight mb-6">
-                  Ready to Get Started?
-                  <br />
-                  Let&apos;s Make It Official!
-                </h2>
-                <Link
-                  href="#contact"
-                  className="inline-flex items-center justify-center gap-2 bg-[#f9cf01] hover:bg-[#e0ba00] text-[#0a0a0a] font-semibold px-7 py-3.5 rounded-xl transition-colors"
-                >
-                  Get Notarized
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-                  </svg>
-                </Link>
-                {/* Decorative script */}
-                <p
-                  className="text-[#f9cf01]/30 text-5xl sm:text-6xl mt-6"
-                  style={{ fontFamily: "cursive" }}
-                  aria-hidden="true"
-                >
-                  Gina
-                </p>
-              </div>
-
-              {/* Gina photo */}
-              <div className="flex justify-center lg:justify-end">
-                <img
-                  src="/images/gina-cta.png"
-                  alt="Gina Gonzalez Sacramento Notary Public"
-                  className="w-56 sm:w-64 lg:w-72 object-contain"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </>
   );
 }

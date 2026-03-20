@@ -52,7 +52,7 @@ export default function ContactForm() {
               id="name"
               name="name"
               required
-              className="w-full px-4 py-3 border border-brand-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-gold focus:border-transparent text-brand-black"
+              className="w-full px-4 py-3 bg-brand-gray-50 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-gold shadow-sm shadow-black/[0.04] text-brand-black"
               placeholder="Your full name"
             />
           </div>
@@ -65,7 +65,7 @@ export default function ContactForm() {
               id="phone"
               name="phone"
               required
-              className="w-full px-4 py-3 border border-brand-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-gold focus:border-transparent text-brand-black"
+              className="w-full px-4 py-3 bg-brand-gray-50 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-gold shadow-sm shadow-black/[0.04] text-brand-black"
               placeholder="(555) 123-4567"
             />
           </div>
@@ -79,7 +79,7 @@ export default function ContactForm() {
             type="email"
             id="email"
             name="email"
-            className="w-full px-4 py-3 border border-brand-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-gold focus:border-transparent text-brand-black"
+            className="w-full px-4 py-3 bg-brand-gray-50 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-gold shadow-sm shadow-black/[0.04] text-brand-black"
             placeholder="you@example.com"
           />
         </div>
@@ -91,7 +91,7 @@ export default function ContactForm() {
           <select
             id="service"
             name="service"
-            className="w-full px-4 py-3 border border-brand-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-gold focus:border-transparent text-brand-black bg-white"
+            className="w-full px-4 py-3 bg-brand-gray-50 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-gold shadow-sm shadow-black/[0.04] text-brand-black bg-white"
           >
             <option value="">Select a service</option>
             <option value="Mobile Notary">Mobile Notary</option>
@@ -114,7 +114,7 @@ export default function ContactForm() {
             name="message"
             required
             rows={4}
-            className="w-full px-4 py-3 border border-brand-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-gold focus:border-transparent text-brand-black resize-none"
+            className="w-full px-4 py-3 bg-brand-gray-50 rounded-lg focus:outline-none focus:ring-2 focus:ring-brand-gold shadow-sm shadow-black/[0.04] text-brand-black resize-none"
             placeholder="Tell us about your notary needs, preferred date/time, and location."
           />
         </div>
