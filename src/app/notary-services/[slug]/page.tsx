@@ -5,6 +5,8 @@ import FAQ from "@/components/FAQ";
 import CTASection from "@/components/CTASection";
 import Link from "next/link";
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   const services = getAllServices();
   return services.map((s) => ({ slug: s.slug }));
@@ -107,26 +109,28 @@ export default async function ServicePage({
 
       {/* Content */}
       <section className="py-12 sm:py-20">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div
-            className="prose"
-            dangerouslySetInnerHTML={{ __html: contentHtml }}
-          />
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl">
+            <div
+              className="prose"
+              dangerouslySetInnerHTML={{ __html: contentHtml }}
+            />
 
-          {/* Mid-article CTA */}
-          <div className="my-12 p-8 bg-brand-gray-50 rounded-2xl text-center">
-            <h3 className="font-sans text-xl font-bold text-brand-black mb-2">
-              Ready to Get Started? Let&apos;s Make It Official.
-            </h3>
-            <p className="text-brand-gray-600 mb-4">
-              Call or book online. Same day service available throughout Sacramento.
-            </p>
-            <a
-              href="tel:+14159489967"
-              className="inline-flex items-center gap-2 bg-brand-gold hover:bg-brand-gold-dark text-brand-black font-bold px-8 py-3 rounded-xl transition-colors"
-            >
-              Call (415) 948-9967
-            </a>
+            {/* Mid-article CTA */}
+            <div className="my-12 p-8 bg-brand-gray-50 rounded-2xl text-center">
+              <h3 className="font-sans text-xl font-bold text-brand-black mb-2">
+                Ready to Get Started? Let&apos;s Make It Official.
+              </h3>
+              <p className="text-brand-gray-600 mb-4">
+                Call or book online. Same day service available throughout Sacramento.
+              </p>
+              <a
+                href="tel:+14159489967"
+                className="inline-flex items-center gap-2 bg-brand-gold hover:bg-brand-gold-dark text-brand-black font-bold px-8 py-3 rounded-xl transition-colors"
+              >
+                Call (415) 948-9967
+              </a>
+            </div>
           </div>
         </div>
       </section>

@@ -3,6 +3,8 @@ import Link from "next/link";
 import { serviceAreas, getServiceAreaBySlug } from "@/data/service-areas";
 import { faqSchema } from "@/lib/schema";
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   return serviceAreas.map((a) => ({ slug: a.slug }));
 }

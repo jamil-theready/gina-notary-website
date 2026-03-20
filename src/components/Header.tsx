@@ -113,29 +113,27 @@ export default function Header() {
               ))}
             </nav>
 
-            {/* Right side: CTA - pushed to far right */}
-            <div className="hidden items-center md:flex ml-auto">
+            {/* Right side: CTA (desktop) + Hamburger (mobile) - pushed to far right */}
+            <div className="flex items-center ml-auto">
               <Link
                 href="/contact/"
-                className="inline-flex items-center justify-center gap-2 bg-brand-black hover:bg-brand-gray-800 text-white font-semibold px-6 py-2.5 rounded-xl transition-colors text-[14px]"
+                className="hidden md:inline-flex items-center justify-center gap-2 bg-brand-black hover:bg-brand-gray-800 text-white font-semibold px-6 py-2.5 rounded-xl transition-colors text-[14px]"
               >
                 Get Notarized
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
                 </svg>
               </Link>
+              <button
+                className="flex flex-col gap-1.5 md:hidden"
+                onClick={() => setMobileOpen(!mobileOpen)}
+                aria-label="Toggle menu"
+              >
+                <span className={`block h-0.5 w-6 bg-brand-black transition-transform ${mobileOpen ? "translate-y-2 rotate-45" : ""}`} />
+                <span className={`block h-0.5 w-6 bg-brand-black transition-opacity ${mobileOpen ? "opacity-0" : ""}`} />
+                <span className={`block h-0.5 w-6 bg-brand-black transition-transform ${mobileOpen ? "-translate-y-2 -rotate-45" : ""}`} />
+              </button>
             </div>
-
-            {/* Mobile Hamburger */}
-            <button
-              className="flex flex-col gap-1.5 md:hidden"
-              onClick={() => setMobileOpen(!mobileOpen)}
-              aria-label="Toggle menu"
-            >
-              <span className={`block h-0.5 w-6 bg-brand-black transition-transform ${mobileOpen ? "translate-y-2 rotate-45" : ""}`} />
-              <span className={`block h-0.5 w-6 bg-brand-black transition-opacity ${mobileOpen ? "opacity-0" : ""}`} />
-              <span className={`block h-0.5 w-6 bg-brand-black transition-transform ${mobileOpen ? "-translate-y-2 -rotate-45" : ""}`} />
-            </button>
           </div>
 
           {/* Services Mega Dropdown - Desktop */}

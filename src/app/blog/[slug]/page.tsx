@@ -12,6 +12,8 @@ import FAQAccordion from "@/components/FAQAccordion";
 import TableOfContents from "@/components/TableOfContents";
 import CTASection from "@/components/CTASection";
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   const posts = getAllBlogPosts();
   return posts.map((p) => ({ slug: p.slug }));
