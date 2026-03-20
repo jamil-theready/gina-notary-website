@@ -27,9 +27,9 @@ export default function TableOfContents({ headings, relatedPost }: TableOfConten
     /*
       The aside is a plain shrink-0 block — NOT sticky itself.
       The inner div is sticky with a fixed top value (px, not %).
-      The parent flex container must use items-start so the aside
-      doesn't stretch to match the article column height, which would
-      prevent sticky from working.
+      The parent flex container must use items-stretch (default) so the
+      aside stretches to the article column height — this gives the
+      sticky child room to scroll within its containing block.
     */
     <aside className="hidden xl:block w-56 shrink-0">
       <div className="sticky top-28 space-y-8">

@@ -148,8 +148,12 @@ export default async function BlogPostPage({
 
           lg screens: share sidebar + article (no right TOC)
           mobile: no sidebars, share bar inline
+
+          IMPORTANT: parent flex must NOT use items-start. The default
+          items-stretch makes the asides match the article height, giving
+          the sticky children room to scroll within their containing block.
         */}
-        <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 flex gap-10 items-start">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 flex gap-10">
 
           {/* LEFT: sticky share sidebar */}
           <ShareButtons url={canonicalUrl} title={post.title} />

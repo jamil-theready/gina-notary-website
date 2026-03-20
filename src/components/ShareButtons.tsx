@@ -26,9 +26,9 @@ export default function ShareButtons({ url, title }: ShareButtonsProps) {
       <aside className="hidden lg:block w-10 shrink-0">
         {/*
           sticky + top-40 = element sticks 160px from viewport top.
-          The aside itself must be in a flex/items-start parent (not items-stretch)
-          so it can be taller than the sidebar — which it is since the center
-          article column drives the flex height.
+          The aside must stretch to match the article column height
+          (parent flex uses items-stretch by default) so the sticky
+          child has room to scroll within its containing block.
         */}
         <div className="sticky top-40 flex flex-col items-center gap-3">
           <span
