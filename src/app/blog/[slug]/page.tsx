@@ -153,22 +153,13 @@ export default async function BlogPostPage({
           items-stretch makes the asides match the article height, giving
           the sticky children room to scroll within their containing block.
         */}
-        <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 flex gap-10">
+        <div className="max-w-[1200px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row gap-6 lg:gap-10">
 
           {/* LEFT: sticky share sidebar */}
           <ShareButtons url={canonicalUrl} title={post.title} />
 
           {/* CENTER: Article */}
           <div className="flex-1 min-w-0">
-
-            {/* Featured image */}
-            {post.image && (
-              <img
-                src={post.image}
-                alt={post.imageAlt || post.title}
-                className="w-full rounded-2xl mb-8 aspect-video object-cover"
-              />
-            )}
 
             {/* Quick Answer */}
             {post.quickAnswer && (

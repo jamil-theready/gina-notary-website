@@ -108,13 +108,6 @@ export default async function ServicePage({
       {/* Content */}
       <section className="py-12 sm:py-20">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          {service.image && (
-            <img
-              src={service.image}
-              alt={service.imageAlt || service.title}
-              className="w-full rounded-2xl mb-10 aspect-video object-cover"
-            />
-          )}
           <div
             className="prose"
             dangerouslySetInnerHTML={{ __html: contentHtml }}
