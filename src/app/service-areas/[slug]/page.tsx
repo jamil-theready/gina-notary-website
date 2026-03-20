@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { serviceAreas, getServiceAreaBySlug } from "@/data/service-areas";
 import { faqSchema } from "@/lib/schema";
+import CTASection from "@/components/CTASection";
 
 export const dynamicParams = false;
 
@@ -126,7 +127,7 @@ export default async function ServiceAreaPage({
       {/* Key Facts */}
       <section className="py-12 sm:py-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 items-start">
 
             {/* Main content */}
             <div className="lg:col-span-2 space-y-10">
@@ -203,7 +204,7 @@ export default async function ServiceAreaPage({
             </div>
 
             {/* Sidebar */}
-            <div className="space-y-6">
+            <div className="sticky top-28 space-y-6">
               {/* Contact card */}
               <div className="bg-brand-white shadow-lg shadow-black/[0.06] rounded-2xl p-6">
                 <h3 className="font-sans font-bold text-brand-black mb-4">Book in {area.name}</h3>
@@ -255,6 +256,8 @@ export default async function ServiceAreaPage({
           </div>
         </div>
       </section>
+
+      <CTASection />
     </>
   );
 }
