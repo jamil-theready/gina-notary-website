@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: readyconsult/gina-notary
   branch: main
 
 media_folder: "public/images/uploads"
@@ -69,4 +70,26 @@ collections:
       - { label: "Linked Service Page", name: "linkedService", widget: "string", required: false, hint: "Slug of related service page" }
       - { label: "Featured Image", name: "image", widget: "image", required: false }
       - { label: "Image Alt Text", name: "imageAlt", widget: "string", required: false }
+      - { label: "Quick Answer", name: "quickAnswer", widget: "text", required: true }
+      - label: "Key Takeaways"
+        name: "keyTakeaways"
+        widget: "list"
+        required: true
+        field: { label: "Takeaway", name: "takeaway", widget: "string" }
+      - label: "FAQs"
+        name: "faqs"
+        widget: "list"
+        required: true
+        fields:
+          - { label: "Question", name: "question", widget: "string" }
+          - { label: "Answer", name: "answer", widget: "text" }
+      - { label: "FAQ Section Title", name: "faqTitle", widget: "string", required: false, hint: "Custom FAQ section title" }
+      - { label: "Author", name: "author", widget: "string", default: "Gina Gonzalez" }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        field: { label: "Tag", name: "tag", widget: "string" }
+      - { label: "Featured", name: "featured", widget: "boolean", default: false }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
       - { label: "Article Content", name: "body", widget: "markdown" }

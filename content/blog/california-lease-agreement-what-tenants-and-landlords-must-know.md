@@ -120,7 +120,7 @@ However, there are situations where notarization adds value:
 
 **Landlords with multiple properties.** Property managers in the Sacramento area who handle many units sometimes notarize key documents to create a clear paper trail and reduce the risk of disputes.
 
-**International tenants or landlords.** If either party is from another country, a notarized lease may be required for their records or legal proceedings abroad. As a bilingual notary fluent in English and Spanish, I regularly help landlords and tenants who need documents handled in both languages.
+**International tenants or landlords.** If either party is from another country, a notarized lease may be required for their records or legal proceedings abroad. As a [bilingual notary fluent in English and Spanish](/notary-services/spanish-notary-sacramento/), I regularly help landlords and tenants who need documents handled in both languages.
 
 ## Tips for Tenants in Sacramento
 
@@ -146,10 +146,10 @@ However, there are situations where notarization adds value:
 
 I am Gina Gonzalez, an NNA certified and insured mobile notary serving the greater Sacramento area. With my background as a former Legal Advisor for the Regional Government of Cusco, Peru, I understand the importance of properly executed legal documents.
 
-I travel to you anywhere in Sacramento, West Sacramento, Elk Grove, Roseville, Folsom, Rancho Cordova, Citrus Heights, Davis, Woodland, Lincoln, and Auburn. Available 7 days a week, 7 AM to 9 PM. California notary fee: $15 per signature.
+As a [mobile notary](/notary-services/mobile-notary-sacramento/), I travel to you anywhere in Sacramento, West Sacramento, Elk Grove, Roseville, Folsom, Rancho Cordova, Citrus Heights, Davis, Woodland, Lincoln, and Auburn. Available 7 days a week, 7 AM to 9 PM. California notary fee: $15 per signature.
 
 **Call (415) 948-9967 or [book online](/contact) to schedule your appointment.**
 
-For more information about business document notarization, visit my [business documents notary page](/notary-services/business-documents/).
+For more information about business document notarization, visit my [business documents notary page](/notary-services/business-misc-documents/).
 
 *This post is for informational purposes only and does not constitute legal advice. Consult a real estate attorney for guidance specific to your lease agreement.*

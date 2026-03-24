@@ -91,7 +91,7 @@ If a document requires multiple signatures (like a title transfer), all signers 
 
 ### Ask About Mobile Notary Service
 
-You do not need to come to an office. I offer mobile notary service throughout Sacramento, West Sacramento, Elk Grove, Roseville, Folsom, Rancho Cordova, Citrus Heights, Davis, and Woodland. I can meet you at your home, office, or even in a parking lot if that is most convenient.
+You do not need to come to an office. I offer [mobile notary service](/notary-services/mobile-notary-sacramento/) throughout Sacramento, West Sacramento, Elk Grove, Roseville, Folsom, Rancho Cordova, Citrus Heights, Davis, and Woodland. I can meet you at your home, office, or even in a parking lot if that is most convenient.
 
 ## California Notary Fees for DMV Documents
 
@@ -107,7 +107,7 @@ California sets a maximum notary fee of $15 per signature. This is consistent re
 
 ## Bilingual Notary Service for DMV Documents
 
-Many of my clients in the Sacramento area are Spanish speaking. I provide bilingual notary service in English and Spanish, which helps ensure everyone understands what they are signing. While notarized documents must be in English for the California DMV, I can explain the contents in Spanish so all parties feel confident.
+Many of my clients in the Sacramento area are Spanish speaking. I provide [bilingual notary service in English and Spanish](/notary-services/spanish-notary-sacramento/), which helps ensure everyone understands what they are signing. While notarized documents must be in English for the California DMV, I can explain the contents in Spanish so all parties feel confident.
 
 For more information about business and miscellaneous document notarization, visit my [business documents page](/notary-services/business-misc-documents/).
 

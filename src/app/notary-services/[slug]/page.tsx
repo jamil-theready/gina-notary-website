@@ -22,13 +22,13 @@ export async function generateMetadata({
   if (!service) return {};
 
   return {
-    title: service.metaTitle,
+    title: service.metaTitle ? { absolute: service.metaTitle } : service.title,
     description: service.metaDescription,
     alternates: {
       canonical: `https://www.ginagonzaleznotary.com/notary-services/${slug}/`,
     },
     openGraph: {
-      title: service.metaTitle,
+      title: service.metaTitle || service.title,
       description: service.metaDescription,
       url: `https://www.ginagonzaleznotary.com/notary-services/${slug}/`,
       images: service.image ? [{ url: service.image, alt: service.imageAlt }] : [],

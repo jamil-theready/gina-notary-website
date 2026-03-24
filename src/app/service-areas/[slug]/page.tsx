@@ -20,7 +20,7 @@ export async function generateMetadata({
   if (!area) return {};
 
   return {
-    title: area.metaTitle,
+    title: area.metaTitle ? { absolute: area.metaTitle } : `Mobile Notary in ${area.name}, CA`,
     description: area.metaDescription,
     alternates: {
       canonical: `https://www.ginagonzaleznotary.com/service-areas/${slug}/`,

@@ -68,7 +68,7 @@ You can bring a small number of guests. One witness is legally required. The atm
 
 ### Option B: Hire a Wedding Officiant
 
-If you want something more personal, you can hire a licensed wedding officiant to perform your ceremony at the courthouse, a park, your home, or any location you choose. This gives you flexibility with your vows, your schedule, and the overall experience.
+If you want something more personal, you can hire a licensed [wedding officiant](/notary-services/wedding-officiant-services-in-sacramento-ca/) to perform your ceremony at the courthouse, a park, your home, or any location you choose. This gives you flexibility with your vows, your schedule, and the overall experience.
 
 As a commissioned wedding officiant in California, I perform ceremonies for couples throughout the Sacramento area. I bring warmth and professionalism to every ceremony, whether it is just the two of you or you have a handful of loved ones present.
 
@@ -138,11 +138,11 @@ Of course, your ceremony can take place anywhere: your living room, your backyar
 
 **Tell your witness ahead of time.** Your witness needs to be present and ready to sign the license. Make sure they know the time and place.
 
-**Consider a celebration later.** Many couples have their legal ceremony now and plan a reception or larger gathering for a later date. There are no rules about timing.
+**Consider a celebration later.** Many couples have their legal ceremony now and plan a reception or larger gathering for a later date. There are no rules about timing. If you are considering a prenuptial agreement before tying the knot, read our guide on [whether you need a notary for a prenup in California](/blog/do-you-need-a-notary-for-a-prenup-in-california/).
 
 ## Bilingual Wedding Ceremonies in Sacramento
 
-Sacramento's communities are beautifully diverse. For couples and families who speak Spanish, having an officiant who can conduct the ceremony in both languages makes the experience meaningful for everyone present.
+Sacramento's communities are beautifully diverse. For couples and families who speak Spanish, having an officiant who can conduct the ceremony in both languages makes the experience meaningful for everyone present. Learn more about my [Spanish-language notary and officiant services](/notary-services/spanish-notary-sacramento/).
 
 I officiate bilingual ceremonies in English and Spanish throughout Sacramento, Elk Grove, West Sacramento, Roseville, Woodland, Davis, and the surrounding areas. Whether your abuela needs to understand the vows or you want to honor your heritage, a bilingual ceremony brings everyone together.
 

@@ -69,7 +69,7 @@ A court can invalidate a prenup if its terms are grossly unfair to one party at 
 
 I see prenup notarizations most often in these situations:
 
-**Before a courthouse wedding.** Couples getting married at the Sacramento County Clerk's office often want everything signed and notarized the same week. Having a mobile notary available makes this easy to schedule around wedding planning.
+**Before a [courthouse wedding](/blog/getting-married-at-the-courthouse-in-sacramento/).** Couples getting married at the Sacramento County Clerk's office often want everything signed and notarized the same week. Having a [mobile notary](/notary-services/mobile-notary-sacramento/) available makes this easy to schedule around wedding planning.
 
 **When one party owns a business.** Business owners in Sacramento, Roseville, and Elk Grove regularly protect their business interests through prenuptial agreements. Their attorneys almost always require notarization.
 
@@ -111,7 +111,7 @@ Yes. A postnuptial agreement can modify or replace a prenup. The same requiremen
 
 ### What if my spouse only speaks Spanish?
 
-This is where working with a bilingual notary matters. I provide services in both English and Spanish, ensuring that both parties fully understand the document they are signing. Clear communication is essential for a prenup to hold up in court.
+This is where working with a [bilingual notary](/notary-services/spanish-notary-sacramento/) matters. I provide services in both English and Spanish, ensuring that both parties fully understand the document they are signing. Clear communication is essential for a prenup to hold up in court.
 
 ## Need a Notary for Your Prenup?
 

@@ -27,7 +27,7 @@ Here is a clear breakdown of what needs a notary and what does not.
 
 ### Quitclaim Deeds and Property Transfer Documents
 
-When a divorce involves real property, one spouse typically transfers their interest to the other through a quitclaim deed. California law requires that the grantor's signature on any deed be notarized before the document can be recorded with the county recorder.
+When a divorce involves real property, one spouse typically transfers their interest to the other through a [quitclaim deed](/blog/california-quitclaim-deed-when-and-how-to-use-one/). California law requires that the grantor's signature on any deed be notarized before the document can be recorded with the county recorder.
 
 If you own a home in Sacramento, Elk Grove, Roseville, or anywhere in the region, this is likely the most critical document in your divorce that will need notarization.
 
@@ -45,7 +45,7 @@ If you and your spouse reach a settlement agreement and want it to be enforceabl
 
 ### Power of Attorney Documents
 
-If one spouse needs to grant power of attorney to the other or to a third party during the divorce process, that POA must be notarized under California law.
+If one spouse needs to grant power of attorney to the other or to a third party during the divorce process, that POA must be notarized under California law. These fall under [court and legal proceedings documents](/notary-services/court-legal-proceedings/) that require professional notarization.
 
 ## Documents That Usually Do Not Need Notarization
 
@@ -107,7 +107,7 @@ Do not wait until the last minute. I have seen cases where a delayed notarizatio
 
 Divorce is personal. It is often emotional. The last thing you need is a notary who makes the process feel cold or transactional.
 
-I approach every divorce notarization with professionalism and discretion. As a mobile notary, I come to you. That means you do not have to sit in a public office with your soon to be ex spouse waiting for your name to be called. We can meet at your attorney's office, your home, a coffee shop, or any private location that works for you.
+I approach every divorce notarization with professionalism and discretion. As a [mobile notary](/notary-services/mobile-notary-sacramento/), I come to you. That means you do not have to sit in a public office with your soon to be ex spouse waiting for your name to be called. We can meet at your attorney's office, your home, a coffee shop, or any private location that works for you.
 
 For Spanish speaking clients in Sacramento, Citrus Heights, Rancho Cordova, Davis, Woodland, and the surrounding areas, I provide bilingual services in English and Spanish. Understanding every word of what you are signing is especially important when the documents affect your finances, your home, and your family.
 

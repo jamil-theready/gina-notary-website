@@ -29,7 +29,7 @@ As a notary who handles real estate documents regularly in Sacramento, I see qui
 
 ### Transferring Property Between Spouses
 
-This is the most common use. During a divorce, one spouse may quitclaim their interest in the family home to the other. Married couples also use quitclaim deeds to add or remove a spouse from the title.
+This is the most common use. During a [divorce](/blog/do-you-need-a-notary-for-divorce-papers-in-california/), one spouse may quitclaim their interest in the family home to the other. Married couples also use quitclaim deeds to add or remove a spouse from the title.
 
 ### Adding or Removing a Family Member
 
@@ -119,7 +119,7 @@ Visit my [real estate notary page](/notary-services/real-estate-notary-sacrament
 
 I am Gina Gonzalez, an NNA certified and insured mobile notary serving the Sacramento metropolitan area. With my background as a former Legal Advisor for the Regional Government of Cusco, Peru, I bring professional legal experience to every real estate notarization.
 
-I can meet you at your home, office, title company, or any convenient location in Sacramento, West Sacramento, Elk Grove, Roseville, Folsom, Rancho Cordova, Citrus Heights, Davis, Woodland, Lincoln, and Auburn.
+As a [mobile notary](/notary-services/mobile-notary-sacramento/), I can meet you at your home, office, title company, or any convenient location in Sacramento, West Sacramento, Elk Grove, Roseville, Folsom, Rancho Cordova, Citrus Heights, Davis, Woodland, Lincoln, and Auburn.
 
 Available 7 days a week, 7 AM to 9 PM. California notary fee: $15 per signature.
 

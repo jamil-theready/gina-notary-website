@@ -42,11 +42,11 @@ Sacramento, West Sacramento, Elk Grove, Roseville, Folsom, Rancho Cordova, Citru
 | Styling | Tailwind CSS 4 (`@tailwindcss/postcss`, `@theme inline`) |
 | Fonts | Manrope (headings), Inter (body) |
 | Content | Markdown in `/content/` with gray-matter + remark + remark-gfm |
-| CMS | Decap CMS (formerly Netlify CMS) with git-gateway backend |
-| Forms | Netlify Forms with honeypot spam protection |
+| CMS | Decap CMS with GitHub backend (Cloudflare Pages compatible) |
+| Forms | Web3Forms with honeypot spam protection |
 | SEO | JSON-LD schemas in `src/lib/schema.ts`, next-sitemap |
 | Output | Static export (`output: "export"`, outputs to `/out/`) |
-| Deploy target | Netlify (needs Identity + git-gateway for CMS) |
+| Deploy target | Cloudflare Pages |
 | Path alias | `@/*` = `./src/*` |
 
 ### Color System (globals.css)
@@ -99,7 +99,7 @@ This is the PRIMARY design reference. Match it exactly.
 /notary-resources/ ....... Resources hub
 /notary-resources/[slug]/ . Resource/blog pages
 /about/ .................. About Gina
-/contact/ ................ Contact form (Netlify Forms)
+/contact/ ................ Contact form (Web3Forms)
 /blog/ ................... Blog index
 ```
 
@@ -108,7 +108,7 @@ This is the PRIMARY design reference. Match it exactly.
 - `Footer.tsx` - Gold CTA banner ("Need a Notary in Sacramento?"), 4-column footer (Brand, Services, Quick Links, Service Areas), copyright
 - `ServiceCard.tsx` - Card with title, description, hover gold border + shadow, "Learn more" arrow
 - `FAQ.tsx` - Accordion with open/close state, chevron rotation animation
-- `ContactForm.tsx` - Netlify form: name, phone (required), email, service dropdown, message (required). Success state.
+- `ContactForm.tsx` - Web3Forms form: name, phone (required), email, service dropdown, message (required). Success state.
 
 ### Content System
 **Services** (9 markdown files in `/content/services/`):
@@ -125,7 +125,7 @@ This is the PRIMARY design reference. Match it exactly.
 - `blogPostSchema(title, description, url, image, date)` - Article schema
 
 ### CMS Setup (`public/admin/config.yml`)
-- Backend: git-gateway (needs Netlify Identity)
+- Backend: GitHub (Cloudflare Pages compatible, no Identity widget needed)
 - Collections: services, blog
 - Media folder: `public/images/uploads`
 - Admin panel: `/admin/index.html`
@@ -339,7 +339,7 @@ All docs at `/Users/admin/Desktop/Clients/Gina notary/`
 - [ ] All 13 images have proper alt text
 - [ ] 8+ SEO blog posts written and rendering
 - [ ] Every page has optimized meta title + description
-- [ ] Contact form works with Netlify Forms
+- [ ] Contact form works with Web3Forms
 - [ ] Mobile responsive matches Framer site
 - [ ] No placeholder content remains anywhere
 - [ ] All links work, phone/email links correct

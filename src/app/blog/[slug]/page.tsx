@@ -11,6 +11,8 @@ import ShareButtons from "@/components/ShareButtons";
 import FAQAccordion from "@/components/FAQAccordion";
 import TableOfContents from "@/components/TableOfContents";
 import CTASection from "@/components/CTASection";
+import AuthorBio from "@/components/AuthorBio";
+import ReadingProgressBar from "@/components/ReadingProgressBar";
 
 export const dynamicParams = false;
 
@@ -29,7 +31,7 @@ export async function generateMetadata({
   if (!post) return {};
 
   return {
-    title: post.metaTitle || post.title,
+    title: post.metaTitle ? { absolute: post.metaTitle } : post.title,
     description: post.metaDescription,
     alternates: {
       canonical: `https://www.ginagonzaleznotary.com/blog/${slug}/`,
@@ -83,6 +85,8 @@ export default async function BlogPostPage({
 
   return (
     <>
+      <ReadingProgressBar />
+
       {/* BlogPosting schema */}
       <script
         type="application/ld+json"
@@ -212,6 +216,9 @@ export default async function BlogPostPage({
               className="prose"
               dangerouslySetInnerHTML={{ __html: contentHtml }}
             />
+
+            {/* Author bio */}
+            <AuthorBio />
 
             {/* FAQ accordion */}
             {post.faq && post.faq.length > 0 && (

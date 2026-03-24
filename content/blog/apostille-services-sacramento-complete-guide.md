@@ -35,7 +35,7 @@ An apostille is an official certification that verifies the authenticity of a do
 
 The Hague Convention of 1961 established the apostille system so that member countries recognize each other's documents without going through lengthy embassy verification. Over 120 countries participate, including Mexico, Spain, France, Germany, and most of Latin America.
 
-Common documents that need apostilles include birth certificates, marriage certificates, divorce decrees, academic diplomas, power of attorney documents, and business incorporation papers.
+Common documents that need apostilles include birth certificates, marriage certificates, divorce decrees, academic diplomas, power of attorney documents, and business incorporation papers. Many of these documents also require [notarization before the apostille can be issued](/notary-services/apostille-services-in-sacramento-ca/).
 
 ## Who Issues Apostilles in California?
 
@@ -76,11 +76,11 @@ The apostille makes your document legally recognized in any Hague Convention cou
 
 ## Why Work With a Bilingual Notary for Apostilles
 
-Navigating the apostille process in a second language adds unnecessary stress. As a bilingual notary serving Sacramento's Spanish-speaking community, I help clients understand every step in English or Spanish.
+Navigating the apostille process in a second language adds unnecessary stress. As a [bilingual notary serving Sacramento's Spanish-speaking community](/notary-services/spanish-notary-sacramento/), I help clients understand every step in English or Spanish.
 
 I verify that your documents are prepared correctly before submission, which prevents the most common reason for rejection: improper notarization. A rejected apostille costs you time and money.
 
-I also help clients who need certified translations alongside their apostille, so everything is ready when you arrive in your destination country.
+I also help clients who need [certified translations](/notary-services/certified-english-spanish-translation-services-in-sacramento-ca/) alongside their apostille, so everything is ready when you arrive in your destination country.
 
 ## How Much Does the Full Apostille Process Cost?
 
@@ -95,4 +95,6 @@ For most clients, the total cost for a single document is $35 to $50 before any 
 
 ## Ready to Get Your Apostille?
 
-Call or text me to discuss your documents. I work with clients across Sacramento, Elk Grove, Folsom, Roseville, and the surrounding areas. I can notarize your documents at your home, office, or any convenient location.
+Call or text me to discuss your documents. I work with clients across Sacramento, Elk Grove, Folsom, Roseville, and the surrounding areas. As a [mobile notary](/notary-services/mobile-notary-sacramento/), I can notarize your documents at your home, office, or any convenient location.
+
+**Call (415) 948-9967 or [book online](/contact) to get started with your apostille.**

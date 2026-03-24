@@ -37,7 +37,7 @@ These two guarantees give the buyer meaningful legal protection. If either promi
 
 ## What is a Quitclaim Deed?
 
-A quitclaim deed transfers whatever interest the grantor has in a property. The critical difference: the grantor makes zero promises about what that interest actually is.
+A [quitclaim deed](/blog/california-quitclaim-deed-when-and-how-to-use-one/) transfers whatever interest the grantor has in a property. The critical difference: the grantor makes zero promises about what that interest actually is.
 
 The grantor could own the property free and clear. Or they could own nothing at all. A quitclaim deed does not distinguish between these scenarios. It simply says: "Whatever I have, I am giving to you."
 
@@ -73,7 +73,7 @@ Even if you know the seller personally, a grant deed provides important protecti
 
 ### Divorce Property Transfers
 
-During a divorce settlement, one spouse typically quitclaims their interest to the other. Since both parties are already familiar with the property and its history, the lack of warranties is acceptable.
+During a [divorce settlement](/blog/do-you-need-a-notary-for-divorce-papers-in-california/), one spouse typically quitclaims their interest to the other. Since both parties are already familiar with the property and its history, the lack of warranties is acceptable.
 
 ### Transferring Property to a Living Trust
 

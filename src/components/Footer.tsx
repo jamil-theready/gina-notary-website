@@ -68,7 +68,7 @@ export default function Footer() {
           <div className="flex items-center gap-3">
             <Image
               src="/images/gina-avatar.png"
-              alt="Gina Gonzalez"
+              alt="Gina Gonzalez mobile notary public Sacramento CA"
               width={40}
               height={40}
               className="rounded-full object-cover"

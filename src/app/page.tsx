@@ -388,7 +388,7 @@ function HowItWorksTimeline() {
           <div className="rounded-2xl overflow-hidden">
             <img
               src="/images/step-reach-out.jpg"
-              alt="Contact Gina Gonzalez for notary services"
+              alt="Schedule mobile notary appointment in Sacramento CA"
               className="w-full h-48 md:h-64 object-cover rounded-2xl shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset]"
             />
           </div>
@@ -406,7 +406,7 @@ function HowItWorksTimeline() {
           <div className="rounded-2xl overflow-hidden">
             <img
               src="/images/step-gather-docs.jpg"
-              alt="Gather documents for notarization"
+              alt="Prepare documents and ID for Sacramento notary visit"
               className="w-full h-48 md:h-64 object-cover rounded-2xl shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset]"
             />
           </div>
@@ -424,7 +424,7 @@ function HowItWorksTimeline() {
           <div className="rounded-2xl overflow-hidden">
             <img
               src="/images/step-complete.jpg"
-              alt="Complete notarization with Gina"
+              alt="Gina Gonzalez completing notarization at client location"
               className="w-full h-48 md:h-64 object-cover rounded-2xl shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset]"
             />
           </div>
@@ -518,7 +518,7 @@ export default function HomePage() {
                   <p className="text-xs text-brand-gray-400 mb-1.5">Signature</p>
                   <img
                     src="/images/signature@2x.png"
-                    alt="Gina Gonzalez signature"
+                    alt="Gina Gonzalez certified notary public signature"
                     className="h-10 w-auto"
                   />
                 </div>
@@ -688,7 +688,7 @@ export default function HomePage() {
             <div className="flex justify-center lg:justify-end">
               <img
                 src="/images/phone-mockup.png"
-                alt="Gina Gonzalez Notary mobile experience"
+                alt="Sacramento mobile notary service booking on smartphone"
                 className="w-64 sm:w-72 lg:w-80 object-contain"
               />
             </div>
