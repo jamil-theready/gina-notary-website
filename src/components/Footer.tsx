@@ -64,7 +64,7 @@ export default function Footer() {
       {/* Footer Content */}
       <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
         {/* Nav links - prominent, above columns */}
-        <div className="flex items-center justify-between mb-10 pb-8 border-b border-brand-gray-200">
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mb-10 pb-8 border-b border-brand-gray-200">
           <div className="flex items-center gap-3">
             <Image
               src="/images/gina-avatar.png"
@@ -77,7 +77,7 @@ export default function Footer() {
               Notary Public
             </span>
           </div>
-          <nav className="flex items-center gap-8">
+          <nav className="flex flex-wrap items-center gap-4 sm:gap-8">
             <Link href="/about/" className="text-brand-black font-semibold text-[15px] hover:text-brand-gold-dark transition-colors">About</Link>
             <Link href="/service-areas/" className="text-brand-black font-semibold text-[15px] hover:text-brand-gold-dark transition-colors">Areas</Link>
             <Link href="/blog/" className="text-brand-black font-semibold text-[15px] hover:text-brand-gold-dark transition-colors">Blog</Link>

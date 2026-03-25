@@ -6,7 +6,7 @@ metaTitle: "Business Document Notary Sacramento"
 metaDescription: "Notary services for business contracts, corporate documents, and miscellaneous filings in Sacramento. Bilingual, NNA certified. Call (415) 948-9967."
 serviceType: "Business & Miscellaneous"
 order: 4
-image: ""
+image: "/images/misc.png"
 imageAlt: "Business owner getting corporate documents notarized by Sacramento notary Gina Gonzalez"
 faqTitle: "Frequently Asked Questions About Business Document Notarization"
 faqs:

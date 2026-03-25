@@ -6,7 +6,7 @@ metaTitle: "Wedding Officiant Sacramento CA | Bilingual Ceremonies"
 metaDescription: "Bilingual wedding officiant in Sacramento. English and Spanish ceremonies. Licensed notary to sign your marriage license on the spot. Call (415) 948-9967."
 serviceType: "Wedding Officiant"
 order: 5
-image: ""
+image: "/images/wedding.png"
 imageAlt: "Gina Gonzalez officiating a bilingual wedding ceremony in Sacramento California"
 faqTitle: "Frequently Asked Questions About Wedding Officiant Services"
 faqs:

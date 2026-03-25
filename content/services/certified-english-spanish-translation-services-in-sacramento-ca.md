@@ -6,7 +6,7 @@ metaTitle: "English Spanish Translation Sacramento | Certified"
 metaDescription: "Certified English to Spanish and Spanish to English translation in Sacramento. Legal, business, and personal documents. Call (415) 948-9967."
 serviceType: "Translation Services"
 order: 9
-image: ""
+image: "/images/gina-gonzalez-notary.jpg"
 imageAlt: "Certified English Spanish document translation services in Sacramento California"
 faqTitle: "Frequently Asked Questions About Translation Services"
 faqs:

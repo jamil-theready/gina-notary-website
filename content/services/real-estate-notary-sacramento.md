@@ -6,7 +6,7 @@ metaTitle: "Loan Signing Agent Sacramento | Real Estate Notary"
 metaDescription: "Certified loan signing agent and real estate notary in Sacramento. NNA certified, bilingual English/Spanish. Same day service. Call (415) 948-9967."
 serviceType: "Real Estate & Loan Signing"
 order: 2
-image: ""
+image: "/images/real-estate.png"
 imageAlt: "Gina Gonzalez assisting clients with real estate loan signing documents in Sacramento"
 faqTitle: "Frequently Asked Questions About Real Estate Loan Signing"
 faqs:

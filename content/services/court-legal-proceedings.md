@@ -6,7 +6,7 @@ metaTitle: "Court Document Notary Sacramento"
 metaDescription: "Notary services for court documents, depositions, and legal proceedings in Sacramento. Former lawyer, bilingual English/Spanish. Call (415) 948-9967."
 serviceType: "Court & Legal Proceedings"
 order: 3
-image: ""
+image: "/images/service-court.png"
 imageAlt: "Notarized court documents and legal proceedings paperwork in Sacramento"
 faqTitle: "Frequently Asked Questions About Court Document Notarization"
 faqs:

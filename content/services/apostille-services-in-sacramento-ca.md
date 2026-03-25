@@ -6,7 +6,7 @@ metaTitle: "Apostille Services Sacramento | Document Certification"
 metaDescription: "Apostille services in Sacramento for documents going abroad. Notarization and apostille processing. Bilingual English/Spanish. Call (415) 948-9967."
 serviceType: "Apostille Services"
 order: 6
-image: ""
+image: "/images/misc.png"
 imageAlt: "Apostille certified document for international use prepared by Sacramento notary"
 faqTitle: "Frequently Asked Questions About Apostille Services"
 faqs:

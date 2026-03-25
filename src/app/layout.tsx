@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Manrope, Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -86,15 +87,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-4CP7XECRCV" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-4CP7XECRCV');`,
-          }}
-        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -103,8 +95,21 @@ gtag('config', 'G-4CP7XECRCV');`,
         />
       </head>
       <body className={`${manrope.variable} ${inter.variable} antialiased`}>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-4CP7XECRCV"
+          strategy="afterInteractive"
+        />
+        <Script id="ga-config" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-4CP7XECRCV');`}
+        </Script>
+        <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:z-[100] focus:top-2 focus:left-2 focus:bg-brand-gold focus:text-brand-black focus:px-4 focus:py-2 focus:rounded-lg focus:font-semibold">
+          Skip to content
+        </a>
         <Header />
-        <main className="pt-[60px] md:pt-[96px]">{children}</main>
+        <main id="main-content" className="pt-[60px] md:pt-[96px]">{children}</main>
         <Footer />
         <FloatingPhoneCTA />
       </body>

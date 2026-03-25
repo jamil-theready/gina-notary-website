@@ -6,7 +6,7 @@ metaTitle: "Notario Publico en Sacramento | Servicio Bilingue"
 metaDescription: "Notario bilingue en Sacramento. Servicio en espanol e ingles. Documentos legales, prestamos, bodas. Llame al (415) 948-9967."
 serviceType: "Spanish/Bilingual Notary"
 order: 8
-image: ""
+image: "/images/gina-gonzalez-notary.jpg"
 imageAlt: "Bilingual Spanish English notary Gina Gonzalez serving Sacramento community"
 faqTitle: "Preguntas Frecuentes Sobre Servicios de Notario Bilingue"
 faqs:

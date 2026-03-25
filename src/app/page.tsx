@@ -1,12 +1,23 @@
-"use client";
-
-import { useState } from "react";
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 import { Timeline } from "@/components/ui/timeline";
 import { CredentialScrollCards } from "@/components/ui/scroll-cards";
 import CTASection from "@/components/CTASection";
+import FAQSection from "@/components/FAQSection";
+import { faqSchema } from "@/lib/schema";
+
+/* ───────────────────────── METADATA ───────────────────── */
+
+export const metadata: Metadata = {
+  title: "Sacramento Notary Public Services | Gina Gonzalez Notary",
+  description:
+    "Certified mobile notary public and bilingual wedding officiant serving Sacramento, CA. NNA certified, insured. Same day appointments. Call (415) 948-9967.",
+  alternates: {
+    canonical: "https://www.ginagonzaleznotary.com/",
+  },
+};
 
 /* ───────────────────────── DATA ───────────────────────── */
 
@@ -15,69 +26,78 @@ const services = [
     title: "Legal & Personal",
     description:
       "Our Sacramento notary public notarizes powers of attorney, prenuptial agreements, and other personal legal documents with precision and confidentiality.",
-    icon: (
-      <svg className="w-6 h-6 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-      </svg>
-    ),
+    icon: "document",
     href: "/notary-services/legal-personal/",
   },
   {
     title: "Court & Proceedings",
     description:
       "From affidavits to restraining orders, we provide fast, compliant notarization for court-related documents.",
-    icon: (
-      <svg className="w-6 h-6 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
-      </svg>
-    ),
+    icon: "scale",
     href: "/notary-services/court-legal-proceedings/",
   },
   {
     title: "Real Estate & Loans",
     description:
       "Reliable Sacramento notary service for deeds, refinancing forms, and property transfers. Close with complete peace of mind.",
-    icon: (
-      <svg className="w-6 h-6 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-      </svg>
-    ),
+    icon: "home",
     href: "/notary-services/real-estate-notary-sacramento/",
   },
   {
     title: "Wedding Officiant",
     description:
       "As a certified wedding officiant, Gina creates warm, customized ceremonies tailored to your unique love story.",
-    icon: (
-      <svg className="w-6 h-6 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-      </svg>
-    ),
+    icon: "heart",
     href: "/notary-services/wedding-officiant-services-in-sacramento-ca/",
   },
   {
     title: "Misc. Docs",
     description:
       "Travel consent forms, lease notarization, DMV paperwork. We handle various document types with accuracy.",
-    icon: (
-      <svg className="w-6 h-6 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-      </svg>
-    ),
+    icon: "box",
     href: "/notary-services/business-misc-documents/",
   },
   {
     title: "Apostille",
     description:
       "Apostille processing for powers of attorney, marriage certificates, and vital records for international use.",
-    icon: (
-      <svg className="w-6 h-6 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-      </svg>
-    ),
+    icon: "globe",
     href: "/notary-services/apostille-services-in-sacramento-ca/",
   },
 ];
+
+const serviceIcons: Record<string, React.ReactNode> = {
+  document: (
+    <svg className="w-6 h-6 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+    </svg>
+  ),
+  scale: (
+    <svg className="w-6 h-6 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
+    </svg>
+  ),
+  home: (
+    <svg className="w-6 h-6 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+    </svg>
+  ),
+  heart: (
+    <svg className="w-6 h-6 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+    </svg>
+  ),
+  box: (
+    <svg className="w-6 h-6 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+    </svg>
+  ),
+  globe: (
+    <svg className="w-6 h-6 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+    </svg>
+  ),
+};
 
 const credentials = [
   {
@@ -238,49 +258,6 @@ function Badge({ children }: { children: React.ReactNode }) {
   );
 }
 
-function CredentialsAccordion() {
-  const [openIndex, setOpenIndex] = useState<number | null>(null);
-
-  return (
-    <div className="divide-y divide-brand-gray-200">
-      {credentials.map((item, i) => (
-        <div key={i}>
-          <button
-            onClick={() => setOpenIndex(openIndex === i ? null : i)}
-            className="w-full flex items-center justify-between py-6 sm:py-8 text-left group"
-          >
-            <h3 className="font-sans text-2xl sm:text-3xl lg:text-4xl font-semibold text-brand-black pr-4">
-              {item.title}
-            </h3>
-            <span className="shrink-0 w-10 h-10 rounded-full border-2 border-brand-gray-200 flex items-center justify-center text-brand-gray-400 group-hover:border-brand-gold group-hover:text-brand-black transition-colors">
-              {openIndex === i ? (
-                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M20 12H4" />
-                </svg>
-              ) : (
-                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
-                </svg>
-              )}
-            </span>
-          </button>
-          <div
-            className="overflow-hidden transition-all duration-300"
-            style={{
-              maxHeight: openIndex === i ? "200px" : "0px",
-              opacity: openIndex === i ? 1 : 0,
-            }}
-          >
-            <p className="pb-6 sm:pb-8 text-brand-gray-600 leading-relaxed max-w-3xl text-base sm:text-lg">
-              {item.description}
-            </p>
-          </div>
-        </div>
-      ))}
-    </div>
-  );
-}
-
 function TestimonialMarquee() {
   const doubled = [...testimonials, ...testimonials];
 
@@ -327,52 +304,6 @@ function TestimonialMarquee() {
   );
 }
 
-function FAQSection() {
-  const [openIndex, setOpenIndex] = useState<number | null>(null);
-
-  return (
-    <div className="space-y-3">
-      {faqs.map((faq, i) => (
-        <div
-          key={i}
-          className="border border-brand-gray-100 rounded-xl overflow-hidden"
-        >
-          <button
-            onClick={() => setOpenIndex(openIndex === i ? null : i)}
-            className="w-full flex items-center justify-between px-6 py-5 text-left hover:bg-brand-gray-50 transition-colors"
-          >
-            <span className="font-sans font-semibold text-brand-black pr-4">
-              {faq.question}
-            </span>
-            <svg
-              className={`w-5 h-5 text-brand-gray-400 shrink-0 transition-transform duration-200 ${
-                openIndex === i ? "rotate-180" : ""
-              }`}
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth={2}
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-            </svg>
-          </button>
-          <div
-            className="overflow-hidden transition-all duration-300"
-            style={{
-              maxHeight: openIndex === i ? "300px" : "0px",
-              opacity: openIndex === i ? 1 : 0,
-            }}
-          >
-            <div className="px-6 pb-5 text-brand-gray-600 text-base leading-relaxed">
-              {faq.answer}
-            </div>
-          </div>
-        </div>
-      ))}
-    </div>
-  );
-}
-
 /* ────────────────────── TIMELINE DATA ─────────────────── */
 
 function HowItWorksTimeline() {
@@ -386,9 +317,11 @@ function HowItWorksTimeline() {
             Reach out to Gina via phone, email, or our website to schedule your appointment. She will confirm availability, answer any questions, and help you get started right away.
           </p>
           <div className="rounded-2xl overflow-hidden">
-            <img
+            <Image
               src="/images/step-reach-out.jpg"
               alt="Schedule mobile notary appointment in Sacramento CA"
+              width={600}
+              height={256}
               className="w-full h-48 md:h-64 object-cover rounded-2xl shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset]"
             />
           </div>
@@ -404,9 +337,11 @@ function HowItWorksTimeline() {
             Gather all documents that require notarization and ensure they are complete and ready for signing. Bring a valid government-issued ID for each signer involved.
           </p>
           <div className="rounded-2xl overflow-hidden">
-            <img
+            <Image
               src="/images/step-gather-docs.jpg"
               alt="Prepare documents and ID for Sacramento notary visit"
+              width={600}
+              height={256}
               className="w-full h-48 md:h-64 object-cover rounded-2xl shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset]"
             />
           </div>
@@ -422,9 +357,11 @@ function HowItWorksTimeline() {
             Gina will meet you at your home, office, or any mutually convenient public location. We prioritize your comfort, ensuring privacy, punctuality, and total peace of mind.
           </p>
           <div className="rounded-2xl overflow-hidden">
-            <img
+            <Image
               src="/images/step-complete.jpg"
               alt="Gina Gonzalez completing notarization at client location"
+              width={600}
+              height={256}
               className="w-full h-48 md:h-64 object-cover rounded-2xl shadow-[0_0_24px_rgba(34,42,53,0.06),0_1px_1px_rgba(0,0,0,0.05),0_0_0_1px_rgba(34,42,53,0.04),0_0_4px_rgba(34,42,53,0.08),0_16px_68px_rgba(47,48,55,0.05),0_1px_0_rgba(255,255,255,0.1)_inset]"
             />
           </div>
@@ -441,6 +378,14 @@ function HowItWorksTimeline() {
 export default function HomePage() {
   return (
     <>
+      {/* FAQ Schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqSchema(faqs.map(f => ({ question: f.question, answer: f.answer })))),
+        }}
+      />
+
       {/* ─── 1. HERO ─── */}
       <section className="relative overflow-hidden bg-white">
         {/* Animated gradient orbs */}
@@ -486,14 +431,17 @@ export default function HomePage() {
             {/* Photo + Badges */}
             <div className="relative flex justify-center lg:justify-end self-end mb-[-1px]">
               <div className="relative">
-                {/* Gina photo - no card, no background */}
-                <img
+                {/* Gina photo */}
+                <Image
                   src="/images/gina@2x.png"
                   alt="Gina Gonzalez mobile notary public Sacramento CA"
+                  width={546}
+                  height={728}
+                  priority
                   className="relative w-72 sm:w-80 lg:w-[22rem] object-cover z-10"
                 />
 
-                {/* Mobile badge - orbiting animation */}
+                {/* Mobile badge */}
                 <div className="absolute top-12 -left-6 sm:-left-10 bg-white rounded-full px-4 py-2 shadow-md flex items-center gap-2 z-20 animate-badge-orbit-1">
                   <span className="w-8 h-8 bg-brand-gold/10 rounded-full flex items-center justify-center">
                     <svg className="w-4 h-4 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -503,7 +451,7 @@ export default function HomePage() {
                   <span className="text-sm font-medium text-brand-black">mobile</span>
                 </div>
 
-                {/* English & Spanish badge - orbiting animation */}
+                {/* English & Spanish badge */}
                 <div className="absolute top-1/2 -right-4 sm:-right-10 bg-white rounded-full px-4 py-2.5 shadow-md flex items-center gap-2.5 z-20 animate-badge-orbit-2">
                   <span className="w-8 h-8 bg-brand-gold/10 rounded-full flex items-center justify-center">
                     <svg className="w-4 h-4 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -513,12 +461,14 @@ export default function HomePage() {
                   <span className="text-sm font-medium text-brand-black">English &amp; Spanish</span>
                 </div>
 
-                {/* Signature box - orbiting animation */}
+                {/* Signature box */}
                 <div className="absolute bottom-8 -left-6 sm:-left-12 bg-white/90 backdrop-blur-sm rounded-xl border-2 border-dashed border-brand-gold px-6 py-4 shadow-lg z-20 animate-badge-orbit-3">
                   <p className="text-xs text-brand-gray-400 mb-1.5">Signature</p>
-                  <img
+                  <Image
                     src="/images/signature@2x.png"
                     alt="Gina Gonzalez certified notary public signature"
+                    width={160}
+                    height={40}
                     className="h-10 w-auto"
                   />
                 </div>
@@ -556,10 +506,12 @@ export default function HomePage() {
               { src: "/images/companies/pmi.png", alt: "PMI" },
               { src: "/images/companies/preferred-rate.png", alt: "Preferred Rate" },
             ]).map((logo, i) => (
-              <img
+              <Image
                 key={i}
                 src={logo.src}
                 alt={logo.alt}
+                width={140}
+                height={40}
                 className="h-8 md:h-10 w-auto max-w-[120px] md:max-w-[140px] object-contain shrink-0 grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-300 mix-blend-multiply"
               />
             ))}
@@ -596,9 +548,8 @@ export default function HomePage() {
                 href={s.href}
                 className="group flex flex-col bg-white rounded-2xl p-6 shadow-md shadow-black/[0.04] hover:shadow-lg hover:shadow-black/[0.08] transition-all duration-200"
               >
-                {/* Icon top-left */}
                 <div className="w-12 h-12 rounded-xl bg-brand-gold/10 flex items-center justify-center mb-4">
-                  {s.icon}
+                  {serviceIcons[s.icon]}
                 </div>
                 <h3 className="font-sans text-lg font-semibold text-brand-black mb-2 group-hover:text-brand-gold-dark transition-colors">
                   {s.title}
@@ -637,7 +588,6 @@ export default function HomePage() {
       {/* ─── 4. CREDENTIALS (Stacking Scroll Cards) ─── */}
       <section className="relative" style={{ background: "linear-gradient(180deg, #ffffff 0%, #fdfaf0 40%, #faf5e4 100%)" }}>
         <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 md:pt-24">
-          {/* Sticky title with matching gradient background so cards don't overlap */}
           <div className="sticky top-[60px] z-40 text-center pb-8 pt-6">
             <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[200vw]" style={{ top: "-60px", background: "linear-gradient(to bottom, #fdfaf0 0%, #fdfaf0 30%, rgba(253,250,240,0.95) 70%, transparent 100%)" }} />
             <div className="relative">
@@ -686,9 +636,11 @@ export default function HomePage() {
             </div>
 
             <div className="flex justify-center lg:justify-end">
-              <img
+              <Image
                 src="/images/phone-mockup.png"
                 alt="Sacramento mobile notary service booking on smartphone"
+                width={320}
+                height={640}
                 className="w-64 sm:w-72 lg:w-80 object-contain"
               />
             </div>
@@ -755,9 +707,8 @@ export default function HomePage() {
 
       {/* ─── 8. CONTACT ─── */}
       <section id="contact" className="relative py-16 md:py-24 overflow-hidden">
-        {/* Curved gold gradient background - arc sweep */}
+        {/* Curved gold gradient background */}
         <div className="absolute inset-0 pointer-events-none overflow-hidden">
-          {/* Main arc */}
           <div
             className="absolute left-1/2 -translate-x-1/2"
             style={{
@@ -768,7 +719,6 @@ export default function HomePage() {
               background: "radial-gradient(ellipse at 50% 30%, rgba(249,207,1,0.18) 0%, rgba(249,207,1,0.1) 30%, rgba(249,207,1,0.04) 60%, transparent 80%)",
             }}
           />
-          {/* Softer outer glow */}
           <div
             className="absolute left-1/2 -translate-x-1/2"
             style={{
@@ -779,7 +729,6 @@ export default function HomePage() {
               background: "radial-gradient(ellipse at 50% 40%, rgba(249,207,1,0.08) 0%, rgba(249,207,1,0.03) 50%, transparent 80%)",
             }}
           />
-          {/* Top fade into section */}
           <div
             className="absolute inset-x-0 bottom-0 h-full"
             style={{
@@ -828,7 +777,7 @@ export default function HomePage() {
             </h2>
           </div>
 
-          <FAQSection />
+          <FAQSection faqs={faqs} />
 
         </div>
       </section>

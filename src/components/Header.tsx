@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import Image from "next/image";
+import { useState, useEffect, useRef } from "react";
 
 const serviceGroups = [
   {
@@ -44,6 +45,18 @@ const navLinks = [
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function handleKeyDown(e: KeyboardEvent) {
+      if (e.key === "Escape") {
+        setServicesOpen(false);
+        setMobileOpen(false);
+      }
+    }
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, []);
 
   return (
     <>
@@ -80,9 +93,11 @@ export default function Header() {
               href="/"
               className="flex items-center gap-2.5 shrink-0 bg-brand-gray-50 rounded-full pl-1.5 pr-4 py-1.5 transition-all hover:bg-brand-gray-100 hover:shadow-sm"
             >
-              <img
+              <Image
                 src="/images/gina-avatar.png"
                 alt="Gina Gonzalez, Sacramento mobile notary public"
+                width={32}
+                height={32}
                 className="w-8 h-8 rounded-full object-cover"
               />
               <span className="text-brand-black font-sans font-semibold text-[15px] tracking-tight">
@@ -91,11 +106,13 @@ export default function Header() {
             </Link>
 
             {/* Desktop Nav - left aligned */}
-            <nav className="hidden items-center gap-7 md:flex ml-8">
+            <nav className="hidden items-center gap-7 md:flex ml-8" ref={dropdownRef}>
               <button
                 className="text-[15px] font-medium text-brand-gray-600 transition-colors hover:text-brand-black"
                 onClick={() => setServicesOpen(!servicesOpen)}
                 onMouseEnter={() => setServicesOpen(true)}
+                aria-expanded={servicesOpen}
+                aria-haspopup="true"
               >
                 Services
                 <svg className={`ml-1 inline h-3 w-3 transition-transform ${servicesOpen ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -113,7 +130,7 @@ export default function Header() {
               ))}
             </nav>
 
-            {/* Right side: CTA (desktop) + Hamburger (mobile) - pushed to far right */}
+            {/* Right side: CTA (desktop) + Hamburger (mobile) */}
             <div className="flex items-center ml-auto">
               <Link
                 href="/contact/"
@@ -127,7 +144,8 @@ export default function Header() {
               <button
                 className="flex flex-col gap-1.5 md:hidden"
                 onClick={() => setMobileOpen(!mobileOpen)}
-                aria-label="Toggle menu"
+                aria-label={mobileOpen ? "Close menu" : "Open menu"}
+                aria-expanded={mobileOpen}
               >
                 <span className={`block h-0.5 w-6 bg-brand-black transition-transform ${mobileOpen ? "translate-y-2 rotate-45" : ""}`} />
                 <span className={`block h-0.5 w-6 bg-brand-black transition-opacity ${mobileOpen ? "opacity-0" : ""}`} />
@@ -141,6 +159,7 @@ export default function Header() {
             <div
               className="hidden border-t border-brand-gray-100 bg-brand-white md:block"
               onMouseLeave={() => setServicesOpen(false)}
+              role="menu"
             >
               <div className="mx-auto grid max-w-5xl grid-cols-3 gap-8 px-4 sm:px-6 lg:px-8 py-8">
                 {serviceGroups.map((group) => (
@@ -155,6 +174,7 @@ export default function Header() {
                             href={s.href}
                             className="text-[14px] text-brand-gray-600 transition-colors hover:text-brand-black"
                             onClick={() => setServicesOpen(false)}
+                            role="menuitem"
                           >
                             {s.name}
                           </Link>

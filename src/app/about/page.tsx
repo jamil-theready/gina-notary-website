@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import CTASection from "@/components/CTASection";
 
@@ -61,9 +62,11 @@ export default function AboutPage() {
             {/* Photo */}
             <div className="lg:col-span-2">
               <div className="aspect-[3/4] bg-brand-gray-200 rounded-2xl overflow-hidden sticky top-28">
-                <img
+                <Image
                   src="/images/Gina-notary-website-image.jpg"
                   alt="Gina Gonzalez, NNA certified mobile notary public in Sacramento California"
+                  width={600}
+                  height={800}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -114,9 +117,11 @@ export default function AboutPage() {
               <div className="bg-brand-gray-50 rounded-2xl p-8">
                 <div className="flex items-center gap-4 mb-4">
                   <h3 className="font-sans text-lg font-bold text-brand-black">Credentials</h3>
-                  <img
+                  <Image
                     src="/images/NNA.jpg"
                     alt="National Notary Association certified member badge"
+                    width={56}
+                    height={56}
                     className="w-14 h-14 object-contain"
                   />
                 </div>
