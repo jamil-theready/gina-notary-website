@@ -80,43 +80,43 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| CRIT-01 | TBD | Pending |
-| CRIT-02 | TBD | Pending |
-| CRIT-03 | TBD | Pending |
-| CRIT-04 | TBD | Pending |
-| SCHEMA-01 | TBD | Pending |
-| SCHEMA-02 | TBD | Pending |
-| SCHEMA-03 | TBD | Pending |
-| SCHEMA-04 | TBD | Pending |
-| SCHEMA-05 | TBD | Pending |
-| SCHEMA-06 | TBD | Pending |
-| META-01 | TBD | Pending |
-| META-02 | TBD | Pending |
-| META-03 | TBD | Pending |
-| META-04 | TBD | Pending |
-| META-05 | TBD | Pending |
-| META-06 | TBD | Pending |
-| META-07 | TBD | Pending |
-| META-08 | TBD | Pending |
-| META-09 | TBD | Pending |
-| META-10 | TBD | Pending |
-| META-11 | TBD | Pending |
-| META-12 | TBD | Pending |
-| CONT-01 | TBD | Pending |
-| CONT-02 | TBD | Pending |
-| CONT-03 | TBD | Pending |
-| CONT-04 | TBD | Pending |
-| PERF-01 | TBD | Pending |
-| PERF-02 | TBD | Pending |
-| A11Y-01 | TBD | Pending |
-| CONF-01 | TBD | Pending |
-| CONF-02 | TBD | Pending |
+| CRIT-01 | Phase 1 | Pending |
+| CRIT-02 | Phase 1 | Pending |
+| CRIT-03 | Phase 1 | Pending |
+| CRIT-04 | Phase 2 | Pending |
+| SCHEMA-01 | Phase 2 | Pending |
+| SCHEMA-02 | Phase 2 | Pending |
+| SCHEMA-03 | Phase 2 | Pending |
+| SCHEMA-04 | Phase 2 | Pending |
+| SCHEMA-05 | Phase 2 | Pending |
+| SCHEMA-06 | Phase 2 | Pending |
+| META-01 | Phase 3 | Pending |
+| META-02 | Phase 3 | Pending |
+| META-03 | Phase 3 | Pending |
+| META-04 | Phase 3 | Pending |
+| META-05 | Phase 3 | Pending |
+| META-06 | Phase 3 | Pending |
+| META-07 | Phase 3 | Pending |
+| META-08 | Phase 3 | Pending |
+| META-09 | Phase 3 | Pending |
+| META-10 | Phase 4 | Pending |
+| META-11 | Phase 4 | Pending |
+| META-12 | Phase 4 | Pending |
+| CONT-01 | Phase 5 | Pending |
+| CONT-02 | Phase 5 | Pending |
+| CONT-03 | Phase 5 | Pending |
+| CONT-04 | Phase 6 | Pending |
+| PERF-01 | Phase 7 | Pending |
+| PERF-02 | Phase 7 | Pending |
+| A11Y-01 | Phase 8 | Pending |
+| CONF-01 | Phase 8 | Pending |
+| CONF-02 | Phase 8 | Pending |
 
 **Coverage:**
 - v1 requirements: 31 total
-- Mapped to phases: 0
-- Unmapped: 31
+- Mapped to phases: 31
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-04-01*
-*Last updated: 2026-04-01 after initial definition*
+*Last updated: 2026-04-01 — traceability complete after roadmap creation*
