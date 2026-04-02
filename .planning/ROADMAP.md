@@ -47,7 +47,11 @@ Plans:
   3. Blog posts, service pages, and service area pages each render a BreadcrumbList JSON-LD block
   4. blogPostSchema includes a dateModified field
   5. Blog, contact, service-areas, and notary-services pages contain no standalone LocalBusiness schema (global layout handles it)
-**Plans**: TBD
+**Plans**: 2 plans
+
+Plans:
+- [x] 02-01-PLAN.md — Update schema.ts: add postalCode, streetAddress, sameAs to localBusinessSchema; add dateModified to blogPostSchema; add breadcrumbSchema factory (CRIT-04, SCHEMA-01, SCHEMA-02, SCHEMA-03, SCHEMA-05)
+- [ ] 02-02-PLAN.md — Remove duplicate LocalBusiness from 4 landing pages and service-area slug; add BreadcrumbList to 3 detail page types (SCHEMA-04, SCHEMA-06)
 
 ### Phase 3: Meta Descriptions
 **Goal**: Every page has a meta description between 150-160 characters — no overlength or stub descriptions
@@ -118,7 +122,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Critical Infrastructure | 2/2 | Complete   | 2026-04-02 |
-| 2. Schema & Structured Data | 0/TBD | Not started | - |
+| 2. Schema & Structured Data | 0/2 | Not started | - |
 | 3. Meta Descriptions | 0/TBD | Not started | - |
 | 4. OG Tags, Twitter Cards & Titles | 0/TBD | Not started | - |
 | 5. Homepage Copy Fixes | 0/TBD | Not started | - |

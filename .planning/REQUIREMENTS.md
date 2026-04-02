@@ -10,15 +10,15 @@
 - [x] **CRIT-01**: Site has a custom 404/not-found page with navigation back to homepage
 - [x] **CRIT-02**: Single sitemap system (App Router sitemap.ts only, next-sitemap removed)
 - [x] **CRIT-03**: Sitemap excludes noindex pages (/thank-you/, /notary-resources/, /sitemap.xml/)
-- [ ] **CRIT-04**: LocalBusiness schema includes postalCode and streetAddress
+- [x] **CRIT-04**: LocalBusiness schema includes postalCode and streetAddress
 
 ### Schema & Structured Data
 
-- [ ] **SCHEMA-01**: Business name standardized to "Gina Gonzalez Notary" across all schema instances
-- [ ] **SCHEMA-02**: priceRange consistent ("$$") across all LocalBusiness schema instances
-- [ ] **SCHEMA-03**: LocalBusiness schema includes sameAs array with social profile URLs
+- [x] **SCHEMA-01**: Business name standardized to "Gina Gonzalez Notary" across all schema instances
+- [x] **SCHEMA-02**: priceRange consistent ("$$") across all LocalBusiness schema instances
+- [x] **SCHEMA-03**: LocalBusiness schema includes sameAs array with social profile URLs
 - [ ] **SCHEMA-04**: BreadcrumbList JSON-LD schema added to blog posts, service pages, and service area pages
-- [ ] **SCHEMA-05**: blogPostSchema includes dateModified field
+- [x] **SCHEMA-05**: blogPostSchema includes dateModified field
 - [ ] **SCHEMA-06**: Duplicate LocalBusiness schema removed from blog, contact, service-areas, and notary-services pages (keep only global in layout.tsx)
 
 ### Meta & OG Tags
@@ -83,12 +83,12 @@
 | CRIT-01 | Phase 1 | Complete |
 | CRIT-02 | Phase 1 | Complete |
 | CRIT-03 | Phase 1 | Complete |
-| CRIT-04 | Phase 2 | Pending |
-| SCHEMA-01 | Phase 2 | Pending |
-| SCHEMA-02 | Phase 2 | Pending |
-| SCHEMA-03 | Phase 2 | Pending |
+| CRIT-04 | Phase 2 | Complete |
+| SCHEMA-01 | Phase 2 | Complete |
+| SCHEMA-02 | Phase 2 | Complete |
+| SCHEMA-03 | Phase 2 | Complete |
 | SCHEMA-04 | Phase 2 | Pending |
-| SCHEMA-05 | Phase 2 | Pending |
+| SCHEMA-05 | Phase 2 | Complete |
 | SCHEMA-06 | Phase 2 | Pending |
 | META-01 | Phase 3 | Pending |
 | META-02 | Phase 3 | Pending |
