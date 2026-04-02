@@ -10,8 +10,10 @@ export function localBusinessSchema() {
     image: "https://www.ginagonzaleznotary.com/images/gina-gonzalez-notary.jpg",
     address: {
       "@type": "PostalAddress",
+      streetAddress: "Mobile Notary",
       addressLocality: "Sacramento",
       addressRegion: "CA",
+      postalCode: "95814",
       addressCountry: "US",
     },
     geo: {
@@ -52,6 +54,11 @@ export function localBusinessSchema() {
       },
     ],
     priceRange: "$$",
+    sameAs: [
+      "https://www.instagram.com/ginagonzaleznotary/",
+      "https://www.facebook.com/ginagonzaleznotary/",
+      "https://www.tiktok.com/@ginagonzaleznotary",
+    ],
     knowsLanguage: ["en", "es"],
     hasOfferCatalog: {
       "@type": "OfferCatalog",
@@ -140,7 +147,8 @@ export function blogPostSchema(
   description: string,
   url: string,
   image: string,
-  datePublished: string
+  datePublished: string,
+  dateModified?: string
 ) {
   return {
     "@context": "https://schema.org",
@@ -150,6 +158,7 @@ export function blogPostSchema(
     url,
     image,
     datePublished,
+    dateModified: dateModified || datePublished,
     author: {
       "@type": "Person",
       name: "Gina Gonzalez",
@@ -160,5 +169,18 @@ export function blogPostSchema(
       name: "Gina Gonzalez Notary",
       url: "https://www.ginagonzaleznotary.com",
     },
+  };
+}
+
+export function breadcrumbSchema(items: { name: string; url: string }[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      item: item.url,
+    })),
   };
 }
