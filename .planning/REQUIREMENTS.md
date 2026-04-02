@@ -8,8 +8,8 @@
 ### Critical Fixes
 
 - [x] **CRIT-01**: Site has a custom 404/not-found page with navigation back to homepage
-- [ ] **CRIT-02**: Single sitemap system (App Router sitemap.ts only, next-sitemap removed)
-- [ ] **CRIT-03**: Sitemap excludes noindex pages (/thank-you/, /notary-resources/, /sitemap.xml/)
+- [x] **CRIT-02**: Single sitemap system (App Router sitemap.ts only, next-sitemap removed)
+- [x] **CRIT-03**: Sitemap excludes noindex pages (/thank-you/, /notary-resources/, /sitemap.xml/)
 - [ ] **CRIT-04**: LocalBusiness schema includes postalCode and streetAddress
 
 ### Schema & Structured Data
@@ -81,8 +81,8 @@
 | Requirement | Phase | Status |
 |-------------|-------|--------|
 | CRIT-01 | Phase 1 | Complete |
-| CRIT-02 | Phase 1 | Pending |
-| CRIT-03 | Phase 1 | Pending |
+| CRIT-02 | Phase 1 | Complete |
+| CRIT-03 | Phase 1 | Complete |
 | CRIT-04 | Phase 2 | Pending |
 | SCHEMA-01 | Phase 2 | Pending |
 | SCHEMA-02 | Phase 2 | Pending |

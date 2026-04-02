@@ -12,7 +12,7 @@ This roadmap executes a comprehensive SEO remediation for ginagonzaleznotary.com
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Critical Infrastructure** - Fix 404 page, eliminate competing sitemaps, exclude noindex pages
+- [x] **Phase 1: Critical Infrastructure** - Fix 404 page, eliminate competing sitemaps, exclude noindex pages (completed 2026-04-02)
 - [ ] **Phase 2: Schema & Structured Data** - Standardize all JSON-LD, add breadcrumbs, remove duplicates
 - [ ] **Phase 3: Meta Descriptions** - Trim overlength and expand underlength meta descriptions sitewide
 - [ ] **Phase 4: OG Tags, Twitter Cards & Titles** - Add page-specific OG tags, Twitter card image, trim long titles
@@ -35,7 +35,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 Plans:
 - [x] 01-01-PLAN.md — Create branded not-found.tsx page (CRIT-01)
-- [ ] 01-02-PLAN.md — Remove next-sitemap, audit sitemap.ts for noindex exclusions (CRIT-02, CRIT-03)
+- [x] 01-02-PLAN.md — Remove next-sitemap, audit sitemap.ts for noindex exclusions (CRIT-02, CRIT-03)
 
 ### Phase 2: Schema & Structured Data
 **Goal**: All JSON-LD schema is consistent, complete, deduplicated, and includes breadcrumbs across all page types
@@ -117,7 +117,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Critical Infrastructure | 1/2 | In Progress|  |
+| 1. Critical Infrastructure | 2/2 | Complete   | 2026-04-02 |
 | 2. Schema & Structured Data | 0/TBD | Not started | - |
 | 3. Meta Descriptions | 0/TBD | Not started | - |
 | 4. OG Tags, Twitter Cards & Titles | 0/TBD | Not started | - |
