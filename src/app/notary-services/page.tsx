@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { getAllServices } from "@/lib/content";
 import ServiceCard from "@/components/ServiceCard";
-import { localBusinessSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Notary Services in Sacramento, CA",
@@ -63,12 +62,6 @@ const mainServices = [
 export default function ServicesPage() {
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(localBusinessSchema()),
-        }}
-      />
       <section className="bg-brand-gray-50 py-16 sm:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-brand-gold font-sans font-semibold text-sm tracking-wider uppercase mb-3">

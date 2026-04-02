@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { serviceAreas, getServiceAreaBySlug } from "@/data/service-areas";
-import { faqSchema } from "@/lib/schema";
+import { faqSchema, breadcrumbSchema } from "@/lib/schema";
 import CTASection from "@/components/CTASection";
 
 export const dynamicParams = false;
@@ -49,36 +49,19 @@ export default async function ServiceAreaPage({
     );
   }
 
-  const localBusinessSchema = {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    name: "Gina Gonzalez Notary Public",
-    description: `Mobile notary services in ${area.name}, ${area.county}`,
-    url: `https://www.ginagonzaleznotary.com/service-areas/${slug}/`,
-    telephone: "+14159489967",
-    email: "gina.gonzalez.realtor@gmail.com",
-    areaServed: {
-      "@type": "City",
-      name: area.name,
-      containedInPlace: {
-        "@type": "AdministrativeArea",
-        name: area.county,
-      },
-    },
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: area.lat,
-      longitude: area.lng,
-    },
-    openingHours: "Mo-Su 07:00-21:00",
-    priceRange: "$",
-  };
-
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            breadcrumbSchema([
+              { name: "Home", url: "https://www.ginagonzaleznotary.com/" },
+              { name: "Service Areas", url: "https://www.ginagonzaleznotary.com/service-areas/" },
+              { name: area.name, url: `https://www.ginagonzaleznotary.com/service-areas/${slug}/` },
+            ])
+          ),
+        }}
       />
       <script
         type="application/ld+json"

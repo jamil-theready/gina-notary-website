@@ -6,7 +6,7 @@ import {
   markdownToHtml,
   extractHeadings,
 } from "@/lib/content";
-import { blogPostSchema, faqSchema } from "@/lib/schema";
+import { blogPostSchema, faqSchema, breadcrumbSchema } from "@/lib/schema";
 import ShareButtons from "@/components/ShareButtons";
 import FAQAccordion from "@/components/FAQAccordion";
 import TableOfContents from "@/components/TableOfContents";
@@ -86,6 +86,20 @@ export default async function BlogPostPage({
   return (
     <>
       <ReadingProgressBar />
+
+      {/* BreadcrumbList schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            breadcrumbSchema([
+              { name: "Home", url: "https://www.ginagonzaleznotary.com/" },
+              { name: "Blog", url: "https://www.ginagonzaleznotary.com/blog/" },
+              { name: post.title, url: canonicalUrl },
+            ])
+          ),
+        }}
+      />
 
       {/* BlogPosting schema */}
       <script

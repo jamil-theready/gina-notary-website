@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { getAllBlogPosts } from "@/lib/content";
-import { localBusinessSchema } from "@/lib/schema";
 import BlogCategoryFilter from "@/components/BlogCategoryFilter";
 import CTASection from "@/components/CTASection";
 
@@ -18,12 +17,6 @@ export default function ResourcesPage() {
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(localBusinessSchema()),
-        }}
-      />
       <section className="bg-brand-gray-50 py-10 sm:py-14">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-brand-gray-600 font-sans font-semibold text-sm tracking-wider uppercase mb-3">

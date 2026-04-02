@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { getAllServices, getServiceBySlug, markdownToHtml } from "@/lib/content";
-import { serviceSchema, faqSchema } from "@/lib/schema";
+import { serviceSchema, faqSchema, breadcrumbSchema } from "@/lib/schema";
 import FAQ from "@/components/FAQ";
 import CTASection from "@/components/CTASection";
 import Link from "next/link";
@@ -61,6 +61,18 @@ export default async function ServicePage({
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(
+            breadcrumbSchema([
+              { name: "Home", url: "https://www.ginagonzaleznotary.com/" },
+              { name: "Services", url: "https://www.ginagonzaleznotary.com/notary-services/" },
+              { name: service.shortTitle || service.title, url: `https://www.ginagonzaleznotary.com/notary-services/${slug}/` },
+            ])
+          ),
+        }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

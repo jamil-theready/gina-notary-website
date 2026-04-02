@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { serviceAreas } from "@/data/service-areas";
-import { localBusinessSchema } from "@/lib/schema";
 import CTASection from "@/components/CTASection";
 
 export const metadata: Metadata = {
@@ -31,13 +30,6 @@ const counties = [
 export default function ServiceAreasPage() {
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(localBusinessSchema()),
-        }}
-      />
-
       <section className="bg-brand-gray-50 py-12 sm:py-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-brand-gray-600 font-sans font-semibold text-sm tracking-wider uppercase mb-3">

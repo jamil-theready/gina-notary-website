@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
-import { localBusinessSchema } from "@/lib/schema";
 
 const serviceAreas = [
   { name: "Sacramento", slug: "sacramento-notary" },
@@ -33,13 +32,6 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(localBusinessSchema()),
-        }}
-      />
-
       {/* Hero */}
       <section className="bg-brand-gray-50 py-12 sm:py-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
