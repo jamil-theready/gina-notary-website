@@ -31,7 +31,11 @@ Decimal phases appear between their surrounding integers in numeric order.
   1. Visiting a non-existent URL (e.g., /does-not-exist) shows a branded 404 page with a link back to the homepage
   2. Only one sitemap system exists — next-sitemap config and package are removed, App Router sitemap.ts is the sole source
   3. The sitemap does not contain /thank-you/, /notary-resources/, or /sitemap.xml/ URLs
-**Plans**: TBD
+**Plans**: 2 plans
+
+Plans:
+- [ ] 01-01-PLAN.md — Create branded not-found.tsx page (CRIT-01)
+- [ ] 01-02-PLAN.md — Remove next-sitemap, audit sitemap.ts for noindex exclusions (CRIT-02, CRIT-03)
 
 ### Phase 2: Schema & Structured Data
 **Goal**: All JSON-LD schema is consistent, complete, deduplicated, and includes breadcrumbs across all page types
@@ -113,7 +117,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Critical Infrastructure | 0/TBD | Not started | - |
+| 1. Critical Infrastructure | 0/2 | Not started | - |
 | 2. Schema & Structured Data | 0/TBD | Not started | - |
 | 3. Meta Descriptions | 0/TBD | Not started | - |
 | 4. OG Tags, Twitter Cards & Titles | 0/TBD | Not started | - |
