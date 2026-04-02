@@ -13,7 +13,7 @@ This roadmap executes a comprehensive SEO remediation for ginagonzaleznotary.com
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Critical Infrastructure** - Fix 404 page, eliminate competing sitemaps, exclude noindex pages (completed 2026-04-02)
-- [ ] **Phase 2: Schema & Structured Data** - Standardize all JSON-LD, add breadcrumbs, remove duplicates
+- [x] **Phase 2: Schema & Structured Data** - Standardize all JSON-LD, add breadcrumbs, remove duplicates (completed 2026-04-02)
 - [ ] **Phase 3: Meta Descriptions** - Trim overlength and expand underlength meta descriptions sitewide
 - [ ] **Phase 4: OG Tags, Twitter Cards & Titles** - Add page-specific OG tags, Twitter card image, trim long titles
 - [ ] **Phase 5: Homepage Copy Fixes** - Align metrics, fix geo references from "West Sacramento" to "Sacramento"
@@ -51,7 +51,7 @@ Plans:
 
 Plans:
 - [x] 02-01-PLAN.md — Update schema.ts: add postalCode, streetAddress, sameAs to localBusinessSchema; add dateModified to blogPostSchema; add breadcrumbSchema factory (CRIT-04, SCHEMA-01, SCHEMA-02, SCHEMA-03, SCHEMA-05)
-- [ ] 02-02-PLAN.md — Remove duplicate LocalBusiness from 4 landing pages and service-area slug; add BreadcrumbList to 3 detail page types (SCHEMA-04, SCHEMA-06)
+- [x] 02-02-PLAN.md — Remove duplicate LocalBusiness from 4 landing pages and service-area slug; add BreadcrumbList to 3 detail page types (SCHEMA-04, SCHEMA-06)
 
 ### Phase 3: Meta Descriptions
 **Goal**: Every page has a meta description between 150-160 characters — no overlength or stub descriptions
@@ -61,8 +61,11 @@ Plans:
   1. About, service-areas landing, services landing, and legal/personal service pages each have a meta description of <=160 characters
   2. Each service area page, blog list page, contact page, Spanish notary page, and translation service page has a meta description of >=150 characters
   3. No meta description across the site exceeds 160 characters or falls below 150 characters
-**Plans**: TBD
-**UI hint**: yes
+**Plans**: 2 plans
+
+Plans:
+- [ ] 03-01-PLAN.md — Trim overlength descriptions: About, service-areas landing, services landing, legal/personal (META-01, META-02, META-03, META-04)
+- [ ] 03-02-PLAN.md — Expand underlength descriptions: blog, contact, Spanish notary, translation, all 15 service areas (META-05, META-06, META-07, META-08, META-09)
 
 ### Phase 4: OG Tags, Twitter Cards & Titles
 **Goal**: Every major page has page-specific Open Graph tags, the Twitter card has a real image URL, and no title exceeds 60 characters
@@ -122,8 +125,8 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Critical Infrastructure | 2/2 | Complete   | 2026-04-02 |
-| 2. Schema & Structured Data | 0/2 | Not started | - |
-| 3. Meta Descriptions | 0/TBD | Not started | - |
+| 2. Schema & Structured Data | 2/2 | Complete | 2026-04-02 |
+| 3. Meta Descriptions | 0/2 | Not started | - |
 | 4. OG Tags, Twitter Cards & Titles | 0/TBD | Not started | - |
 | 5. Homepage Copy Fixes | 0/TBD | Not started | - |
 | 6. Service Area Content Depth | 0/TBD | Not started | - |

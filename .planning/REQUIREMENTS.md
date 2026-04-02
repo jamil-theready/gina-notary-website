@@ -17,9 +17,9 @@
 - [x] **SCHEMA-01**: Business name standardized to "Gina Gonzalez Notary" across all schema instances
 - [x] **SCHEMA-02**: priceRange consistent ("$$") across all LocalBusiness schema instances
 - [x] **SCHEMA-03**: LocalBusiness schema includes sameAs array with social profile URLs
-- [ ] **SCHEMA-04**: BreadcrumbList JSON-LD schema added to blog posts, service pages, and service area pages
+- [x] **SCHEMA-04**: BreadcrumbList JSON-LD schema added to blog posts, service pages, and service area pages
 - [x] **SCHEMA-05**: blogPostSchema includes dateModified field
-- [ ] **SCHEMA-06**: Duplicate LocalBusiness schema removed from blog, contact, service-areas, and notary-services pages (keep only global in layout.tsx)
+- [x] **SCHEMA-06**: Duplicate LocalBusiness schema removed from blog, contact, service-areas, and notary-services pages (keep only global in layout.tsx)
 
 ### Meta & OG Tags
 
@@ -87,9 +87,9 @@
 | SCHEMA-01 | Phase 2 | Complete |
 | SCHEMA-02 | Phase 2 | Complete |
 | SCHEMA-03 | Phase 2 | Complete |
-| SCHEMA-04 | Phase 2 | Pending |
+| SCHEMA-04 | Phase 2 | Complete |
 | SCHEMA-05 | Phase 2 | Complete |
-| SCHEMA-06 | Phase 2 | Pending |
+| SCHEMA-06 | Phase 2 | Complete |
 | META-01 | Phase 3 | Pending |
 | META-02 | Phase 3 | Pending |
 | META-03 | Phase 3 | Pending |
