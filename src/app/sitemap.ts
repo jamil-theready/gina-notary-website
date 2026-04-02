@@ -10,6 +10,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const blogPosts = getAllBlogPosts();
   const services = getAllServices();
 
+  // Noindex pages (/thank-you/, /notary-resources/) are intentionally excluded.
+  // next-sitemap has been removed; this is the sole sitemap source.
   const staticPages: MetadataRoute.Sitemap = [
     {
       url: `${BASE_URL}/`,
