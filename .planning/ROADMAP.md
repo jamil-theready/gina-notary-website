@@ -34,7 +34,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 2 plans
 
 Plans:
-- [ ] 01-01-PLAN.md — Create branded not-found.tsx page (CRIT-01)
+- [x] 01-01-PLAN.md — Create branded not-found.tsx page (CRIT-01)
 - [ ] 01-02-PLAN.md — Remove next-sitemap, audit sitemap.ts for noindex exclusions (CRIT-02, CRIT-03)
 
 ### Phase 2: Schema & Structured Data
@@ -117,7 +117,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Critical Infrastructure | 0/2 | Not started | - |
+| 1. Critical Infrastructure | 1/2 | In Progress|  |
 | 2. Schema & Structured Data | 0/TBD | Not started | - |
 | 3. Meta Descriptions | 0/TBD | Not started | - |
 | 4. OG Tags, Twitter Cards & Titles | 0/TBD | Not started | - |
