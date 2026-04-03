@@ -1,29 +1,19 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useState } from "react";
 import { useRouter } from "next/navigation";
-import HCaptcha from "@hcaptcha/react-hcaptcha";
 
 export default function ContactForm() {
   const [sending, setSending] = useState(false);
-  const [hcaptchaToken, setHcaptchaToken] = useState("");
-  const hcaptchaRef = useRef<HCaptcha>(null);
   const router = useRouter();
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-
-    if (!hcaptchaToken) {
-      alert("Please complete the captcha verification.");
-      return;
-    }
-
     setSending(true);
 
     const form = e.target as HTMLFormElement;
     const formData = new FormData(form);
     formData.append("access_key", "5e8e1438-0329-46cf-8df5-31ef556220bf");
-    formData.append("h-captcha-response", hcaptchaToken);
 
     try {
       const res = await fetch("https://api.web3forms.com/submit", {
@@ -128,14 +118,6 @@ export default function ContactForm() {
             placeholder="Tell us about your notary needs, preferred date/time, and location."
           />
         </div>
-
-        <HCaptcha
-          sitekey="50b2fe65-b00b-4b9e-ad62-3ba471098be2"
-          reCaptchaCompat={false}
-          onVerify={(token) => setHcaptchaToken(token)}
-          onExpire={() => setHcaptchaToken("")}
-          ref={hcaptchaRef}
-        />
 
         <button
           type="submit"
