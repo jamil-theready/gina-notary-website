@@ -438,7 +438,7 @@ export default function HomePage() {
                   width={546}
                   height={728}
                   priority
-                  className="relative w-96 sm:w-[28rem] lg:w-[36rem] object-cover z-10"
+                  className="relative w-[26rem] sm:w-[30rem] lg:w-[40rem] object-cover z-10"
                 />
 
                 {/* Mobile badge */}
@@ -479,7 +479,10 @@ export default function HomePage() {
       </section>
 
       {/* ─── LOGO CAROUSEL ─── */}
-      <section className="pt-24 pb-20 md:pt-32 md:pb-28 bg-brand-gray-50 overflow-hidden">
+      {/* Spacer */}
+      <div className="h-16 md:h-24 bg-white" />
+
+      <section className="py-16 md:py-20 bg-brand-gray-50 overflow-hidden">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-center text-brand-gray-600 font-medium text-base mb-6">
             Teaming up with the best companies in Sacramento
