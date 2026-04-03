@@ -388,31 +388,23 @@ export default function HomePage() {
 
       {/* ─── 1. HERO ─── */}
       <section className="relative overflow-hidden bg-white">
-        {/* Silk flow background */}
+        {/* Animated gold wave background */}
         <div
           className="absolute inset-0"
           style={{
-            background: "radial-gradient(ellipse at 20% 50%, rgba(196,163,68,0.25) 0%, transparent 50%), radial-gradient(ellipse at 80% 20%, rgba(196,163,68,0.2) 0%, transparent 50%), radial-gradient(ellipse at 40% 80%, rgba(196,163,68,0.22) 0%, transparent 50%), radial-gradient(ellipse at 70% 60%, rgba(196,163,68,0.18) 0%, transparent 50%)",
-            backgroundSize: "200% 200%",
-            animation: "silk-flow 20s ease-in-out infinite",
+            backgroundImage: "url(/images/hero-bg-gold.jpg)",
+            backgroundSize: "150% 150%",
+            backgroundPosition: "30% 40%",
+            animation: "hero-bg-drift 25s ease-in-out infinite",
           }}
         />
-        {/* Floating particles */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="hero-particle w-2 h-2" style={{ left: "10%", animationDuration: "28s", animationDelay: "-5s" }} />
-          <div className="hero-particle w-3 h-3" style={{ left: "25%", animationDuration: "32s", animationDelay: "-12s" }} />
-          <div className="hero-particle w-2.5 h-2.5" style={{ left: "40%", animationDuration: "26s", animationDelay: "-18s" }} />
-          <div className="hero-particle w-4 h-4" style={{ left: "55%", animationDuration: "35s", animationDelay: "-8s" }} />
-          <div className="hero-particle w-2 h-2" style={{ left: "70%", animationDuration: "30s", animationDelay: "-22s" }} />
-          <div className="hero-particle w-3 h-3" style={{ left: "85%", animationDuration: "27s", animationDelay: "-15s" }} />
-          <div className="hero-particle w-2.5 h-2.5" style={{ left: "15%", animationDuration: "33s", animationDelay: "-25s" }} />
-          <div className="hero-particle w-3 h-3" style={{ left: "60%", animationDuration: "29s", animationDelay: "-3s" }} />
-          <div className="hero-particle w-2 h-2" style={{ left: "90%", animationDuration: "31s", animationDelay: "-20s" }} />
-          <div className="hero-particle w-3.5 h-3.5" style={{ left: "35%", animationDuration: "34s", animationDelay: "-10s" }} />
-        </div>
-        {/* Animated gradient orbs */}
-        <div className="absolute top-20 left-10 w-72 h-72 bg-brand-gold/5 rounded-full blur-3xl animate-float" />
-        <div className="absolute bottom-20 right-10 w-96 h-96 bg-brand-gold/3 rounded-full blur-3xl animate-float-delayed" />
+        {/* White overlay to keep text readable on left side */}
+        <div
+          className="absolute inset-0"
+          style={{
+            background: "linear-gradient(to right, rgba(255,255,255,0.92) 0%, rgba(255,255,255,0.75) 40%, rgba(255,255,255,0.2) 70%, rgba(255,255,255,0) 100%)",
+          }}
+        />
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 sm:pt-10 lg:pt-12 pb-0">
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.2fr] gap-12 lg:gap-8 items-center">
             {/* Text */}

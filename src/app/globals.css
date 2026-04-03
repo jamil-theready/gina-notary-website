@@ -168,37 +168,13 @@ html {
   animation: sonar 2s ease-out infinite;
 }
 
-/* Silk flow background animation */
-@keyframes silk-flow {
-  0%   { background-position: 0% 50%; }
-  25%  { background-position: 50% 100%; }
-  50%  { background-position: 100% 50%; }
-  75%  { background-position: 50% 0%; }
-  100% { background-position: 0% 50%; }
-}
-
-.animate-silk {
-  background: radial-gradient(ellipse at 20% 50%, rgba(196, 163, 68, 0.25) 0%, transparent 50%),
-              radial-gradient(ellipse at 80% 20%, rgba(196, 163, 68, 0.2) 0%, transparent 50%),
-              radial-gradient(ellipse at 40% 80%, rgba(196, 163, 68, 0.22) 0%, transparent 50%),
-              radial-gradient(ellipse at 70% 60%, rgba(196, 163, 68, 0.18) 0%, transparent 50%);
-  background-size: 200% 200%;
-  animation: silk-flow 20s ease-in-out infinite;
-}
-
-@keyframes float-particle {
-  0%   { transform: translateY(100%) scale(0.6); opacity: 0; }
-  10%  { opacity: 0.6; }
-  90%  { opacity: 0.6; }
-  100% { transform: translateY(-100px) scale(1.2); opacity: 0; }
-}
-
-.hero-particle {
-  position: absolute;
-  background: rgba(196, 163, 68, 0.5);
-  border-radius: 50%;
-  pointer-events: none;
-  animation: float-particle linear infinite;
+/* Hero background drift animation */
+@keyframes hero-bg-drift {
+  0%   { background-position: 30% 40%; transform: scale(1.05); }
+  25%  { background-position: 70% 60%; transform: scale(1.02); }
+  50%  { background-position: 40% 30%; transform: scale(1.06); }
+  75%  { background-position: 60% 70%; transform: scale(1.03); }
+  100% { background-position: 30% 40%; transform: scale(1.05); }
 }
 
 /* Hero floating gradient orbs */
