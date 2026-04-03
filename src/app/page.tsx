@@ -389,7 +389,14 @@ export default function HomePage() {
       {/* ─── 1. HERO ─── */}
       <section className="relative overflow-hidden bg-white">
         {/* Silk flow background */}
-        <div className="absolute inset-0 animate-silk" />
+        <div
+          className="absolute inset-0"
+          style={{
+            background: "radial-gradient(ellipse at 20% 50%, rgba(196,163,68,0.25) 0%, transparent 50%), radial-gradient(ellipse at 80% 20%, rgba(196,163,68,0.2) 0%, transparent 50%), radial-gradient(ellipse at 40% 80%, rgba(196,163,68,0.22) 0%, transparent 50%), radial-gradient(ellipse at 70% 60%, rgba(196,163,68,0.18) 0%, transparent 50%)",
+            backgroundSize: "200% 200%",
+            animation: "silk-flow 20s ease-in-out infinite",
+          }}
+        />
         {/* Floating particles */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="hero-particle w-2 h-2" style={{ left: "10%", animationDuration: "28s", animationDelay: "-5s" }} />
@@ -603,8 +610,8 @@ export default function HomePage() {
       {/* ─── 4. CREDENTIALS (Stacking Scroll Cards) ─── */}
       <section className="relative" style={{ background: "linear-gradient(180deg, #ffffff 0%, #fdfaf0 40%, #faf5e4 100%)" }}>
         <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 md:pt-24">
-          <div className="sticky top-[60px] z-40 text-center pb-8 pt-6">
-            <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[200vw]" style={{ top: "-60px", background: "linear-gradient(to bottom, #fdfaf0 0%, #fdfaf0 30%, rgba(253,250,240,0.95) 70%, transparent 100%)" }} />
+          <div className="sticky top-[100px] z-40 text-center pb-8 pt-6">
+            <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[200vw]" style={{ top: "-100px", background: "linear-gradient(to bottom, #fdfaf0 0%, #fdfaf0 30%, rgba(253,250,240,0.95) 70%, transparent 100%)" }} />
             <div className="relative">
               <Badge>CREDENTIALS</Badge>
             </div>
