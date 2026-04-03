@@ -5,6 +5,7 @@ import ContactForm from "@/components/ContactForm";
 import { Timeline } from "@/components/ui/timeline";
 import { CredentialScrollCards } from "@/components/ui/scroll-cards";
 import CTASection from "@/components/CTASection";
+import HeroBackground from "@/components/HeroBackground";
 import FAQSection from "@/components/FAQSection";
 import { faqSchema } from "@/lib/schema";
 
@@ -388,23 +389,7 @@ export default function HomePage() {
 
       {/* ─── 1. HERO ─── */}
       <section className="relative overflow-hidden bg-white">
-        {/* Animated gold wave background */}
-        <div
-          className="absolute inset-0"
-          style={{
-            backgroundImage: "url(/images/hero-bg-gold.jpg)",
-            backgroundSize: "150% 150%",
-            backgroundPosition: "30% 40%",
-            animation: "hero-bg-drift 25s ease-in-out infinite",
-          }}
-        />
-        {/* White overlay to keep text readable on left side */}
-        <div
-          className="absolute inset-0"
-          style={{
-            background: "linear-gradient(to right, rgba(255,255,255,0.92) 0%, rgba(255,255,255,0.75) 40%, rgba(255,255,255,0.2) 70%, rgba(255,255,255,0) 100%)",
-          }}
-        />
+        <HeroBackground />
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 sm:pt-10 lg:pt-12 pb-0">
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.2fr] gap-12 lg:gap-8 items-center">
             {/* Text */}
