@@ -391,8 +391,8 @@ export default function HomePage() {
         {/* Animated gradient orbs */}
         <div className="absolute top-20 left-10 w-72 h-72 bg-brand-gold/5 rounded-full blur-3xl animate-float" />
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-brand-gold/3 rounded-full blur-3xl animate-float-delayed" />
-        <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 sm:pt-10 lg:pt-12 pb-0">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
+        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 sm:pt-10 lg:pt-12 pb-0">
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.2fr] gap-12 lg:gap-8 items-center">
             {/* Text */}
             <div>
               <h1 className="font-sans text-4xl sm:text-5xl lg:text-[3.25rem] font-semibold text-brand-black leading-[1.1] mb-6">
@@ -438,7 +438,7 @@ export default function HomePage() {
                   width={546}
                   height={728}
                   priority
-                  className="relative w-96 sm:w-[26rem] lg:w-[34rem] object-cover z-10"
+                  className="relative w-96 sm:w-[28rem] lg:w-[36rem] object-cover z-10"
                 />
 
                 {/* Mobile badge */}
@@ -479,7 +479,7 @@ export default function HomePage() {
       </section>
 
       {/* ─── LOGO CAROUSEL ─── */}
-      <section className="py-20 md:py-28 bg-brand-gray-50 overflow-hidden">
+      <section className="pt-24 pb-20 md:pt-32 md:pb-28 bg-brand-gray-50 overflow-hidden">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-center text-brand-gray-600 font-medium text-base mb-6">
             Teaming up with the best companies in Sacramento
