@@ -8,9 +8,9 @@ const serviceGroups = [
   {
     category: "Legal & Personal",
     links: [
-      { name: "Power of Attorney", href: "/notary-services/legal-personal/" },
-      { name: "Prenuptial Agreements", href: "/notary-services/legal-personal/" },
-      { name: "Name Changes", href: "/notary-services/legal-personal/" },
+      { name: "Power of Attorney", href: "/notary-services/power-of-attorney-notary-sacramento/" },
+      { name: "Prenuptial Agreements", href: "/notary-services/prenuptial-agreement-notary-sacramento/" },
+      { name: "Name Changes", href: "/notary-services/name-change-notary-sacramento/" },
       { name: "Spanish Notary", href: "/notary-services/spanish-notary-sacramento/" },
       { name: "Mobile Notary", href: "/notary-services/mobile-notary-sacramento/" },
     ],
@@ -19,9 +19,9 @@ const serviceGroups = [
     category: "Real Estate & Court",
     links: [
       { name: "Real Estate Notary", href: "/notary-services/real-estate-notary-sacramento/" },
-      { name: "Loan Signing", href: "/notary-services/real-estate-notary-sacramento/" },
+      { name: "Loan Signing", href: "/notary-services/loan-signing-agent-sacramento/" },
       { name: "Court Documents", href: "/notary-services/court-legal-proceedings/" },
-      { name: "Restraining Orders", href: "/notary-services/court-legal-proceedings/" },
+      { name: "Restraining Orders", href: "/notary-services/restraining-order-notary-sacramento/" },
     ],
   },
   {
@@ -29,7 +29,7 @@ const serviceGroups = [
     links: [
       { name: "Wedding Officiant", href: "/notary-services/wedding-officiant-services-in-sacramento-ca/" },
       { name: "Apostille Services", href: "/notary-services/apostille-services-in-sacramento-ca/" },
-      { name: "DMV Documents", href: "/notary-services/business-misc-documents/" },
+      { name: "DMV Documents", href: "/notary-services/dmv-document-notary-sacramento/" },
       { name: "Translation Services", href: "/notary-services/certified-english-spanish-translation-services-in-sacramento-ca/" },
     ],
   },
