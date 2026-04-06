@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.ginagonzaleznotary.com/sitemap.xml
+Sitemap: https://ginagonzaleznotary.com/sitemap.xml

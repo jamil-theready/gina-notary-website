@@ -38,6 +38,9 @@ export interface BlogFrontmatter {
   keyTakeaways?: string[];
   faqTitle?: string;
   faq?: { question: string; answer: string }[];
+  howToTitle?: string;
+  howToDescription?: string;
+  howToSteps?: { name: string; text: string }[];
 }
 
 function getContentFiles(subdir: string): string[] {

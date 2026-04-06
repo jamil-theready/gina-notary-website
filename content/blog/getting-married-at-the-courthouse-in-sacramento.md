@@ -14,6 +14,19 @@ featured: false
 draft: false
 quickAnswer: "Getting married at the Sacramento County Courthouse involves obtaining a marriage license, scheduling a civil ceremony, and having an officiant perform the ceremony. Gina Gonzalez is a certified wedding officiant who offers a more personal alternative."
 keyTakeaways: ["Sacramento County Clerk issues marriage licenses at 600 8th Street", "Both parties must appear in person with valid photo ID", "The license fee is approximately $90 and is valid for 90 days", "Civil ceremonies at the courthouse are brief and limited in personalization", "A private officiant like Gina offers bilingual ceremonies at any location"]
+howToTitle: "How to Get Married at the Sacramento Courthouse"
+howToDescription: "Step-by-step guide to getting a courthouse wedding in Sacramento, California."
+howToSteps:
+  - name: "Get your marriage license"
+    text: "Visit the Sacramento County Clerk at 600 8th Street. Both parties must appear in person with valid photo ID. The license fee is approximately $90."
+  - name: "Schedule your ceremony"
+    text: "Book a civil ceremony at the courthouse or hire a private officiant like Gina Gonzalez for a personalized ceremony at any location."
+  - name: "Bring a witness"
+    text: "California requires at least one witness over 18 to sign the marriage license. Have your witness ready for the ceremony day."
+  - name: "Complete the ceremony"
+    text: "Your officiant performs the ceremony and signs the marriage license. California has no waiting period so you can marry the same day you get your license."
+  - name: "File your marriage certificate"
+    text: "The officiant files the signed license with the county. You receive your certified marriage certificate by mail within a few weeks."
 faq: [{"question": "How much does it cost to get married at Sacramento courthouse?", "answer": "The marriage license fee is approximately $90. A civil ceremony at the courthouse has an additional fee. A private officiant may offer more flexibility at a comparable cost."}, {"question": "Do I need witnesses to get married in Sacramento?", "answer": "Yes, California requires at least one witness over the age of 18 to sign the marriage license."}, {"question": "Can I get married the same day I get my license?", "answer": "Yes, California has no waiting period. You can obtain your license and have the ceremony performed the same day."}]
 ---
 

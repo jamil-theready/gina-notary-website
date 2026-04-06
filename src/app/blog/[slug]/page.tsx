@@ -6,7 +6,7 @@ import {
   markdownToHtml,
   extractHeadings,
 } from "@/lib/content";
-import { blogPostSchema, faqSchema, breadcrumbSchema } from "@/lib/schema";
+import { blogPostSchema, faqSchema, breadcrumbSchema, howToSchema } from "@/lib/schema";
 import ShareButtons from "@/components/ShareButtons";
 import FAQAccordion from "@/components/FAQAccordion";
 import TableOfContents from "@/components/TableOfContents";
@@ -121,6 +121,20 @@ export default async function BlogPostPage({
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(faqSchema(post.faq)),
+          }}
+        />
+      )}
+      {post.howToSteps && post.howToSteps.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(
+              howToSchema(
+                post.howToTitle || post.title,
+                post.howToDescription || post.metaDescription,
+                post.howToSteps
+              )
+            ),
           }}
         />
       )}

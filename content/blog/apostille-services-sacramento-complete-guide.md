@@ -19,6 +19,17 @@ keyTakeaways:
   - "The California Secretary of State charges $20 per document for apostille certification"
   - "In-person processing is same-day; mail processing takes 5 to 10 business days"
   - "A bilingual notary handles the full process for Spanish-speaking clients"
+howToTitle: "How to Get an Apostille in Sacramento"
+howToDescription: "Step-by-step process to get an apostille on your documents in Sacramento, California."
+howToSteps:
+  - name: "Get your document notarized"
+    text: "Have your document notarized by a California notary public. The notary verifies your identity and witnesses your signature. Fee is $15 per signature."
+  - name: "Prepare your submission"
+    text: "Gather the notarized document, a completed cover letter, and payment of $20 per document for the Secretary of State."
+  - name: "Submit to the California Secretary of State"
+    text: "Submit your documents in person at the Sacramento Secretary of State office for same-day processing, or mail them for 5 to 10 business day turnaround."
+  - name: "Receive your apostilled document"
+    text: "The Secretary of State attaches the apostille certificate to your document. It is now valid for use in any Hague Convention member country."
 faqTitle: "Apostille FAQs"
 faq:
   - question: "How much does an apostille cost in Sacramento?"

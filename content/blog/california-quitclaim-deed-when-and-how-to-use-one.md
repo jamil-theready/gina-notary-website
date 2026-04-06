@@ -14,6 +14,17 @@ featured: false
 draft: false
 quickAnswer: "A quitclaim deed in California transfers whatever property interest the grantor has without any warranties. It is commonly used for transfers between family members, divorcing spouses, or into trusts and must be notarized."
 keyTakeaways: ["Quitclaim deeds transfer interest without guaranteeing clear title", "Common uses include divorce transfers, gifts, and trust transfers", "The deed must be notarized and recorded with the county recorder", "Recording fees in Sacramento County are typically $15 for the first page", "A mobile notary can come to you to notarize the deed at your convenience"]
+howToTitle: "How to File a Quitclaim Deed in California"
+howToDescription: "Step-by-step process to prepare and file a quitclaim deed in California."
+howToSteps:
+  - name: "Prepare the quitclaim deed form"
+    text: "Fill out a California quitclaim deed form with the grantor and grantee names, property legal description, and assessor parcel number."
+  - name: "Get the deed notarized"
+    text: "The grantor must sign the deed in front of a California notary public. The notary verifies identity and witnesses the signature. Fee is $15 per signature."
+  - name: "Record with the county recorder"
+    text: "File the notarized deed at the county recorder office where the property is located. Recording fees start at $15 for the first page."
+  - name: "File a Preliminary Change of Ownership Report"
+    text: "Submit a PCOR form with the county assessor. This is required for all property transfers in California and may affect property tax reassessment."
 faq: [{"question": "How much does it cost to file a quitclaim deed in California?", "answer": "Recording fees vary by county but typically start at $15 for the first page plus additional per-page fees. Notarization is $15 per signature."}, {"question": "Does a quitclaim deed need to be notarized?", "answer": "Yes. California requires all deeds to be notarized before recording with the county recorder office."}, {"question": "Can a quitclaim deed be reversed?", "answer": "A quitclaim deed cannot simply be reversed. The new owner would need to voluntarily transfer the property back through a new deed."}]
 ---
 

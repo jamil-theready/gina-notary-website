@@ -60,6 +60,8 @@ export function localBusinessSchema() {
       "https://www.tiktok.com/@ginagonzaleznotary",
     ],
     knowsLanguage: ["en", "es"],
+    aggregateRating: aggregateRatingSchema(),
+    review: reviewSchema(),
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       name: "Notary Services",
@@ -169,6 +171,59 @@ export function blogPostSchema(
       name: "Gina Gonzalez Notary",
       url: "https://ginagonzaleznotary.com",
     },
+  };
+}
+
+export function aggregateRatingSchema() {
+  return {
+    "@type": "AggregateRating",
+    ratingValue: "5.0",
+    bestRating: "5",
+    worstRating: "1",
+    ratingCount: "47",
+    reviewCount: "47",
+  };
+}
+
+export function reviewSchema() {
+  return [
+    {
+      "@type": "Review",
+      author: { "@type": "Person", name: "Edgar A." },
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      reviewBody: "Gina helped make this process very easy. We would've done it sooner if we knew how easy it would be.",
+    },
+    {
+      "@type": "Review",
+      author: { "@type": "Person", name: "Marcela D." },
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      reviewBody: "Gina is a wonderful Realtor, I am very happy with her expertise, I would definitely refer her to my family and friends.",
+    },
+    {
+      "@type": "Review",
+      author: { "@type": "Person", name: "Ana B." },
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      reviewBody: "Gina was my realtor, she sold my house and represented me in a very professional manner. She made it as smooth as possible.",
+    },
+  ];
+}
+
+export function howToSchema(
+  name: string,
+  description: string,
+  steps: { name: string; text: string }[]
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    name,
+    description,
+    step: steps.map((step, index) => ({
+      "@type": "HowToStep",
+      position: index + 1,
+      name: step.name,
+      text: step.text,
+    })),
   };
 }
 
