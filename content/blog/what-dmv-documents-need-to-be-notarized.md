@@ -87,7 +87,7 @@ Do not sign any documents before meeting with your notary. All signatures must b
 
 ### All Parties Must Be Present
 
-If a document requires multiple signatures (like a title transfer), all signers must appear before the notary. California does not allow one person to sign for another without a properly notarized power of attorney.
+If a document requires multiple signatures (like a title transfer), all signers must appear before the notary. California does not allow one person to sign for another without a properly notarized power of attorney. If you need DMV documents notarized for use in another country, you may also need an [apostille](/blog/apostille-services-sacramento-complete-guide/) to certify the document for international recognition.
 
 ### Ask About Mobile Notary Service
 

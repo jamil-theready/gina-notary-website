@@ -75,7 +75,7 @@ While California does not legally require the MSA to be notarized for court fili
 
 **Strengthens enforceability.** If you ever need to enforce the terms in another state or country, a notarized agreement carries more weight.
 
-**Protects both parties.** The notary's independent verification that both people signed willingly and with proper identification protects everyone involved.
+**Protects both parties.** The notary's independent verification that both people signed willingly and with proper identification protects everyone involved. If either spouse signed a [prenuptial agreement](/blog/do-you-need-a-notary-for-a-prenup-in-california/) before the marriage, having the divorce settlement notarized provides a similar layer of protection.
 
 I notarize marital settlement agreements regularly for couples and attorneys throughout Sacramento, West Sacramento, Folsom, and the surrounding cities. It is one of the most important steps you can take to protect your interests during a divorce.
 

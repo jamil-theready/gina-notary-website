@@ -63,7 +63,7 @@ Both parties must provide a fair and reasonable disclosure of their property and
 
 ### No Unconscionable Terms
 
-A court can invalidate a prenup if its terms are grossly unfair to one party at the time of enforcement. This is another reason to work with an attorney on the document itself.
+A court can invalidate a prenup if its terms are grossly unfair to one party at the time of enforcement. This is another reason to work with an attorney on the document itself. If a prenup is later challenged during a [divorce proceeding](/blog/do-you-need-a-notary-for-divorce-papers-in-california/), the court will look closely at whether all of these requirements were met.
 
 ## When Couples in Sacramento Typically Get Prenups Notarized
 

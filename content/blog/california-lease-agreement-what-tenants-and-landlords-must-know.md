@@ -116,7 +116,7 @@ However, there are situations where notarization adds value:
 
 **Commercial leases.** Businesses in Sacramento, Folsom, Davis, and Woodland often notarize their lease agreements because commercial leases involve larger sums and longer terms. A notarized commercial lease is harder to dispute.
 
-**Lease assignments and transfers.** When a business sells and the new owner assumes the lease, notarization of the assignment document protects all parties.
+**Lease assignments and transfers.** When a business sells and the new owner assumes the lease, notarization of the assignment document protects all parties. If a property transfer is involved, the parties may also need a [grant deed or quitclaim deed](/blog/california-grant-deed-vs-quitclaim-deed-explained/) depending on the transaction.
 
 **Landlords with multiple properties.** Property managers in the Sacramento area who handle many units sometimes notarize key documents to create a clear paper trail and reduce the risk of disputes.
 

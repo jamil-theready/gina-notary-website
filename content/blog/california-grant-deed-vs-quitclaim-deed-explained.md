@@ -99,7 +99,7 @@ This is the most costly mistake I see. Buyers who accept a quitclaim deed in a p
 
 ### Ignoring the Mortgage
 
-A quitclaim deed transfers ownership interest, but it does not affect the mortgage. If you quitclaim your interest in a property but your name is still on the mortgage, you are still responsible for that loan. Similarly, adding someone to the title does not add them to the mortgage.
+A quitclaim deed transfers ownership interest, but it does not affect the mortgage. This is especially important for landlords transferring rental properties, as a deed change can also impact [lease agreements](/blog/california-lease-agreement-what-tenants-and-landlords-must-know/) with existing tenants. If you quitclaim your interest in a property but your name is still on the mortgage, you are still responsible for that loan. Similarly, adding someone to the title does not add them to the mortgage.
 
 Most mortgages contain a "due on sale" clause that could be triggered by a deed transfer. Consult an attorney before transferring any property with an existing loan.
 

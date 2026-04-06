@@ -46,7 +46,7 @@ An apostille is an official certification that verifies the authenticity of a do
 
 The Hague Convention of 1961 established the apostille system so that member countries recognize each other's documents without going through lengthy embassy verification. Over 120 countries participate, including Mexico, Spain, France, Germany, and most of Latin America.
 
-Common documents that need apostilles include birth certificates, marriage certificates, divorce decrees, academic diplomas, power of attorney documents, and business incorporation papers. Many of these documents also require [notarization before the apostille can be issued](/notary-services/apostille-services-in-sacramento-ca/).
+Common documents that need apostilles include birth certificates, marriage certificates, divorce decrees, academic diplomas, power of attorney documents, and business incorporation papers. Even certain [DMV documents](/blog/what-dmv-documents-need-to-be-notarized/) may require an apostille if they are being used internationally. Many of these documents also require [notarization before the apostille can be issued](/notary-services/apostille-services-in-sacramento-ca/).
 
 ## Who Issues Apostilles in California?
 
