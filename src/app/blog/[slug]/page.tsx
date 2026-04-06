@@ -34,12 +34,12 @@ export async function generateMetadata({
     title: post.metaTitle ? { absolute: post.metaTitle } : post.title,
     description: post.metaDescription,
     alternates: {
-      canonical: `https://www.ginagonzaleznotary.com/blog/${slug}/`,
+      canonical: `https://ginagonzaleznotary.com/blog/${slug}/`,
     },
     openGraph: {
       title: post.metaTitle || post.title,
       description: post.metaDescription,
-      url: `https://www.ginagonzaleznotary.com/blog/${slug}/`,
+      url: `https://ginagonzaleznotary.com/blog/${slug}/`,
       type: "article",
       images: post.image ? [{ url: post.image, alt: post.imageAlt }] : [],
     },
@@ -75,7 +75,7 @@ export default async function BlogPostPage({
   const contentHtml = await markdownToHtml(post.content);
   const headings = extractHeadings(post.content);
   const readTime = calcReadTime(post.content);
-  const canonicalUrl = `https://www.ginagonzaleznotary.com/blog/${slug}/`;
+  const canonicalUrl = `https://ginagonzaleznotary.com/blog/${slug}/`;
 
   // Related: same category, exclude current, most recent
   const allPosts = getAllBlogPosts();
@@ -93,8 +93,8 @@ export default async function BlogPostPage({
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(
             breadcrumbSchema([
-              { name: "Home", url: "https://www.ginagonzaleznotary.com/" },
-              { name: "Blog", url: "https://www.ginagonzaleznotary.com/blog/" },
+              { name: "Home", url: "https://ginagonzaleznotary.com/" },
+              { name: "Blog", url: "https://ginagonzaleznotary.com/blog/" },
               { name: post.title, url: canonicalUrl },
             ])
           ),

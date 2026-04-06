@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Expert notary guides, tips, and resources from Gina Gonzalez Notary in Sacramento. Learn about notarization, legal documents, and more.",
   alternates: {
-    canonical: "https://www.ginagonzaleznotary.com/blog/",
+    canonical: "https://ginagonzaleznotary.com/blog/",
   },
 };
 

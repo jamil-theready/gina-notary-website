@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Former lawyer from Peru, now Sacramento's trusted mobile notary. 10+ years experience, 6,000+ documents, NNA certified, bilingual English/Spanish. Call (415) 948-9967.",
   alternates: {
-    canonical: "https://www.ginagonzaleznotary.com/about/",
+    canonical: "https://ginagonzaleznotary.com/about/",
   },
 };
 

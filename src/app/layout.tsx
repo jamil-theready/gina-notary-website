@@ -21,7 +21,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.ginagonzaleznotary.com"),
+  metadataBase: new URL("https://ginagonzaleznotary.com"),
   title: {
     default: "Sacramento Notary Public Services | Gina Gonzalez Notary",
     template: "%s | Gina Gonzalez Notary",
@@ -43,14 +43,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://www.ginagonzaleznotary.com",
+    url: "https://ginagonzaleznotary.com",
     siteName: "Gina Gonzalez Notary",
     title: "Sacramento Notary Public Services | Gina Gonzalez Notary",
     description:
       "Certified mobile notary public and bilingual wedding officiant serving Sacramento, CA. Same day appointments available. Call (415) 948-9967.",
     images: [
       {
-        url: "https://www.ginagonzaleznotary.com/images/og-image.png",
+        url: "https://ginagonzaleznotary.com/images/og-image.png",
         width: 1200,
         height: 630,
         alt: "Gina Gonzalez Notary - Sacramento Mobile Notary Public",
@@ -62,10 +62,10 @@ export const metadata: Metadata = {
     title: "Sacramento Notary Public Services | Gina Gonzalez Notary",
     description:
       "Certified mobile notary public and bilingual wedding officiant in Sacramento. Call (415) 948-9967.",
-    images: ["https://www.ginagonzaleznotary.com/images/og-image.png"],
+    images: ["https://ginagonzaleznotary.com/images/og-image.png"],
   },
   alternates: {
-    canonical: "https://www.ginagonzaleznotary.com",
+    canonical: "https://ginagonzaleznotary.com",
   },
   robots: {
     index: true,

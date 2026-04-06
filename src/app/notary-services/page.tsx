@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Mobile notary services in Sacramento. Legal documents, real estate, loan signings, apostille, wedding officiant, and more. Bilingual English/Spanish. Call (415) 948-9967.",
   alternates: {
-    canonical: "https://www.ginagonzaleznotary.com/notary-services/",
+    canonical: "https://ginagonzaleznotary.com/notary-services/",
   },
 };
 

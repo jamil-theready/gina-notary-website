@@ -5,9 +5,9 @@ export function localBusinessSchema() {
     name: "Gina Gonzalez Notary",
     description:
       "Certified mobile notary public and wedding officiant serving Sacramento, CA. Bilingual English/Spanish. NNA certified, insured. 10+ years experience, 6,000+ documents notarized.",
-    url: "https://www.ginagonzaleznotary.com",
+    url: "https://ginagonzaleznotary.com",
     telephone: "+14159489967",
-    image: "https://www.ginagonzaleznotary.com/images/gina-gonzalez-notary.jpg",
+    image: "https://ginagonzaleznotary.com/images/gina-gonzalez-notary.jpg",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Mobile Notary",
@@ -167,7 +167,7 @@ export function blogPostSchema(
     publisher: {
       "@type": "Organization",
       name: "Gina Gonzalez Notary",
-      url: "https://www.ginagonzaleznotary.com",
+      url: "https://ginagonzaleznotary.com",
     },
   };
 }

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Gina Gonzalez is a mobile notary serving Sacramento, Elk Grove, Roseville, Folsom, Rancho Cordova, Davis, and all surrounding communities in Sacramento, Placer, and Yolo counties.",
   alternates: {
-    canonical: "https://www.ginagonzaleznotary.com/service-areas/",
+    canonical: "https://ginagonzaleznotary.com/service-areas/",
   },
 };
 

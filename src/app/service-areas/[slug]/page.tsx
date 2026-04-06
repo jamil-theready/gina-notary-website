@@ -23,7 +23,7 @@ export async function generateMetadata({
     title: area.metaTitle ? { absolute: area.metaTitle } : `Mobile Notary in ${area.name}, CA`,
     description: area.metaDescription,
     alternates: {
-      canonical: `https://www.ginagonzaleznotary.com/service-areas/${slug}/`,
+      canonical: `https://ginagonzaleznotary.com/service-areas/${slug}/`,
     },
   };
 }
@@ -56,9 +56,9 @@ export default async function ServiceAreaPage({
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(
             breadcrumbSchema([
-              { name: "Home", url: "https://www.ginagonzaleznotary.com/" },
-              { name: "Service Areas", url: "https://www.ginagonzaleznotary.com/service-areas/" },
-              { name: area.name, url: `https://www.ginagonzaleznotary.com/service-areas/${slug}/` },
+              { name: "Home", url: "https://ginagonzaleznotary.com/" },
+              { name: "Service Areas", url: "https://ginagonzaleznotary.com/service-areas/" },
+              { name: area.name, url: `https://ginagonzaleznotary.com/service-areas/${slug}/` },
             ])
           ),
         }}

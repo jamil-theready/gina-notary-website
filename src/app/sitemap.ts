@@ -4,7 +4,7 @@ import { MetadataRoute } from "next";
 import { getAllBlogPosts, getAllServices } from "@/lib/content";
 import { serviceAreas } from "@/data/service-areas";
 
-const BASE_URL = "https://www.ginagonzaleznotary.com";
+const BASE_URL = "https://ginagonzaleznotary.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const blogPosts = getAllBlogPosts();

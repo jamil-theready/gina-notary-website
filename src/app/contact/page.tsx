@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   description:
     "Schedule a mobile notary appointment in Sacramento. Call (415) 948-9967 or book online. Same day service available. Bilingual English/Spanish.",
   alternates: {
-    canonical: "https://www.ginagonzaleznotary.com/contact/",
+    canonical: "https://ginagonzaleznotary.com/contact/",
   },
 };
 

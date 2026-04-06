@@ -25,12 +25,12 @@ export async function generateMetadata({
     title: service.metaTitle ? { absolute: service.metaTitle } : service.title,
     description: service.metaDescription,
     alternates: {
-      canonical: `https://www.ginagonzaleznotary.com/notary-services/${slug}/`,
+      canonical: `https://ginagonzaleznotary.com/notary-services/${slug}/`,
     },
     openGraph: {
       title: service.metaTitle || service.title,
       description: service.metaDescription,
-      url: `https://www.ginagonzaleznotary.com/notary-services/${slug}/`,
+      url: `https://ginagonzaleznotary.com/notary-services/${slug}/`,
       images: service.image ? [{ url: service.image, alt: service.imageAlt }] : [],
     },
   };
@@ -66,9 +66,9 @@ export default async function ServicePage({
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(
             breadcrumbSchema([
-              { name: "Home", url: "https://www.ginagonzaleznotary.com/" },
-              { name: "Services", url: "https://www.ginagonzaleznotary.com/notary-services/" },
-              { name: service.shortTitle || service.title, url: `https://www.ginagonzaleznotary.com/notary-services/${slug}/` },
+              { name: "Home", url: "https://ginagonzaleznotary.com/" },
+              { name: "Services", url: "https://ginagonzaleznotary.com/notary-services/" },
+              { name: service.shortTitle || service.title, url: `https://ginagonzaleznotary.com/notary-services/${slug}/` },
             ])
           ),
         }}
@@ -80,7 +80,7 @@ export default async function ServicePage({
             serviceSchema(
               service.title,
               service.metaDescription,
-              `https://www.ginagonzaleznotary.com/notary-services/${slug}/`
+              `https://ginagonzaleznotary.com/notary-services/${slug}/`
             )
           ),
         }}
