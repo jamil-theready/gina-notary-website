@@ -80,12 +80,31 @@ export default function AboutPage() {
                 </h2>
                 <div className="space-y-4 text-brand-gray-600 leading-relaxed">
                   <p>
-                    Before becoming Sacramento&apos;s trusted mobile notary, I served as a lawyer and Legal Advisor for the Regional Government of Cusco, Peru. That legal background shapes everything I do. Every document gets reviewed with precision before I apply my seal.
+                    Before becoming Sacramento&apos;s trusted mobile notary, I served as a lawyer and Legal Advisor for the Regional Government of Cusco, Peru. I earned my law degree from Universidad Nacional de San Antonio Abad del Cusco and spent years handling legal documents, contracts, and government proceedings at the highest level.
                   </p>
                   <p>
-                    I came to the United States from Peru in 2003 with a law degree and a determination to build something meaningful. Over the last decade, I have notarized more than 6,000 documents for families, businesses, and individuals across Sacramento County.
+                    I came to the United States from Peru in 2003 with a law degree and a determination to build something meaningful. That legal background shapes everything I do. Every document gets reviewed with precision before I apply my seal. Over the last decade, I have notarized more than 6,000 documents for families, businesses, and individuals across Sacramento County.
                   </p>
                 </div>
+              </div>
+
+              {/* Timeline */}
+              <div className="border-l-2 border-brand-gold/30 pl-6 space-y-6">
+                {[
+                  { year: "Peru", title: "Law Degree & Legal Career", desc: "Earned law degree from UNSAAC. Served as Legal Advisor for the Regional Government of Cusco, handling contracts, litigation, and government proceedings." },
+                  { year: "2003", title: "Moved to the United States", desc: "Immigrated to California with a legal background and a commitment to serving the community." },
+                  { year: "2014", title: "Became a Certified Notary Public", desc: "Earned California notary commission and NNA certification. Started serving Sacramento County as a mobile notary." },
+                  { year: "2018", title: "Licensed Real Estate Agent", desc: "Obtained California real estate license to better serve clients with property transactions, loan signings, and title transfers." },
+                  { year: "2020", title: "Founded Perfecto Homes", desc: "Launched Perfecto Homes Real Estate, a bilingual brokerage serving Sacramento, Elk Grove, Roseville, Folsom, and El Dorado Hills." },
+                  { year: "2024", title: "6,000+ Documents Notarized", desc: "Reached milestone of over 6,000 notarized documents. Expanded services to include wedding officiant, apostille, and translation services." },
+                ].map((item) => (
+                  <div key={item.year} className="relative">
+                    <div className="absolute -left-[31px] top-1 w-4 h-4 rounded-full bg-brand-gold" />
+                    <p className="text-brand-gold font-bold text-sm tracking-wider uppercase">{item.year}</p>
+                    <h3 className="font-sans font-bold text-brand-black mt-1">{item.title}</h3>
+                    <p className="text-brand-gray-600 text-sm mt-1 leading-relaxed">{item.desc}</p>
+                  </div>
+                ))}
               </div>
 
               <div>
@@ -102,21 +121,61 @@ export default function AboutPage() {
                 </div>
               </div>
 
+              {/* By the Numbers */}
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                {[
+                  { stat: "6,000+", label: "Documents Notarized" },
+                  { stat: "10+", label: "Years Experience" },
+                  { stat: "14", label: "Cities Served" },
+                  { stat: "2", label: "Languages" },
+                ].map((item) => (
+                  <div key={item.label} className="text-center bg-brand-gray-50 rounded-xl p-4">
+                    <p className="text-2xl sm:text-3xl font-bold text-brand-gold">{item.stat}</p>
+                    <p className="text-brand-gray-600 text-xs mt-1 uppercase tracking-wider">{item.label}</p>
+                  </div>
+                ))}
+              </div>
+
               <div>
                 <h2 className="font-sans text-2xl font-bold text-brand-black mb-4">
                   More Than a Notary
                 </h2>
                 <div className="space-y-4 text-brand-gray-600 leading-relaxed">
                   <p>
-                    I also lead the Perfecto Homes real estate team, which gives me unique insight into real estate transactions, loan signings, and property transfers. And as a certified wedding officiant, I perform bilingual ceremonies in English and Spanish throughout the Sacramento area.
+                    I also lead the <a href="https://www.perfectohomesrealestate.com" target="_blank" rel="noopener noreferrer" className="text-brand-gold hover:underline font-semibold">Perfecto Homes</a> real estate team, a bilingual brokerage serving the greater Sacramento area. My team helps families buy and sell homes in Sacramento, Elk Grove, Roseville, Folsom, El Dorado Hills, and surrounding communities. This gives me unique insight into real estate transactions, loan signings, and property transfers that most notaries simply do not have.
                   </p>
+                  <p>
+                    As a certified wedding officiant, I perform bilingual ceremonies in English and Spanish throughout the Sacramento area. From courthouse marriages to garden weddings, I make the process simple and meaningful.
+                  </p>
+                </div>
+              </div>
+
+              {/* Services Overview */}
+              <div>
+                <h2 className="font-sans text-2xl font-bold text-brand-black mb-4">
+                  What I Can Help You With
+                </h2>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {[
+                    { title: "Loan Signings & Refinances", desc: "Real estate closings, refinance packages, reverse mortgages" },
+                    { title: "Legal Documents", desc: "Power of attorney, affidavits, declarations, court filings" },
+                    { title: "Estate Planning", desc: "Wills, trusts, advance healthcare directives" },
+                    { title: "Real Estate Transfers", desc: "Grant deeds, quitclaim deeds, title transfers" },
+                    { title: "Wedding Officiant", desc: "Bilingual ceremonies in English and Spanish" },
+                    { title: "Apostille & Translation", desc: "Document authentication and certified translations" },
+                  ].map((svc) => (
+                    <div key={svc.title} className="bg-brand-gray-50 rounded-xl p-4">
+                      <h3 className="font-sans font-bold text-brand-black text-sm">{svc.title}</h3>
+                      <p className="text-brand-gray-600 text-xs mt-1 leading-relaxed">{svc.desc}</p>
+                    </div>
+                  ))}
                 </div>
               </div>
 
               {/* Credentials */}
               <div className="bg-brand-gray-50 rounded-2xl p-8">
                 <div className="flex items-center gap-4 mb-4">
-                  <h3 className="font-sans text-lg font-bold text-brand-black">Credentials</h3>
+                  <h3 className="font-sans text-lg font-bold text-brand-black">Credentials & Certifications</h3>
                   <Image
                     src="/images/NNA.jpg"
                     alt="National Notary Association certified member badge"
@@ -128,12 +187,16 @@ export default function AboutPage() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   {[
                     "NNA Certified Notary Public",
-                    "California Commissioned",
-                    "Insured and Bonded",
+                    "California Commissioned Notary",
+                    "Errors & Omissions Insured",
+                    "Surety Bonded ($15,000)",
                     "Bilingual: English & Spanish",
-                    "Former Lawyer (Peru)",
+                    "Law Degree (UNSAAC, Peru)",
+                    "Former Government Legal Advisor",
+                    "California Real Estate License",
                     "Certified Wedding Officiant",
-                    "Licensed Real Estate Agent",
+                    "NNA Loan Signing Agent",
+                    "Background Checked & Verified",
                     "10+ Years of Experience",
                   ].map((cred) => (
                     <div key={cred} className="flex items-center gap-2">
@@ -142,6 +205,32 @@ export default function AboutPage() {
                       </svg>
                       <span className="text-brand-gray-600 text-sm">{cred}</span>
                     </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Areas Served */}
+              <div>
+                <h2 className="font-sans text-2xl font-bold text-brand-black mb-4">
+                  Areas I Serve
+                </h2>
+                <p className="text-brand-gray-600 leading-relaxed mb-4">
+                  I travel to you. As a mobile notary, I serve 14 cities across the greater Sacramento area, available 7 days a week from 7 AM to 9 PM.
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {[
+                    "Sacramento", "West Sacramento", "Elk Grove", "Roseville",
+                    "Folsom", "Rancho Cordova", "Citrus Heights", "Davis",
+                    "Woodland", "Lincoln", "Auburn", "Carmichael",
+                    "Fair Oaks", "Orangevale",
+                  ].map((city) => (
+                    <Link
+                      key={city}
+                      href={`/service-areas/${city.toLowerCase().replace(/\s+/g, "-")}/`}
+                      className="text-sm bg-brand-gray-50 hover:bg-brand-gold/10 text-brand-gray-600 hover:text-brand-black px-3 py-1.5 rounded-full transition-colors"
+                    >
+                      {city}
+                    </Link>
                   ))}
                 </div>
               </div>
