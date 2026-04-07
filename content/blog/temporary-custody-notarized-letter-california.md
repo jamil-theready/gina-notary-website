@@ -1,7 +1,7 @@
 ---
-title: "Temporary Custody Notarized Letter in California: What Parents Need to Know"
+title: "Temporary Custody Notarized Letter in California"
 metaTitle: "Temporary Custody Notarized Letter California: Complete Guide (2026)"
-metaDescription: "Learn how to create a temporary custody notarized letter in California. Sacramento notary Gina Gonzalez explains requirements, what to include, and when you need one. Call (415) 948-9967."
+metaDescription: "How to create a temporary custody notarized letter in California. Sacramento notary Gina Gonzalez explains requirements. Call (415) 948-9967."
 slug: "temporary-custody-notarized-letter-california"
 date: "2026-04-06"
 image: "/images/blog/trusted-cleaning.jpg"
@@ -12,7 +12,7 @@ tags: ["temporary custody", "California", "notary", "legal documents", "family l
 language: "en"
 featured: false
 draft: false
-quickAnswer: "A temporary custody notarized letter is a signed document that gives a designated person legal authority to make decisions for your child while you are away. In California, notarizing this letter verifies the parent's identity and signature, making it far more likely to be accepted by schools, hospitals, and authorities."
+quickAnswer: "A temporary custody notarized letter gives a designated person legal authority to make decisions for your child while you are away. Notarizing it verifies the parent's identity, making it accepted by schools, hospitals, and authorities."
 keyTakeaways:
   - "A temporary custody letter authorizes someone to care for and make decisions about your child"
   - "Schools, hospitals, airlines, and border agents may require a notarized version"
@@ -89,7 +89,7 @@ A temporary custody letter should be specific. Vague language creates problems. 
 
 **Caregiver information.** Full legal name, address, phone number, and relationship to the child.
 
-**Dates.** The exact start and end dates of the temporary custody arrangement.
+**Dates.** The exact start and end dates of the temporary custody arrangement. If you are [traveling internationally](/blog/apostille-services-sacramento-complete-guide/), some countries may also require apostilled documents.
 
 **Authority granted.** A clear statement of what the caregiver is authorized to do. This might include making medical decisions, enrolling the child in school, consenting to field trips, or traveling with the child.
 

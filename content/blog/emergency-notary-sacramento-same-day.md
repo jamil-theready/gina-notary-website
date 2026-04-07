@@ -1,5 +1,5 @@
 ---
-title: "Emergency Notary Near Me in Sacramento: Same Day Service When You Need It Most"
+title: "Emergency Notary in Sacramento: Same Day Service"
 metaTitle: "Emergency Notary Near Me Sacramento | Same Day Mobile Notary (2026)"
 metaDescription: "Need an emergency notary near me in Sacramento? Gina Gonzalez offers same day mobile notary service 7 days a week, 7AM to 9PM. Call (415) 948-9967 now."
 slug: "emergency-notary-sacramento-same-day"

@@ -96,7 +96,7 @@ Both types are equally valid. Your marriage is just as legal either way. The onl
 
 This is one of the best things about getting married in California. There is zero waiting period. The moment your license is issued, you can have your ceremony performed. Same day weddings are completely legal.
 
-Many states require a one to three day waiting period between getting the license and having the ceremony. California does not. If you and your partner are ready, nothing is stopping you.
+Many states require a one to three day waiting period between getting the license and having the ceremony. California does not. If you and your partner are ready, nothing is stopping you. Couples who want to be extra prepared may also consider getting a [prenuptial agreement notarized](/blog/do-you-need-a-notary-for-a-prenup-in-california/) before the wedding date.
 
 ## How Long Is the License Valid?
 
