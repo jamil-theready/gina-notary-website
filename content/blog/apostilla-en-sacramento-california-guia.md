@@ -70,7 +70,7 @@ Obtener una apostilla en Sacramento no es complicado, pero hay que seguir el ord
 
 Primero, lleve su documento a un notario publico certificado de California. El notario verifica su identidad con una identificacion valida y es testigo de su firma. El costo por ley es de $15 por firma notarizada.
 
-Si necesita una copia certificada de un documento original, el notario tambien puede ayudarle con eso.
+Si necesita una copia certificada de un documento original, el notario tambien puede ayudarle con eso. Gina ofrece [servicios de notaria movil en Sacramento](/notary-services/mobile-notary-sacramento/) y puede ir a su ubicacion para completar la notarizacion.
 
 ### 2. Prepare su solicitud
 

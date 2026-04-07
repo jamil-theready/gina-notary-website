@@ -1,7 +1,7 @@
 ---
 title: "Restraining Orders in Sacramento: What You Need to Know"
 metaTitle: "Restraining Order Sacramento CA: Complete Guide (2026)"
-metaDescription: "Everything you need to know about restraining orders in Sacramento. Notary Gina Gonzalez explains the process, forms, and how to get documents notarized. Call (415) 948-9967."
+metaDescription: "Restraining orders in Sacramento: the process, forms, and notarization. Notary Gina Gonzalez explains. Call (415) 948-9967."
 slug: "restraining-order-notary-sacramento-guide"
 date: "2026-04-06"
 image: "/images/blog/professional-cleaners.jpg"
@@ -12,7 +12,7 @@ tags: ["restraining order", "Sacramento", "court documents", "notary", "legal"]
 language: "en"
 featured: false
 draft: false
-quickAnswer: "In Sacramento, you can file for a restraining order at the Sacramento County Superior Court. The process involves filling out court forms, filing them with the clerk, and attending a hearing. A notary can help with declarations and supporting documents that need to be signed under penalty of perjury."
+quickAnswer: "File for a restraining order at the Sacramento County Superior Court. The process involves court forms, filing with the clerk, and a hearing. A notary can help with declarations that need to be signed under penalty of perjury."
 keyTakeaways:
   - "Sacramento County Superior Court handles all restraining order filings"
   - "California offers four types of restraining orders: domestic violence, civil harassment, elder abuse, and workplace violence"
@@ -61,7 +61,7 @@ This applies to situations involving neighbors, roommates, coworkers, or strange
 
 ### Elder or Dependent Adult Abuse Restraining Order
 
-Designed to protect people 65 and older or dependent adults from physical abuse, neglect, financial exploitation, or abandonment. The form is EA-100. A family member, conservator, or the elder person themselves can file.
+Designed to protect people 65 and older or dependent adults from physical abuse, neglect, financial exploitation, or abandonment. The form is EA-100. A family member, conservator, or someone with [power of attorney](/blog/power-of-attorney-notary-sacramento-guide/) can file on their behalf.
 
 ### Workplace Violence Restraining Order
 

@@ -85,6 +85,16 @@ The apostille makes your document legally recognized in any Hague Convention cou
 
 **Business documents:** Articles of incorporation, certificates of good standing, commercial invoices
 
+## Countries That Accept Apostilles
+
+Over 120 countries are members of the Hague Apostille Convention. If your destination country is on the list, an apostille is all you need. No embassy visit required.
+
+Some of the most common destinations for Sacramento clients include Mexico, Peru, Colombia, Spain, France, Germany, Italy, the United Kingdom, Australia, Japan, South Korea, and India.
+
+If your destination country is NOT a member of the Hague Convention, you will need embassy or consulate legalization instead. This is a different process that typically takes longer and costs more. Countries that require legalization include Canada, China, and several Middle Eastern nations.
+
+Not sure which process your country requires? Call me at (415) 948-9967 and I will help you figure it out before you spend any money.
+
 ## Why Work With a Bilingual Notary for Apostilles
 
 Navigating the apostille process in a second language adds unnecessary stress. As a [bilingual notary serving Sacramento's Spanish-speaking community](/notary-services/spanish-notary-sacramento/), I help clients understand every step in English or Spanish.

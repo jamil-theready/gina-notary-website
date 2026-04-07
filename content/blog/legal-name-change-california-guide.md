@@ -1,7 +1,7 @@
 ---
 title: "Legal Name Change in California: What You Need to Know"
 metaTitle: "Legal Name Change in California: Complete Guide (2026)"
-metaDescription: "How to legally change your name in California. Sacramento notary Gina Gonzalez explains the process, forms, and notarization requirements. Call (415) 948-9967."
+metaDescription: "How to legally change your name in California. Sacramento notary Gina Gonzalez explains the process and requirements. Call (415) 948-9967."
 slug: "legal-name-change-california-guide"
 date: "2026-04-06"
 image: "/images/blog/trusted-cleaning.jpg"
