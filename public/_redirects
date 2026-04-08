@@ -13,6 +13,21 @@
 /notary-services/grant-deeds-form-in-sacramento /notary-services/real-estate-notary-sacramento/ 301
 /notary-services/petitions /notary-services/court-legal-proceedings/ 301
 /notary-services/dmv-documents /notary-services/dmv-document-notary-sacramento/ 301
+/notary-services/lease-agreements /notary-services/legal-personal/ 301
+/notary-services/affidavits /notary-services/legal-personal/ 301
+/notary-services/wills-and-trusts /notary-services/legal-personal/ 301
+/notary-services/medical-documents /notary-services/legal-personal/ 301
+/notary-services/immigration-documents /notary-services/legal-personal/ 301
+/notary-services/real-estate-documents /notary-services/real-estate-notary-sacramento/ 301
+/notary-services/guardianship /notary-services/court-legal-proceedings/ 301
+/notary-services/child-custody /notary-services/court-legal-proceedings/ 301
+/notary-services/divorce-papers /notary-services/court-legal-proceedings/ 301
+/notary-services/vehicle-registration /notary-services/dmv-document-notary-sacramento/ 301
+/notary-services/title-transfers /notary-services/real-estate-notary-sacramento/ 301
+/notary-services/deeds /notary-services/real-estate-notary-sacramento/ 301
+/notary-services/trust-documents /notary-services/legal-personal/ 301
+/notary-services/living-will /notary-services/legal-personal/ 301
+/notary-services/healthcare-directive /notary-services/legal-personal/ 301
 
 # Old /notary-resources/ blog posts → specific blog matches
 /notary-resources/power-of-attorney-california /blog/power-of-attorney-notary-sacramento-guide/ 301
