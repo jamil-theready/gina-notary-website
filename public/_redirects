@@ -1,2 +1,25 @@
+# Old /notary-services/ slugs → new service pages
+/notary-services/prenuptial-agreements /notary-services/prenuptial-agreement-notary-sacramento/ 301
+/notary-services/demand-letters /notary-services/legal-personal/ 301
+/notary-services/loan-signing-services /notary-services/loan-signing-agent-sacramento/ 301
+/notary-services/name-changes-or-corrections /notary-services/name-change-notary-sacramento/ 301
+/notary-services/promissory-notes /notary-services/business-misc-documents/ 301
+/notary-services/authorization-to-travel-with-a-minor /notary-services/legal-personal/ 301
+/notary-services/power-of-attorney-sacramento /notary-services/power-of-attorney-notary-sacramento/ 301
+/notary-services/quitclaim-deeds-in-sacramento /notary-services/real-estate-notary-sacramento/ 301
+/notary-services/mechanics-liens /notary-services/court-legal-proceedings/ 301
+/notary-services/certified-marriage-officiant-in-citrus-heights /notary-services/wedding-officiant-services-in-sacramento-ca/ 301
+/notary-services/restraining-orders /notary-services/restraining-order-notary-sacramento/ 301
+/notary-services/grant-deeds-form-in-sacramento /notary-services/real-estate-notary-sacramento/ 301
+/notary-services/petitions /notary-services/court-legal-proceedings/ 301
+/notary-services/dmv-documents /notary-services/dmv-document-notary-sacramento/ 301
+
+# Old /notary-resources/ blog posts → specific blog matches
+/notary-resources/power-of-attorney-california /blog/power-of-attorney-notary-sacramento-guide/ 301
+/notary-resources/how-to-get-an-apostille-in-sacramento /blog/apostille-services-sacramento-complete-guide/ 301
+/notary-resources/how-to-choose-the-perfect-wedding-officiant-for-your-big-day /blog/wedding-officiant-elk-grove-ca/ 301
+/notary-resources/traveling-with-a-minor-consent /blog/temporary-custody-notarized-letter-california/ 301
+
+# Remaining /notary-resources/ → blog index (no direct match)
 /notary-resources /blog/ 301
 /notary-resources/* /blog/ 301
