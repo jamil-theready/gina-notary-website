@@ -4,7 +4,7 @@ metaTitle: "Temporary Custody Notarized Letter California: Complete Guide (2026)
 metaDescription: "How to create a temporary custody notarized letter in California. Sacramento notary Gina Gonzalez explains requirements. Call (415) 948-9967."
 slug: "temporary-custody-notarized-letter-california"
 date: "2026-04-06"
-image: "/images/blog/trusted-cleaning.jpg"
+image: "/images/blog/grant-deed.jpg"
 imageAlt: "Sacramento notary helping parent with temporary custody letter at signing appointment"
 serviceType: "Legal & Personal"
 author: "Gina Gonzalez"
