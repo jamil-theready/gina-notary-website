@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import {
   getAllBlogPosts,
   getBlogPostBySlug,
@@ -172,6 +173,18 @@ export default async function BlogPostPage({
           <h1 className="font-sans text-3xl sm:text-4xl lg:text-5xl font-bold text-brand-black leading-tight">
             {post.title}
           </h1>
+          {post.image && (
+            <div className="mt-8 rounded-2xl overflow-hidden shadow-md">
+              <Image
+                src={post.image}
+                alt={post.imageAlt || post.title}
+                width={1200}
+                height={630}
+                className="w-full h-auto object-cover"
+                priority
+              />
+            </div>
+          )}
         </div>
       </section>
 
