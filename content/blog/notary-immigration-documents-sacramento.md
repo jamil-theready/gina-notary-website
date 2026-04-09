@@ -1,11 +1,10 @@
-```yaml
 ---
 title: "Notary for Immigration Documents Sacramento: Essential Guide (2026)"
 metaTitle: "Notary for Immigration Documents Sacramento (2026)"
 metaDescription: "Need a notary for immigration documents in Sacramento? Gina Gonzalez Notary provides fast, bilingual mobile notarization. Call (415) 948-9967."
-slug: "notary immigration documents sacramento"
+slug: "notary-immigration-documents-sacramento"
 date: "2026-04-09"
-image: "/images/blog/notary immigration documents sacramento-featured.jpg"
+image: "/images/blog/notary-immigration-documents-sacramento-featured.jpg"
 imageAlt: "Gina Gonzalez assisting a client with immigration documents in Sacramento"
 serviceType: "Legal & Personal"
 author: "Gina Gonzalez"
