@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { getAllServices } from "@/lib/content";
 import ServiceCard from "@/components/ServiceCard";
+import FAQ from "@/components/FAQ";
+import { faqSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Notary Services in Sacramento, CA",
@@ -59,9 +61,40 @@ const mainServices = [
   },
 ];
 
+const serviceFaqs = [
+  {
+    question: "How much does a mobile notary cost in Sacramento?",
+    answer: "California law sets the maximum notary fee at $15 per signature. Mobile notary services may include a travel fee depending on your location. Gina serves Sacramento, Elk Grove, Roseville, Folsom, and surrounding areas.",
+  },
+  {
+    question: "What documents can a notary notarize?",
+    answer: "A California notary can notarize almost any document that requires a signature, including power of attorney, real estate deeds, loan documents, affidavits, court filings, prenuptial agreements, DMV forms, immigration documents, and medical directives.",
+  },
+  {
+    question: "Do I need to go to a notary office?",
+    answer: "No. As a mobile notary, Gina travels to your home, office, hospital, or any location in the Sacramento area. Mobile notary service is especially helpful for clients with mobility issues, tight schedules, or documents that need to be signed at a specific location.",
+  },
+  {
+    question: "Can a notary notarize documents in Spanish?",
+    answer: "Gina is fully bilingual in English and Spanish. She can explain the notarization process in Spanish and also provides certified English-Spanish translation services for documents that need to be used in another country.",
+  },
+  {
+    question: "How fast can I get a document notarized?",
+    answer: "Same-day appointments are available seven days a week, from 7:00 AM to 9:00 PM. In urgent situations, Gina can often accommodate same-day requests within a few hours. Call (415) 948-9967 to check availability.",
+  },
+  {
+    question: "Does California allow remote online notarization?",
+    answer: "No. As of 2026, California requires all notarizations to be performed in person. The signer must physically appear before the notary. Remote online notarization (RON) is legal in some other states but not yet in California.",
+  },
+];
+
 export default function ServicesPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(serviceFaqs)) }}
+      />
       <section className="bg-brand-gray-50 py-16 sm:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-brand-gold font-sans font-semibold text-sm tracking-wider uppercase mb-3">
@@ -122,6 +155,25 @@ export default function ServicesPage() {
           })()}
         </div>
       </section>
+
+      <section className="bg-brand-gray-50 py-16 sm:py-20">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="font-sans text-2xl sm:text-3xl font-bold text-brand-black mb-6">
+            What Does a Notary Public Do?
+          </h2>
+          <p className="text-brand-gray-600 text-lg mb-4">
+            A notary public is a state-commissioned official who verifies the identity of document signers and witnesses signatures. In California, notaries are authorized by the Secretary of State to perform notarial acts including acknowledgments, jurats, oaths, and copy certifications. The maximum fee per signature is $15, set by California Government Code Section 8211.
+          </p>
+          <p className="text-brand-gray-600 text-lg mb-4">
+            Gina Gonzalez is a certified mobile notary serving Sacramento and 14 surrounding cities. She travels to your home, office, hospital, or any convenient location. With over 10 years of experience and 6,000+ documents notarized, she handles everything from real estate closings and loan signings to court documents and wedding ceremonies. Bilingual service is available in English and Spanish.
+          </p>
+          <p className="text-brand-gray-600 text-lg">
+            Same-day and evening appointments are available seven days a week. Call <a href="tel:+14159489967" className="text-brand-gold font-semibold hover:text-brand-gold-dark">(415) 948-9967</a> to schedule.
+          </p>
+        </div>
+      </section>
+
+      <FAQ title="Notary Services FAQ" faqs={serviceFaqs} />
     </>
   );
 }
