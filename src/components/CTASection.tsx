@@ -8,7 +8,7 @@ export default function CTASection() {
           Ready to Get Started?
           <br />
           Let&apos;s Make It{" "}
-          <span className="text-brand-gold-dark">Official</span>
+          <span className="text-brand-gold-text">Official</span>
         </h2>
         <p className="text-brand-gray-600 mb-8 max-w-md mx-auto">
           Book your mobile notary appointment today. Same day service available throughout Sacramento.

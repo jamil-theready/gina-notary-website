@@ -32,13 +32,13 @@ export default function ServiceCard({ title, description, href, icon, image, ima
           {icon}
         </div>
       )}
-      <h3 className="font-sans text-lg font-bold text-brand-black mb-2 group-hover:text-brand-gold-dark transition-colors">
+      <h3 className="font-sans text-lg font-bold text-brand-black mb-2 group-hover:text-brand-gold-text transition-colors">
         {title}
       </h3>
       <p className="text-brand-gray-600 text-sm leading-relaxed">
         {description}
       </p>
-      <span className="inline-flex items-center gap-1 text-brand-gold-dark font-semibold text-sm mt-4 group-hover:gap-2 transition-all">
+      <span className="inline-flex items-center gap-1 text-brand-gold-text font-semibold text-sm mt-4 group-hover:gap-2 transition-all">
         Learn more
         <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
           <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />

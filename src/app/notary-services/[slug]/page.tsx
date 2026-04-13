@@ -49,7 +49,7 @@ export default async function ServicePage({
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
           <h1 className="font-sans text-4xl font-bold text-brand-black mb-4">Service Not Found</h1>
-          <Link href="/notary-services/" className="text-brand-gold-dark font-semibold">
+          <Link href="/notary-services/" className="text-brand-gold-text font-semibold">
             View all services
           </Link>
         </div>
@@ -98,9 +98,9 @@ export default async function ServicePage({
       <section className="bg-brand-gray-50 py-12 sm:py-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <nav className="flex items-center gap-2 text-sm text-brand-gray-400 mb-6">
-            <Link href="/" className="hover:text-brand-gold transition-colors">Home</Link>
+            <Link href="/" className="hover:text-brand-gold-text transition-colors">Home</Link>
             <span>/</span>
-            <Link href="/notary-services/" className="hover:text-brand-gold transition-colors">Services</Link>
+            <Link href="/notary-services/" className="hover:text-brand-gold-text transition-colors">Services</Link>
             <span>/</span>
             <span className="text-brand-gray-600">{service.shortTitle || service.title}</span>
           </nav>

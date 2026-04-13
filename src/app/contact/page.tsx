@@ -67,7 +67,7 @@ export default function ContactPage() {
                     </svg>
                   </div>
                   <div>
-                    <div className="font-bold text-brand-black group-hover:text-brand-gold-dark transition-colors">
+                    <div className="font-bold text-brand-black group-hover:text-brand-gold-text transition-colors">
                       (415) 948-9967
                     </div>
                     <div className="text-brand-gray-600 text-sm">Call or text anytime</div>
@@ -124,7 +124,7 @@ export default function ContactPage() {
             <h2 className="font-sans font-bold text-brand-black text-lg">Service Areas</h2>
             <Link
               href="/service-areas/"
-              className="text-sm font-semibold text-brand-gold-dark hover:text-brand-black transition-colors"
+              className="text-sm font-semibold text-brand-gold-text hover:text-brand-black transition-colors"
             >
               View all areas →
             </Link>
@@ -134,7 +134,7 @@ export default function ContactPage() {
               <Link
                 key={area.slug}
                 href={`/service-areas/${area.slug}/`}
-                className="text-sm font-medium text-brand-gold-dark bg-brand-white shadow-sm shadow-black/[0.04] hover:shadow-md hover:bg-brand-gold/5 px-3.5 py-1.5 rounded-full transition-all"
+                className="text-sm font-medium text-brand-gold-text bg-brand-white shadow-sm shadow-black/[0.04] hover:shadow-md hover:bg-brand-gold/5 px-3.5 py-1.5 rounded-full transition-all"
               >
                 {area.name}
               </Link>

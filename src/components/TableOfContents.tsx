@@ -45,7 +45,7 @@ export default function TableOfContents({ headings, relatedPost }: TableOfConten
                 <li key={h.id}>
                   <a
                     href={`#${h.id}`}
-                    className="text-[13px] text-brand-gray-600 hover:text-brand-gold-dark hover:underline transition-colors leading-snug block"
+                    className="text-[13px] text-brand-gray-600 hover:text-brand-gold-text hover:underline transition-colors leading-snug block"
                   >
                     {h.text}
                   </a>
@@ -76,11 +76,11 @@ export default function TableOfContents({ headings, relatedPost }: TableOfConten
               )}
               <div className="p-3">
                 {relatedPost.serviceType && (
-                  <span className="text-[10px] font-bold text-brand-gold-dark uppercase tracking-wider">
+                  <span className="text-[10px] font-bold text-brand-gold-text uppercase tracking-wider">
                     {relatedPost.serviceType}
                   </span>
                 )}
-                <h4 className="font-sans font-bold text-brand-black text-[13px] leading-snug mt-0.5 group-hover:text-brand-gold-dark transition-colors">
+                <h4 className="font-sans font-bold text-brand-black text-[13px] leading-snug mt-0.5 group-hover:text-brand-gold-text transition-colors">
                   {relatedPost.title}
                 </h4>
                 <span className="text-[11px] text-brand-gray-400 mt-1 block">

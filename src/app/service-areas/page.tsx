@@ -59,13 +59,13 @@ export default function ServiceAreasPage() {
                     className="group flex items-center justify-between p-5 bg-brand-white rounded-2xl shadow-md shadow-black/[0.04] hover:shadow-lg hover:shadow-black/[0.08] transition-all"
                   >
                     <div>
-                      <h3 className="font-sans font-bold text-brand-black group-hover:text-brand-gold-dark transition-colors">
+                      <h3 className="font-sans font-bold text-brand-black group-hover:text-brand-gold-text transition-colors">
                         {area.name}
                       </h3>
                       <p className="text-brand-gray-400 text-xs mt-0.5">Mobile notary available</p>
                     </div>
                     <svg
-                      className="w-4 h-4 text-brand-gray-400 group-hover:text-brand-gold-dark group-hover:translate-x-1 transition-all shrink-0"
+                      className="w-4 h-4 text-brand-gray-400 group-hover:text-brand-gold-text group-hover:translate-x-1 transition-all shrink-0"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"

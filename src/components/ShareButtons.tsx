@@ -140,7 +140,7 @@ export default function ShareButtons({ url, title }: ShareButtonsProps) {
             </svg>
           )}
         </button>
-        {copied && <span className="text-xs text-brand-gold-dark font-medium">Copied!</span>}
+        {copied && <span className="text-xs text-brand-gold-text font-medium">Copied!</span>}
       </div>
     </>
   );

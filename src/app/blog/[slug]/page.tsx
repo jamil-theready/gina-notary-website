@@ -65,7 +65,7 @@ export default async function BlogPostPage({
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
           <h1 className="font-sans text-4xl font-bold text-brand-black mb-4">Article Not Found</h1>
-          <Link href="/blog/" className="text-brand-gold-dark font-semibold">
+          <Link href="/blog/" className="text-brand-gold-text font-semibold">
             View all posts
           </Link>
         </div>
@@ -144,9 +144,9 @@ export default async function BlogPostPage({
       <section className="bg-brand-gray-50 py-12 sm:py-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <nav className="flex items-center gap-2 text-sm text-brand-gray-400 mb-6">
-            <Link href="/" className="hover:text-brand-gold transition-colors">Home</Link>
+            <Link href="/" className="hover:text-brand-gold-text transition-colors">Home</Link>
             <span>/</span>
-            <Link href="/blog/" className="hover:text-brand-gold transition-colors">Blog</Link>
+            <Link href="/blog/" className="hover:text-brand-gold-text transition-colors">Blog</Link>
             <span>/</span>
             <span className="text-brand-gray-600 truncate">{post.title}</span>
           </nav>
@@ -211,7 +211,7 @@ export default async function BlogPostPage({
             {/* Quick Answer */}
             {post.quickAnswer && (
               <div className="mb-6 p-5 rounded-2xl border-l-4 border-brand-gold bg-brand-gold/5">
-                <p className="text-xs font-bold uppercase tracking-wider text-brand-gold-dark mb-1">Quick Answer</p>
+                <p className="text-xs font-bold uppercase tracking-wider text-brand-gold-text mb-1">Quick Answer</p>
                 <p className="text-brand-black font-medium leading-relaxed text-[15px]">{post.quickAnswer}</p>
               </div>
             )}
@@ -242,7 +242,7 @@ export default async function BlogPostPage({
                     <li key={h.id}>
                       <a
                         href={`#${h.id}`}
-                        className="text-sm text-brand-gold-dark hover:text-brand-black hover:underline transition-colors"
+                        className="text-sm text-brand-gold-text hover:text-brand-black hover:underline transition-colors"
                       >
                         {h.text}
                       </a>
@@ -287,11 +287,11 @@ export default async function BlogPostPage({
                   )}
                   <div className="flex-1 min-w-0">
                     {relatedPost.serviceType && (
-                      <span className="text-xs font-semibold text-brand-gold-dark">{relatedPost.serviceType}</span>
+                      <span className="text-xs font-semibold text-brand-gold-text">{relatedPost.serviceType}</span>
                     )}
-                    <h4 className="font-sans font-bold text-brand-black text-sm mt-0.5 group-hover:text-brand-gold-dark transition-colors line-clamp-2">
+                    <h3 className="font-sans font-bold text-brand-black text-sm mt-0.5 group-hover:text-brand-gold-text transition-colors line-clamp-2">
                       {relatedPost.title}
-                    </h4>
+                    </h3>
                   </div>
                 </Link>
               </div>
@@ -301,7 +301,7 @@ export default async function BlogPostPage({
             <div className="mt-8">
               <Link
                 href="/blog/"
-                className="inline-flex items-center gap-2 text-brand-gold-dark font-semibold hover:gap-3 transition-all"
+                className="inline-flex items-center gap-2 text-brand-gold-text font-semibold hover:gap-3 transition-all"
               >
                 <svg className="w-4 h-4 rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />

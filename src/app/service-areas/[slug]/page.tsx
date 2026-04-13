@@ -41,7 +41,7 @@ export default async function ServiceAreaPage({
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
           <h1 className="font-sans text-4xl font-bold text-brand-black mb-4">Page Not Found</h1>
-          <Link href="/service-areas/" className="text-brand-gold-dark font-semibold">
+          <Link href="/service-areas/" className="text-brand-gold-text font-semibold">
             View all service areas
           </Link>
         </div>
@@ -72,9 +72,9 @@ export default async function ServiceAreaPage({
       <section className="bg-brand-gray-50 py-12 sm:py-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <nav className="flex items-center gap-2 text-sm text-brand-gray-400 mb-6">
-            <Link href="/" className="hover:text-brand-gold transition-colors">Home</Link>
+            <Link href="/" className="hover:text-brand-gold-text transition-colors">Home</Link>
             <span>/</span>
-            <Link href="/service-areas/" className="hover:text-brand-gold transition-colors">Service Areas</Link>
+            <Link href="/service-areas/" className="hover:text-brand-gold-text transition-colors">Service Areas</Link>
             <span>/</span>
             <span className="text-brand-gray-600">{area.name}</span>
           </nav>
@@ -162,7 +162,7 @@ export default async function ServiceAreaPage({
                       className="flex items-center gap-3 p-3 rounded-xl bg-brand-white shadow-sm shadow-black/[0.04] hover:shadow-md hover:shadow-black/[0.06] transition-all group"
                     >
                       <span className="w-2 h-2 rounded-full bg-brand-gold shrink-0" />
-                      <span className="text-sm font-medium text-brand-black group-hover:text-brand-gold-dark transition-colors">
+                      <span className="text-sm font-medium text-brand-black group-hover:text-brand-gold-text transition-colors">
                         {svc.label}
                       </span>
                     </Link>
@@ -228,7 +228,7 @@ export default async function ServiceAreaPage({
                       <Link
                         key={a.slug}
                         href={`/service-areas/${a.slug}/`}
-                        className="text-xs font-medium text-brand-gold-dark hover:text-brand-black transition-colors"
+                        className="text-xs font-medium text-brand-gold-text hover:text-brand-black transition-colors"
                       >
                         {a.name}
                       </Link>

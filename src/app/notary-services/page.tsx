@@ -109,7 +109,7 @@ export default function ServicesPage() {
           </p>
           <a
             href="tel:+14159489967"
-            className="inline-flex items-center gap-2 text-brand-gold font-semibold mt-4 hover:text-brand-gold-dark transition-colors"
+            className="inline-flex items-center gap-2 text-brand-gold font-semibold mt-4 hover:text-brand-gold-text transition-colors"
           >
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -168,7 +168,7 @@ export default function ServicesPage() {
             Gina Gonzalez is a certified mobile notary serving Sacramento and 14 surrounding cities. She travels to your home, office, hospital, or any convenient location. With over 10 years of experience and 6,000+ documents notarized, she handles everything from real estate closings and loan signings to court documents and wedding ceremonies. Bilingual service is available in English and Spanish.
           </p>
           <p className="text-brand-gray-600 text-lg">
-            Same-day and evening appointments are available seven days a week. Call <a href="tel:+14159489967" className="text-brand-gold font-semibold hover:text-brand-gold-dark">(415) 948-9967</a> to schedule.
+            Same-day and evening appointments are available seven days a week. Call <a href="tel:+14159489967" className="text-brand-gold font-semibold hover:text-brand-gold-text">(415) 948-9967</a> to schedule.
           </p>
         </div>
       </section>

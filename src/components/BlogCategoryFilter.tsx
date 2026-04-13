@@ -71,7 +71,7 @@ export default function BlogCategoryFilter({ posts }: BlogCategoryFilterProps) {
                 <div className="p-8 flex flex-col justify-center">
                   <div className="flex items-center gap-3 mb-4">
                     {featured.serviceType && (
-                      <span className="text-xs font-semibold text-brand-gold-dark bg-brand-gold/10 px-2.5 py-1 rounded-full">
+                      <span className="text-xs font-semibold text-brand-gold-text bg-brand-gold/10 px-2.5 py-1 rounded-full">
                         {featured.serviceType}
                       </span>
                     )}
@@ -85,11 +85,11 @@ export default function BlogCategoryFilter({ posts }: BlogCategoryFilterProps) {
                       </span>
                     )}
                   </div>
-                  <h2 className="font-sans text-2xl font-bold text-brand-black mb-3 group-hover:text-brand-gold-dark transition-colors">
+                  <h2 className="font-sans text-2xl font-bold text-brand-black mb-3 group-hover:text-brand-gold-text transition-colors">
                     {featured.title}
                   </h2>
                   <p className="text-brand-gray-600 text-sm mb-4">{featured.metaDescription}</p>
-                  <span className="text-brand-gold-dark font-semibold text-sm">Read more &rarr;</span>
+                  <span className="text-brand-gold-text font-semibold text-sm">Read more &rarr;</span>
                 </div>
               </div>
             </Link>
@@ -116,7 +116,7 @@ export default function BlogCategoryFilter({ posts }: BlogCategoryFilterProps) {
                   <div className="p-6">
                     <div className="flex items-center gap-3 mb-3">
                       {post.serviceType && (
-                        <span className="text-xs font-semibold text-brand-gold-dark bg-brand-gold/10 px-2.5 py-1 rounded-full">
+                        <span className="text-xs font-semibold text-brand-gold-text bg-brand-gold/10 px-2.5 py-1 rounded-full">
                           {post.serviceType}
                         </span>
                       )}
@@ -130,7 +130,7 @@ export default function BlogCategoryFilter({ posts }: BlogCategoryFilterProps) {
                         </span>
                       )}
                     </div>
-                    <h2 className="font-sans text-lg font-bold text-brand-black mb-2 group-hover:text-brand-gold-dark transition-colors">
+                    <h2 className="font-sans text-lg font-bold text-brand-black mb-2 group-hover:text-brand-gold-text transition-colors">
                       {post.title}
                     </h2>
                     <p className="text-brand-gray-600 text-sm line-clamp-3">{post.metaDescription}</p>

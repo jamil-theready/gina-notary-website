@@ -69,32 +69,32 @@ const services = [
 
 const serviceIcons: Record<string, React.ReactNode> = {
   document: (
-    <svg className="w-6 h-6 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+    <svg className="w-6 h-6 text-brand-gold-text" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
       <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
     </svg>
   ),
   scale: (
-    <svg className="w-6 h-6 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+    <svg className="w-6 h-6 text-brand-gold-text" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
       <path strokeLinecap="round" strokeLinejoin="round" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
     </svg>
   ),
   home: (
-    <svg className="w-6 h-6 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+    <svg className="w-6 h-6 text-brand-gold-text" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
       <path strokeLinecap="round" strokeLinejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
     </svg>
   ),
   heart: (
-    <svg className="w-6 h-6 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+    <svg className="w-6 h-6 text-brand-gold-text" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
       <path strokeLinecap="round" strokeLinejoin="round" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
     </svg>
   ),
   box: (
-    <svg className="w-6 h-6 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+    <svg className="w-6 h-6 text-brand-gold-text" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
       <path strokeLinecap="round" strokeLinejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
     </svg>
   ),
   globe: (
-    <svg className="w-6 h-6 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+    <svg className="w-6 h-6 text-brand-gold-text" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
       <path strokeLinecap="round" strokeLinejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
     </svg>
   ),
@@ -396,7 +396,7 @@ export default function HomePage() {
             <div>
               <h1 className="font-sans text-4xl sm:text-5xl lg:text-[3.25rem] font-semibold text-brand-black leading-[1.1] mb-6">
                 Your Trusted{" "}
-                <span className="text-brand-gold-dark whitespace-nowrap">Mobile Notary</span>
+                <span className="text-brand-gold-text whitespace-nowrap">Mobile Notary</span>
                 <br />
                 in Sacramento, CA
               </h1>
@@ -443,7 +443,7 @@ export default function HomePage() {
                 {/* Mobile badge */}
                 <div className="absolute top-12 -left-6 sm:-left-10 bg-white rounded-full px-4 py-2 shadow-md flex items-center gap-2 z-20 animate-badge-orbit-1">
                   <span className="w-8 h-8 bg-brand-gold/10 rounded-full flex items-center justify-center">
-                    <svg className="w-4 h-4 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-4 h-4 text-brand-gold-text" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
                     </svg>
                   </span>
@@ -453,7 +453,7 @@ export default function HomePage() {
                 {/* English & Spanish badge */}
                 <div className="absolute top-1/2 -right-4 sm:-right-10 bg-white rounded-full px-4 py-2.5 shadow-md flex items-center gap-2.5 z-20 animate-badge-orbit-2">
                   <span className="w-8 h-8 bg-brand-gold/10 rounded-full flex items-center justify-center">
-                    <svg className="w-4 h-4 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <svg className="w-4 h-4 text-brand-gold-text" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
                     </svg>
                   </span>
@@ -526,7 +526,7 @@ export default function HomePage() {
               <Badge>SERVICES</Badge>
               <h2 className="font-sans text-3xl sm:text-5xl font-semibold text-brand-black mt-4 max-w-xl">
                 Essential Sacramento{" "}
-                <span className="text-brand-gold-dark">Notary Services</span>
+                <span className="text-brand-gold-text">Notary Services</span>
               </h2>
             </div>
             <Link
@@ -550,7 +550,7 @@ export default function HomePage() {
                 <div className="w-12 h-12 rounded-xl bg-brand-gold/10 flex items-center justify-center mb-4">
                   {serviceIcons[s.icon]}
                 </div>
-                <h3 className="font-sans text-lg font-semibold text-brand-black mb-2 group-hover:text-brand-gold-dark transition-colors">
+                <h3 className="font-sans text-lg font-semibold text-brand-black mb-2 group-hover:text-brand-gold-text transition-colors">
                   {s.title}
                 </h3>
                 <p className="text-brand-gray-600 text-sm leading-relaxed mb-4 flex-1">
@@ -576,7 +576,7 @@ export default function HomePage() {
             <Badge>HOW IT WORKS</Badge>
             <h2 className="font-sans text-3xl sm:text-5xl font-semibold text-brand-black mt-4 max-w-xl mx-auto">
               A proven process to{" "}
-              <span className="text-brand-gold-dark">achieve your goals</span>
+              <span className="text-brand-gold-text">achieve your goals</span>
             </h2>
           </div>
 
@@ -594,7 +594,7 @@ export default function HomePage() {
             </div>
             <h2 className="relative font-sans text-3xl sm:text-5xl font-semibold text-brand-black mt-4 max-w-xl mx-auto">
               Why Gina is{" "}
-              <span className="text-brand-gold-dark">Qualified</span>
+              <span className="text-brand-gold-text">Qualified</span>
             </h2>
           </div>
           <CredentialScrollCards data={credentials} />
@@ -610,14 +610,14 @@ export default function HomePage() {
               <Badge>BENEFITS</Badge>
               <h2 className="font-sans text-3xl sm:text-5xl font-semibold text-brand-black mt-4 mb-10 max-w-lg">
                 Why choose Gina as your{" "}
-                <span className="text-brand-gold-dark">Notary</span> in Sacramento?
+                <span className="text-brand-gold-text">Notary</span> in Sacramento?
               </h2>
 
               <div className="space-y-8">
                 {benefits.map((b, i) => (
                   <div key={i} className="flex gap-4">
                     <span className="shrink-0 w-10 h-10 rounded-full bg-brand-gold/20 flex items-center justify-center mt-0.5">
-                      <svg className="w-6 h-6 text-brand-gold-dark" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <svg className="w-6 h-6 text-brand-gold-text" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                         <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                       </svg>
                     </span>
@@ -653,7 +653,7 @@ export default function HomePage() {
           <Badge>RESULTS</Badge>
           <h2 className="font-sans text-3xl sm:text-5xl font-semibold text-brand-black mt-4 mb-4 max-w-xl mx-auto">
             Trusted by Hundreds,{" "}
-            <span className="text-brand-gold-dark">Proven by Results</span>
+            <span className="text-brand-gold-text">Proven by Results</span>
           </h2>
           <p className="text-brand-gray-600 max-w-2xl mx-auto mb-14 leading-relaxed">
             These key metrics showcase Gina&apos;s dedication to accuracy, reliability,
@@ -698,7 +698,7 @@ export default function HomePage() {
           <Badge>TESTIMONIALS</Badge>
           <h2 className="font-sans text-3xl sm:text-5xl font-semibold text-brand-black mt-4 max-w-xl mx-auto">
             Trusted by Our{" "}
-            <span className="text-brand-gold-dark">Community</span>
+            <span className="text-brand-gold-text">Community</span>
           </h2>
         </div>
         <TestimonialMarquee />
@@ -741,7 +741,7 @@ export default function HomePage() {
             <Badge>CONTACT</Badge>
             <h2 className="font-sans text-3xl sm:text-5xl font-semibold text-brand-black mt-4 max-w-xl mx-auto">
               Get your documents{" "}
-              <span className="text-brand-gold-dark">notarized today</span>
+              <span className="text-brand-gold-text">notarized today</span>
             </h2>
           </div>
 
@@ -749,13 +749,13 @@ export default function HomePage() {
             <ContactForm />
 
             <div className="mt-8 pt-6 border-t border-brand-gray-100 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8">
-              <a href="tel:+14159489967" className="flex items-center gap-2 text-sm text-brand-gray-600 hover:text-brand-gold-dark transition-colors">
+              <a href="tel:+14159489967" className="flex items-center gap-2 text-sm text-brand-gray-600 hover:text-brand-gold-text transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
                 (415) 948-9967
               </a>
-              <a href="mailto:gina.gonzalez.realtor@gmail.com" className="flex items-center gap-2 text-sm text-brand-gray-600 hover:text-brand-gold-dark transition-colors">
+              <a href="mailto:gina.gonzalez.realtor@gmail.com" className="flex items-center gap-2 text-sm text-brand-gray-600 hover:text-brand-gold-text transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>

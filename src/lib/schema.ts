@@ -177,7 +177,23 @@ export function blogPostSchema(
     author: {
       "@type": "Person",
       name: "Gina Gonzalez",
-      jobTitle: "Certified Notary Public",
+      jobTitle: "Certified Notary Public & Loan Signing Agent",
+      description:
+        "NNA Certified mobile notary public in Sacramento, CA with 10+ years experience and 6,000+ documents notarized. Bilingual English/Spanish. Former attorney.",
+      url: "https://ginagonzaleznotary.com/about/",
+      sameAs: [
+        "https://www.instagram.com/ginagonzaleznotary/",
+        "https://www.facebook.com/ginagonzaleznotary/",
+        "https://www.google.com/maps/place/Gina+Gonzalez+Notary",
+      ],
+      knowsAbout: [
+        "Notary Public",
+        "Loan Signing",
+        "Real Estate Closings",
+        "Apostille Services",
+        "California Notary Law",
+      ],
+      knowsLanguage: ["en", "es"],
     },
     publisher: {
       "@type": "Organization",

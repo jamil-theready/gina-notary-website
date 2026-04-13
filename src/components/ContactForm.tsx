@@ -128,7 +128,7 @@ export default function ContactForm() {
         </button>
         <p className="text-sm text-brand-gray-400 text-center">
           Or call directly:{" "}
-          <a href="tel:+14159489967" className="text-brand-gold-dark font-medium">(415) 948-9967</a>
+          <a href="tel:+14159489967" className="text-brand-gold-text font-medium">(415) 948-9967</a>
         </p>
       </div>
     </form>

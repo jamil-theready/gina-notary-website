@@ -24,7 +24,7 @@ export default function AuthorBio() {
           <h3 className="font-sans text-lg font-bold text-brand-black">
             Gina Gonzalez
           </h3>
-          <p className="text-sm font-semibold text-brand-gold-dark mb-2">
+          <p className="text-sm font-semibold text-brand-gold-text mb-2">
             Certified Mobile Notary Public, Sacramento CA
           </p>
           <p className="text-sm text-brand-gray-600 leading-relaxed mb-3">
@@ -34,7 +34,7 @@ export default function AuthorBio() {
           </p>
           <Link
             href="/about/"
-            className="inline-flex items-center gap-1.5 text-sm font-semibold text-brand-gold-dark hover:text-brand-black transition-colors"
+            className="inline-flex items-center gap-1.5 text-sm font-semibold text-brand-gold-text hover:text-brand-black transition-colors"
           >
             Learn more about Gina
             <svg
