@@ -52,6 +52,5 @@ jobs:
           if [ -f "$REPORT" ]; then
             gh issue create \
               --title "SEO Auto-Fix Report — Week of ${WEEK}" \
-              --body-file "$REPORT" \
-              --label "seo-auto-fix"
+              --body-file "$REPORT"
           fi
