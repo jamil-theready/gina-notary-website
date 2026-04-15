@@ -1,0 +1,31 @@
+{
+  "client": "Gina Gonzalez Notary",
+  "business": {
+    "name": "Gina Gonzalez Notary",
+    "telephone": "+14159489967",
+    "siteUrl": "https://ginagonzaleznotary.com",
+    "image": "https://ginagonzaleznotary.com/images/gina-gonzalez-notary.jpg",
+    "serviceType": "Notary Public",
+    "schemaTypes": ["Notary", "LocalBusiness"],
+    "defaultDescription": "Certified mobile notary public. Bilingual English/Spanish. 10+ years experience.",
+    "address": {
+      "locality": "Sacramento",
+      "region": "CA",
+      "country": "US"
+    },
+    "containedInPlace": "Sacramento County, California"
+  },
+  "paths": {
+    "schemaLib": "src/lib/schema.ts",
+    "serviceAreaTemplate": "src/app/service-areas/[slug]/page.tsx"
+  },
+  "pagesToAudit": [
+    "src/app/page.tsx",
+    "src/app/layout.tsx",
+    "src/app/service-areas/[slug]/page.tsx",
+    "src/app/blog/[slug]/page.tsx",
+    "src/app/notary-services/[slug]/page.tsx",
+    "src/app/notary-services/page.tsx",
+    "src/app/about/page.tsx"
+  ]
+}
