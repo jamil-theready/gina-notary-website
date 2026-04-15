@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { serviceAreas, getServiceAreaBySlug } from "@/data/service-areas";
-import { faqSchema, breadcrumbSchema } from "@/lib/schema";
+import { faqSchema, breadcrumbSchema, serviceAreaSchema } from "@/lib/schema";
 import CTASection from "@/components/CTASection";
 
 export const dynamicParams = false;
@@ -66,6 +66,10 @@ export default async function ServiceAreaPage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(area.faqs)) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceAreaSchema(area)) }}
       />
 
       {/* Hero */}

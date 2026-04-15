@@ -268,3 +268,41 @@ export function breadcrumbSchema(items: { name: string; url: string }[]) {
     })),
   };
 }
+
+export function serviceAreaSchema(area: {
+  slug: string;
+  name: string;
+  metaDescription?: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: `Mobile Notary in ${area.name}, CA`,
+    description:
+      area.metaDescription ||
+      `Certified mobile notary public serving ${area.name}, CA. Bilingual English/Spanish. 10+ years experience.`,
+    url: `https://ginagonzaleznotary.com/service-areas/${area.slug}/`,
+    serviceType: "Notary Public",
+    provider: {
+      "@type": ["Notary", "LocalBusiness"],
+      name: "Gina Gonzalez Notary",
+      telephone: "+14159489967",
+      url: "https://ginagonzaleznotary.com",
+      image: "https://ginagonzaleznotary.com/images/gina-gonzalez-notary.jpg",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Sacramento",
+        addressRegion: "CA",
+        addressCountry: "US",
+      },
+    },
+    areaServed: {
+      "@type": "City",
+      name: area.name,
+      containedInPlace: {
+        "@type": "AdministrativeArea",
+        name: "Sacramento County, California",
+      },
+    },
+  };
+}

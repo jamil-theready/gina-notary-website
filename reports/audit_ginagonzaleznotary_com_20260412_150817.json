@@ -1,0 +1,2539 @@
+{
+  "target_url": "https://ginagonzaleznotary.com",
+  "timestamp": "2026-04-12T20:08:17.201577+00:00",
+  "pages_crawled": 10,
+  "category_scores": {
+    "meta_tags": 92,
+    "performance": 100,
+    "schema_sameAs": 40,
+    "structured_data": 90,
+    "headings": 92,
+    "links": 93,
+    "images": 100,
+    "citability": 22,
+    "security": 100,
+    "sitemap": 100,
+    "ai_crawlers": 65,
+    "llmstxt": 100
+  },
+  "overall_score": 74,
+  "pages": [
+    {
+      "url": "https://ginagonzaleznotary.com/",
+      "status_code": 200,
+      "response_time": 0.589,
+      "checks": {
+        "meta_tags": {
+          "name": "meta_tags",
+          "score": 100,
+          "passed": 8,
+          "total": 8,
+          "issues": [],
+          "details": {
+            "title": "Sacramento Notary Public Services | Gina Gonzalez Notary",
+            "title_length": 56,
+            "description": "Certified mobile notary public and bilingual wedding officiant serving Sacramento, CA. NNA certified, insured. Same day appointments. Call (415) 948-9967.",
+            "description_length": 154,
+            "viewport": "width=device-width, initial-scale=1",
+            "canonical": "https://ginagonzaleznotary.com/",
+            "open_graph": {
+              "og:title": "Sacramento Notary Public Services | Gina Gonzalez Notary",
+              "og:description": "Certified mobile notary public and bilingual wedding officiant serving Sacramento, CA. Same day appointments available. Call (415) 948-9967.",
+              "og:image": "https://ginagonzaleznotary.com/images/og-image.jpg"
+            },
+            "twitter_card": "summary_large_image"
+          }
+        },
+        "headings": {
+          "name": "headings",
+          "score": 100,
+          "passed": 4,
+          "total": 4,
+          "issues": [],
+          "details": {
+            "headings": {
+              "h1": [
+                "Your TrustedMobile Notaryin Sacramento, CA"
+              ],
+              "h2": [
+                "Essential SacramentoNotary Services",
+                "A proven process toachieve your goals",
+                "Why Gina isQualified",
+                "Why choose Gina as yourNotaryin Sacramento?",
+                "Trusted by Hundreds,Proven by Results",
+                "Trusted by OurCommunity",
+                "Get your documentsnotarized today",
+                "Frequently Asked Questions",
+                "Ready to Get Started?Let's Make ItOfficial"
+              ],
+              "h3": [
+                "Legal & Personal",
+                "Court & Proceedings",
+                "Real Estate & Loans",
+                "Wedding Officiant",
+                "Misc. Docs",
+                "Apostille",
+                "Reach Out",
+                "Reach Out",
+                "Gather Documents",
+                "Gather Documents",
+                "Complete Notarization",
+                "Complete Notarization",
+                "NNA-Certified.",
+                "Real Estate Specialist.",
+                "English and Spanish.",
+                "Sacramento Mobile.",
+                "Former Lawyer.",
+                "Certified & Experienced",
+                "Mobile Convenience",
+                "Bilingual Expertise",
+                "Flexible & Reliable",
+                "Legal & Personal Services",
+                "Court & Proceedings",
+                "Real Estate & Loans",
+                "Business & Misc.",
+                "Wedding Officiant",
+                "Apostille"
+              ],
+              "h4": [
+                "Step 01",
+                "Step 02",
+                "Step 03"
+              ],
+              "h5": [],
+              "h6": []
+            },
+            "h1_length": 42
+          }
+        },
+        "images": {
+          "name": "images",
+          "score": 100,
+          "passed": 24,
+          "total": 24,
+          "issues": [],
+          "details": {
+            "total_images": 24,
+            "missing_alt": 0,
+            "empty_alt": 0,
+            "good_alt": 24
+          }
+        },
+        "links": {
+          "name": "links",
+          "score": 100,
+          "passed": 3,
+          "total": 3,
+          "issues": [],
+          "details": {
+            "internal_links": 47,
+            "external_links": 3,
+            "broken_links": 0,
+            "links_without_text": 0,
+            "external_checked": 1
+          }
+        },
+        "performance": {
+          "name": "performance",
+          "score": 100,
+          "passed": 1,
+          "total": 1,
+          "issues": [],
+          "details": {
+            "response_time": 0.589,
+            "rating": "fast"
+          }
+        },
+        "structured_data": {
+          "name": "structured_data",
+          "score": 100,
+          "passed": 2,
+          "total": 2,
+          "issues": [],
+          "details": {
+            "schemas_found": [
+              "Notary",
+              "LocalBusiness",
+              "FAQPage"
+            ],
+            "total_blocks": 2,
+            "useful_schemas": [
+              "LocalBusiness",
+              "FAQPage"
+            ]
+          }
+        },
+        "citability": {
+          "name": "citability",
+          "score": 40,
+          "passed": 2,
+          "total": 5,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/",
+              "message": "No AI-citable content blocks found",
+              "severity": "error"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/",
+              "message": "Only 2 question headings, AI prefers Q&A structure",
+              "severity": "info"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/",
+              "message": "Only 2 stats/data points. AI cites fact-rich content",
+              "severity": "info"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/",
+              "message": "Low citability score (21/100). Content needs restructuring for AI",
+              "severity": "warning"
+            }
+          ],
+          "details": {
+            "total_blocks": 27,
+            "citable_blocks": 0,
+            "avg_block_score": 21,
+            "best_block_score": 40,
+            "citability_ratio": 0,
+            "question_headings": 2,
+            "has_definitions": true,
+            "stat_mentions": 2
+          }
+        },
+        "schema_sameAs": {
+          "name": "schema_sameAs",
+          "score": 44,
+          "passed": 2,
+          "total": 5,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/",
+              "message": "Only 3 sameAs platforms. Aim for 5+",
+              "severity": "info"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/",
+              "message": "No Wikipedia/Wikidata in sameAs. These are the strongest AI entity signals",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/",
+              "message": "No LinkedIn/YouTube/Reddit/GitHub in sameAs",
+              "severity": "warning"
+            }
+          ],
+          "details": {
+            "same_as_urls": [
+              "https://www.instagram.com/ginagonzaleznotary/",
+              "https://www.facebook.com/ginagonzaleznotary/",
+              "https://www.tiktok.com/@ginagonzaleznotary",
+              "https://www.yelp.com/biz/gina-gonzalez-notary-sacramento",
+              "https://www.google.com/maps/place/Gina+Gonzalez+Notary"
+            ],
+            "platforms_found": {
+              "instagram.com": {
+                "url": "https://www.instagram.com/ginagonzaleznotary/",
+                "name": "Instagram",
+                "tier": "standard"
+              },
+              "facebook.com": {
+                "url": "https://www.facebook.com/ginagonzaleznotary/",
+                "name": "Facebook",
+                "tier": "standard"
+              },
+              "yelp.com": {
+                "url": "https://www.yelp.com/biz/gina-gonzalez-notary-sacramento",
+                "name": "Yelp",
+                "tier": "standard"
+              }
+            },
+            "platform_count": 3,
+            "has_organization_schema": true,
+            "has_knows_about": true,
+            "has_speakable": false,
+            "schema_types": [
+              "Notary",
+              "LocalBusiness",
+              "FAQPage"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "url": "https://ginagonzaleznotary.com/cdn-cgi/l/email-protection",
+      "status_code": 404,
+      "response_time": 0.1,
+      "checks": {
+        "meta_tags": {
+          "name": "meta_tags",
+          "score": 25,
+          "passed": 2,
+          "total": 8,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/cdn-cgi/l/email-protection",
+              "message": "Title too short (29 chars, aim for 45-55)",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/cdn-cgi/l/email-protection",
+              "message": "Missing meta description",
+              "severity": "error"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/cdn-cgi/l/email-protection",
+              "message": "Missing canonical tag",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/cdn-cgi/l/email-protection",
+              "message": "Missing og:title tag",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/cdn-cgi/l/email-protection",
+              "message": "Missing og:description tag",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/cdn-cgi/l/email-protection",
+              "message": "Missing og:image tag",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/cdn-cgi/l/email-protection",
+              "message": "Missing twitter:card tag",
+              "severity": "info"
+            }
+          ],
+          "details": {
+            "title": "Email Protection | Cloudflare",
+            "title_length": 29,
+            "description": "",
+            "description_length": 0,
+            "viewport": "width=device-width,initial-scale=1",
+            "open_graph": {
+              "og:title": null,
+              "og:description": null,
+              "og:image": null
+            }
+          }
+        },
+        "headings": {
+          "name": "headings",
+          "score": 75,
+          "passed": 3,
+          "total": 4,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/cdn-cgi/l/email-protection",
+              "message": "H1 too short (16 chars)",
+              "severity": "info"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/cdn-cgi/l/email-protection",
+              "message": "Only 1 H2 tag, aim for 3+ for content structure",
+              "severity": "info"
+            }
+          ],
+          "details": {
+            "headings": {
+              "h1": [
+                "Email Protection"
+              ],
+              "h2": [
+                "You are unable to access this email addressginagonzaleznotary.com"
+              ],
+              "h3": [],
+              "h4": [],
+              "h5": [],
+              "h6": []
+            },
+            "h1_length": 16
+          }
+        },
+        "images": {
+          "name": "images",
+          "score": 100,
+          "passed": 0,
+          "total": 0,
+          "issues": [],
+          "details": {
+            "total_images": 0,
+            "note": "No images found"
+          }
+        },
+        "links": {
+          "name": "links",
+          "score": 33,
+          "passed": 1,
+          "total": 3,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/cdn-cgi/l/email-protection",
+              "message": "Broken external link (403): https://www.cloudflare.com/sign-up?utm_source=email_protection",
+              "severity": "error"
+            }
+          ],
+          "details": {
+            "internal_links": 0,
+            "external_links": 4,
+            "broken_links": 1,
+            "links_without_text": 0,
+            "external_checked": 4
+          }
+        },
+        "performance": {
+          "name": "performance",
+          "score": 100,
+          "passed": 1,
+          "total": 1,
+          "issues": [],
+          "details": {
+            "response_time": 0.1,
+            "rating": "fast"
+          }
+        },
+        "structured_data": {
+          "name": "structured_data",
+          "score": 0,
+          "passed": 0,
+          "total": 2,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/cdn-cgi/l/email-protection",
+              "message": "No JSON-LD structured data found",
+              "severity": "warning"
+            }
+          ],
+          "details": {
+            "schemas_found": [],
+            "total_blocks": 0,
+            "useful_schemas": []
+          }
+        },
+        "citability": {
+          "name": "citability",
+          "score": 10,
+          "passed": 0,
+          "total": 5,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/cdn-cgi/l/email-protection",
+              "message": "No AI-citable content blocks found",
+              "severity": "error"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/cdn-cgi/l/email-protection",
+              "message": "No question-based headings (H2/H3). AI search pulls from Q&A patterns",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/cdn-cgi/l/email-protection",
+              "message": "No clear definition patterns found. Add 'X is...' style statements",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/cdn-cgi/l/email-protection",
+              "message": "No statistics or data points. Add numbers, percentages, dates",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/cdn-cgi/l/email-protection",
+              "message": "Content blocks score avg 30/100 for citability",
+              "severity": "info"
+            }
+          ],
+          "details": {
+            "total_blocks": 2,
+            "citable_blocks": 0,
+            "avg_block_score": 30,
+            "best_block_score": 35,
+            "citability_ratio": 0,
+            "question_headings": 0,
+            "has_definitions": false,
+            "stat_mentions": 0
+          }
+        },
+        "schema_sameAs": {
+          "name": "schema_sameAs",
+          "score": 0,
+          "passed": 0,
+          "total": 5,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/cdn-cgi/l/email-protection",
+              "message": "No Organization/LocalBusiness schema. AI can't identify your entity",
+              "severity": "error"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/cdn-cgi/l/email-protection",
+              "message": "No sameAs links in schema. AI can't verify your entity across platforms",
+              "severity": "error"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/cdn-cgi/l/email-protection",
+              "message": "No Wikipedia/Wikidata in sameAs. These are the strongest AI entity signals",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/cdn-cgi/l/email-protection",
+              "message": "No LinkedIn/YouTube/Reddit/GitHub in sameAs",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/cdn-cgi/l/email-protection",
+              "message": "Consider adding knowsAbout and speakable properties to schema",
+              "severity": "info"
+            }
+          ],
+          "details": {
+            "same_as_urls": [],
+            "platforms_found": {},
+            "platform_count": 0,
+            "has_organization_schema": false,
+            "has_knows_about": false,
+            "has_speakable": false,
+            "schema_types": []
+          }
+        }
+      }
+    },
+    {
+      "url": "https://ginagonzaleznotary.com/about/",
+      "status_code": 200,
+      "response_time": 0.286,
+      "checks": {
+        "meta_tags": {
+          "name": "meta_tags",
+          "score": 100,
+          "passed": 8,
+          "total": 8,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/about/",
+              "message": "Title too long (69 chars, max 60)",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/about/",
+              "message": "Meta description too long (167 chars, max 160)",
+              "severity": "warning"
+            }
+          ],
+          "details": {
+            "title": "About Gina Gonzalez | Sacramento Notary Public | Gina Gonzalez Notary",
+            "title_length": 69,
+            "description": "Former lawyer from Peru, now Sacramento's trusted mobile notary. 10+ years experience, 6,000+ documents, NNA certified, bilingual English/Spanish. Call (415) 948-9967.",
+            "description_length": 167,
+            "viewport": "width=device-width, initial-scale=1",
+            "canonical": "https://ginagonzaleznotary.com/about/",
+            "open_graph": {
+              "og:title": "Sacramento Notary Public Services | Gina Gonzalez Notary",
+              "og:description": "Certified mobile notary public and bilingual wedding officiant serving Sacramento, CA. Same day appointments available. Call (415) 948-9967.",
+              "og:image": "https://ginagonzaleznotary.com/images/og-image.jpg"
+            },
+            "twitter_card": "summary_large_image"
+          }
+        },
+        "headings": {
+          "name": "headings",
+          "score": 75,
+          "passed": 3,
+          "total": 4,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/about/",
+              "message": "H1 too short (18 chars)",
+              "severity": "info"
+            }
+          ],
+          "details": {
+            "headings": {
+              "h1": [
+                "Meet Gina Gonzalez"
+              ],
+              "h2": [
+                "From Peru to Sacramento",
+                "Why Clients Trust Me",
+                "More Than a Notary",
+                "What I Can Help You With",
+                "Areas I Serve",
+                "Ready to Get Started?Let's Make ItOfficial"
+              ],
+              "h3": [
+                "Law Degree & Legal Career",
+                "Moved to the United States",
+                "Became a Certified Notary Public",
+                "Licensed Real Estate Agent",
+                "Founded Perfecto Homes",
+                "6,000+ Documents Notarized",
+                "Loan Signings & Refinances",
+                "Legal Documents",
+                "Estate Planning",
+                "Real Estate Transfers",
+                "Wedding Officiant",
+                "Apostille & Translation",
+                "Credentials & Certifications",
+                "Legal & Personal Services",
+                "Court & Proceedings",
+                "Real Estate & Loans",
+                "Business & Misc.",
+                "Wedding Officiant",
+                "Apostille"
+              ],
+              "h4": [],
+              "h5": [],
+              "h6": []
+            },
+            "h1_length": 18
+          }
+        },
+        "images": {
+          "name": "images",
+          "score": 100,
+          "passed": 4,
+          "total": 4,
+          "issues": [],
+          "details": {
+            "total_images": 4,
+            "missing_alt": 0,
+            "empty_alt": 0,
+            "good_alt": 4
+          }
+        },
+        "links": {
+          "name": "links",
+          "score": 100,
+          "passed": 3,
+          "total": 3,
+          "issues": [],
+          "details": {
+            "internal_links": 53,
+            "external_links": 4,
+            "broken_links": 0,
+            "links_without_text": 0,
+            "external_checked": 2
+          }
+        },
+        "performance": {
+          "name": "performance",
+          "score": 100,
+          "passed": 1,
+          "total": 1,
+          "issues": [],
+          "details": {
+            "response_time": 0.286,
+            "rating": "fast"
+          }
+        },
+        "structured_data": {
+          "name": "structured_data",
+          "score": 100,
+          "passed": 2,
+          "total": 2,
+          "issues": [],
+          "details": {
+            "schemas_found": [
+              "Notary",
+              "LocalBusiness",
+              "Person"
+            ],
+            "total_blocks": 2,
+            "useful_schemas": [
+              "LocalBusiness",
+              "Person"
+            ]
+          }
+        },
+        "citability": {
+          "name": "citability",
+          "score": 40,
+          "passed": 2,
+          "total": 5,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/about/",
+              "message": "No AI-citable content blocks found",
+              "severity": "error"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/about/",
+              "message": "No clear definition patterns found. Add 'X is...' style statements",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/about/",
+              "message": "Only 1 stats/data points. AI cites fact-rich content",
+              "severity": "info"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/about/",
+              "message": "Content blocks score avg 31/100 for citability",
+              "severity": "info"
+            }
+          ],
+          "details": {
+            "total_blocks": 12,
+            "citable_blocks": 0,
+            "avg_block_score": 31,
+            "best_block_score": 45,
+            "citability_ratio": 0,
+            "question_headings": 3,
+            "has_definitions": false,
+            "stat_mentions": 1
+          }
+        },
+        "schema_sameAs": {
+          "name": "schema_sameAs",
+          "score": 44,
+          "passed": 2,
+          "total": 5,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/about/",
+              "message": "Only 3 sameAs platforms. Aim for 5+",
+              "severity": "info"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/about/",
+              "message": "No Wikipedia/Wikidata in sameAs. These are the strongest AI entity signals",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/about/",
+              "message": "No LinkedIn/YouTube/Reddit/GitHub in sameAs",
+              "severity": "warning"
+            }
+          ],
+          "details": {
+            "same_as_urls": [
+              "https://www.instagram.com/ginagonzaleznotary/",
+              "https://www.facebook.com/ginagonzaleznotary/",
+              "https://www.tiktok.com/@ginagonzaleznotary",
+              "https://www.yelp.com/biz/gina-gonzalez-notary-sacramento",
+              "https://www.google.com/maps/place/Gina+Gonzalez+Notary"
+            ],
+            "platforms_found": {
+              "instagram.com": {
+                "url": "https://www.instagram.com/ginagonzaleznotary/",
+                "name": "Instagram",
+                "tier": "standard"
+              },
+              "facebook.com": {
+                "url": "https://www.facebook.com/ginagonzaleznotary/",
+                "name": "Facebook",
+                "tier": "standard"
+              },
+              "yelp.com": {
+                "url": "https://www.yelp.com/biz/gina-gonzalez-notary-sacramento",
+                "name": "Yelp",
+                "tier": "standard"
+              }
+            },
+            "platform_count": 3,
+            "has_organization_schema": true,
+            "has_knows_about": true,
+            "has_speakable": false,
+            "schema_types": [
+              "Notary",
+              "LocalBusiness",
+              "Person"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "url": "https://ginagonzaleznotary.com/service-areas/",
+      "status_code": 200,
+      "response_time": 0.263,
+      "checks": {
+        "meta_tags": {
+          "name": "meta_tags",
+          "score": 100,
+          "passed": 8,
+          "total": 8,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/service-areas/",
+              "message": "Title too long (86 chars, max 60)",
+              "severity": "warning"
+            }
+          ],
+          "details": {
+            "title": "Mobile Notary Service Areas | Sacramento Region | Gina Gonzalez | Gina Gonzalez Notary",
+            "title_length": 86,
+            "description": "Mobile notary serving Sacramento, Elk Grove, Roseville, Folsom, and 70+ ZIP codes. Same day service. Call (415) 948-9967.",
+            "description_length": 121,
+            "viewport": "width=device-width, initial-scale=1",
+            "canonical": "https://ginagonzaleznotary.com/service-areas/",
+            "open_graph": {
+              "og:title": "Sacramento Notary Public Services | Gina Gonzalez Notary",
+              "og:description": "Certified mobile notary public and bilingual wedding officiant serving Sacramento, CA. Same day appointments available. Call (415) 948-9967.",
+              "og:image": "https://ginagonzaleznotary.com/images/og-image.jpg"
+            },
+            "twitter_card": "summary_large_image"
+          }
+        },
+        "headings": {
+          "name": "headings",
+          "score": 100,
+          "passed": 4,
+          "total": 4,
+          "issues": [],
+          "details": {
+            "headings": {
+              "h1": [
+                "Mobile Notary Service Areas"
+              ],
+              "h2": [
+                "Sacramento County",
+                "Placer County",
+                "Yolo County",
+                "ZIP Codes We Serve",
+                "Ready to Get Started?Let's Make ItOfficial"
+              ],
+              "h3": [
+                "Sacramento",
+                "Elk Grove",
+                "Folsom",
+                "Rancho Cordova",
+                "Citrus Heights",
+                "Carmichael",
+                "Fair Oaks",
+                "Orangevale",
+                "Natomas",
+                "Roseville",
+                "Lincoln",
+                "Auburn",
+                "Davis",
+                "Woodland",
+                "West Sacramento",
+                "Legal & Personal Services",
+                "Court & Proceedings",
+                "Real Estate & Loans",
+                "Business & Misc.",
+                "Wedding Officiant",
+                "Apostille"
+              ],
+              "h4": [],
+              "h5": [],
+              "h6": []
+            },
+            "h1_length": 27
+          }
+        },
+        "images": {
+          "name": "images",
+          "score": 100,
+          "passed": 2,
+          "total": 2,
+          "issues": [],
+          "details": {
+            "total_images": 2,
+            "missing_alt": 0,
+            "empty_alt": 0,
+            "good_alt": 2
+          }
+        },
+        "links": {
+          "name": "links",
+          "score": 100,
+          "passed": 3,
+          "total": 3,
+          "issues": [],
+          "details": {
+            "internal_links": 53,
+            "external_links": 3,
+            "broken_links": 0,
+            "links_without_text": 0,
+            "external_checked": 1
+          }
+        },
+        "performance": {
+          "name": "performance",
+          "score": 100,
+          "passed": 1,
+          "total": 1,
+          "issues": [],
+          "details": {
+            "response_time": 0.263,
+            "rating": "fast"
+          }
+        },
+        "structured_data": {
+          "name": "structured_data",
+          "score": 100,
+          "passed": 2,
+          "total": 2,
+          "issues": [],
+          "details": {
+            "schemas_found": [
+              "Notary",
+              "LocalBusiness"
+            ],
+            "total_blocks": 1,
+            "useful_schemas": [
+              "LocalBusiness"
+            ]
+          }
+        },
+        "citability": {
+          "name": "citability",
+          "score": 0,
+          "passed": 0,
+          "total": 5,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/service-areas/",
+              "message": "No AI-citable content blocks found",
+              "severity": "error"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/service-areas/",
+              "message": "No question-based headings (H2/H3). AI search pulls from Q&A patterns",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/service-areas/",
+              "message": "No clear definition patterns found. Add 'X is...' style statements",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/service-areas/",
+              "message": "No statistics or data points. Add numbers, percentages, dates",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/service-areas/",
+              "message": "Low citability score (23/100). Content needs restructuring for AI",
+              "severity": "warning"
+            }
+          ],
+          "details": {
+            "total_blocks": 3,
+            "citable_blocks": 0,
+            "avg_block_score": 23,
+            "best_block_score": 25,
+            "citability_ratio": 0,
+            "question_headings": 0,
+            "has_definitions": false,
+            "stat_mentions": 0
+          }
+        },
+        "schema_sameAs": {
+          "name": "schema_sameAs",
+          "score": 44,
+          "passed": 2,
+          "total": 5,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/service-areas/",
+              "message": "Only 3 sameAs platforms. Aim for 5+",
+              "severity": "info"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/service-areas/",
+              "message": "No Wikipedia/Wikidata in sameAs. These are the strongest AI entity signals",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/service-areas/",
+              "message": "No LinkedIn/YouTube/Reddit/GitHub in sameAs",
+              "severity": "warning"
+            }
+          ],
+          "details": {
+            "same_as_urls": [
+              "https://www.instagram.com/ginagonzaleznotary/",
+              "https://www.facebook.com/ginagonzaleznotary/",
+              "https://www.tiktok.com/@ginagonzaleznotary",
+              "https://www.yelp.com/biz/gina-gonzalez-notary-sacramento",
+              "https://www.google.com/maps/place/Gina+Gonzalez+Notary"
+            ],
+            "platforms_found": {
+              "instagram.com": {
+                "url": "https://www.instagram.com/ginagonzaleznotary/",
+                "name": "Instagram",
+                "tier": "standard"
+              },
+              "facebook.com": {
+                "url": "https://www.facebook.com/ginagonzaleznotary/",
+                "name": "Facebook",
+                "tier": "standard"
+              },
+              "yelp.com": {
+                "url": "https://www.yelp.com/biz/gina-gonzalez-notary-sacramento",
+                "name": "Yelp",
+                "tier": "standard"
+              }
+            },
+            "platform_count": 3,
+            "has_organization_schema": true,
+            "has_knows_about": true,
+            "has_speakable": false,
+            "schema_types": [
+              "Notary",
+              "LocalBusiness"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "url": "https://ginagonzaleznotary.com/blog/",
+      "status_code": 200,
+      "response_time": 0.466,
+      "checks": {
+        "meta_tags": {
+          "name": "meta_tags",
+          "score": 100,
+          "passed": 8,
+          "total": 8,
+          "issues": [],
+          "details": {
+            "title": "Notary Resources & Blog | Gina Gonzalez Notary",
+            "title_length": 46,
+            "description": "Expert notary guides, tips, and resources from Gina Gonzalez Notary in Sacramento. Learn about notarization, legal documents, and more.",
+            "description_length": 135,
+            "viewport": "width=device-width, initial-scale=1",
+            "canonical": "https://ginagonzaleznotary.com/blog/",
+            "open_graph": {
+              "og:title": "Sacramento Notary Public Services | Gina Gonzalez Notary",
+              "og:description": "Certified mobile notary public and bilingual wedding officiant serving Sacramento, CA. Same day appointments available. Call (415) 948-9967.",
+              "og:image": "https://ginagonzaleznotary.com/images/og-image.jpg"
+            },
+            "twitter_card": "summary_large_image"
+          }
+        },
+        "headings": {
+          "name": "headings",
+          "score": 75,
+          "passed": 3,
+          "total": 4,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/blog/",
+              "message": "H1 too short (16 chars)",
+              "severity": "info"
+            }
+          ],
+          "details": {
+            "headings": {
+              "h1": [
+                "Notary Resources"
+              ],
+              "h2": [
+                "Demand Letters in Sacramento: When and Why to Get One Notarized",
+                "FSBO Home Selling in Sacramento: What Notary Documents Do You Need?",
+                "Hospital Notary Sacramento: Urgent Mobile Notary Services (2026)",
+                "Understanding the Sacramento Housing Market in 2026",
+                "Essential Notary for Immigration Documents Sacramento",
+                "Need a Notary for Immigration Documents Sacramento? Your Guide (2026)",
+                "Apostilla en Sacramento California: Guia Completa",
+                "Emergency Notary in Sacramento: Same Day Service",
+                "Legal Name Change in California: What You Need to Know",
+                "Loan Signing Services in California",
+                "Power of Attorney in Sacramento CA: Full Guide",
+                "Restraining Orders in Sacramento: What You Need to Know",
+                "Sacramento Courthouse Marriage Ceremony Guide",
+                "Temporary Custody Notarized Letter in California",
+                "How to Get a Wedding License in Sacramento, CA",
+                "Wedding Officiant in Elk Grove, CA",
+                "Apostille Services in Sacramento: Complete Guide",
+                "California Grant Deed vs Quitclaim Deed Explained",
+                "California Lease Agreement: Tenant & Landlord Guide",
+                "California Quitclaim Deed: When and How to Use One",
+                "Do You Need a Notary for a Prenup in California?",
+                "Do You Need a Notary for Divorce Papers in California?",
+                "Sacramento Courthouse Wedding: Complete Guide",
+                "What DMV Documents Need to Be Notarized?",
+                "Ready to Get Started?Let's Make ItOfficial"
+              ],
+              "h3": [
+                "Legal & Personal Services",
+                "Court & Proceedings",
+                "Real Estate & Loans",
+                "Business & Misc.",
+                "Wedding Officiant",
+                "Apostille"
+              ],
+              "h4": [],
+              "h5": [],
+              "h6": []
+            },
+            "h1_length": 16
+          }
+        },
+        "images": {
+          "name": "images",
+          "score": 100,
+          "passed": 26,
+          "total": 26,
+          "issues": [],
+          "details": {
+            "total_images": 26,
+            "missing_alt": 0,
+            "empty_alt": 0,
+            "good_alt": 26
+          }
+        },
+        "links": {
+          "name": "links",
+          "score": 100,
+          "passed": 3,
+          "total": 3,
+          "issues": [],
+          "details": {
+            "internal_links": 62,
+            "external_links": 3,
+            "broken_links": 0,
+            "links_without_text": 0,
+            "external_checked": 1
+          }
+        },
+        "performance": {
+          "name": "performance",
+          "score": 100,
+          "passed": 1,
+          "total": 1,
+          "issues": [],
+          "details": {
+            "response_time": 0.466,
+            "rating": "fast"
+          }
+        },
+        "structured_data": {
+          "name": "structured_data",
+          "score": 100,
+          "passed": 2,
+          "total": 2,
+          "issues": [],
+          "details": {
+            "schemas_found": [
+              "Notary",
+              "LocalBusiness"
+            ],
+            "total_blocks": 1,
+            "useful_schemas": [
+              "LocalBusiness"
+            ]
+          }
+        },
+        "citability": {
+          "name": "citability",
+          "score": 30,
+          "passed": 1,
+          "total": 5,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/blog/",
+              "message": "No AI-citable content blocks found",
+              "severity": "error"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/blog/",
+              "message": "No clear definition patterns found. Add 'X is...' style statements",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/blog/",
+              "message": "Only 1 stats/data points. AI cites fact-rich content",
+              "severity": "info"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/blog/",
+              "message": "Low citability score (15/100). Content needs restructuring for AI",
+              "severity": "warning"
+            }
+          ],
+          "details": {
+            "total_blocks": 24,
+            "citable_blocks": 0,
+            "avg_block_score": 15,
+            "best_block_score": 26,
+            "citability_ratio": 0,
+            "question_headings": 5,
+            "has_definitions": false,
+            "stat_mentions": 1
+          }
+        },
+        "schema_sameAs": {
+          "name": "schema_sameAs",
+          "score": 44,
+          "passed": 2,
+          "total": 5,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/blog/",
+              "message": "Only 3 sameAs platforms. Aim for 5+",
+              "severity": "info"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/blog/",
+              "message": "No Wikipedia/Wikidata in sameAs. These are the strongest AI entity signals",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/blog/",
+              "message": "No LinkedIn/YouTube/Reddit/GitHub in sameAs",
+              "severity": "warning"
+            }
+          ],
+          "details": {
+            "same_as_urls": [
+              "https://www.instagram.com/ginagonzaleznotary/",
+              "https://www.facebook.com/ginagonzaleznotary/",
+              "https://www.tiktok.com/@ginagonzaleznotary",
+              "https://www.yelp.com/biz/gina-gonzalez-notary-sacramento",
+              "https://www.google.com/maps/place/Gina+Gonzalez+Notary"
+            ],
+            "platforms_found": {
+              "instagram.com": {
+                "url": "https://www.instagram.com/ginagonzaleznotary/",
+                "name": "Instagram",
+                "tier": "standard"
+              },
+              "facebook.com": {
+                "url": "https://www.facebook.com/ginagonzaleznotary/",
+                "name": "Facebook",
+                "tier": "standard"
+              },
+              "yelp.com": {
+                "url": "https://www.yelp.com/biz/gina-gonzalez-notary-sacramento",
+                "name": "Yelp",
+                "tier": "standard"
+              }
+            },
+            "platform_count": 3,
+            "has_organization_schema": true,
+            "has_knows_about": true,
+            "has_speakable": false,
+            "schema_types": [
+              "Notary",
+              "LocalBusiness"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "url": "https://ginagonzaleznotary.com/contact/",
+      "status_code": 200,
+      "response_time": 0.253,
+      "checks": {
+        "meta_tags": {
+          "name": "meta_tags",
+          "score": 100,
+          "passed": 8,
+          "total": 8,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/contact/",
+              "message": "Title too long (68 chars, max 60)",
+              "severity": "warning"
+            }
+          ],
+          "details": {
+            "title": "Contact Gina Gonzalez Notary | Sacramento, CA | Gina Gonzalez Notary",
+            "title_length": 68,
+            "description": "Schedule a mobile notary appointment in Sacramento. Call (415) 948-9967 or book online. Same day service available. Bilingual English/Spanish.",
+            "description_length": 142,
+            "viewport": "width=device-width, initial-scale=1",
+            "canonical": "https://ginagonzaleznotary.com/contact/",
+            "open_graph": {
+              "og:title": "Sacramento Notary Public Services | Gina Gonzalez Notary",
+              "og:description": "Certified mobile notary public and bilingual wedding officiant serving Sacramento, CA. Same day appointments available. Call (415) 948-9967.",
+              "og:image": "https://ginagonzaleznotary.com/images/og-image.jpg"
+            },
+            "twitter_card": "summary_large_image"
+          }
+        },
+        "headings": {
+          "name": "headings",
+          "score": 100,
+          "passed": 4,
+          "total": 4,
+          "issues": [],
+          "details": {
+            "headings": {
+              "h1": [
+                "Contact Gina Gonzalez Notary"
+              ],
+              "h2": [
+                "Book Your Appointment",
+                "Service Areas"
+              ],
+              "h3": [
+                "Hours",
+                "Se Habla Espa\u00f1ol",
+                "Legal & Personal Services",
+                "Court & Proceedings",
+                "Real Estate & Loans",
+                "Business & Misc.",
+                "Wedding Officiant",
+                "Apostille"
+              ],
+              "h4": [],
+              "h5": [],
+              "h6": []
+            },
+            "h1_length": 28
+          }
+        },
+        "images": {
+          "name": "images",
+          "score": 100,
+          "passed": 2,
+          "total": 2,
+          "issues": [],
+          "details": {
+            "total_images": 2,
+            "missing_alt": 0,
+            "empty_alt": 0,
+            "good_alt": 2
+          }
+        },
+        "links": {
+          "name": "links",
+          "score": 100,
+          "passed": 3,
+          "total": 3,
+          "issues": [],
+          "details": {
+            "internal_links": 53,
+            "external_links": 3,
+            "broken_links": 0,
+            "links_without_text": 0,
+            "external_checked": 1
+          }
+        },
+        "performance": {
+          "name": "performance",
+          "score": 100,
+          "passed": 1,
+          "total": 1,
+          "issues": [],
+          "details": {
+            "response_time": 0.253,
+            "rating": "fast"
+          }
+        },
+        "structured_data": {
+          "name": "structured_data",
+          "score": 100,
+          "passed": 2,
+          "total": 2,
+          "issues": [],
+          "details": {
+            "schemas_found": [
+              "Notary",
+              "LocalBusiness"
+            ],
+            "total_blocks": 1,
+            "useful_schemas": [
+              "LocalBusiness"
+            ]
+          }
+        },
+        "citability": {
+          "name": "citability",
+          "score": 0,
+          "passed": 0,
+          "total": 5,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/contact/",
+              "message": "No AI-citable content blocks found",
+              "severity": "error"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/contact/",
+              "message": "No question-based headings (H2/H3). AI search pulls from Q&A patterns",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/contact/",
+              "message": "No clear definition patterns found. Add 'X is...' style statements",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/contact/",
+              "message": "No statistics or data points. Add numbers, percentages, dates",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/contact/",
+              "message": "Low citability score (18/100). Content needs restructuring for AI",
+              "severity": "warning"
+            }
+          ],
+          "details": {
+            "total_blocks": 1,
+            "citable_blocks": 0,
+            "avg_block_score": 18,
+            "best_block_score": 18,
+            "citability_ratio": 0,
+            "question_headings": 0,
+            "has_definitions": false,
+            "stat_mentions": 0
+          }
+        },
+        "schema_sameAs": {
+          "name": "schema_sameAs",
+          "score": 44,
+          "passed": 2,
+          "total": 5,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/contact/",
+              "message": "Only 3 sameAs platforms. Aim for 5+",
+              "severity": "info"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/contact/",
+              "message": "No Wikipedia/Wikidata in sameAs. These are the strongest AI entity signals",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/contact/",
+              "message": "No LinkedIn/YouTube/Reddit/GitHub in sameAs",
+              "severity": "warning"
+            }
+          ],
+          "details": {
+            "same_as_urls": [
+              "https://www.instagram.com/ginagonzaleznotary/",
+              "https://www.facebook.com/ginagonzaleznotary/",
+              "https://www.tiktok.com/@ginagonzaleznotary",
+              "https://www.yelp.com/biz/gina-gonzalez-notary-sacramento",
+              "https://www.google.com/maps/place/Gina+Gonzalez+Notary"
+            ],
+            "platforms_found": {
+              "instagram.com": {
+                "url": "https://www.instagram.com/ginagonzaleznotary/",
+                "name": "Instagram",
+                "tier": "standard"
+              },
+              "facebook.com": {
+                "url": "https://www.facebook.com/ginagonzaleznotary/",
+                "name": "Facebook",
+                "tier": "standard"
+              },
+              "yelp.com": {
+                "url": "https://www.yelp.com/biz/gina-gonzalez-notary-sacramento",
+                "name": "Yelp",
+                "tier": "standard"
+              }
+            },
+            "platform_count": 3,
+            "has_organization_schema": true,
+            "has_knows_about": true,
+            "has_speakable": false,
+            "schema_types": [
+              "Notary",
+              "LocalBusiness"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "url": "https://ginagonzaleznotary.com/notary-services/",
+      "status_code": 200,
+      "response_time": 0.239,
+      "checks": {
+        "meta_tags": {
+          "name": "meta_tags",
+          "score": 100,
+          "passed": 8,
+          "total": 8,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/",
+              "message": "Meta description too long (170 chars, max 160)",
+              "severity": "warning"
+            }
+          ],
+          "details": {
+            "title": "Notary Services in Sacramento, CA | Gina Gonzalez Notary",
+            "title_length": 56,
+            "description": "Mobile notary services in Sacramento. Legal documents, real estate, loan signings, apostille, wedding officiant, and more. Bilingual English/Spanish. Call (415) 948-9967.",
+            "description_length": 170,
+            "viewport": "width=device-width, initial-scale=1",
+            "canonical": "https://ginagonzaleznotary.com/notary-services/",
+            "open_graph": {
+              "og:title": "Sacramento Notary Public Services | Gina Gonzalez Notary",
+              "og:description": "Certified mobile notary public and bilingual wedding officiant serving Sacramento, CA. Same day appointments available. Call (415) 948-9967.",
+              "og:image": "https://ginagonzaleznotary.com/images/og-image.jpg"
+            },
+            "twitter_card": "summary_large_image"
+          }
+        },
+        "headings": {
+          "name": "headings",
+          "score": 100,
+          "passed": 4,
+          "total": 4,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/",
+              "message": "Only 1 H2 tag, aim for 3+ for content structure",
+              "severity": "info"
+            }
+          ],
+          "details": {
+            "headings": {
+              "h1": [
+                "Sacramento Notary Services"
+              ],
+              "h2": [
+                "More Services"
+              ],
+              "h3": [
+                "Legal & Personal Documents",
+                "Real Estate & Loan Signing",
+                "Court & Legal Proceedings",
+                "Business & Miscellaneous",
+                "Wedding Officiant",
+                "Apostille Services",
+                "Mobile Notary Sacramento",
+                "Spanish Notary Sacramento",
+                "Document Translation",
+                "Power of Attorney",
+                "Prenuptial Agreements",
+                "Name Changes",
+                "Loan Signing",
+                "Restraining Orders",
+                "DMV Documents",
+                "Legal & Personal Services",
+                "Court & Proceedings",
+                "Real Estate & Loans",
+                "Business & Misc.",
+                "Wedding Officiant",
+                "Apostille"
+              ],
+              "h4": [],
+              "h5": [],
+              "h6": []
+            },
+            "h1_length": 26
+          }
+        },
+        "images": {
+          "name": "images",
+          "score": 100,
+          "passed": 2,
+          "total": 2,
+          "issues": [],
+          "details": {
+            "total_images": 2,
+            "missing_alt": 0,
+            "empty_alt": 0,
+            "good_alt": 2
+          }
+        },
+        "links": {
+          "name": "links",
+          "score": 100,
+          "passed": 3,
+          "total": 3,
+          "issues": [],
+          "details": {
+            "internal_links": 52,
+            "external_links": 3,
+            "broken_links": 0,
+            "links_without_text": 0,
+            "external_checked": 1
+          }
+        },
+        "performance": {
+          "name": "performance",
+          "score": 100,
+          "passed": 1,
+          "total": 1,
+          "issues": [],
+          "details": {
+            "response_time": 0.239,
+            "rating": "fast"
+          }
+        },
+        "structured_data": {
+          "name": "structured_data",
+          "score": 100,
+          "passed": 2,
+          "total": 2,
+          "issues": [],
+          "details": {
+            "schemas_found": [
+              "Notary",
+              "LocalBusiness"
+            ],
+            "total_blocks": 1,
+            "useful_schemas": [
+              "LocalBusiness"
+            ]
+          }
+        },
+        "citability": {
+          "name": "citability",
+          "score": 0,
+          "passed": 0,
+          "total": 5,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/",
+              "message": "No AI-citable content blocks found",
+              "severity": "error"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/",
+              "message": "No question-based headings (H2/H3). AI search pulls from Q&A patterns",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/",
+              "message": "No clear definition patterns found. Add 'X is...' style statements",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/",
+              "message": "No statistics or data points. Add numbers, percentages, dates",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/",
+              "message": "Low citability score (10/100). Content needs restructuring for AI",
+              "severity": "warning"
+            }
+          ],
+          "details": {
+            "total_blocks": 7,
+            "citable_blocks": 0,
+            "avg_block_score": 10,
+            "best_block_score": 10,
+            "citability_ratio": 0,
+            "question_headings": 0,
+            "has_definitions": false,
+            "stat_mentions": 0
+          }
+        },
+        "schema_sameAs": {
+          "name": "schema_sameAs",
+          "score": 44,
+          "passed": 2,
+          "total": 5,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/",
+              "message": "Only 3 sameAs platforms. Aim for 5+",
+              "severity": "info"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/",
+              "message": "No Wikipedia/Wikidata in sameAs. These are the strongest AI entity signals",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/",
+              "message": "No LinkedIn/YouTube/Reddit/GitHub in sameAs",
+              "severity": "warning"
+            }
+          ],
+          "details": {
+            "same_as_urls": [
+              "https://www.instagram.com/ginagonzaleznotary/",
+              "https://www.facebook.com/ginagonzaleznotary/",
+              "https://www.tiktok.com/@ginagonzaleznotary",
+              "https://www.yelp.com/biz/gina-gonzalez-notary-sacramento",
+              "https://www.google.com/maps/place/Gina+Gonzalez+Notary"
+            ],
+            "platforms_found": {
+              "instagram.com": {
+                "url": "https://www.instagram.com/ginagonzaleznotary/",
+                "name": "Instagram",
+                "tier": "standard"
+              },
+              "facebook.com": {
+                "url": "https://www.facebook.com/ginagonzaleznotary/",
+                "name": "Facebook",
+                "tier": "standard"
+              },
+              "yelp.com": {
+                "url": "https://www.yelp.com/biz/gina-gonzalez-notary-sacramento",
+                "name": "Yelp",
+                "tier": "standard"
+              }
+            },
+            "platform_count": 3,
+            "has_organization_schema": true,
+            "has_knows_about": true,
+            "has_speakable": false,
+            "schema_types": [
+              "Notary",
+              "LocalBusiness"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "url": "https://ginagonzaleznotary.com/notary-services/legal-personal/",
+      "status_code": 200,
+      "response_time": 0.254,
+      "checks": {
+        "meta_tags": {
+          "name": "meta_tags",
+          "score": 100,
+          "passed": 8,
+          "total": 8,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/legal-personal/",
+              "message": "Meta description too long (174 chars, max 160)",
+              "severity": "warning"
+            }
+          ],
+          "details": {
+            "title": "Legal & Personal Document Notary in Sacramento, CA",
+            "title_length": 50,
+            "description": "Mobile notary for power of attorney, healthcare directives, affidavits, name changes, and prenuptial agreements in Sacramento. Bilingual English/Spanish. Call (415) 948-9967.",
+            "description_length": 174,
+            "viewport": "width=device-width, initial-scale=1",
+            "canonical": "https://ginagonzaleznotary.com/notary-services/legal-personal/",
+            "open_graph": {
+              "og:title": "Legal & Personal Document Notary in Sacramento, CA",
+              "og:description": "Mobile notary for power of attorney, healthcare directives, affidavits, name changes, and prenuptial agreements in Sacramento. Bilingual English/Spanish. Call (415) 948-9967.",
+              "og:image": "https://ginagonzaleznotary.com/images/legal.png"
+            },
+            "twitter_card": "summary_large_image"
+          }
+        },
+        "headings": {
+          "name": "headings",
+          "score": 100,
+          "passed": 4,
+          "total": 4,
+          "issues": [],
+          "details": {
+            "headings": {
+              "h1": [
+                "Legal & Personal Document Notary in Sacramento"
+              ],
+              "h2": [
+                "Legal and Personal Document Notarization in Sacramento",
+                "Documents We Notarize",
+                "Why Choose Gina Gonzalez Notary",
+                "Service Areas",
+                "Frequently Asked Questions About Legal Document Notarization",
+                "Ready to Get Started?Let's Make ItOfficial"
+              ],
+              "h3": [
+                "Power of Attorney (POA)",
+                "Healthcare Directives",
+                "Affidavits and Sworn Statements",
+                "Name Changes and Corrections",
+                "Prenuptial Agreements",
+                "Ready to Get Started? Let's Make It Official.",
+                "Legal & Personal Services",
+                "Court & Proceedings",
+                "Real Estate & Loans",
+                "Business & Misc.",
+                "Wedding Officiant",
+                "Apostille"
+              ],
+              "h4": [],
+              "h5": [],
+              "h6": []
+            },
+            "h1_length": 46
+          }
+        },
+        "images": {
+          "name": "images",
+          "score": 100,
+          "passed": 2,
+          "total": 2,
+          "issues": [],
+          "details": {
+            "total_images": 2,
+            "missing_alt": 0,
+            "empty_alt": 0,
+            "good_alt": 2
+          }
+        },
+        "links": {
+          "name": "links",
+          "score": 100,
+          "passed": 3,
+          "total": 3,
+          "issues": [],
+          "details": {
+            "internal_links": 40,
+            "external_links": 3,
+            "broken_links": 0,
+            "links_without_text": 0,
+            "external_checked": 1
+          }
+        },
+        "performance": {
+          "name": "performance",
+          "score": 100,
+          "passed": 1,
+          "total": 1,
+          "issues": [],
+          "details": {
+            "response_time": 0.254,
+            "rating": "fast"
+          }
+        },
+        "structured_data": {
+          "name": "structured_data",
+          "score": 100,
+          "passed": 2,
+          "total": 2,
+          "issues": [],
+          "details": {
+            "schemas_found": [
+              "Notary",
+              "LocalBusiness",
+              "BreadcrumbList",
+              "Service",
+              "FAQPage"
+            ],
+            "total_blocks": 4,
+            "useful_schemas": [
+              "LocalBusiness",
+              "BreadcrumbList",
+              "Service",
+              "FAQPage"
+            ]
+          }
+        },
+        "citability": {
+          "name": "citability",
+          "score": 30,
+          "passed": 1,
+          "total": 5,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/legal-personal/",
+              "message": "No AI-citable content blocks found",
+              "severity": "error"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/legal-personal/",
+              "message": "Only 1 question headings, AI prefers Q&A structure",
+              "severity": "info"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/legal-personal/",
+              "message": "No statistics or data points. Add numbers, percentages, dates",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/legal-personal/",
+              "message": "Low citability score (28/100). Content needs restructuring for AI",
+              "severity": "warning"
+            }
+          ],
+          "details": {
+            "total_blocks": 10,
+            "citable_blocks": 0,
+            "avg_block_score": 28,
+            "best_block_score": 50,
+            "citability_ratio": 0,
+            "question_headings": 1,
+            "has_definitions": true,
+            "stat_mentions": 0
+          }
+        },
+        "schema_sameAs": {
+          "name": "schema_sameAs",
+          "score": 44,
+          "passed": 2,
+          "total": 5,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/legal-personal/",
+              "message": "Only 3 sameAs platforms. Aim for 5+",
+              "severity": "info"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/legal-personal/",
+              "message": "No Wikipedia/Wikidata in sameAs. These are the strongest AI entity signals",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/legal-personal/",
+              "message": "No LinkedIn/YouTube/Reddit/GitHub in sameAs",
+              "severity": "warning"
+            }
+          ],
+          "details": {
+            "same_as_urls": [
+              "https://www.instagram.com/ginagonzaleznotary/",
+              "https://www.facebook.com/ginagonzaleznotary/",
+              "https://www.tiktok.com/@ginagonzaleznotary",
+              "https://www.yelp.com/biz/gina-gonzalez-notary-sacramento",
+              "https://www.google.com/maps/place/Gina+Gonzalez+Notary"
+            ],
+            "platforms_found": {
+              "instagram.com": {
+                "url": "https://www.instagram.com/ginagonzaleznotary/",
+                "name": "Instagram",
+                "tier": "standard"
+              },
+              "facebook.com": {
+                "url": "https://www.facebook.com/ginagonzaleznotary/",
+                "name": "Facebook",
+                "tier": "standard"
+              },
+              "yelp.com": {
+                "url": "https://www.yelp.com/biz/gina-gonzalez-notary-sacramento",
+                "name": "Yelp",
+                "tier": "standard"
+              }
+            },
+            "platform_count": 3,
+            "has_organization_schema": true,
+            "has_knows_about": true,
+            "has_speakable": false,
+            "schema_types": [
+              "Notary",
+              "LocalBusiness",
+              "BreadcrumbList",
+              "Service",
+              "FAQPage"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "url": "https://ginagonzaleznotary.com/notary-services/court-legal-proceedings/",
+      "status_code": 200,
+      "response_time": 0.25,
+      "checks": {
+        "meta_tags": {
+          "name": "meta_tags",
+          "score": 100,
+          "passed": 8,
+          "total": 8,
+          "issues": [],
+          "details": {
+            "title": "Court Document Notary Sacramento",
+            "title_length": 32,
+            "description": "Notary services for court documents, depositions, and legal proceedings in Sacramento. Former lawyer, bilingual English/Spanish. Call (415) 948-9967.",
+            "description_length": 149,
+            "viewport": "width=device-width, initial-scale=1",
+            "canonical": "https://ginagonzaleznotary.com/notary-services/court-legal-proceedings/",
+            "open_graph": {
+              "og:title": "Court Document Notary Sacramento",
+              "og:description": "Notary services for court documents, depositions, and legal proceedings in Sacramento. Former lawyer, bilingual English/Spanish. Call (415) 948-9967.",
+              "og:image": "https://ginagonzaleznotary.com/images/service-court.png"
+            },
+            "twitter_card": "summary_large_image"
+          }
+        },
+        "headings": {
+          "name": "headings",
+          "score": 100,
+          "passed": 4,
+          "total": 4,
+          "issues": [],
+          "details": {
+            "headings": {
+              "h1": [
+                "Court & Legal Proceedings Notary in Sacramento"
+              ],
+              "h2": [
+                "Court and Legal Proceedings Notarization in Sacramento",
+                "Court Documents We Notarize",
+                "Why Attorneys and Legal Professionals Choose Gina",
+                "Service Areas",
+                "Frequently Asked Questions About Court Document Notarization",
+                "Ready to Get Started?Let's Make ItOfficial"
+              ],
+              "h3": [
+                "Declarations and Affidavits",
+                "Family Law Documents",
+                "Guardianship and Conservatorship Petitions",
+                "Immigration Documents",
+                "Depositions and Sworn Statements",
+                "Ready to Get Started? Let's Make It Official.",
+                "Legal & Personal Services",
+                "Court & Proceedings",
+                "Real Estate & Loans",
+                "Business & Misc.",
+                "Wedding Officiant",
+                "Apostille"
+              ],
+              "h4": [],
+              "h5": [],
+              "h6": []
+            },
+            "h1_length": 46
+          }
+        },
+        "images": {
+          "name": "images",
+          "score": 100,
+          "passed": 2,
+          "total": 2,
+          "issues": [],
+          "details": {
+            "total_images": 2,
+            "missing_alt": 0,
+            "empty_alt": 0,
+            "good_alt": 2
+          }
+        },
+        "links": {
+          "name": "links",
+          "score": 100,
+          "passed": 3,
+          "total": 3,
+          "issues": [],
+          "details": {
+            "internal_links": 40,
+            "external_links": 3,
+            "broken_links": 0,
+            "links_without_text": 0,
+            "external_checked": 1
+          }
+        },
+        "performance": {
+          "name": "performance",
+          "score": 100,
+          "passed": 1,
+          "total": 1,
+          "issues": [],
+          "details": {
+            "response_time": 0.25,
+            "rating": "fast"
+          }
+        },
+        "structured_data": {
+          "name": "structured_data",
+          "score": 100,
+          "passed": 2,
+          "total": 2,
+          "issues": [],
+          "details": {
+            "schemas_found": [
+              "Notary",
+              "LocalBusiness",
+              "BreadcrumbList",
+              "Service",
+              "FAQPage"
+            ],
+            "total_blocks": 4,
+            "useful_schemas": [
+              "LocalBusiness",
+              "BreadcrumbList",
+              "Service",
+              "FAQPage"
+            ]
+          }
+        },
+        "citability": {
+          "name": "citability",
+          "score": 30,
+          "passed": 1,
+          "total": 5,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/court-legal-proceedings/",
+              "message": "No AI-citable content blocks found",
+              "severity": "error"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/court-legal-proceedings/",
+              "message": "Only 1 question headings, AI prefers Q&A structure",
+              "severity": "info"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/court-legal-proceedings/",
+              "message": "No statistics or data points. Add numbers, percentages, dates",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/court-legal-proceedings/",
+              "message": "Low citability score (27/100). Content needs restructuring for AI",
+              "severity": "warning"
+            }
+          ],
+          "details": {
+            "total_blocks": 9,
+            "citable_blocks": 0,
+            "avg_block_score": 27,
+            "best_block_score": 50,
+            "citability_ratio": 0,
+            "question_headings": 1,
+            "has_definitions": true,
+            "stat_mentions": 0
+          }
+        },
+        "schema_sameAs": {
+          "name": "schema_sameAs",
+          "score": 44,
+          "passed": 2,
+          "total": 5,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/court-legal-proceedings/",
+              "message": "Only 3 sameAs platforms. Aim for 5+",
+              "severity": "info"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/court-legal-proceedings/",
+              "message": "No Wikipedia/Wikidata in sameAs. These are the strongest AI entity signals",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/court-legal-proceedings/",
+              "message": "No LinkedIn/YouTube/Reddit/GitHub in sameAs",
+              "severity": "warning"
+            }
+          ],
+          "details": {
+            "same_as_urls": [
+              "https://www.instagram.com/ginagonzaleznotary/",
+              "https://www.facebook.com/ginagonzaleznotary/",
+              "https://www.tiktok.com/@ginagonzaleznotary",
+              "https://www.yelp.com/biz/gina-gonzalez-notary-sacramento",
+              "https://www.google.com/maps/place/Gina+Gonzalez+Notary"
+            ],
+            "platforms_found": {
+              "instagram.com": {
+                "url": "https://www.instagram.com/ginagonzaleznotary/",
+                "name": "Instagram",
+                "tier": "standard"
+              },
+              "facebook.com": {
+                "url": "https://www.facebook.com/ginagonzaleznotary/",
+                "name": "Facebook",
+                "tier": "standard"
+              },
+              "yelp.com": {
+                "url": "https://www.yelp.com/biz/gina-gonzalez-notary-sacramento",
+                "name": "Yelp",
+                "tier": "standard"
+              }
+            },
+            "platform_count": 3,
+            "has_organization_schema": true,
+            "has_knows_about": true,
+            "has_speakable": false,
+            "schema_types": [
+              "Notary",
+              "LocalBusiness",
+              "BreadcrumbList",
+              "Service",
+              "FAQPage"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "url": "https://ginagonzaleznotary.com/notary-services/real-estate-notary-sacramento/",
+      "status_code": 200,
+      "response_time": 0.241,
+      "checks": {
+        "meta_tags": {
+          "name": "meta_tags",
+          "score": 100,
+          "passed": 8,
+          "total": 8,
+          "issues": [],
+          "details": {
+            "title": "Loan Signing Agent Sacramento | Real Estate Notary",
+            "title_length": 50,
+            "description": "Certified loan signing agent and real estate notary in Sacramento. NNA certified, bilingual English/Spanish. Same day service. Call (415) 948-9967.",
+            "description_length": 147,
+            "viewport": "width=device-width, initial-scale=1",
+            "canonical": "https://ginagonzaleznotary.com/notary-services/real-estate-notary-sacramento/",
+            "open_graph": {
+              "og:title": "Loan Signing Agent Sacramento | Real Estate Notary",
+              "og:description": "Certified loan signing agent and real estate notary in Sacramento. NNA certified, bilingual English/Spanish. Same day service. Call (415) 948-9967.",
+              "og:image": "https://ginagonzaleznotary.com/images/real-estate.png"
+            },
+            "twitter_card": "summary_large_image"
+          }
+        },
+        "headings": {
+          "name": "headings",
+          "score": 100,
+          "passed": 4,
+          "total": 4,
+          "issues": [],
+          "details": {
+            "headings": {
+              "h1": [
+                "Real Estate & Loan Signing Agent in Sacramento"
+              ],
+              "h2": [
+                "Real Estate Notary and Loan Signing Agent in Sacramento",
+                "Loan Signing Services",
+                "Why Sacramento Real Estate Professionals Trust Gina",
+                "Areas Served",
+                "Frequently Asked Questions About Real Estate Loan Signing",
+                "Ready to Get Started?Let's Make ItOfficial"
+              ],
+              "h3": [
+                "Purchase Transactions",
+                "Refinance Signings",
+                "Seller Signings",
+                "Reverse Mortgage Signings",
+                "Ready to Get Started? Let's Make It Official.",
+                "Legal & Personal Services",
+                "Court & Proceedings",
+                "Real Estate & Loans",
+                "Business & Misc.",
+                "Wedding Officiant",
+                "Apostille"
+              ],
+              "h4": [],
+              "h5": [],
+              "h6": []
+            },
+            "h1_length": 46
+          }
+        },
+        "images": {
+          "name": "images",
+          "score": 100,
+          "passed": 2,
+          "total": 2,
+          "issues": [],
+          "details": {
+            "total_images": 2,
+            "missing_alt": 0,
+            "empty_alt": 0,
+            "good_alt": 2
+          }
+        },
+        "links": {
+          "name": "links",
+          "score": 100,
+          "passed": 3,
+          "total": 3,
+          "issues": [],
+          "details": {
+            "internal_links": 40,
+            "external_links": 3,
+            "broken_links": 0,
+            "links_without_text": 0,
+            "external_checked": 1
+          }
+        },
+        "performance": {
+          "name": "performance",
+          "score": 100,
+          "passed": 1,
+          "total": 1,
+          "issues": [],
+          "details": {
+            "response_time": 0.241,
+            "rating": "fast"
+          }
+        },
+        "structured_data": {
+          "name": "structured_data",
+          "score": 100,
+          "passed": 2,
+          "total": 2,
+          "issues": [],
+          "details": {
+            "schemas_found": [
+              "Notary",
+              "LocalBusiness",
+              "BreadcrumbList",
+              "Service",
+              "FAQPage"
+            ],
+            "total_blocks": 4,
+            "useful_schemas": [
+              "LocalBusiness",
+              "BreadcrumbList",
+              "Service",
+              "FAQPage"
+            ]
+          }
+        },
+        "citability": {
+          "name": "citability",
+          "score": 40,
+          "passed": 2,
+          "total": 5,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/real-estate-notary-sacramento/",
+              "message": "No AI-citable content blocks found",
+              "severity": "error"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/real-estate-notary-sacramento/",
+              "message": "Only 2 question headings, AI prefers Q&A structure",
+              "severity": "info"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/real-estate-notary-sacramento/",
+              "message": "No statistics or data points. Add numbers, percentages, dates",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/real-estate-notary-sacramento/",
+              "message": "Content blocks score avg 30/100 for citability",
+              "severity": "info"
+            }
+          ],
+          "details": {
+            "total_blocks": 10,
+            "citable_blocks": 0,
+            "avg_block_score": 30,
+            "best_block_score": 50,
+            "citability_ratio": 0,
+            "question_headings": 2,
+            "has_definitions": true,
+            "stat_mentions": 0
+          }
+        },
+        "schema_sameAs": {
+          "name": "schema_sameAs",
+          "score": 44,
+          "passed": 2,
+          "total": 5,
+          "issues": [
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/real-estate-notary-sacramento/",
+              "message": "Only 3 sameAs platforms. Aim for 5+",
+              "severity": "info"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/real-estate-notary-sacramento/",
+              "message": "No Wikipedia/Wikidata in sameAs. These are the strongest AI entity signals",
+              "severity": "warning"
+            },
+            {
+              "url": "https://ginagonzaleznotary.com/notary-services/real-estate-notary-sacramento/",
+              "message": "No LinkedIn/YouTube/Reddit/GitHub in sameAs",
+              "severity": "warning"
+            }
+          ],
+          "details": {
+            "same_as_urls": [
+              "https://www.instagram.com/ginagonzaleznotary/",
+              "https://www.facebook.com/ginagonzaleznotary/",
+              "https://www.tiktok.com/@ginagonzaleznotary",
+              "https://www.yelp.com/biz/gina-gonzalez-notary-sacramento",
+              "https://www.google.com/maps/place/Gina+Gonzalez+Notary"
+            ],
+            "platforms_found": {
+              "instagram.com": {
+                "url": "https://www.instagram.com/ginagonzaleznotary/",
+                "name": "Instagram",
+                "tier": "standard"
+              },
+              "facebook.com": {
+                "url": "https://www.facebook.com/ginagonzaleznotary/",
+                "name": "Facebook",
+                "tier": "standard"
+              },
+              "yelp.com": {
+                "url": "https://www.yelp.com/biz/gina-gonzalez-notary-sacramento",
+                "name": "Yelp",
+                "tier": "standard"
+              }
+            },
+            "platform_count": 3,
+            "has_organization_schema": true,
+            "has_knows_about": true,
+            "has_speakable": false,
+            "schema_types": [
+              "Notary",
+              "LocalBusiness",
+              "BreadcrumbList",
+              "Service",
+              "FAQPage"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "site_checks": {
+    "security": {
+      "name": "security",
+      "score": 100,
+      "passed": 3,
+      "total": 3,
+      "issues": [],
+      "details": {
+        "uses_https": true,
+        "ssl_valid": true,
+        "ssl_expires": "2026-06-22T15:49:26+00:00",
+        "ssl_days_left": 70,
+        "security_headers": {
+          "x-frame-options": "DENY",
+          "x-content-type-options": "nosniff",
+          "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+        }
+      }
+    },
+    "sitemap": {
+      "name": "sitemap",
+      "score": 100,
+      "passed": 3,
+      "total": 3,
+      "issues": [],
+      "details": {
+        "sitemap_exists": true,
+        "sitemap_urls": [
+          "https://ginagonzaleznotary.com/sitemap.xml"
+        ],
+        "sitemap_page_count": 60,
+        "robots_exists": true,
+        "missing_from_sitemap": [],
+        "in_sitemap_not_crawled": [
+          "https://ginagonzaleznotary.com/service-areas/roseville-notary",
+          "https://ginagonzaleznotary.com/blog/california-lease-agreement-what-tenants-and-landlords-must-know",
+          "https://ginagonzaleznotary.com/notary-services/mobile-notary-sacramento",
+          "https://ginagonzaleznotary.com/service-areas/folsom-notary",
+          "https://ginagonzaleznotary.com/service-areas/fair-oaks-notary",
+          "https://ginagonzaleznotary.com/blog/emergency-notary-sacramento-same-day",
+          "https://ginagonzaleznotary.com/notary-services/certified-english-spanish-translation-services-in-sacramento-ca",
+          "https://ginagonzaleznotary.com/service-areas/davis-notary",
+          "https://ginagonzaleznotary.com/service-areas/west-sacramento-notary",
+          "https://ginagonzaleznotary.com/blog/notary-immigration-documents-sacramento"
+        ],
+        "coverage": 100
+      }
+    },
+    "ai_crawlers": {
+      "name": "ai_crawlers",
+      "score": 65,
+      "passed": 5,
+      "total": 10,
+      "issues": [
+        {
+          "url": "https://ginagonzaleznotary.com/",
+          "message": "CRITICAL: GPTBot is BLOCKED \u2014 invisible to ChatGPT Search (300M+ users)",
+          "severity": "error"
+        },
+        {
+          "url": "https://ginagonzaleznotary.com/",
+          "message": "CRITICAL: ClaudeBot is BLOCKED \u2014 invisible to Claude AI citations",
+          "severity": "error"
+        },
+        {
+          "url": "https://ginagonzaleznotary.com/",
+          "message": "Google-Extended is blocked \u2014 reduced visibility in Google AI Overviews & Gemini",
+          "severity": "warning"
+        },
+        {
+          "url": "https://ginagonzaleznotary.com/",
+          "message": "Applebot-Extended is blocked \u2014 reduced visibility in Apple Intelligence & Siri",
+          "severity": "warning"
+        },
+        {
+          "url": "https://ginagonzaleznotary.com/",
+          "message": "Amazonbot is blocked \u2014 reduced visibility in Alexa answers",
+          "severity": "warning"
+        }
+      ],
+      "details": {
+        "tier1": {
+          "GPTBot": {
+            "blocked": true,
+            "description": "ChatGPT Search (300M+ users)"
+          },
+          "OAI-SearchBot": {
+            "blocked": false,
+            "description": "OpenAI Search"
+          },
+          "ChatGPT-User": {
+            "blocked": false,
+            "description": "ChatGPT browsing mode"
+          },
+          "ClaudeBot": {
+            "blocked": true,
+            "description": "Claude AI citations"
+          },
+          "PerplexityBot": {
+            "blocked": false,
+            "description": "Perplexity AI (200M+ daily queries)"
+          }
+        },
+        "tier2": {
+          "Google-Extended": {
+            "blocked": true,
+            "description": "Google AI Overviews & Gemini"
+          },
+          "GoogleOther": {
+            "blocked": false,
+            "description": "Google secondary crawling"
+          },
+          "Applebot-Extended": {
+            "blocked": true,
+            "description": "Apple Intelligence & Siri"
+          },
+          "Amazonbot": {
+            "blocked": true,
+            "description": "Alexa answers"
+          },
+          "facebookexternalhit": {
+            "blocked": false,
+            "description": "Facebook/Meta AI"
+          }
+        },
+        "tier3": {
+          "CCBot": {
+            "blocked": true,
+            "description": "Common Crawl (training data)"
+          },
+          "anthropic-ai": {
+            "blocked": false,
+            "description": "Anthropic training crawler"
+          },
+          "Bytespider": {
+            "blocked": true,
+            "description": "ByteDance/TikTok crawler"
+          },
+          "cohere-ai": {
+            "blocked": false,
+            "description": "Cohere AI training"
+          }
+        },
+        "tier1_blocked": 2,
+        "tier2_blocked": 3,
+        "blanket_ai_block": false,
+        "robots_exists": true
+      }
+    },
+    "llmstxt": {
+      "name": "llmstxt",
+      "score": 100,
+      "passed": 4,
+      "total": 4,
+      "issues": [],
+      "details": {
+        "llmstxt_exists": true,
+        "llmsfull_exists": false,
+        "llmstxt_length": 5984,
+        "quality": {
+          "has_title": true,
+          "has_description": true,
+          "has_key_facts": true,
+          "page_count": 35,
+          "line_count": 61
+        }
+      }
+    }
+  }
+}

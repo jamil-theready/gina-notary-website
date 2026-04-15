@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Website Audit — ginagonzaleznotary.com</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    background:#f6f9fc;
+    color:#1a1f36;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    padding:0;
+    -webkit-font-smoothing:antialiased;
+  }
+  .top-bar {
+    background:#fff;
+    border-bottom:1px solid #e3e8ee;
+    padding:16px 0;
+  }
+  .top-bar-inner {
+    max-width:800px;
+    margin:0 auto;
+    padding:0 24px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+  .logo {
+    font-size:15px;
+    font-weight:700;
+    color:#1a1f36;
+    letter-spacing:-0.01em;
+  }
+  .logo span { color:#da1819; }
+  .date { color:#8898aa; font-size:13px; }
+  .container {
+    max-width:800px;
+    margin:0 auto;
+    padding:32px 24px 64px;
+  }
+  .page-title {
+    font-size:24px;
+    font-weight:600;
+    color:#1a1f36;
+    margin-bottom:4px;
+    letter-spacing:-0.02em;
+  }
+  .page-subtitle {
+    color:#8898aa;
+    font-size:14px;
+    margin-bottom:32px;
+  }
+  .score-card {
+    background:#fff;
+    border-radius:12px;
+    padding:36px;
+    text-align:center;
+    margin-bottom:28px;
+    border:1px solid #e3e8ee;
+    box-shadow:0 1px 3px rgba(0,0,0,0.04);
+  }
+  .score-ring {
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    background:#fef3c7;
+    margin-bottom:12px;
+  }
+  .score-number {
+    font-size:48px;
+    font-weight:700;
+    color:#b8860b;
+    letter-spacing:-0.03em;
+  }
+  .score-meta {
+    display:flex;
+    justify-content:center;
+    gap:24px;
+    margin-top:8px;
+  }
+  .score-meta-item {
+    font-size:13px;
+    color:#8898aa;
+  }
+  .score-meta-item strong {
+    color:#1a1f36;
+  }
+  .card {
+    background:#fff;
+    border-radius:12px;
+    padding:24px;
+    margin-bottom:20px;
+    border:1px solid #e3e8ee;
+    box-shadow:0 1px 3px rgba(0,0,0,0.04);
+  }
+  .card h2 {
+    font-size:15px;
+    font-weight:600;
+    color:#1a1f36;
+    margin-bottom:20px;
+    letter-spacing:-0.01em;
+  }
+  .card-label {
+    font-size:12px;
+    font-weight:600;
+    text-transform:uppercase;
+    letter-spacing:0.05em;
+    margin-bottom:16px;
+  }
+  .grid {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
+  }
+  .stat-grid {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:16px;
+    margin-top:16px;
+  }
+  .stat-card {
+    background:#f6f9fc;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    border:1px solid #e3e8ee;
+  }
+  .stat-number {
+    font-size:32px;
+    font-weight:700;
+    letter-spacing:-0.03em;
+  }
+  .stat-desc {
+    color:#8898aa;
+    font-size:11px;
+    margin-top:4px;
+    line-height:1.4;
+  }
+  .cta-card {
+    background:linear-gradient(135deg, #635bff, #7c3aed);
+    border-radius:12px;
+    padding:36px;
+    text-align:center;
+    margin-top:28px;
+    border:none;
+  }
+  .cta-card h2 {
+    color:#fff;
+    font-size:20px;
+    font-weight:600;
+    margin-bottom:8px;
+  }
+  .cta-card p {
+    color:rgba(255,255,255,0.75);
+    font-size:14px;
+    margin-bottom:20px;
+  }
+  .cta-button {
+    display:inline-block;
+    background:#fff;
+    color:#635bff;
+    font-weight:600;
+    padding:12px 28px;
+    border-radius:8px;
+    text-decoration:none;
+    font-size:14px;
+    transition:box-shadow 0.15s;
+  }
+  .cta-button:hover {
+    box-shadow:0 4px 12px rgba(99,91,255,0.3);
+  }
+  .footer {
+    text-align:center;
+    margin-top:48px;
+    padding-top:24px;
+    border-top:1px solid #e3e8ee;
+    color:#8898aa;
+    font-size:12px;
+  }
+  .footer a {
+    color:#635bff;
+    text-decoration:none;
+  }
+  .badge {
+    display:inline-block;
+    padding:3px 10px;
+    border-radius:100px;
+    font-size:11px;
+    font-weight:600;
+  }
+  @media (max-width:640px) {
+    .grid { grid-template-columns:1fr; }
+    .stat-grid { grid-template-columns:1fr; }
+    .score-number { font-size:36px; }
+    .score-ring { width:90px; height:90px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="top-bar">
+  <div class="top-bar-inner">
+    <div class="logo"><span>Ready</span>Consult</div>
+    <div class="date">April 12, 2026</div>
+  </div>
+</div>
+
+<div class="container">
+
+  <h1 class="page-title">Website Audit Report</h1>
+  <p class="page-subtitle">ginagonzaleznotary.com — 10 pages analyzed across 12 categories</p>
+
+  <div class="score-card">
+    <div class="score-ring">
+      <span class="score-number">74</span>
+    </div>
+    <div style="font-size:14px;color:#8898aa;margin-bottom:8px;">out of 100</div>
+    <span class="badge" style="background:#fef3c7;color:#b8860b;">Grade: C</span>
+    <div class="score-meta">
+      <div class="score-meta-item"><strong>10</strong> pages crawled</div>
+      <div class="score-meta-item"><strong>16</strong> critical issues</div>
+      <div class="score-meta-item"><strong>59</strong> warnings</div>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <p class="card-label" style="color:#635bff;">Traditional SEO</p>
+      
+    <div style="margin-bottom:16px;">
+      <div style="display:flex;justify-content:space-between;margin-bottom:5px;">
+        <span style="color:#425466;font-size:13px;font-weight:500;">Structured Data</span>
+        <span style="color:#0e6245;font-weight:600;font-size:13px;">90</span>
+      </div>
+      <div style="background:#f0f0f0;border-radius:100px;height:6px;overflow:hidden;">
+        <div style="background:#0e6245;height:100%;width:90%;border-radius:100px;"></div>
+      </div>
+    </div>
+    <div style="margin-bottom:16px;">
+      <div style="display:flex;justify-content:space-between;margin-bottom:5px;">
+        <span style="color:#425466;font-size:13px;font-weight:500;">Meta Tags</span>
+        <span style="color:#0e6245;font-weight:600;font-size:13px;">92</span>
+      </div>
+      <div style="background:#f0f0f0;border-radius:100px;height:6px;overflow:hidden;">
+        <div style="background:#0e6245;height:100%;width:92%;border-radius:100px;"></div>
+      </div>
+    </div>
+    <div style="margin-bottom:16px;">
+      <div style="display:flex;justify-content:space-between;margin-bottom:5px;">
+        <span style="color:#425466;font-size:13px;font-weight:500;">Headings</span>
+        <span style="color:#0e6245;font-weight:600;font-size:13px;">92</span>
+      </div>
+      <div style="background:#f0f0f0;border-radius:100px;height:6px;overflow:hidden;">
+        <div style="background:#0e6245;height:100%;width:92%;border-radius:100px;"></div>
+      </div>
+    </div>
+    <div style="margin-bottom:16px;">
+      <div style="display:flex;justify-content:space-between;margin-bottom:5px;">
+        <span style="color:#425466;font-size:13px;font-weight:500;">Links</span>
+        <span style="color:#0e6245;font-weight:600;font-size:13px;">93</span>
+      </div>
+      <div style="background:#f0f0f0;border-radius:100px;height:6px;overflow:hidden;">
+        <div style="background:#0e6245;height:100%;width:93%;border-radius:100px;"></div>
+      </div>
+    </div>
+    <div style="margin-bottom:16px;">
+      <div style="display:flex;justify-content:space-between;margin-bottom:5px;">
+        <span style="color:#425466;font-size:13px;font-weight:500;">Images</span>
+        <span style="color:#0e6245;font-weight:600;font-size:13px;">100</span>
+      </div>
+      <div style="background:#f0f0f0;border-radius:100px;height:6px;overflow:hidden;">
+        <div style="background:#0e6245;height:100%;width:100%;border-radius:100px;"></div>
+      </div>
+    </div>
+    <div style="margin-bottom:16px;">
+      <div style="display:flex;justify-content:space-between;margin-bottom:5px;">
+        <span style="color:#425466;font-size:13px;font-weight:500;">Performance</span>
+        <span style="color:#0e6245;font-weight:600;font-size:13px;">100</span>
+      </div>
+      <div style="background:#f0f0f0;border-radius:100px;height:6px;overflow:hidden;">
+        <div style="background:#0e6245;height:100%;width:100%;border-radius:100px;"></div>
+      </div>
+    </div>
+    <div style="margin-bottom:16px;">
+      <div style="display:flex;justify-content:space-between;margin-bottom:5px;">
+        <span style="color:#425466;font-size:13px;font-weight:500;">Security</span>
+        <span style="color:#0e6245;font-weight:600;font-size:13px;">100</span>
+      </div>
+      <div style="background:#f0f0f0;border-radius:100px;height:6px;overflow:hidden;">
+        <div style="background:#0e6245;height:100%;width:100%;border-radius:100px;"></div>
+      </div>
+    </div>
+    <div style="margin-bottom:16px;">
+      <div style="display:flex;justify-content:space-between;margin-bottom:5px;">
+        <span style="color:#425466;font-size:13px;font-weight:500;">Sitemap & Robots</span>
+        <span style="color:#0e6245;font-weight:600;font-size:13px;">100</span>
+      </div>
+      <div style="background:#f0f0f0;border-radius:100px;height:6px;overflow:hidden;">
+        <div style="background:#0e6245;height:100%;width:100%;border-radius:100px;"></div>
+      </div>
+    </div>
+    </div>
+    <div class="card">
+      <p class="card-label" style="color:#cd3d64;">AI Search Readiness</p>
+      
+    <div style="margin-bottom:16px;">
+      <div style="display:flex;justify-content:space-between;margin-bottom:5px;">
+        <span style="color:#425466;font-size:13px;font-weight:500;">AI Citability</span>
+        <span style="color:#cd3d64;font-weight:600;font-size:13px;">22</span>
+      </div>
+      <div style="background:#f0f0f0;border-radius:100px;height:6px;overflow:hidden;">
+        <div style="background:#cd3d64;height:100%;width:22%;border-radius:100px;"></div>
+      </div>
+    </div>
+    <div style="margin-bottom:16px;">
+      <div style="display:flex;justify-content:space-between;margin-bottom:5px;">
+        <span style="color:#425466;font-size:13px;font-weight:500;">Entity Recognition</span>
+        <span style="color:#cd3d64;font-weight:600;font-size:13px;">40</span>
+      </div>
+      <div style="background:#f0f0f0;border-radius:100px;height:6px;overflow:hidden;">
+        <div style="background:#cd3d64;height:100%;width:40%;border-radius:100px;"></div>
+      </div>
+    </div>
+    <div style="margin-bottom:16px;">
+      <div style="display:flex;justify-content:space-between;margin-bottom:5px;">
+        <span style="color:#425466;font-size:13px;font-weight:500;">AI Crawler Access</span>
+        <span style="color:#b8860b;font-weight:600;font-size:13px;">65</span>
+      </div>
+      <div style="background:#f0f0f0;border-radius:100px;height:6px;overflow:hidden;">
+        <div style="background:#b8860b;height:100%;width:65%;border-radius:100px;"></div>
+      </div>
+    </div>
+    <div style="margin-bottom:16px;">
+      <div style="display:flex;justify-content:space-between;margin-bottom:5px;">
+        <span style="color:#425466;font-size:13px;font-weight:500;">llms.txt</span>
+        <span style="color:#0e6245;font-weight:600;font-size:13px;">100</span>
+      </div>
+      <div style="background:#f0f0f0;border-radius:100px;height:6px;overflow:hidden;">
+        <div style="background:#0e6245;height:100%;width:100%;border-radius:100px;"></div>
+      </div>
+    </div>
+      <p style="color:#8898aa;font-size:11px;margin-top:16px;line-height:1.5;">AI search engines (ChatGPT, Perplexity, Gemini) drive 4.4x higher conversions than traditional organic. These scores measure how visible your site is to AI.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Issues Found</h2>
+    <p style="color:#8898aa;font-size:13px;margin-bottom:8px;">16 critical, 59 warnings detected across your site</p>
+    <div style="margin-top:20px;"><p style="font-size:12px;font-weight:600;color:#cd3d64;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:10px;">Critical Issues</p><div style="padding:12px 16px;border:1px solid #fce4ec;background:#fff5f7;border-radius:8px;margin-bottom:6px;font-size:13px;color:#4f566b;">No AI-citable content blocks found</div><div style="padding:12px 16px;border:1px solid #fce4ec;background:#fff5f7;border-radius:8px;margin-bottom:6px;font-size:13px;color:#4f566b;">Missing meta description</div><div style="padding:12px 16px;border:1px solid #fce4ec;background:#fff5f7;border-radius:8px;margin-bottom:6px;font-size:13px;color:#4f566b;">Broken external link (403): https://www.cloudflare.com/sign-up?utm_source=email_protection</div><div style="padding:12px 16px;border:1px solid #fce4ec;background:#fff5f7;border-radius:8px;margin-bottom:6px;font-size:13px;color:#4f566b;">No AI-citable content blocks found</div><div style="padding:12px 16px;border:1px solid #fce4ec;background:#fff5f7;border-radius:8px;margin-bottom:6px;font-size:13px;color:#4f566b;">No Organization/LocalBusiness schema. AI can't identify your entity</div><div style="padding:12px 16px;border:1px solid #fce4ec;background:#fff5f7;border-radius:8px;margin-bottom:6px;font-size:13px;color:#4f566b;">No sameAs links in schema. AI can't verify your entity across platforms</div><div style="padding:12px 16px;border:1px solid #fce4ec;background:#fff5f7;border-radius:8px;margin-bottom:6px;font-size:13px;color:#4f566b;">No AI-citable content blocks found</div><div style="padding:12px 16px;border:1px solid #fce4ec;background:#fff5f7;border-radius:8px;margin-bottom:6px;font-size:13px;color:#4f566b;">No AI-citable content blocks found</div><div style="padding:12px 16px;border:1px solid #fce4ec;background:#fff5f7;border-radius:8px;margin-bottom:6px;font-size:13px;color:#4f566b;">No AI-citable content blocks found</div><div style="padding:12px 16px;border:1px solid #fce4ec;background:#fff5f7;border-radius:8px;margin-bottom:6px;font-size:13px;color:#4f566b;">No AI-citable content blocks found</div><p style="color:#8898aa;font-size:12px;margin-top:4px;">...and 6 more</p></div><div style="margin-top:20px;"><p style="font-size:12px;font-weight:600;color:#b8860b;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:10px;">Warnings</p><div style="padding:12px 16px;border:1px solid #fef3c7;background:#fffbeb;border-radius:8px;margin-bottom:6px;font-size:13px;color:#4f566b;">Low citability score (21/100). Content needs restructuring for AI</div><div style="padding:12px 16px;border:1px solid #fef3c7;background:#fffbeb;border-radius:8px;margin-bottom:6px;font-size:13px;color:#4f566b;">No Wikipedia/Wikidata in sameAs. These are the strongest AI entity signals</div><div style="padding:12px 16px;border:1px solid #fef3c7;background:#fffbeb;border-radius:8px;margin-bottom:6px;font-size:13px;color:#4f566b;">No LinkedIn/YouTube/Reddit/GitHub in sameAs</div><div style="padding:12px 16px;border:1px solid #fef3c7;background:#fffbeb;border-radius:8px;margin-bottom:6px;font-size:13px;color:#4f566b;">Title too short (29 chars, aim for 45-55)</div><div style="padding:12px 16px;border:1px solid #fef3c7;background:#fffbeb;border-radius:8px;margin-bottom:6px;font-size:13px;color:#4f566b;">Missing canonical tag</div><div style="padding:12px 16px;border:1px solid #fef3c7;background:#fffbeb;border-radius:8px;margin-bottom:6px;font-size:13px;color:#4f566b;">Missing og:title tag</div><div style="padding:12px 16px;border:1px solid #fef3c7;background:#fffbeb;border-radius:8px;margin-bottom:6px;font-size:13px;color:#4f566b;">Missing og:description tag</div><div style="padding:12px 16px;border:1px solid #fef3c7;background:#fffbeb;border-radius:8px;margin-bottom:6px;font-size:13px;color:#4f566b;">Missing og:image tag</div><p style="color:#8898aa;font-size:12px;margin-top:4px;">...and 51 more</p></div>
+  </div>
+
+  <div class="card">
+    <h2>Why This Matters</h2>
+    <div class="stat-grid">
+      <div class="stat-card">
+        <div class="stat-number" style="color:#cd3d64;">50%</div>
+        <div class="stat-desc">of organic search traffic will shift to AI search by 2028 (Gartner)</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number" style="color:#0e6245;">4.4x</div>
+        <div class="stat-desc">higher conversion rate from AI-referred traffic vs traditional organic</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number" style="color:#635bff;">23%</div>
+        <div class="stat-desc">of businesses are optimizing for AI search. The other 77% are falling behind.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cta-card">
+    <h2>Ready to improve your score?</h2>
+    <p>We can take your site from 74 to 80+ and get you visible on both Google and AI search engines.</p>
+    <a href="mailto:jamil@thereadyconsult.com?subject=Website%20Audit%20-%20ginagonzaleznotary.com" class="cta-button">Let's Talk</a>
+  </div>
+
+  <div class="footer">
+    <p>Generated by <a href="https://thereadyconsult.com">The Ready Consult</a> — AI-First Consulting Agency</p>
+    <p style="margin-top:4px;">jamil@thereadyconsult.com</p>
+  </div>
+
+</div>
+</body>
+</html>
