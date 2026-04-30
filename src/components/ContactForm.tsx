@@ -5,11 +5,13 @@ import { useRouter } from "next/navigation";
 
 export default function ContactForm() {
   const [sending, setSending] = useState(false);
+  const [errorMsg, setErrorMsg] = useState<string | null>(null);
   const router = useRouter();
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setSending(true);
+    setErrorMsg(null);
 
     const form = e.target as HTMLFormElement;
     const formData = new FormData(form);
@@ -21,14 +23,20 @@ export default function ContactForm() {
         body: formData,
       });
 
-      if (res.ok) {
+      const data = await res.json().catch(() => null);
+
+      if (res.ok && data?.success) {
         router.push("/thank-you");
-      } else {
-        alert("Something went wrong. Please call (415) 948-9967 instead.");
-        setSending(false);
+        return;
       }
-    } catch {
-      alert("Something went wrong. Please call (415) 948-9967 instead.");
+
+      const apiMessage = data?.message || `HTTP ${res.status}`;
+      console.error("Web3Forms submission failed:", { status: res.status, data });
+      setErrorMsg(`Submission failed: ${apiMessage}. Please call (415) 948-9967 or email travelnotarynow@gmail.com.`);
+      setSending(false);
+    } catch (err) {
+      console.error("Web3Forms network error:", err);
+      setErrorMsg("Network error. Please call (415) 948-9967 or email travelnotarynow@gmail.com.");
       setSending(false);
     }
   }
@@ -118,6 +126,15 @@ export default function ContactForm() {
             placeholder="Tell us about your notary needs, preferred date/time, and location."
           />
         </div>
+
+        {errorMsg && (
+          <div
+            role="alert"
+            className="rounded-lg bg-red-50 border border-red-200 px-4 py-3 text-sm text-red-800"
+          >
+            {errorMsg}
+          </div>
+        )}
 
         <button
           type="submit"
