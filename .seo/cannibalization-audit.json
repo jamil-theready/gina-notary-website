@@ -1,0 +1,509 @@
+{
+  "schemaVersion": 1,
+  "lastUpdated": "2026-05-04T00:00:00.000Z",
+  "totalDocs": 52,
+  "totalCollisions": 22,
+  "highSeverity": 5,
+  "mediumSeverity": 17,
+  "collisions": [
+    {
+      "docA": {
+        "type": "blog",
+        "slug": "first-time-homebuyer-sacramento-2026-2026-04-15",
+        "title": "Sacramento First-Time Homebuyer Guide 2026"
+      },
+      "docB": {
+        "type": "blog",
+        "slug": "first-time-homebuyer-sacramento-notary-2026-04-14",
+        "title": "First Time Homebuyer Sacramento: Your Notary Guide"
+      },
+      "overlapRatio": 1.0,
+      "overlapTokens": [
+        "2026",
+        "first",
+        "guide",
+        "homebuyer",
+        "notary",
+        "sacramento",
+        "time"
+      ],
+      "severity": "high"
+    },
+    {
+      "docA": {
+        "type": "blog",
+        "slug": "immigration-documents-notary-sacramento",
+        "title": "Essential Notary for Immigration Documents Sacramento"
+      },
+      "docB": {
+        "type": "blog",
+        "slug": "notary-immigration-documents-sacramento",
+        "title": "Need a Notary for Immigration Documents Sacramento? Your Guide (2026)"
+      },
+      "overlapRatio": 1.0,
+      "overlapTokens": [
+        "documents",
+        "essential",
+        "immigration",
+        "notary",
+        "sacramento"
+      ],
+      "severity": "high"
+    },
+    {
+      "docA": {
+        "type": "blog",
+        "slug": "sacramento-wedding-season-guide-2026-05-03",
+        "title": "Sacramento Wedding Season: Your Notary & Officiant Guide..."
+      },
+      "docB": {
+        "type": "blog",
+        "slug": "wedding-season-sacramento-guide-2026-05-03",
+        "title": "Wedding Season Sacramento: Your Notary & Officiant Guide"
+      },
+      "overlapRatio": 1.0,
+      "overlapTokens": [
+        "2026",
+        "guide",
+        "notary",
+        "officiant",
+        "sacramento",
+        "season",
+        "wedding"
+      ],
+      "severity": "high"
+    },
+    {
+      "docA": {
+        "type": "blog",
+        "slug": "sacramento-real-estate-closing-notary-2026-04-14",
+        "title": "Real Estate Closing Notary: Your Sacramento Guide"
+      },
+      "docB": {
+        "type": "blog",
+        "slug": "spring-real-estate-sacramento-2026-04-14",
+        "title": "Spring Real Estate Sacramento: Your Notary Guide"
+      },
+      "overlapRatio": 0.86,
+      "overlapTokens": [
+        "2026",
+        "estate",
+        "guide",
+        "notary",
+        "real",
+        "sacramento"
+      ],
+      "severity": "high"
+    },
+    {
+      "docA": {
+        "type": "blog",
+        "slug": "spring-real-estate-sacramento-2026-04-14",
+        "title": "Spring Real Estate Sacramento: Your Notary Guide"
+      },
+      "docB": {
+        "type": "blog",
+        "slug": "real-estate-closing-notary-guide-2026-04-15",
+        "title": "Real Estate Closing Notary: Your Guide in Sacramento"
+      },
+      "overlapRatio": 0.86,
+      "overlapTokens": [
+        "2026",
+        "estate",
+        "guide",
+        "notary",
+        "real",
+        "sacramento"
+      ],
+      "severity": "high"
+    },
+    {
+      "docA": {
+        "type": "blog",
+        "slug": "immigration-documents-notary-sacramento",
+        "title": "Essential Notary for Immigration Documents Sacramento"
+      },
+      "docB": {
+        "type": "blog",
+        "slug": "sacramento-housing-market-notary-2026-04-10",
+        "title": "Understanding the Sacramento Housing Market in 2026"
+      },
+      "overlapRatio": 0.8,
+      "overlapTokens": [
+        "documents",
+        "essential",
+        "notary",
+        "sacramento"
+      ],
+      "severity": "medium"
+    },
+    {
+      "docA": {
+        "type": "blog",
+        "slug": "immigration-documents-notary-sacramento",
+        "title": "Essential Notary for Immigration Documents Sacramento"
+      },
+      "docB": {
+        "type": "blog",
+        "slug": "real-estate-closing-notary-guide-2026-04-15",
+        "title": "Real Estate Closing Notary: Your Guide in Sacramento"
+      },
+      "overlapRatio": 0.8,
+      "overlapTokens": [
+        "documents",
+        "essential",
+        "notary",
+        "sacramento"
+      ],
+      "severity": "medium"
+    },
+    {
+      "docA": {
+        "type": "blog",
+        "slug": "notarize-tax-deadline-documents-2026-04-15",
+        "title": "Notarizing Your Tax Deadline Documents (2026)"
+      },
+      "docB": {
+        "type": "services",
+        "slug": "dmv-document-notary-sacramento",
+        "title": "DMV Document Notary in Sacramento"
+      },
+      "overlapRatio": 0.78,
+      "overlapTokens": [
+        "document",
+        "documents",
+        "mobile",
+        "notarization",
+        "notarize",
+        "notary",
+        "sacramento"
+      ],
+      "severity": "medium"
+    },
+    {
+      "docA": {
+        "type": "blog",
+        "slug": "california-quitclaim-deed-when-and-how-to-use-one",
+        "title": "California Quitclaim Deed: When and How to Use One"
+      },
+      "docB": {
+        "type": "blog",
+        "slug": "california-grant-deed-vs-quitclaim-deed-explained",
+        "title": "California Grant Deed vs Quitclaim Deed Explained"
+      },
+      "overlapRatio": 0.78,
+      "overlapTokens": [
+        "california",
+        "deed",
+        "deeds",
+        "grant",
+        "quitclaim",
+        "what",
+        "when"
+      ],
+      "severity": "medium"
+    },
+    {
+      "docA": {
+        "type": "services",
+        "slug": "dmv-document-notary-sacramento",
+        "title": "DMV Document Notary in Sacramento"
+      },
+      "docB": {
+        "type": "services",
+        "slug": "business-misc-documents",
+        "title": "Business & Miscellaneous Document Notary in Sacramento"
+      },
+      "overlapRatio": 0.78,
+      "overlapTokens": [
+        "choose",
+        "document",
+        "documents",
+        "notarization",
+        "notarize",
+        "notary",
+        "sacramento"
+      ],
+      "severity": "medium"
+    },
+    {
+      "docA": {
+        "type": "services",
+        "slug": "dmv-document-notary-sacramento",
+        "title": "DMV Document Notary in Sacramento"
+      },
+      "docB": {
+        "type": "services",
+        "slug": "legal-personal",
+        "title": "Legal & Personal Document Notary in Sacramento"
+      },
+      "overlapRatio": 0.78,
+      "overlapTokens": [
+        "choose",
+        "document",
+        "documents",
+        "notarization",
+        "notarize",
+        "notary",
+        "sacramento"
+      ],
+      "severity": "medium"
+    },
+    {
+      "docA": {
+        "type": "services",
+        "slug": "dmv-document-notary-sacramento",
+        "title": "DMV Document Notary in Sacramento"
+      },
+      "docB": {
+        "type": "services",
+        "slug": "restraining-order-notary-sacramento",
+        "title": "Restraining Order Notary in Sacramento"
+      },
+      "overlapRatio": 0.78,
+      "overlapTokens": [
+        "document",
+        "documents",
+        "notarization",
+        "notarize",
+        "notary",
+        "sacramento",
+        "schedule"
+      ],
+      "severity": "medium"
+    },
+    {
+      "docA": {
+        "type": "services",
+        "slug": "business-misc-documents",
+        "title": "Business & Miscellaneous Document Notary in Sacramento"
+      },
+      "docB": {
+        "type": "services",
+        "slug": "legal-personal",
+        "title": "Legal & Personal Document Notary in Sacramento"
+      },
+      "overlapRatio": 0.77,
+      "overlapTokens": [
+        "areas",
+        "choose",
+        "document",
+        "documents",
+        "gina",
+        "notarization",
+        "notarize",
+        "notary",
+        "sacramento",
+        "service"
+      ],
+      "severity": "medium"
+    },
+    {
+      "docA": {
+        "type": "services",
+        "slug": "court-legal-proceedings",
+        "title": "Court & Legal Proceedings Notary in Sacramento"
+      },
+      "docB": {
+        "type": "services",
+        "slug": "legal-personal",
+        "title": "Legal & Personal Document Notary in Sacramento"
+      },
+      "overlapRatio": 0.77,
+      "overlapTokens": [
+        "areas",
+        "choose",
+        "documents",
+        "gina",
+        "legal",
+        "notarization",
+        "notarize",
+        "notary",
+        "sacramento",
+        "service"
+      ],
+      "severity": "medium"
+    },
+    {
+      "docA": {
+        "type": "blog",
+        "slug": "spring-real-estate-sacramento-2026-04-14",
+        "title": "Spring Real Estate Sacramento: Your Notary Guide"
+      },
+      "docB": {
+        "type": "blog",
+        "slug": "sacramento-housing-market-notary-2026-04-10",
+        "title": "Understanding the Sacramento Housing Market in 2026"
+      },
+      "overlapRatio": 0.71,
+      "overlapTokens": [
+        "2026",
+        "estate",
+        "notary",
+        "real",
+        "sacramento"
+      ],
+      "severity": "medium"
+    },
+    {
+      "docA": {
+        "type": "blog",
+        "slug": "spring-real-estate-sacramento-2026-04-14",
+        "title": "Spring Real Estate Sacramento: Your Notary Guide"
+      },
+      "docB": {
+        "type": "blog",
+        "slug": "loan-signing-agent-sacramento-guide",
+        "title": "Loan Signing Services in California"
+      },
+      "overlapRatio": 0.71,
+      "overlapTokens": [
+        "estate",
+        "guide",
+        "notary",
+        "real",
+        "sacramento"
+      ],
+      "severity": "medium"
+    },
+    {
+      "docA": {
+        "type": "blog",
+        "slug": "spring-real-estate-sacramento-2026-04-14",
+        "title": "Spring Real Estate Sacramento: Your Notary Guide"
+      },
+      "docB": {
+        "type": "blog",
+        "slug": "fsbo-home-selling-notary-sacramento-2026-04-10",
+        "title": "FSBO Home Selling in Sacramento: What Notary Documents Do You Need?"
+      },
+      "overlapRatio": 0.71,
+      "overlapTokens": [
+        "2026",
+        "estate",
+        "notary",
+        "real",
+        "sacramento"
+      ],
+      "severity": "medium"
+    },
+    {
+      "docA": {
+        "type": "blog",
+        "slug": "loan-signing-agent-sacramento-guide",
+        "title": "Loan Signing Services in California"
+      },
+      "docB": {
+        "type": "services",
+        "slug": "real-estate-notary-sacramento",
+        "title": "Real Estate & Loan Signing Agent in Sacramento"
+      },
+      "overlapRatio": 0.69,
+      "overlapTokens": [
+        "agent",
+        "estate",
+        "gina",
+        "loan",
+        "notary",
+        "real",
+        "sacramento",
+        "services",
+        "signing"
+      ],
+      "severity": "medium"
+    },
+    {
+      "docA": {
+        "type": "blog",
+        "slug": "sacramento-real-estate-closing-notary-2026-04-14",
+        "title": "Real Estate Closing Notary: Your Sacramento Guide"
+      },
+      "docB": {
+        "type": "blog",
+        "slug": "real-estate-closing-notary-guide-2026-04-15",
+        "title": "Real Estate Closing Notary: Your Guide in Sacramento"
+      },
+      "overlapRatio": 0.68,
+      "overlapTokens": [
+        "2026",
+        "california",
+        "closing",
+        "documents",
+        "estate",
+        "guide",
+        "mobile",
+        "notary",
+        "property",
+        "real"
+      ],
+      "severity": "medium"
+    },
+    {
+      "docA": {
+        "type": "blog",
+        "slug": "hospital-notary-sacramento-urgent-services-2026-04-10",
+        "title": "Hospital Notary Sacramento: Urgent Mobile Notary Services (2026)"
+      },
+      "docB": {
+        "type": "services",
+        "slug": "dmv-document-notary-sacramento",
+        "title": "DMV Document Notary in Sacramento"
+      },
+      "overlapRatio": 0.67,
+      "overlapTokens": [
+        "documents",
+        "mobile",
+        "notarization",
+        "notarize",
+        "notary",
+        "sacramento"
+      ],
+      "severity": "medium"
+    },
+    {
+      "docA": {
+        "type": "services",
+        "slug": "power-of-attorney-notary-sacramento",
+        "title": "Power of Attorney Notary in Sacramento"
+      },
+      "docB": {
+        "type": "services",
+        "slug": "dmv-document-notary-sacramento",
+        "title": "DMV Document Notary in Sacramento"
+      },
+      "overlapRatio": 0.67,
+      "overlapTokens": [
+        "choose",
+        "notarization",
+        "notarize",
+        "notary",
+        "sacramento",
+        "schedule"
+      ],
+      "severity": "medium"
+    },
+    {
+      "docA": {
+        "type": "services",
+        "slug": "dmv-document-notary-sacramento",
+        "title": "DMV Document Notary in Sacramento"
+      },
+      "docB": {
+        "type": "services",
+        "slug": "court-legal-proceedings",
+        "title": "Court & Legal Proceedings Notary in Sacramento"
+      },
+      "overlapRatio": 0.67,
+      "overlapTokens": [
+        "choose",
+        "documents",
+        "notarization",
+        "notarize",
+        "notary",
+        "sacramento"
+      ],
+      "severity": "medium"
+    }
+  ],
+  "methodology": "65%+ token overlap (title + top-6 H2s, after stopword removal, words >3 chars). Same-language only."
+}

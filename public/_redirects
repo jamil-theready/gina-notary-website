@@ -38,3 +38,8 @@
 # Remaining /notary-resources/ → blog index (no direct match)
 /notary-resources /blog/ 301
 /notary-resources/* /blog/ 301
+
+# Cannibalization consolidation 2026-05-04 — duplicate posts redirected to canonical
+/blog/first-time-homebuyer-sacramento-notary-2026-04-14/ /blog/first-time-homebuyer-sacramento-2026-2026-04-15/ 301
+/blog/immigration-documents-notary-sacramento/ /blog/notary-immigration-documents-sacramento/ 301
+/blog/sacramento-wedding-season-guide-2026-05-03/ /blog/wedding-season-sacramento-guide-2026-05-03/ 301

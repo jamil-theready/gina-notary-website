@@ -93,7 +93,7 @@
       "avgPosition": null,
       "totalImpressions": 0,
       "needsMore": false,
-      "note": "AEO test confirmed top 3 for POA — top performer cluster, do not cannibalize."
+      "note": "AEO test confirmed top 3 for POA \u2014 top performer cluster, do not cannibalize."
     },
     "estate": {
       "postCount": 0,
@@ -117,7 +117,7 @@
   "strategicPriorities": [
     {
       "cluster": "apostille",
-      "reason": "AEO confirmed gap — not in top 10 for primary commercial query. Service page rebuilt; need spokes.",
+      "reason": "AEO confirmed gap \u2014 not in top 10 for primary commercial query. Service page rebuilt; need spokes.",
       "currentPostCount": 1,
       "currentAvgPosition": null,
       "targetPostsThisMonth": 5,
@@ -149,9 +149,34 @@
     "note": "Seed file. Real numbers populated by Flow 6 weekly run."
   },
   "manualOverrides": {
-    "doNotRefresh": [],
-    "doNotWriteAbout": [],
-    "forceClusterPriority": ["apostille"]
+    "doNotRefresh": [
+      "immigration-documents-notary-sacramento",
+      "first-time-homebuyer-sacramento-notary-2026-04-14",
+      "sacramento-wedding-season-guide-2026-05-03"
+    ],
+    "doNotWriteAbout": [
+      "wedding season sacramento guide",
+      "immigration documents notary sacramento",
+      "first time homebuyer notary sacramento",
+      "first time homebuyer sacramento"
+    ],
+    "forceClusterPriority": [
+      "apostille"
+    ],
+    "cannibalizationConsolidations": [
+      {
+        "redirected": "first-time-homebuyer-sacramento-notary-2026-04-14",
+        "canonical": "first-time-homebuyer-sacramento-2026-2026-04-15"
+      },
+      {
+        "redirected": "immigration-documents-notary-sacramento",
+        "canonical": "notary-immigration-documents-sacramento"
+      },
+      {
+        "redirected": "sacramento-wedding-season-guide-2026-05-03",
+        "canonical": "wedding-season-sacramento-guide-2026-05-03"
+      }
+    ]
   },
   "history": [
     {
