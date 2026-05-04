@@ -1,0 +1,1455 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-04T16:37:30.134Z",
+  "totalEntries": 49,
+  "totalServices": 15,
+  "totalBlogPosts": 34,
+  "byCluster": {
+    "apostille": [
+      {
+        "slug": "apostille-services-in-sacramento-ca",
+        "title": "Apostille Services in Sacramento, CA",
+        "url": "/notary-services/apostille-services-in-sacramento-ca/",
+        "type": "service",
+        "language": "en"
+      },
+      {
+        "slug": "apostilla-en-sacramento-california-guia",
+        "title": "Apostilla en Sacramento California: Guia Completa",
+        "url": "/blog/apostilla-en-sacramento-california-guia/",
+        "type": "blog",
+        "language": "es"
+      },
+      {
+        "slug": "apostille-services-sacramento-complete-guide",
+        "title": "Apostille Services in Sacramento: Complete Guide",
+        "url": "/blog/apostille-services-sacramento-complete-guide/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "summer-travel-notary-guide-2026-05-03",
+        "title": "Summer Travel Notary: Essential Preparation Tips",
+        "url": "/blog/summer-travel-notary-guide-2026-05-03/",
+        "type": "blog",
+        "language": "en"
+      }
+    ],
+    "business": [
+      {
+        "slug": "business-misc-documents",
+        "title": "Business & Miscellaneous Document Notary in Sacramento",
+        "url": "/notary-services/business-misc-documents/",
+        "type": "service",
+        "language": "en"
+      },
+      {
+        "slug": "california-lease-agreement-what-tenants-and-landlords-must-know",
+        "title": "California Lease Agreement: Tenant & Landlord Guide",
+        "url": "/blog/california-lease-agreement-what-tenants-and-landlords-must-know/",
+        "type": "blog",
+        "language": "en"
+      }
+    ],
+    "translation": [
+      {
+        "slug": "certified-english-spanish-translation-services-in-sacramento-ca",
+        "title": "Certified English-Spanish Translation Services in Sacramento, CA",
+        "url": "/notary-services/certified-english-spanish-translation-services-in-sacramento-ca/",
+        "type": "service",
+        "language": "en"
+      }
+    ],
+    "general": [
+      {
+        "slug": "court-legal-proceedings",
+        "title": "Court & Legal Proceedings Notary in Sacramento",
+        "url": "/notary-services/court-legal-proceedings/",
+        "type": "service",
+        "language": "en"
+      },
+      {
+        "slug": "legal-personal",
+        "title": "Legal & Personal Document Notary in Sacramento",
+        "url": "/notary-services/legal-personal/",
+        "type": "service",
+        "language": "en"
+      },
+      {
+        "slug": "mobile-notary-sacramento",
+        "title": "Mobile Notary in Sacramento",
+        "url": "/notary-services/mobile-notary-sacramento/",
+        "type": "service",
+        "language": "en"
+      },
+      {
+        "slug": "demand-letter-notarization-sacramento",
+        "title": "Demand Letters in Sacramento: When and Why to Get One Notarized",
+        "url": "/blog/demand-letter-notarization-sacramento/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "notarize-tax-deadline-documents-2026-04-15",
+        "title": "Notarizing Your Tax Deadline Documents (2026)",
+        "url": "/blog/notarize-tax-deadline-documents-2026-04-15/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "tax-deadline-documents-notary-2026-04-14",
+        "title": "Tax Deadline Documents: Your Notary Checklist",
+        "url": "/blog/tax-deadline-documents-notary-2026-04-14/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "tax-deadline-notary-documents-2026-04-14",
+        "title": "Tax Deadline Documents: Your Notary Guide",
+        "url": "/blog/tax-deadline-notary-documents-2026-04-14/",
+        "type": "blog",
+        "language": "en"
+      }
+    ],
+    "dmv": [
+      {
+        "slug": "dmv-document-notary-sacramento",
+        "title": "DMV Document Notary in Sacramento",
+        "url": "/notary-services/dmv-document-notary-sacramento/",
+        "type": "service",
+        "language": "en"
+      },
+      {
+        "slug": "what-dmv-documents-need-to-be-notarized",
+        "title": "What DMV Documents Need to Be Notarized?",
+        "url": "/blog/what-dmv-documents-need-to-be-notarized/",
+        "type": "blog",
+        "language": "en"
+      }
+    ],
+    "realEstate": [
+      {
+        "slug": "loan-signing-agent-sacramento",
+        "title": "Loan Signing Agent in Sacramento",
+        "url": "/notary-services/loan-signing-agent-sacramento/",
+        "type": "service",
+        "language": "en"
+      },
+      {
+        "slug": "real-estate-notary-sacramento",
+        "title": "Real Estate & Loan Signing Agent in Sacramento",
+        "url": "/notary-services/real-estate-notary-sacramento/",
+        "type": "service",
+        "language": "en"
+      },
+      {
+        "slug": "california-grant-deed-vs-quitclaim-deed-explained",
+        "title": "California Grant Deed vs Quitclaim Deed Explained",
+        "url": "/blog/california-grant-deed-vs-quitclaim-deed-explained/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "california-quitclaim-deed-when-and-how-to-use-one",
+        "title": "California Quitclaim Deed: When and How to Use One",
+        "url": "/blog/california-quitclaim-deed-when-and-how-to-use-one/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "first-time-homebuyer-sacramento-2026-2026-04-15",
+        "title": "Sacramento First-Time Homebuyer Guide 2026",
+        "url": "/blog/first-time-homebuyer-sacramento-2026-2026-04-15/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "fsbo-home-selling-notary-sacramento-2026-04-10",
+        "title": "FSBO Home Selling in Sacramento: What Notary Documents Do You Need?",
+        "url": "/blog/fsbo-home-selling-notary-sacramento-2026-04-10/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "loan-signing-agent-sacramento-guide",
+        "title": "Loan Signing Services in California",
+        "url": "/blog/loan-signing-agent-sacramento-guide/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "real-estate-closing-notary-guide-2026-04-15",
+        "title": "Real Estate Closing Notary: Your Guide in Sacramento",
+        "url": "/blog/real-estate-closing-notary-guide-2026-04-15/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "sacramento-housing-market-home-equity-2026-04-14",
+        "title": "Unlocking Home Equity in the Sacramento Housing Market for Renovations",
+        "url": "/blog/sacramento-housing-market-home-equity-2026-04-14/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "sacramento-housing-market-notary-2026-04-10",
+        "title": "Understanding the Sacramento Housing Market in 2026",
+        "url": "/blog/sacramento-housing-market-notary-2026-04-10/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "sacramento-real-estate-closing-notary-2026-04-14",
+        "title": "Real Estate Closing Notary: Your Sacramento Guide",
+        "url": "/blog/sacramento-real-estate-closing-notary-2026-04-14/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "spring-real-estate-sacramento-2026-04-14",
+        "title": "Spring Real Estate Sacramento: Your Notary Guide",
+        "url": "/blog/spring-real-estate-sacramento-2026-04-14/",
+        "type": "blog",
+        "language": "en"
+      }
+    ],
+    "family": [
+      {
+        "slug": "name-change-notary-sacramento",
+        "title": "Name Change Notary in Sacramento",
+        "url": "/notary-services/name-change-notary-sacramento/",
+        "type": "service",
+        "language": "en"
+      },
+      {
+        "slug": "restraining-order-notary-sacramento",
+        "title": "Restraining Order Notary in Sacramento",
+        "url": "/notary-services/restraining-order-notary-sacramento/",
+        "type": "service",
+        "language": "en"
+      },
+      {
+        "slug": "california-travel-consent-form-2026-05-03",
+        "title": "California Travel Consent Form Explained",
+        "url": "/blog/california-travel-consent-form-2026-05-03/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "do-you-need-a-notary-for-divorce-papers-in-california",
+        "title": "Do You Need a Notary for Divorce Papers in California?",
+        "url": "/blog/do-you-need-a-notary-for-divorce-papers-in-california/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "legal-name-change-california-guide",
+        "title": "Legal Name Change in California: What You Need to Know",
+        "url": "/blog/legal-name-change-california-guide/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "restraining-order-notary-sacramento-guide",
+        "title": "Restraining Orders in Sacramento: What You Need to Know",
+        "url": "/blog/restraining-order-notary-sacramento-guide/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "temporary-custody-notarized-letter-california",
+        "title": "Temporary Custody Notarized Letter in California",
+        "url": "/blog/temporary-custody-notarized-letter-california/",
+        "type": "blog",
+        "language": "en"
+      }
+    ],
+    "poa": [
+      {
+        "slug": "power-of-attorney-notary-sacramento",
+        "title": "Power of Attorney Notary in Sacramento",
+        "url": "/notary-services/power-of-attorney-notary-sacramento/",
+        "type": "service",
+        "language": "en"
+      },
+      {
+        "slug": "hospital-notary-sacramento-urgent-services-2026-04-10",
+        "title": "Hospital Notary Sacramento: Urgent Mobile Notary Services (2026)",
+        "url": "/blog/hospital-notary-sacramento-urgent-services-2026-04-10/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "power-of-attorney-notary-sacramento-guide",
+        "title": "Power of Attorney in Sacramento CA: Full Guide",
+        "url": "/blog/power-of-attorney-notary-sacramento-guide/",
+        "type": "blog",
+        "language": "en"
+      }
+    ],
+    "weddingOfficiant": [
+      {
+        "slug": "prenuptial-agreement-notary-sacramento",
+        "title": "Prenuptial Agreement Notary in Sacramento",
+        "url": "/notary-services/prenuptial-agreement-notary-sacramento/",
+        "type": "service",
+        "language": "en"
+      },
+      {
+        "slug": "wedding-officiant-services-in-sacramento-ca",
+        "title": "Wedding Officiant Services in Sacramento, CA",
+        "url": "/notary-services/wedding-officiant-services-in-sacramento-ca/",
+        "type": "service",
+        "language": "en"
+      },
+      {
+        "slug": "do-you-need-a-notary-for-a-prenup-in-california",
+        "title": "Do You Need a Notary for a Prenup in California?",
+        "url": "/blog/do-you-need-a-notary-for-a-prenup-in-california/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "getting-married-at-the-courthouse-in-sacramento",
+        "title": "Sacramento Courthouse Wedding: Complete Guide",
+        "url": "/blog/getting-married-at-the-courthouse-in-sacramento/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "sacramento-courthouse-marriage-civil-ceremony",
+        "title": "Sacramento Courthouse Marriage Ceremony Guide",
+        "url": "/blog/sacramento-courthouse-marriage-civil-ceremony/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "wedding-license-sacramento-ca-guide",
+        "title": "How to Get a Wedding License in Sacramento, CA",
+        "url": "/blog/wedding-license-sacramento-ca-guide/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "wedding-officiant-elk-grove-ca",
+        "title": "Wedding Officiant in Elk Grove, CA",
+        "url": "/blog/wedding-officiant-elk-grove-ca/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "wedding-season-sacramento-guide-2026-05-03",
+        "title": "Wedding Season Sacramento: Your Notary & Officiant Guide",
+        "url": "/blog/wedding-season-sacramento-guide-2026-05-03/",
+        "type": "blog",
+        "language": "en"
+      }
+    ],
+    "immigration": [
+      {
+        "slug": "spanish-notary-sacramento",
+        "title": "Notario Publico en Sacramento | Spanish Bilingual Notary",
+        "url": "/notary-services/spanish-notary-sacramento/",
+        "type": "service",
+        "language": "en"
+      },
+      {
+        "slug": "notary-immigration-documents-sacramento",
+        "title": "Need a Notary for Immigration Documents Sacramento? Your Guide (2026)",
+        "url": "/blog/notary-immigration-documents-sacramento/",
+        "type": "blog",
+        "language": "en"
+      }
+    ],
+    "emergency": [
+      {
+        "slug": "emergency-notary-sacramento-same-day",
+        "title": "Emergency Notary in Sacramento: Same Day Service",
+        "url": "/blog/emergency-notary-sacramento-same-day/",
+        "type": "blog",
+        "language": "en"
+      }
+    ]
+  },
+  "entries": [
+    {
+      "type": "service",
+      "slug": "apostille-services-in-sacramento-ca",
+      "title": "Apostille Services in Sacramento, CA",
+      "url": "/notary-services/apostille-services-in-sacramento-ca/",
+      "language": "en",
+      "serviceType": "Apostille Services",
+      "cluster": "apostille",
+      "keywords": [
+        "apostille",
+        "services",
+        "sacramento"
+      ],
+      "date": null,
+      "draft": false
+    },
+    {
+      "type": "service",
+      "slug": "business-misc-documents",
+      "title": "Business & Miscellaneous Document Notary in Sacramento",
+      "url": "/notary-services/business-misc-documents/",
+      "language": "en",
+      "serviceType": "Business & Miscellaneous",
+      "cluster": "business",
+      "keywords": [
+        "business",
+        "miscellaneous",
+        "document",
+        "notary",
+        "sacramento",
+        "misc",
+        "documents"
+      ],
+      "date": null,
+      "draft": false
+    },
+    {
+      "type": "service",
+      "slug": "certified-english-spanish-translation-services-in-sacramento-ca",
+      "title": "Certified English-Spanish Translation Services in Sacramento, CA",
+      "url": "/notary-services/certified-english-spanish-translation-services-in-sacramento-ca/",
+      "language": "en",
+      "serviceType": "Translation Services",
+      "cluster": "translation",
+      "keywords": [
+        "certified",
+        "english",
+        "spanish",
+        "translation",
+        "services",
+        "sacramento"
+      ],
+      "date": null,
+      "draft": false
+    },
+    {
+      "type": "service",
+      "slug": "court-legal-proceedings",
+      "title": "Court & Legal Proceedings Notary in Sacramento",
+      "url": "/notary-services/court-legal-proceedings/",
+      "language": "en",
+      "serviceType": "Court & Legal Proceedings",
+      "cluster": "general",
+      "keywords": [
+        "court",
+        "legal",
+        "proceedings",
+        "notary",
+        "sacramento"
+      ],
+      "date": null,
+      "draft": false
+    },
+    {
+      "type": "service",
+      "slug": "dmv-document-notary-sacramento",
+      "title": "DMV Document Notary in Sacramento",
+      "url": "/notary-services/dmv-document-notary-sacramento/",
+      "language": "en",
+      "serviceType": "DMV Documents",
+      "cluster": "dmv",
+      "keywords": [
+        "document",
+        "notary",
+        "sacramento"
+      ],
+      "date": null,
+      "draft": false
+    },
+    {
+      "type": "service",
+      "slug": "legal-personal",
+      "title": "Legal & Personal Document Notary in Sacramento",
+      "url": "/notary-services/legal-personal/",
+      "language": "en",
+      "serviceType": "Legal & Personal",
+      "cluster": "general",
+      "keywords": [
+        "legal",
+        "personal",
+        "document",
+        "notary",
+        "sacramento"
+      ],
+      "date": null,
+      "draft": false
+    },
+    {
+      "type": "service",
+      "slug": "loan-signing-agent-sacramento",
+      "title": "Loan Signing Agent in Sacramento",
+      "url": "/notary-services/loan-signing-agent-sacramento/",
+      "language": "en",
+      "serviceType": "Loan Signing",
+      "cluster": "realEstate",
+      "keywords": [
+        "loan",
+        "signing",
+        "agent",
+        "sacramento"
+      ],
+      "date": null,
+      "draft": false
+    },
+    {
+      "type": "service",
+      "slug": "mobile-notary-sacramento",
+      "title": "Mobile Notary in Sacramento",
+      "url": "/notary-services/mobile-notary-sacramento/",
+      "language": "en",
+      "serviceType": "Mobile Notary",
+      "cluster": "general",
+      "keywords": [
+        "mobile",
+        "notary",
+        "sacramento"
+      ],
+      "date": null,
+      "draft": false
+    },
+    {
+      "type": "service",
+      "slug": "name-change-notary-sacramento",
+      "title": "Name Change Notary in Sacramento",
+      "url": "/notary-services/name-change-notary-sacramento/",
+      "language": "en",
+      "serviceType": "Name Changes",
+      "cluster": "family",
+      "keywords": [
+        "name",
+        "change",
+        "notary",
+        "sacramento"
+      ],
+      "date": null,
+      "draft": false
+    },
+    {
+      "type": "service",
+      "slug": "power-of-attorney-notary-sacramento",
+      "title": "Power of Attorney Notary in Sacramento",
+      "url": "/notary-services/power-of-attorney-notary-sacramento/",
+      "language": "en",
+      "serviceType": "Power of Attorney",
+      "cluster": "poa",
+      "keywords": [
+        "power",
+        "attorney",
+        "notary",
+        "sacramento"
+      ],
+      "date": null,
+      "draft": false
+    },
+    {
+      "type": "service",
+      "slug": "prenuptial-agreement-notary-sacramento",
+      "title": "Prenuptial Agreement Notary in Sacramento",
+      "url": "/notary-services/prenuptial-agreement-notary-sacramento/",
+      "language": "en",
+      "serviceType": "Prenuptial Agreements",
+      "cluster": "weddingOfficiant",
+      "keywords": [
+        "prenuptial",
+        "agreement",
+        "notary",
+        "sacramento"
+      ],
+      "date": null,
+      "draft": false
+    },
+    {
+      "type": "service",
+      "slug": "real-estate-notary-sacramento",
+      "title": "Real Estate & Loan Signing Agent in Sacramento",
+      "url": "/notary-services/real-estate-notary-sacramento/",
+      "language": "en",
+      "serviceType": "Real Estate & Loan Signing",
+      "cluster": "realEstate",
+      "keywords": [
+        "real",
+        "estate",
+        "loan",
+        "signing",
+        "agent",
+        "sacramento",
+        "notary"
+      ],
+      "date": null,
+      "draft": false
+    },
+    {
+      "type": "service",
+      "slug": "restraining-order-notary-sacramento",
+      "title": "Restraining Order Notary in Sacramento",
+      "url": "/notary-services/restraining-order-notary-sacramento/",
+      "language": "en",
+      "serviceType": "Restraining Orders",
+      "cluster": "family",
+      "keywords": [
+        "restraining",
+        "order",
+        "notary",
+        "sacramento"
+      ],
+      "date": null,
+      "draft": false
+    },
+    {
+      "type": "service",
+      "slug": "spanish-notary-sacramento",
+      "title": "Notario Publico en Sacramento | Spanish Bilingual Notary",
+      "url": "/notary-services/spanish-notary-sacramento/",
+      "language": "en",
+      "serviceType": "Spanish/Bilingual Notary",
+      "cluster": "immigration",
+      "keywords": [
+        "notario",
+        "publico",
+        "sacramento",
+        "spanish",
+        "bilingual",
+        "notary"
+      ],
+      "date": null,
+      "draft": false
+    },
+    {
+      "type": "service",
+      "slug": "wedding-officiant-services-in-sacramento-ca",
+      "title": "Wedding Officiant Services in Sacramento, CA",
+      "url": "/notary-services/wedding-officiant-services-in-sacramento-ca/",
+      "language": "en",
+      "serviceType": "Wedding Officiant",
+      "cluster": "weddingOfficiant",
+      "keywords": [
+        "wedding",
+        "officiant",
+        "services",
+        "sacramento"
+      ],
+      "date": null,
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "apostilla-en-sacramento-california-guia",
+      "title": "Apostilla en Sacramento California: Guia Completa",
+      "url": "/blog/apostilla-en-sacramento-california-guia/",
+      "language": "es",
+      "serviceType": "Apostille Services",
+      "cluster": "apostille",
+      "keywords": [
+        "apostilla",
+        "sacramento",
+        "california",
+        "guia",
+        "completa",
+        "documentos",
+        "internacionales",
+        "notaria",
+        "bilingue"
+      ],
+      "date": "2026-04-06",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "apostille-services-sacramento-complete-guide",
+      "title": "Apostille Services in Sacramento: Complete Guide",
+      "url": "/blog/apostille-services-sacramento-complete-guide/",
+      "language": "en",
+      "serviceType": "Apostille Services",
+      "cluster": "apostille",
+      "keywords": [
+        "apostille",
+        "services",
+        "sacramento",
+        "complete",
+        "guide",
+        "international",
+        "documents",
+        "bilingual",
+        "notary",
+        "california"
+      ],
+      "date": "2026-03-16",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "california-grant-deed-vs-quitclaim-deed-explained",
+      "title": "California Grant Deed vs Quitclaim Deed Explained",
+      "url": "/blog/california-grant-deed-vs-quitclaim-deed-explained/",
+      "language": "en",
+      "serviceType": "Real Estate",
+      "cluster": "realEstate",
+      "keywords": [
+        "california",
+        "grant",
+        "deed",
+        "quitclaim",
+        "explained",
+        "real",
+        "estate",
+        "property",
+        "transfer",
+        "notary"
+      ],
+      "date": "2026-03-14",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "california-lease-agreement-what-tenants-and-landlords-must-know",
+      "title": "California Lease Agreement: Tenant & Landlord Guide",
+      "url": "/blog/california-lease-agreement-what-tenants-and-landlords-must-know/",
+      "language": "en",
+      "serviceType": "Business Documents",
+      "cluster": "business",
+      "keywords": [
+        "california",
+        "lease",
+        "agreement",
+        "tenant",
+        "landlord",
+        "guide",
+        "what",
+        "tenants",
+        "landlords",
+        "know",
+        "rental",
+        "notary"
+      ],
+      "date": "2026-03-12",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "california-quitclaim-deed-when-and-how-to-use-one",
+      "title": "California Quitclaim Deed: When and How to Use One",
+      "url": "/blog/california-quitclaim-deed-when-and-how-to-use-one/",
+      "language": "en",
+      "serviceType": "Real Estate",
+      "cluster": "realEstate",
+      "keywords": [
+        "california",
+        "quitclaim",
+        "deed",
+        "when",
+        "property",
+        "transfer",
+        "real",
+        "estate",
+        "notary",
+        "sacramento"
+      ],
+      "date": "2026-03-10",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "california-travel-consent-form-2026-05-03",
+      "title": "California Travel Consent Form Explained",
+      "url": "/blog/california-travel-consent-form-2026-05-03/",
+      "language": "en",
+      "serviceType": "Legal & Personal",
+      "cluster": "family",
+      "keywords": [
+        "california",
+        "travel",
+        "consent",
+        "form",
+        "explained",
+        "2026",
+        "notary",
+        "child",
+        "minor",
+        "legal",
+        "documents",
+        "mobile"
+      ],
+      "date": "2026-05-02",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "demand-letter-notarization-sacramento",
+      "title": "Demand Letters in Sacramento: When and Why to Get One Notarized",
+      "url": "/blog/demand-letter-notarization-sacramento/",
+      "language": "en",
+      "serviceType": "Legal & Personal",
+      "cluster": "general",
+      "keywords": [
+        "demand",
+        "letters",
+        "sacramento",
+        "when",
+        "notarized",
+        "letter",
+        "notarization",
+        "legal",
+        "documents",
+        "notary"
+      ],
+      "date": "2026-04-12",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "do-you-need-a-notary-for-a-prenup-in-california",
+      "title": "Do You Need a Notary for a Prenup in California?",
+      "url": "/blog/do-you-need-a-notary-for-a-prenup-in-california/",
+      "language": "en",
+      "serviceType": "Legal & Personal",
+      "cluster": "weddingOfficiant",
+      "keywords": [
+        "need",
+        "notary",
+        "prenup",
+        "california",
+        "prenuptial",
+        "agreement",
+        "marriage",
+        "legal",
+        "documents"
+      ],
+      "date": "2026-03-08",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "do-you-need-a-notary-for-divorce-papers-in-california",
+      "title": "Do You Need a Notary for Divorce Papers in California?",
+      "url": "/blog/do-you-need-a-notary-for-divorce-papers-in-california/",
+      "language": "en",
+      "serviceType": "Legal & Personal",
+      "cluster": "family",
+      "keywords": [
+        "need",
+        "notary",
+        "divorce",
+        "papers",
+        "california",
+        "legal",
+        "documents",
+        "family",
+        "sacramento"
+      ],
+      "date": "2026-03-06",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "emergency-notary-sacramento-same-day",
+      "title": "Emergency Notary in Sacramento: Same Day Service",
+      "url": "/blog/emergency-notary-sacramento-same-day/",
+      "language": "en",
+      "serviceType": "Mobile Notary",
+      "cluster": "emergency",
+      "keywords": [
+        "emergency",
+        "notary",
+        "sacramento",
+        "same",
+        "service",
+        "mobile",
+        "urgent",
+        "notarization"
+      ],
+      "date": "2026-04-06",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "first-time-homebuyer-sacramento-2026-2026-04-15",
+      "title": "Sacramento First-Time Homebuyer Guide 2026",
+      "url": "/blog/first-time-homebuyer-sacramento-2026-2026-04-15/",
+      "language": "en",
+      "serviceType": "Real Estate",
+      "cluster": "realEstate",
+      "keywords": [
+        "sacramento",
+        "first",
+        "time",
+        "homebuyer",
+        "guide",
+        "2026",
+        "real",
+        "estate",
+        "mortgage",
+        "rates",
+        "notary",
+        "public",
+        "california",
+        "homeownership"
+      ],
+      "date": "2026-04-14",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "fsbo-home-selling-notary-sacramento-2026-04-10",
+      "title": "FSBO Home Selling in Sacramento: What Notary Documents Do You Need?",
+      "url": "/blog/fsbo-home-selling-notary-sacramento-2026-04-10/",
+      "language": "en",
+      "serviceType": "Real Estate",
+      "cluster": "realEstate",
+      "keywords": [
+        "fsbo",
+        "home",
+        "selling",
+        "sacramento",
+        "what",
+        "notary",
+        "documents",
+        "need",
+        "2026",
+        "sale",
+        "owner",
+        "real",
+        "estate",
+        "mobile",
+        "property",
+        "transfer",
+        "california"
+      ],
+      "date": "2026-04-10",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "getting-married-at-the-courthouse-in-sacramento",
+      "title": "Sacramento Courthouse Wedding: Complete Guide",
+      "url": "/blog/getting-married-at-the-courthouse-in-sacramento/",
+      "language": "en",
+      "serviceType": "Wedding Officiant",
+      "cluster": "weddingOfficiant",
+      "keywords": [
+        "sacramento",
+        "courthouse",
+        "wedding",
+        "complete",
+        "guide",
+        "getting",
+        "married",
+        "marriage",
+        "officiant",
+        "civil",
+        "ceremony"
+      ],
+      "date": "2026-03-04",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "hospital-notary-sacramento-urgent-services-2026-04-10",
+      "title": "Hospital Notary Sacramento: Urgent Mobile Notary Services (2026)",
+      "url": "/blog/hospital-notary-sacramento-urgent-services-2026-04-10/",
+      "language": "en",
+      "serviceType": "Legal & Personal",
+      "cluster": "poa",
+      "keywords": [
+        "hospital",
+        "notary",
+        "sacramento",
+        "urgent",
+        "mobile",
+        "services",
+        "2026",
+        "healthcare",
+        "documents",
+        "power",
+        "attorney",
+        "advance",
+        "directive"
+      ],
+      "date": "2026-04-10",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "legal-name-change-california-guide",
+      "title": "Legal Name Change in California: What You Need to Know",
+      "url": "/blog/legal-name-change-california-guide/",
+      "language": "en",
+      "serviceType": "Legal & Personal",
+      "cluster": "family",
+      "keywords": [
+        "legal",
+        "name",
+        "change",
+        "california",
+        "what",
+        "need",
+        "know",
+        "guide",
+        "documents",
+        "notary",
+        "sacramento"
+      ],
+      "date": "2026-04-06",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "loan-signing-agent-sacramento-guide",
+      "title": "Loan Signing Services in California",
+      "url": "/blog/loan-signing-agent-sacramento-guide/",
+      "language": "en",
+      "serviceType": "Real Estate",
+      "cluster": "realEstate",
+      "keywords": [
+        "loan",
+        "signing",
+        "services",
+        "california",
+        "agent",
+        "sacramento",
+        "guide",
+        "real",
+        "estate",
+        "closing",
+        "notary",
+        "mobile"
+      ],
+      "date": "2026-04-06",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "notarize-tax-deadline-documents-2026-04-15",
+      "title": "Notarizing Your Tax Deadline Documents (2026)",
+      "url": "/blog/notarize-tax-deadline-documents-2026-04-15/",
+      "language": "en",
+      "serviceType": "Legal & Personal",
+      "cluster": "general",
+      "keywords": [
+        "notarizing",
+        "deadline",
+        "documents",
+        "2026",
+        "notarize",
+        "notary",
+        "public",
+        "sacramento",
+        "mobile",
+        "legal"
+      ],
+      "date": "2026-04-14",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "notary-immigration-documents-sacramento",
+      "title": "Need a Notary for Immigration Documents Sacramento? Your Guide (2026)",
+      "url": "/blog/notary-immigration-documents-sacramento/",
+      "language": "en",
+      "serviceType": "Legal & Personal",
+      "cluster": "immigration",
+      "keywords": [
+        "need",
+        "notary",
+        "immigration",
+        "documents",
+        "sacramento",
+        "guide",
+        "2026",
+        "mobile",
+        "bilingual",
+        "uscis"
+      ],
+      "date": "2026-04-09",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "power-of-attorney-notary-sacramento-guide",
+      "title": "Power of Attorney in Sacramento CA: Full Guide",
+      "url": "/blog/power-of-attorney-notary-sacramento-guide/",
+      "language": "en",
+      "serviceType": "Legal & Personal",
+      "cluster": "poa",
+      "keywords": [
+        "power",
+        "attorney",
+        "sacramento",
+        "full",
+        "guide",
+        "notary",
+        "notarization",
+        "legal",
+        "documents",
+        "mobile",
+        "california",
+        "probate",
+        "code"
+      ],
+      "date": "2026-04-06",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "real-estate-closing-notary-guide-2026-04-15",
+      "title": "Real Estate Closing Notary: Your Guide in Sacramento",
+      "url": "/blog/real-estate-closing-notary-guide-2026-04-15/",
+      "language": "en",
+      "serviceType": "Real Estate",
+      "cluster": "realEstate",
+      "keywords": [
+        "real",
+        "estate",
+        "closing",
+        "notary",
+        "guide",
+        "sacramento",
+        "2026",
+        "documents",
+        "mobile",
+        "property",
+        "transfer",
+        "california"
+      ],
+      "date": "2026-04-14",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "restraining-order-notary-sacramento-guide",
+      "title": "Restraining Orders in Sacramento: What You Need to Know",
+      "url": "/blog/restraining-order-notary-sacramento-guide/",
+      "language": "en",
+      "serviceType": "Court & Legal",
+      "cluster": "family",
+      "keywords": [
+        "restraining",
+        "orders",
+        "sacramento",
+        "what",
+        "need",
+        "know",
+        "order",
+        "notary",
+        "guide",
+        "court",
+        "documents",
+        "legal"
+      ],
+      "date": "2026-04-06",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "sacramento-courthouse-marriage-civil-ceremony",
+      "title": "Sacramento Courthouse Marriage Ceremony Guide",
+      "url": "/blog/sacramento-courthouse-marriage-civil-ceremony/",
+      "language": "en",
+      "serviceType": "Wedding Officiant",
+      "cluster": "weddingOfficiant",
+      "keywords": [
+        "sacramento",
+        "courthouse",
+        "marriage",
+        "ceremony",
+        "guide",
+        "civil",
+        "court",
+        "house",
+        "wedding",
+        "officiant"
+      ],
+      "date": "2026-04-06",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "sacramento-housing-market-home-equity-2026-04-14",
+      "title": "Unlocking Home Equity in the Sacramento Housing Market for Renovations",
+      "url": "/blog/sacramento-housing-market-home-equity-2026-04-14/",
+      "language": "en",
+      "serviceType": "Real Estate",
+      "cluster": "realEstate",
+      "keywords": [
+        "unlocking",
+        "home",
+        "equity",
+        "sacramento",
+        "housing",
+        "market",
+        "renovations",
+        "2026",
+        "loan",
+        "kitchen",
+        "remodel",
+        "mobile",
+        "notary",
+        "real",
+        "estate"
+      ],
+      "date": "2026-04-13",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "sacramento-housing-market-notary-2026-04-10",
+      "title": "Understanding the Sacramento Housing Market in 2026",
+      "url": "/blog/sacramento-housing-market-notary-2026-04-10/",
+      "language": "en",
+      "serviceType": "Real Estate",
+      "cluster": "realEstate",
+      "keywords": [
+        "understanding",
+        "sacramento",
+        "housing",
+        "market",
+        "2026",
+        "notary",
+        "real",
+        "estate",
+        "mobile",
+        "property",
+        "deeds",
+        "loan",
+        "signing"
+      ],
+      "date": "2026-04-10",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "sacramento-real-estate-closing-notary-2026-04-14",
+      "title": "Real Estate Closing Notary: Your Sacramento Guide",
+      "url": "/blog/sacramento-real-estate-closing-notary-2026-04-14/",
+      "language": "en",
+      "serviceType": "Real Estate",
+      "cluster": "realEstate",
+      "keywords": [
+        "real",
+        "estate",
+        "closing",
+        "notary",
+        "sacramento",
+        "guide",
+        "2026",
+        "property",
+        "transaction",
+        "mobile"
+      ],
+      "date": "2026-04-14",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "spring-real-estate-sacramento-2026-04-14",
+      "title": "Spring Real Estate Sacramento: Your Notary Guide",
+      "url": "/blog/spring-real-estate-sacramento-2026-04-14/",
+      "language": "en",
+      "serviceType": "Real Estate",
+      "cluster": "realEstate",
+      "keywords": [
+        "spring",
+        "real",
+        "estate",
+        "sacramento",
+        "notary",
+        "guide",
+        "2026",
+        "mobile",
+        "home",
+        "buying",
+        "market",
+        "property",
+        "transfer"
+      ],
+      "date": "2026-04-14",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "summer-travel-notary-guide-2026-05-03",
+      "title": "Summer Travel Notary: Essential Preparation Tips",
+      "url": "/blog/summer-travel-notary-guide-2026-05-03/",
+      "language": "en",
+      "serviceType": "Mobile Notary",
+      "cluster": "apostille",
+      "keywords": [
+        "summer",
+        "travel",
+        "notary",
+        "essential",
+        "preparation",
+        "tips",
+        "guide",
+        "2026",
+        "mobile",
+        "documents",
+        "apostille",
+        "sacramento"
+      ],
+      "date": "2026-05-03",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "tax-deadline-documents-notary-2026-04-14",
+      "title": "Tax Deadline Documents: Your Notary Checklist",
+      "url": "/blog/tax-deadline-documents-notary-2026-04-14/",
+      "language": "en",
+      "serviceType": "Legal & Personal",
+      "cluster": "general",
+      "keywords": [
+        "deadline",
+        "documents",
+        "notary",
+        "checklist",
+        "2026",
+        "mobile",
+        "sacramento",
+        "deadlines",
+        "legal"
+      ],
+      "date": "2026-04-14",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "tax-deadline-notary-documents-2026-04-14",
+      "title": "Tax Deadline Documents: Your Notary Guide",
+      "url": "/blog/tax-deadline-notary-documents-2026-04-14/",
+      "language": "en",
+      "serviceType": "Legal & Personal",
+      "cluster": "general",
+      "keywords": [
+        "deadline",
+        "documents",
+        "notary",
+        "guide",
+        "2026",
+        "public",
+        "sacramento",
+        "mobile",
+        "financial",
+        "season"
+      ],
+      "date": "2026-04-14",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "temporary-custody-notarized-letter-california",
+      "title": "Temporary Custody Notarized Letter in California",
+      "url": "/blog/temporary-custody-notarized-letter-california/",
+      "language": "en",
+      "serviceType": "Legal & Personal",
+      "cluster": "family",
+      "keywords": [
+        "temporary",
+        "custody",
+        "notarized",
+        "letter",
+        "california",
+        "notary",
+        "legal",
+        "documents",
+        "family",
+        "sacramento"
+      ],
+      "date": "2026-04-06",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "wedding-license-sacramento-ca-guide",
+      "title": "How to Get a Wedding License in Sacramento, CA",
+      "url": "/blog/wedding-license-sacramento-ca-guide/",
+      "language": "en",
+      "serviceType": "Wedding Officiant",
+      "cluster": "weddingOfficiant",
+      "keywords": [
+        "wedding",
+        "license",
+        "sacramento",
+        "guide",
+        "marriage",
+        "california",
+        "officiant"
+      ],
+      "date": "2026-04-06",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "wedding-officiant-elk-grove-ca",
+      "title": "Wedding Officiant in Elk Grove, CA",
+      "url": "/blog/wedding-officiant-elk-grove-ca/",
+      "language": "en",
+      "serviceType": "Wedding Officiant",
+      "cluster": "weddingOfficiant",
+      "keywords": [
+        "wedding",
+        "officiant",
+        "grove",
+        "bilingual",
+        "ceremony",
+        "sacramento",
+        "county"
+      ],
+      "date": "2026-04-06",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "wedding-season-sacramento-guide-2026-05-03",
+      "title": "Wedding Season Sacramento: Your Notary & Officiant Guide",
+      "url": "/blog/wedding-season-sacramento-guide-2026-05-03/",
+      "language": "en",
+      "serviceType": "Wedding Officiant",
+      "cluster": "weddingOfficiant",
+      "keywords": [
+        "wedding",
+        "season",
+        "sacramento",
+        "notary",
+        "officiant",
+        "guide",
+        "2026",
+        "weddings",
+        "public",
+        "marriage",
+        "license",
+        "mobile",
+        "planning"
+      ],
+      "date": "2026-05-02",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "what-dmv-documents-need-to-be-notarized",
+      "title": "What DMV Documents Need to Be Notarized?",
+      "url": "/blog/what-dmv-documents-need-to-be-notarized/",
+      "language": "en",
+      "serviceType": "Business Documents",
+      "cluster": "dmv",
+      "keywords": [
+        "what",
+        "documents",
+        "need",
+        "notarized",
+        "notary",
+        "california",
+        "vehicle",
+        "transfer",
+        "title",
+        "sacramento"
+      ],
+      "date": "2026-03-02",
+      "draft": false
+    }
+  ]
+}
