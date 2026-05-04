@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/generate-llms-txt.mjs && node scripts/generate-link-library.mjs",
+    "prebuild": "node scripts/generate-llms-txt.mjs && node scripts/generate-link-library.mjs && node scripts/generate-image-usage.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"

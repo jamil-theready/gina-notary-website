@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "lastUpdated": "2026-05-04T20:07:08.279Z",
+  "totalPostsAnalyzed": 49,
+  "totalImagesInLibrary": 28,
+  "distinctImagesUsed": 29,
+  "unusedImagesCount": 6,
+  "unusedImages": [
+    "/images/blog/california-travel-consent-form-1777831626136-featured.png",
+    "/images/blog/first-time-homebuyer-sacramento-notary-featured.png",
+    "/images/blog/immigration-documents-notary-sacramento-featured.jpg",
+    "/images/blog/notary-immigration-documents-sacramento-featured.png",
+    "/images/blog/sacramento-wedding-season-guide-1777831857331-featured.png",
+    "/images/blog/sacramento-wedding-season-guide-featured.png"
+  ],
+  "overusedImages": [
+    {
+      "image": "/images/blog/grant-deed.jpg",
+      "useCount": 8,
+      "posts": [
+        "california-grant-deed-vs-quitclaim-deed-explained",
+        "demand-letter-notarization-sacramento",
+        "emergency-notary-sacramento-same-day",
+        "legal-name-change-california-guide",
+        "power-of-attorney-notary-sacramento-guide",
+        "restraining-order-notary-sacramento-guide",
+        "tax-deadline-documents-notary-2026-04-14",
+        "temporary-custody-notarized-letter-california"
+      ]
+    }
+  ],
+  "mostUsedShare": 0.16,
+  "needsFreshImages": true,
+  "reminder": "1 image(s) used 5+ times. Consider generating fresh images. Most-used image accounts for 16% of all uses.",
+  "thresholds": {
+    "overusePerImage": 5,
+    "categorySaturation": 0.4
+  }
+}
