@@ -1,0 +1,42 @@
+Tier,Directory,URL,Cost,Priority,Effort,Status,SubmittedDate,ProfileURL,Notes
+1,Google Business Profile,https://business.google.com/,Free,P0,30min,,,,Already claimed - verify NAP + services + hours match site
+1,Bing Places,https://www.bingplaces.com/,Free,P0,5min,,,,Import directly from Google Business Profile
+1,Apple Business Connect,https://businessconnect.apple.com/,Free,P0,15min,,,,Maps + Siri results - critical for iOS users
+1,Yelp Business,https://biz.yelp.com/,Free,P0,20min,,,,Likely already claimed - verify and request reviews from past clients
+1,Facebook Business Page,https://www.facebook.com/business/,Free,P0,15min,,,,Confirmed Gina has this - verify About section is complete
+1,Nextdoor Business,https://business.nextdoor.com/,Free,P0,15min,,,,Critical for local mobile service - Sacramento neighborhood specific
+2,NotaryJane,https://www.notaryjane.com/,Free,P1,15min,,,,Verify URL still active before submitting
+2,NotaryPublicDirectory,https://notarypublicdirectory.com/,Free,P1,15min,,,,Verify URL still active
+2,123Notary (Free Tier),https://www.123notary.com/,Free,P1,20min,,,,Dominant notary directory - free tier first then evaluate paid
+2,NotaryCafe,https://www.notarycafe.com/,Free,P1,20min,,,,Forum participation builds authority over time
+2,NotaryRotary,https://www.notaryrotary.com/,Free,P1,15min,,,,Free basic tier
+2,American Notary USA,https://www.americannotaryusa.com/,Free,P1,10min,,,,Free company profile
+2,Notary.net,https://www.notary.net/,Free,P1,10min,,,,Free basic listing
+2,CA Secretary of State,https://www.sos.ca.gov/notary/,Free,P0,0min,2014-XX-XX,,Automatic listing as commissioned notary
+3,Snapdocs Notary Network,https://www.snapdocs.com/notary-public,Free,P1,20min,,,,Generates real signing work - bigger than directory value
+3,SigningAgent.com (NNA),https://www.signingagent.com/,Paid,P2,30min,,,,Requires NNA Signing Agent certification - already has
+3,NNA FindaNotary,https://www.nationalnotary.org/findanotary,Paid,P2,15min,,,,Subscription - high DA backlink
+3,Title365 Signings,https://title365signings.com/,Free,P2,30min,,,,Apply to signing platform
+3,SignatureClosers,https://www.signatureclosers.com/,Free,P2,30min,,,,Apply
+3,Bancserv,https://www.bancserv.net/,Free,P2,30min,,,,Apply
+4,Sacramento Hispanic Chamber,https://www.sachcc.org/,Paid,P1,30min,,,,Paid membership - HIGH VALUE for bilingual angle - apply for member directory listing
+4,Sacramento Metro Chamber,https://www.metrochamber.org/,Paid,P3,30min,,,,Paid - lower priority unless networking events justify
+4,LocalWiki Sacramento,https://localwiki.org/sac/,Free,P2,20min,,,,Community-edited - create page for business
+4,Sacramento Top 10,https://sacramentotop10.com/,Free,P3,15min,,,,Verify still active - free submission
+5,Yellow Pages (YP),https://www.yellowpages.com/sacramento-ca,Free,P2,15min,,,,Free basic listing
+5,Manta,https://www.manta.com/,Free,P2,15min,,,,Free basic listing
+5,Foursquare for Business,https://business.foursquare.com/,Free,P2,15min,,,,Free
+5,Better Business Bureau,https://www.bbb.org/,Free,P2,30min,,,,Free listing accreditation optional but improves trust
+5,Thumbtack,https://www.thumbtack.com/,Free,P3,30min,,,,Free profile - lead-gen costs per lead
+5,Angi,https://www.angi.com/,Free,P3,30min,,,,Free basic profile
+5,EZLocal,https://www.ezlocal.com/,Free,P3,15min,,,,Free submission
+6,American Society of Notaries,https://asnnotary.org/,Paid,P3,30min,,,,Membership-required - alternative to NNA
+7,Hotfrog,https://www.hotfrog.com/,Free,P3,15min,,,,Free directory
+7,MerchantCircle,https://www.merchantcircle.com/,Free,P3,15min,,,,Free profile
+7,Brownbook,https://www.brownbook.net/,Free,P3,15min,,,,Free
+7,Cylex USA,https://www.cylex.us.com/,Free,P3,15min,,,,Free basic listing
+8,Justia Legal Directory,https://www.justia.com/lawyers/legal-services/,Free,P2,20min,,,,Notary listed under legal services - good DA
+8,Avvo Other Legal Pros,https://www.avvo.com/,Free,P2,20min,,,,May not accept notaries - verify
+9,The Knot Wedding Vendors,https://www.theknot.com/,Free,P2,30min,,,,Wedding officiant angle - free vendor profile
+9,WeddingWire,https://www.weddingwire.com/,Free,P2,30min,,,,Wedding officiant angle - free vendor profile
+9,Zola Wedding Vendors,https://www.zola.com/wedding-vendors/,Free,P3,20min,,,,Free
