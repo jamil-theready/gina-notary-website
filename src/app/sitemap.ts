@@ -51,12 +51,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  const blogPages: MetadataRoute.Sitemap = blogPosts.map((post) => ({
-    url: `${BASE_URL}/blog/${post.slug}/`,
-    lastModified: new Date(post.date),
-    changeFrequency: "monthly",
-    priority: 0.6,
-  }));
+  // Build a slug→post map for hreflang pairing
+  const postBySlug = new Map(blogPosts.map((p) => [p.slug, p]));
+
+  const blogPages: MetadataRoute.Sitemap = blogPosts.map((post) => {
+    const isSpanish = post.language === "es";
+    const baseSlug = isSpanish ? post.slug.replace(/-es$/, "") : post.slug;
+    const pairedSlug = isSpanish ? baseSlug : `${baseSlug}-es`;
+    const pairedPost = postBySlug.get(pairedSlug);
+
+    const alternates: { languages?: Record<string, string> } = {};
+    if (pairedPost) {
+      alternates.languages = {
+        "en": `${BASE_URL}/blog/${isSpanish ? baseSlug : post.slug}/`,
+        "es": `${BASE_URL}/blog/${isSpanish ? post.slug : pairedSlug}/`,
+        "x-default": `${BASE_URL}/blog/${isSpanish ? baseSlug : post.slug}/`,
+      };
+    }
+
+    return {
+      url: `${BASE_URL}/blog/${post.slug}/`,
+      lastModified: new Date(post.date),
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+      ...(alternates.languages ? { alternates } : {}),
+    };
+  });
 
   const servicePages: MetadataRoute.Sitemap = services.map((service) => ({
     url: `${BASE_URL}/notary-services/${service.slug}/`,
