@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "lastUpdated": "2026-05-04T00:00:00.000Z",
+  "windowDays": 28,
+  "seedReason": "Initial seed based on AEO truth test 2026-05-03. Will be overwritten by Flow 6 weekly.",
+  "decliningPosts": [],
+  "opportunityQueries": [
+    {
+      "query": "apostille services sacramento california",
+      "impressions": 0,
+      "clicks": 0,
+      "position": 99,
+      "nearMiss": false,
+      "note": "AEO test confirmed not in top 10. Highest-priority commercial gap."
+    },
+    {
+      "query": "apostille mexico sacramento",
+      "impressions": 0,
+      "clicks": 0,
+      "position": 99,
+      "nearMiss": false,
+      "note": "Untargeted. High-intent Spanish-speaking market query."
+    },
+    {
+      "query": "apostille peru sacramento",
+      "impressions": 0,
+      "clicks": 0,
+      "position": 99,
+      "nearMiss": false,
+      "note": "Untargeted. Gina's personal authority angle."
+    },
+    {
+      "query": "fbi background check apostille california",
+      "impressions": 0,
+      "clicks": 0,
+      "position": 99,
+      "nearMiss": false,
+      "note": "Federal apostille subtype, distinct intent."
+    },
+    {
+      "query": "academic transcript apostille sacramento",
+      "impressions": 0,
+      "clicks": 0,
+      "position": 99,
+      "nearMiss": false,
+      "note": "Student/professional credential subtype."
+    },
+    {
+      "query": "apostille turnaround time california",
+      "impressions": 0,
+      "clicks": 0,
+      "position": 99,
+      "nearMiss": false,
+      "note": "Informational query, AEO featured-snippet target."
+    },
+    {
+      "query": "notary public sacramento near me same day",
+      "impressions": 0,
+      "clicks": 0,
+      "position": 4,
+      "nearMiss": true,
+      "note": "AEO test: ranking #4, AI summary cites Brookside first. Push for snippet hijack."
+    }
+  ],
+  "clusterCoverage": {
+    "apostille": {
+      "postCount": 1,
+      "avgPosition": null,
+      "totalImpressions": 0,
+      "needsMore": true,
+      "note": "Service page rebuilt 2026-05-04 (1304 words). Need 5+ spoke posts."
+    },
+    "weddingOfficiant": {
+      "postCount": 0,
+      "avgPosition": null,
+      "totalImpressions": 0,
+      "needsMore": false
+    },
+    "realEstate": {
+      "postCount": 0,
+      "avgPosition": null,
+      "totalImpressions": 0,
+      "needsMore": false
+    },
+    "immigration": {
+      "postCount": 0,
+      "avgPosition": null,
+      "totalImpressions": 0,
+      "needsMore": false
+    },
+    "poa": {
+      "postCount": 1,
+      "avgPosition": null,
+      "totalImpressions": 0,
+      "needsMore": false,
+      "note": "AEO test confirmed top 3 for POA — top performer cluster, do not cannibalize."
+    },
+    "estate": {
+      "postCount": 0,
+      "avgPosition": null,
+      "totalImpressions": 0,
+      "needsMore": false
+    },
+    "emergency": {
+      "postCount": 0,
+      "avgPosition": null,
+      "totalImpressions": 0,
+      "needsMore": false
+    },
+    "family": {
+      "postCount": 0,
+      "avgPosition": null,
+      "totalImpressions": 0,
+      "needsMore": false
+    }
+  },
+  "strategicPriorities": [
+    {
+      "cluster": "apostille",
+      "reason": "AEO confirmed gap — not in top 10 for primary commercial query. Service page rebuilt; need spokes.",
+      "currentPostCount": 1,
+      "currentAvgPosition": null,
+      "targetPostsThisMonth": 5,
+      "spokeSeeds": [
+        "apostille for mexico from sacramento",
+        "apostille for peru from sacramento",
+        "fbi background check apostille california",
+        "academic transcript apostille sacramento",
+        "apostille turnaround time california"
+      ]
+    }
+  ],
+  "topPerformers": [
+    {
+      "slug": "power-of-attorney-notary-sacramento-guide",
+      "url": "https://ginagonzaleznotary.com/blog/power-of-attorney-notary-sacramento-guide/",
+      "position": 1,
+      "impressions": 0,
+      "clicks": 0,
+      "note": "AEO confirmed top 3, AI cites her facts. Do not cannibalize."
+    }
+  ],
+  "deadPages": [],
+  "totals": {
+    "impressionsLast28d": 0,
+    "clicksLast28d": 0,
+    "pagesIndexed": 0,
+    "deadPageCount": 0,
+    "note": "Seed file. Real numbers populated by Flow 6 weekly run."
+  },
+  "manualOverrides": {
+    "doNotRefresh": [],
+    "doNotWriteAbout": [],
+    "forceClusterPriority": ["apostille"]
+  },
+  "history": [
+    {
+      "date": "2026-05-04",
+      "totals": {
+        "impressions": 0,
+        "clicks": 0
+      },
+      "note": "System memory initialized. Apostille cluster priority set from AEO baseline test."
+    }
+  ]
+}
