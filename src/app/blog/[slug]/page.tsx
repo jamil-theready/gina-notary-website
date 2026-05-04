@@ -31,17 +31,38 @@ export async function generateMetadata({
   const post = getBlogPostBySlug(slug);
   if (!post) return {};
 
+  // Find paired language version for hreflang alternates
+  const allPostsForHreflang = getAllBlogPosts();
+  const isSpanish = post.language === "es";
+  const baseSlug = isSpanish ? slug.replace(/-es$/, "") : slug;
+  const pairedSlug = isSpanish ? baseSlug : `${baseSlug}-es`;
+  const pairedPost = allPostsForHreflang.find((p) => p.slug === pairedSlug);
+
+  const languages: Record<string, string> = {};
+  if (isSpanish) {
+    languages["en"] = `https://ginagonzaleznotary.com/blog/${baseSlug}/`;
+    languages["es"] = `https://ginagonzaleznotary.com/blog/${slug}/`;
+  } else if (pairedPost) {
+    languages["en"] = `https://ginagonzaleznotary.com/blog/${slug}/`;
+    languages["es"] = `https://ginagonzaleznotary.com/blog/${pairedSlug}/`;
+  }
+  if (Object.keys(languages).length > 0) {
+    languages["x-default"] = `https://ginagonzaleznotary.com/blog/${isSpanish ? baseSlug : slug}/`;
+  }
+
   return {
     title: post.metaTitle ? { absolute: post.metaTitle } : post.title,
     description: post.metaDescription,
     alternates: {
       canonical: `https://ginagonzaleznotary.com/blog/${slug}/`,
+      ...(Object.keys(languages).length > 0 ? { languages } : {}),
     },
     openGraph: {
       title: post.metaTitle || post.title,
       description: post.metaDescription,
       url: `https://ginagonzaleznotary.com/blog/${slug}/`,
       type: "article",
+      locale: isSpanish ? "es_US" : "en_US",
       images: post.image ? [{ url: post.image, alt: post.imageAlt }] : [],
     },
   };

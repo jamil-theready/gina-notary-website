@@ -21,15 +21,78 @@ export default function AboutPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Person",
+            "@id": "https://ginagonzaleznotary.com/about/#gina",
             name: "Gina Gonzalez",
-            jobTitle: "Certified Notary Public",
-            description: "Former lawyer from Peru, NNA certified mobile notary serving Sacramento CA. 10+ years experience, 6,000+ documents notarized.",
+            givenName: "Gina",
+            familyName: "Gonzalez",
+            jobTitle: "Certified Notary Public, Loan Signing Agent, Wedding Officiant, Apostille Agent",
+            description:
+              "Former lawyer from Peru, NNA certified mobile notary serving Sacramento CA. 10+ years experience, 6,000+ documents notarized. Bilingual English/Spanish.",
+            image: "https://ginagonzaleznotary.com/images/Gina-notary-website-image.jpg",
+            url: "https://ginagonzaleznotary.com/about/",
+            telephone: "+14159489967",
             knowsLanguage: ["English", "Spanish"],
+            knowsAbout: [
+              "Notary Public",
+              "Mobile Notary Services",
+              "Loan Signing",
+              "Real Estate Closings",
+              "Apostille Services",
+              "Wedding Officiation",
+              "California Notary Law",
+              "Spanish Translation",
+              "Power of Attorney",
+            ],
             worksFor: {
               "@type": "LocalBusiness",
+              "@id": "https://ginagonzaleznotary.com/#business",
               name: "Gina Gonzalez Notary",
               telephone: "+14159489967",
+              url: "https://ginagonzaleznotary.com",
             },
+            hasCredential: [
+              {
+                "@type": "EducationalOccupationalCredential",
+                credentialCategory: "Certification",
+                name: "NNA Certified Notary Signing Agent",
+                recognizedBy: {
+                  "@type": "Organization",
+                  name: "National Notary Association",
+                  url: "https://www.nationalnotary.org/",
+                },
+              },
+              {
+                "@type": "EducationalOccupationalCredential",
+                credentialCategory: "License",
+                name: "California Notary Public Commission",
+                recognizedBy: {
+                  "@type": "GovernmentOrganization",
+                  name: "California Secretary of State",
+                  url: "https://www.sos.ca.gov/notary",
+                },
+              },
+              {
+                "@type": "EducationalOccupationalCredential",
+                credentialCategory: "Certification",
+                name: "Deputy Marriage Commissioner",
+                recognizedBy: {
+                  "@type": "GovernmentOrganization",
+                  name: "Sacramento County Clerk-Recorder",
+                  url: "https://ccr.saccounty.gov/",
+                },
+              },
+            ],
+            alumniOf: {
+              "@type": "EducationalOrganization",
+              name: "Law School (Peru)",
+              description: "Earned a law degree in Peru before immigrating to California",
+            },
+            sameAs: [
+              "https://www.instagram.com/ginagonzaleznotary/",
+              "https://www.facebook.com/ginagonzaleznotary/",
+              "https://www.tiktok.com/@ginagonzaleznotary",
+              "https://www.google.com/maps/place/Gina+Gonzalez+Notary",
+            ],
           }),
         }}
       />

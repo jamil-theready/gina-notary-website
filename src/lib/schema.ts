@@ -2,7 +2,19 @@ export function localBusinessSchema() {
   return {
     "@context": "https://schema.org",
     "@type": ["Notary", "LocalBusiness"],
+    "@id": "https://ginagonzaleznotary.com/#business",
     name: "Gina Gonzalez Notary",
+    founder: {
+      "@type": "Person",
+      "@id": "https://ginagonzaleznotary.com/about/#gina",
+      name: "Gina Gonzalez",
+    },
+    employee: {
+      "@type": "Person",
+      "@id": "https://ginagonzaleznotary.com/about/#gina",
+      name: "Gina Gonzalez",
+      jobTitle: "Owner, Certified Notary Public, Loan Signing Agent",
+    },
     description:
       "Certified mobile notary public and wedding officiant serving Sacramento, CA. Bilingual English/Spanish. NNA certified, insured. 10+ years experience, 6,000+ documents notarized.",
     url: "https://ginagonzaleznotary.com",

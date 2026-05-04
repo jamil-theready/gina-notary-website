@@ -41,6 +41,10 @@ export interface BlogFrontmatter {
   howToTitle?: string;
   howToDescription?: string;
   howToSteps?: { name: string; text: string }[];
+  language?: "en" | "es";
+  tags?: string[];
+  featured?: boolean;
+  draft?: boolean;
 }
 
 function getContentFiles(subdir: string): string[] {
