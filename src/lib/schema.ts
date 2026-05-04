@@ -215,38 +215,81 @@ export function blogPostSchema(
   };
 }
 
+// Reviews are loaded from .seo/reviews.json if present (auto-synced from
+// Google Places API by flow9). Falls back to curated set if file missing.
+type ReviewsData = {
+  aggregateRating: {
+    ratingValue: string;
+    ratingCount: string;
+    reviewCount: string;
+  };
+  reviews: Array<{
+    author: string;
+    rating: string;
+    reviewBody: string;
+    datePublished?: string;
+  }>;
+};
+
+function loadReviewsData(): ReviewsData {
+  try {
+    const fs = require("fs");
+    const path = require("path");
+    const reviewsPath = path.join(process.cwd(), ".seo", "reviews.json");
+    if (fs.existsSync(reviewsPath)) {
+      return JSON.parse(fs.readFileSync(reviewsPath, "utf8"));
+    }
+  } catch {
+    // fall through to defaults
+  }
+  // Fallback — conservative defaults consistent with actual reviewBody count
+  return {
+    aggregateRating: {
+      ratingValue: "5.0",
+      ratingCount: "3",
+      reviewCount: "3",
+    },
+    reviews: [
+      {
+        author: "Edgar A.",
+        rating: "5",
+        reviewBody: "Gina helped make this process very easy. We would've done it sooner if we knew how easy it would be.",
+      },
+      {
+        author: "Marcela D.",
+        rating: "5",
+        reviewBody: "Gina is a wonderful Realtor, I am very happy with her expertise, I would definitely refer her to my family and friends.",
+      },
+      {
+        author: "Ana B.",
+        rating: "5",
+        reviewBody: "Gina was my realtor, she sold my house and represented me in a very professional manner. She made it as smooth as possible.",
+      },
+    ],
+  };
+}
+
 export function aggregateRatingSchema() {
+  const { aggregateRating } = loadReviewsData();
   return {
     "@type": "AggregateRating",
-    ratingValue: "5.0",
+    ratingValue: aggregateRating.ratingValue,
     bestRating: "5",
     worstRating: "1",
-    ratingCount: "47",
-    reviewCount: "47",
+    ratingCount: aggregateRating.ratingCount,
+    reviewCount: aggregateRating.reviewCount,
   };
 }
 
 export function reviewSchema() {
-  return [
-    {
-      "@type": "Review",
-      author: { "@type": "Person", name: "Edgar A." },
-      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
-      reviewBody: "Gina helped make this process very easy. We would've done it sooner if we knew how easy it would be.",
-    },
-    {
-      "@type": "Review",
-      author: { "@type": "Person", name: "Marcela D." },
-      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
-      reviewBody: "Gina is a wonderful Realtor, I am very happy with her expertise, I would definitely refer her to my family and friends.",
-    },
-    {
-      "@type": "Review",
-      author: { "@type": "Person", name: "Ana B." },
-      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
-      reviewBody: "Gina was my realtor, she sold my house and represented me in a very professional manner. She made it as smooth as possible.",
-    },
-  ];
+  const { reviews } = loadReviewsData();
+  return reviews.map((r) => ({
+    "@type": "Review",
+    author: { "@type": "Person", name: r.author },
+    reviewRating: { "@type": "Rating", ratingValue: r.rating, bestRating: "5" },
+    reviewBody: r.reviewBody,
+    ...(r.datePublished ? { datePublished: r.datePublished } : {}),
+  }));
 }
 
 export function howToSchema(
