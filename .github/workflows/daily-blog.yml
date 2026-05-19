@@ -32,6 +32,6 @@ jobs:
             echo "No new blog post to commit."
             exit 0
           fi
-          SLUG=$(git diff --cached --name-only content/blog/ | head -1 | xargs basename .md)
+          SLUG=$(git diff --cached --name-only -- content/blog/ | head -1 | sed 's|content/blog/||; s|\.md$||')
           git commit -m "add: daily blog post ${SLUG}"
           git push
