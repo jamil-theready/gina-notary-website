@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-04T20:07:08.158Z",
-  "totalEntries": 49,
+  "generatedAt": "2026-05-19T01:40:12.188Z",
+  "totalEntries": 57,
   "totalServices": 15,
-  "totalBlogPosts": 34,
+  "totalBlogPosts": 42,
   "byCluster": {
     "apostille": [
       {
@@ -19,6 +19,62 @@
         "url": "/blog/apostilla-en-sacramento-california-guia/",
         "type": "blog",
         "language": "es"
+      },
+      {
+        "slug": "apostille-academic-transcripts-sacramento-2026-05-04",
+        "title": "Apostille Academic Transcripts Sacramento: Your Guide (2026)",
+        "url": "/blog/apostille-academic-transcripts-sacramento-2026-05-04/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "apostille-academic-transcripts-sacramento-2026-05-14",
+        "title": "Apostille Academic Transcripts Sacramento: Your Guide",
+        "url": "/blog/apostille-academic-transcripts-sacramento-2026-05-14/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "apostille-academic-transcripts-sacramento",
+        "title": "Apostille Academic Transcripts Sacramento: Your Guide",
+        "url": "/blog/apostille-academic-transcripts-sacramento/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "apostille-colombia-sacramento-2026-05-04",
+        "title": "Apostille Colombia in Sacramento: Your Guide (2026)",
+        "url": "/blog/apostille-colombia-sacramento-2026-05-04/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "apostille-colombia-sacramento-2026-05-14",
+        "title": "Apostille for Colombia from Sacramento",
+        "url": "/blog/apostille-colombia-sacramento-2026-05-14/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "apostille-mexico-sacramento-2026-05-04",
+        "title": "Get Your Apostille for Mexico in Sacramento 2026",
+        "url": "/blog/apostille-mexico-sacramento-2026-05-04/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "apostille-mexico-sacramento-2026-05-14",
+        "title": "Apostille for Mexico from Sacramento Made Easy",
+        "url": "/blog/apostille-mexico-sacramento-2026-05-14/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "apostille-peru-sacramento-guide",
+        "title": "Apostille for Peru in Sacramento: Your Guide",
+        "url": "/blog/apostille-peru-sacramento-guide/",
+        "type": "blog",
+        "language": "en"
       },
       {
         "slug": "apostille-services-sacramento-complete-guide",
@@ -656,6 +712,184 @@
         "bilingue"
       ],
       "date": "2026-04-06",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "apostille-academic-transcripts-sacramento-2026-05-04",
+      "title": "Apostille Academic Transcripts Sacramento: Your Guide (2026)",
+      "url": "/blog/apostille-academic-transcripts-sacramento-2026-05-04/",
+      "language": "en",
+      "serviceType": "Apostille Services",
+      "cluster": "apostille",
+      "keywords": [
+        "apostille",
+        "academic",
+        "transcripts",
+        "sacramento",
+        "guide",
+        "2026",
+        "notary",
+        "international",
+        "documents",
+        "education",
+        "mobile",
+        "bilingual"
+      ],
+      "date": "2026-05-04",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "apostille-academic-transcripts-sacramento-2026-05-14",
+      "title": "Apostille Academic Transcripts Sacramento: Your Guide",
+      "url": "/blog/apostille-academic-transcripts-sacramento-2026-05-14/",
+      "language": "en",
+      "serviceType": "Apostille Services",
+      "cluster": "apostille",
+      "keywords": [
+        "apostille",
+        "academic",
+        "transcripts",
+        "sacramento",
+        "guide",
+        "2026",
+        "notary",
+        "education",
+        "international"
+      ],
+      "date": "2026-05-14",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "apostille-academic-transcripts-sacramento",
+      "title": "Apostille Academic Transcripts Sacramento: Your Guide",
+      "url": "/blog/apostille-academic-transcripts-sacramento/",
+      "language": "en",
+      "serviceType": "Apostille Services",
+      "cluster": "apostille",
+      "keywords": [
+        "apostille",
+        "academic",
+        "transcripts",
+        "sacramento",
+        "guide",
+        "notary",
+        "international",
+        "documents",
+        "education",
+        "abroad"
+      ],
+      "date": "2026-05-19",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "apostille-colombia-sacramento-2026-05-04",
+      "title": "Apostille Colombia in Sacramento: Your Guide (2026)",
+      "url": "/blog/apostille-colombia-sacramento-2026-05-04/",
+      "language": "en",
+      "serviceType": "Apostille Services",
+      "cluster": "apostille",
+      "keywords": [
+        "apostille",
+        "colombia",
+        "sacramento",
+        "guide",
+        "2026",
+        "international",
+        "documents",
+        "mobile",
+        "notary",
+        "bilingual"
+      ],
+      "date": "2026-05-04",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "apostille-colombia-sacramento-2026-05-14",
+      "title": "Apostille for Colombia from Sacramento",
+      "url": "/blog/apostille-colombia-sacramento-2026-05-14/",
+      "language": "en",
+      "serviceType": "Apostille Services",
+      "cluster": "apostille",
+      "keywords": [
+        "apostille",
+        "colombia",
+        "sacramento",
+        "2026",
+        "international",
+        "documents",
+        "notary",
+        "spanish"
+      ],
+      "date": "2026-05-14",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "apostille-mexico-sacramento-2026-05-04",
+      "title": "Get Your Apostille for Mexico in Sacramento 2026",
+      "url": "/blog/apostille-mexico-sacramento-2026-05-04/",
+      "language": "en",
+      "serviceType": "Apostille Services",
+      "cluster": "apostille",
+      "keywords": [
+        "apostille",
+        "mexico",
+        "sacramento",
+        "2026",
+        "international",
+        "documents",
+        "bilingual",
+        "notary"
+      ],
+      "date": "2026-05-04",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "apostille-mexico-sacramento-2026-05-14",
+      "title": "Apostille for Mexico from Sacramento Made Easy",
+      "url": "/blog/apostille-mexico-sacramento-2026-05-14/",
+      "language": "en",
+      "serviceType": "Apostille Services",
+      "cluster": "apostille",
+      "keywords": [
+        "apostille",
+        "mexico",
+        "sacramento",
+        "made",
+        "easy",
+        "2026",
+        "notary",
+        "mobile",
+        "bilingual"
+      ],
+      "date": "2026-05-14",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "apostille-peru-sacramento-guide",
+      "title": "Apostille for Peru in Sacramento: Your Guide",
+      "url": "/blog/apostille-peru-sacramento-guide/",
+      "language": "en",
+      "serviceType": "Apostille Services",
+      "cluster": "apostille",
+      "keywords": [
+        "apostille",
+        "peru",
+        "sacramento",
+        "guide",
+        "international",
+        "documents",
+        "notary",
+        "bilingual"
+      ],
+      "date": "2026-05-18",
       "draft": false
     },
     {

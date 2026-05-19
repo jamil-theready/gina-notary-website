@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-04T20:07:08.279Z",
-  "totalPostsAnalyzed": 49,
+  "lastUpdated": "2026-05-19T01:40:12.343Z",
+  "totalPostsAnalyzed": 57,
   "totalImagesInLibrary": 28,
   "distinctImagesUsed": 29,
   "unusedImagesCount": 6,
@@ -14,6 +14,22 @@
     "/images/blog/sacramento-wedding-season-guide-featured.png"
   ],
   "overusedImages": [
+    {
+      "image": "/images/blog/apostille.jpg",
+      "useCount": 10,
+      "posts": [
+        "apostilla-en-sacramento-california-guia",
+        "apostille-academic-transcripts-sacramento-2026-05-04",
+        "apostille-academic-transcripts-sacramento-2026-05-14",
+        "apostille-academic-transcripts-sacramento",
+        "apostille-colombia-sacramento-2026-05-04",
+        "apostille-colombia-sacramento-2026-05-14",
+        "apostille-mexico-sacramento-2026-05-04",
+        "apostille-mexico-sacramento-2026-05-14",
+        "apostille-peru-sacramento-guide",
+        "apostille-services-sacramento-complete-guide"
+      ]
+    },
     {
       "image": "/images/blog/grant-deed.jpg",
       "useCount": 8,
@@ -29,9 +45,9 @@
       ]
     }
   ],
-  "mostUsedShare": 0.16,
+  "mostUsedShare": 0.18,
   "needsFreshImages": true,
-  "reminder": "1 image(s) used 5+ times. Consider generating fresh images. Most-used image accounts for 16% of all uses.",
+  "reminder": "2 image(s) used 5+ times. Consider generating fresh images. Most-used image accounts for 18% of all uses.",
   "thresholds": {
     "overusePerImage": 5,
     "categorySaturation": 0.4

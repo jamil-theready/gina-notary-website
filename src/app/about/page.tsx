@@ -28,7 +28,7 @@ export default function AboutPage() {
             jobTitle: "Certified Notary Public, Loan Signing Agent, Wedding Officiant, Apostille Agent",
             description:
               "Former lawyer from Peru, NNA certified mobile notary serving Sacramento CA. 10+ years experience, 6,000+ documents notarized. Bilingual English/Spanish.",
-            image: "https://ginagonzaleznotary.com/images/Gina-notary-website-image.jpg",
+            image: "https://ginagonzaleznotary.com/images/gina-gonzalez-notary.jpg",
             url: "https://ginagonzaleznotary.com/about/",
             telephone: "+14159489967",
             knowsLanguage: ["English", "Spanish"],
@@ -126,7 +126,7 @@ export default function AboutPage() {
             <div className="lg:col-span-2">
               <div className="aspect-[3/4] bg-brand-gray-200 rounded-2xl overflow-hidden sticky top-28">
                 <Image
-                  src="/images/Gina-notary-website-image.jpg"
+                  src="/images/gina-gonzalez-notary.jpg"
                   alt="Gina Gonzalez, NNA certified mobile notary public in Sacramento California"
                   width={600}
                   height={800}
