@@ -2,7 +2,7 @@ name: Daily Blog
 
 on:
   schedule:
-    - cron: '0 14 * * *'  # 9:00 AM Peru (UTC-5)
+    - cron: '17 14 * * *'  # 9:17 AM Peru (UTC-5) — TEMPORARY TEST, will revert to 0 14
   workflow_dispatch:
 
 permissions:
