@@ -19,7 +19,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install gspread google-auth
+        run: pip install gspread google-auth google-api-python-client
 
       - name: Generate blog post
         env:

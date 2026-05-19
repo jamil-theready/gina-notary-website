@@ -31,6 +31,8 @@ GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_M
 SHEET_ID = "1RWKxu8k-NGEP48oZpjo0eLFRrGStMh5HINuxNCetDRs"
 SHEET_TAB = "posted_content_log"
 SITE_BASE = "https://ginagonzaleznotary.com"
+GSC_SITE = "sc-domain:ginagonzaleznotary.com"
+GSC_WINDOW_DAYS = 28
 
 
 CLUSTER_KEYWORDS = {
@@ -179,6 +181,49 @@ def _cluster_of(keyword: str) -> "str | None":
     return None
 
 
+def fetch_gsc_queries() -> list[dict]:
+    """Fetch last N days of GSC query data via the seo-bot service account.
+    Returns list of {query, impressions, clicks, position}. Empty list on any error.
+
+    Silent no-op if GCP_SA_KEY_JSON env var is missing (e.g. local dev without secrets)."""
+    sa_json = os.environ.get("GCP_SA_KEY_JSON")
+    if not sa_json:
+        print("(GSC fetch skipped: GCP_SA_KEY_JSON not set)")
+        return []
+    try:
+        from google.oauth2.service_account import Credentials  # type: ignore
+        from googleapiclient.discovery import build  # type: ignore
+
+        creds = Credentials.from_service_account_info(
+            json.loads(sa_json),
+            scopes=["https://www.googleapis.com/auth/webmasters.readonly"],
+        )
+        service = build("searchconsole", "v1", credentials=creds, cache_discovery=False)
+        from datetime import timedelta
+        end = datetime.utcnow().date()
+        start = end - timedelta(days=GSC_WINDOW_DAYS)
+        resp = service.searchanalytics().query(siteUrl=GSC_SITE, body={
+            "startDate": str(start),
+            "endDate": str(end),
+            "dimensions": ["query"],
+            "rowLimit": 100,
+        }).execute()
+        rows = resp.get("rows", [])
+        result = []
+        for r in rows:
+            result.append({
+                "query": r["keys"][0],
+                "impressions": r.get("impressions", 0),
+                "clicks": r.get("clicks", 0),
+                "position": r.get("position", 100.0),
+            })
+        print(f"GSC: pulled {len(result)} queries from last {GSC_WINDOW_DAYS} days")
+        return result
+    except Exception as e:
+        print(f"WARN: GSC fetch failed ({e}); falling back to context.json", file=sys.stderr)
+        return []
+
+
 def pick_keyword(context: dict, used: set[str]) -> tuple[str, str]:
     """Pick a keyword to target. Combines strategic priorities, opportunity queries,
     and seasonal pool. Applies a cluster-diversity penalty so we don't post the same
@@ -195,6 +240,25 @@ def pick_keyword(context: dict, used: set[str]) -> tuple[str, str]:
         if kw:
             score = 8.0 + (2.0 if q.get("nearMiss") else 0.0)
             candidates.append((kw, "opportunity-context", _cluster_of(kw), score))
+
+    # LIVE GSC pool — last 28 days of real search performance
+    gsc_rows = fetch_gsc_queries()
+    if gsc_rows:
+        # Score: position 5-30 is the sweet spot (winnable). Weight by impressions.
+        gsc_max_imp = max((r["impressions"] for r in gsc_rows), default=1)
+        for r in gsc_rows:
+            pos = r["position"]
+            imp = r["impressions"]
+            if not (5 <= pos <= 50 and imp >= 5):
+                continue
+            # Score peaks at position 11-20 (just-off-page-1), tapers with distance
+            position_score = 1.0 - min(abs(pos - 15) / 25.0, 1.0)
+            impression_score = imp / gsc_max_imp
+            score = 5.0 + 5.0 * position_score + 3.0 * impression_score
+            # Bonus for queries with clicks already (validated intent)
+            if r["clicks"] > 0:
+                score += 2.0
+            candidates.append((r["query"], f"gsc-live-pos{pos:.0f}", _cluster_of(r["query"]), score))
 
     month = datetime.now().month
     for kw in SEASONAL.get(month, []):
