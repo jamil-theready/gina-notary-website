@@ -28,6 +28,10 @@ LINKS_PATH = ROOT / ".seo" / "internal-links.json"
 GEMINI_MODEL = "gemini-2.5-flash"
 GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent"
 
+SHEET_ID = "1RWKxu8k-NGEP48oZpjo0eLFRrGStMh5HINuxNCetDRs"
+SHEET_TAB = "posted_content_log"
+SITE_BASE = "https://ginagonzaleznotary.com"
+
 
 CLUSTER_KEYWORDS = {
     "apostille": [
@@ -363,6 +367,49 @@ def validate_and_extract(text: str) -> tuple[str, str]:
     return slug, text
 
 
+def log_to_sheet(slug: str, title: str, category: str, source: str, status: str) -> None:
+    """Append a row to the Gina Content Tracker → posted_content_log tab.
+
+    Silent no-op if GCP_SA_KEY_JSON env var is missing. We do NOT want a sheet
+    failure to mark the run as failed — the blog post itself already committed.
+    """
+    sa_json = os.environ.get("GCP_SA_KEY_JSON")
+    if not sa_json:
+        print("(sheet log skipped: GCP_SA_KEY_JSON not set)")
+        return
+    try:
+        import json as _json
+        import gspread  # type: ignore
+        from google.oauth2.service_account import Credentials  # type: ignore
+
+        creds_info = _json.loads(sa_json)
+        creds = Credentials.from_service_account_info(
+            creds_info,
+            scopes=["https://www.googleapis.com/auth/spreadsheets"],
+        )
+        gc = gspread.authorize(creds)
+        ws = gc.open_by_key(SHEET_ID).worksheet(SHEET_TAB)
+        row = [
+            datetime.now().strftime("%Y-%m-%d %H:%M"),
+            "blog",
+            "blog",
+            title,
+            f"{SITE_BASE}/blog/{slug}/",
+            category,
+            slug,
+            status,
+        ]
+        ws.append_row(row, value_input_option="USER_ENTERED")
+        print(f"Logged to sheet: {slug}")
+    except Exception as e:
+        print(f"WARN: sheet log failed: {e}", file=sys.stderr)
+
+
+def extract_title(content: str) -> str:
+    m = re.search(r'^title:\s*"([^"]+)"', content, re.MULTILINE)
+    return m.group(1) if m else ""
+
+
 def main() -> int:
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
@@ -391,6 +438,8 @@ def main() -> int:
     out_path = BLOG_DIR / f"{final_slug}.md"
     out_path.write_text(content)
     print(f"WROTE: {out_path}")
+
+    log_to_sheet(final_slug, extract_title(content), category, source, "published")
     return 0
 
 

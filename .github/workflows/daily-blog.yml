@@ -18,9 +18,13 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Install dependencies
+        run: pip install gspread google-auth
+
       - name: Generate blog post
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GCP_SA_KEY_JSON: ${{ secrets.GCP_SA_KEY_JSON }}
         run: python scripts/daily-blog.py
 
       - name: Commit and push
