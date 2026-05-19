@@ -135,33 +135,92 @@ def load_internal_links() -> str:
     return "\n".join(lines)
 
 
+def _recent_cluster_counts(n: int = 7) -> dict:
+    """Inspect the last N posts (by mtime) and count which cluster each belongs to.
+    Used to downweight clusters that have dominated recent output."""
+    counts = {c: 0 for c in CLUSTER_KEYWORDS}
+    posts = sorted(BLOG_DIR.glob("*.md"), key=lambda p: p.stat().st_mtime, reverse=True)[:n]
+    for p in posts:
+        slug = p.stem
+        for cluster, kws in CLUSTER_KEYWORDS.items():
+            for kw in kws:
+                if any(token in slug for token in kw.split()[:3] if len(token) > 3):
+                    counts[cluster] += 1
+                    break
+            else:
+                continue
+            break
+    return counts
+
+
+CLUSTER_HINTS = {
+    "apostille": ["apostille", "apostilla", "secretary of state"],
+    "weddingOfficiant": ["wedding", "officiant", "marriage", "prenup"],
+    "realEstate": ["real estate", "mortgage", "fsbo", "refinance", "deed", "lease"],
+    "immigration": ["immigration", "uscis", "i-9", "i 9", "consulate", "visa"],
+    "poa": ["power of attorney", "poa"],
+    "estate": ["trust", "estate plan", "will ", "probate"],
+    "emergency": ["emergency", "weekend", "after hours", "same day", "same-day", "late night"],
+    "family": ["custody", "travel consent", "name change", "divorce", "parental"],
+}
+
+
+def _cluster_of(keyword: str) -> "str | None":
+    """Determine which cluster a keyword belongs to. First tries exact match,
+    then falls back to substring hints (handles opportunity-query keywords
+    that aren't in our hardcoded CLUSTER_KEYWORDS dict)."""
+    for cluster, kws in CLUSTER_KEYWORDS.items():
+        if keyword in kws:
+            return cluster
+    kw_lower = keyword.lower()
+    for cluster, hints in CLUSTER_HINTS.items():
+        if any(h in kw_lower for h in hints):
+            return cluster
+    return None
+
+
 def pick_keyword(context: dict, used: set[str]) -> tuple[str, str]:
-    """Pick a keyword to target. Tries strategic priorities, opportunity queries,
-    seasonal, then a last-resort fallback. Skips anything whose slug matches
-    an existing blog post."""
-    candidates: list[tuple[str, str, int]] = []
+    """Pick a keyword to target. Combines strategic priorities, opportunity queries,
+    and seasonal pool. Applies a cluster-diversity penalty so we don't post the same
+    cluster repeatedly (apostille pile-up fix, 2026-05-19)."""
+    candidates: list[tuple[str, str, "str | None", float]] = []  # (kw, source, cluster, score)
 
     for sp in context.get("strategicPriorities", [])[:3]:
         cluster = sp.get("cluster")
         for kw in CLUSTER_KEYWORDS.get(cluster, []):
-            candidates.append((kw, f"strategic-{cluster}", 12))
+            candidates.append((kw, f"strategic-{cluster}", cluster, 12.0))
 
     for q in context.get("opportunityQueries", [])[:10]:
         kw = q.get("query", "")
         if kw:
-            score = 8 + (2 if q.get("nearMiss") else 0)
-            candidates.append((kw, "opportunity-context", score))
+            score = 8.0 + (2.0 if q.get("nearMiss") else 0.0)
+            candidates.append((kw, "opportunity-context", _cluster_of(kw), score))
 
     month = datetime.now().month
     for kw in SEASONAL.get(month, []):
-        candidates.append((kw, "seasonal", 4))
+        candidates.append((kw, "seasonal", _cluster_of(kw), 4.0))
 
+    # Filter out anything we've already posted
     fresh = [c for c in candidates if slugify(c[0]) not in used]
     if not fresh:
-        fresh = [("mobile notary sacramento services", "fallback", 0)]
+        fresh = [("mobile notary sacramento services", "fallback", None, 0.0)]
 
-    fresh.sort(key=lambda c: c[2], reverse=True)
-    top = fresh[:5]
+    # Apply cluster-diversity penalty based on recent posts
+    recent = _recent_cluster_counts(n=7)
+    print(f"Recent cluster counts (last 7 posts): {recent}")
+    penalized = []
+    for kw, src, cluster, score in fresh:
+        penalty = recent.get(cluster, 0) * 3.0 if cluster else 0.0
+        penalized.append((kw, src, cluster, score - penalty))
+
+    penalized.sort(key=lambda c: c[3], reverse=True)
+    # Prefer positive-score candidates; fall back to the negative pool only if nothing else is left
+    positive = [c for c in penalized if c[3] > 0]
+    pool = positive if positive else penalized
+    top = pool[:5]
+    print(f"Top {len(top)} candidates:")
+    for kw, src, cluster, score in top:
+        print(f"  {score:5.1f}  [{cluster or '?':>15}]  {kw}  ({src})")
     chosen = random.choice(top)
     return chosen[0], chosen[1]
 
