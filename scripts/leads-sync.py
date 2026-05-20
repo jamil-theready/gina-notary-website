@@ -162,59 +162,36 @@ def _extract_body(msg) -> str:
     return ""
 
 
-# Web3Forms emails look like:
-#   Hello, A new form has been submitted on your website. Details below.
-#   Name
-#   Jamil Gonzales
-#   Email
-#   foo@bar.com
-#   Phone
-#   415-555-1234
-#   Message
-#   I need a notary...
+# Web3Forms plaintext body format is one field per line:
+#   name  : Jamil Gonzales
+#   phone  : 5034106881
+#   email  : foo@bar.com
+#   service  : Mobile Notary
+#   message  : TEST
 
-FIELD_KEYS = {
-    "name": ["name", "full name", "first-name", "first name"],
-    "email": ["email"],
-    "phone": ["phone", "phone number"],
-    "message": ["message", "notes", "details", "how can we help"],
+FIELD_ALIASES = {
+    "name": ["name", "full name", "first-name", "first name", "fullname"],
+    "email": ["email", "e-mail"],
+    "phone": ["phone", "phone number", "phone-number", "phonenumber"],
+    "message": ["message", "notes", "details", "how can we help", "comments"],
 }
 
 
 def _parse_web3forms_body(body: str) -> dict:
-    """Parse Web3Forms text body into a dict. Web3Forms emits each field as
-    its label on one line and the value on the next."""
-    lines = [ln.strip() for ln in body.splitlines() if ln.strip()]
+    """Parse Web3Forms plaintext body. Each line is 'label : value'."""
     fields = {}
-    i = 0
-    while i < len(lines):
-        label = lines[i].lower().strip()
-        # Strip trailing colon if present
-        label = label.rstrip(":").strip()
-        matched_key = None
-        for key, aliases in FIELD_KEYS.items():
-            if label in aliases:
-                matched_key = key
-                break
-        if matched_key and i + 1 < len(lines):
-            # Value can span multiple lines for Message
-            if matched_key == "message":
-                # Take everything from i+1 to the next known label or end
-                value_lines = []
-                j = i + 1
-                while j < len(lines):
-                    next_label = lines[j].lower().rstrip(":").strip()
-                    if any(next_label in aliases for aliases in FIELD_KEYS.values()):
-                        break
-                    value_lines.append(lines[j])
-                    j += 1
-                fields[matched_key] = " ".join(value_lines)
-                i = j
-                continue
-            fields[matched_key] = lines[i + 1]
-            i += 2
+    for line in body.splitlines():
+        if ":" not in line:
             continue
-        i += 1
+        label, _, value = line.partition(":")
+        label = label.strip().lower()
+        value = value.strip()
+        if not label or not value:
+            continue
+        for key, aliases in FIELD_ALIASES.items():
+            if label in aliases:
+                fields[key] = value
+                break
     return fields
 
 
