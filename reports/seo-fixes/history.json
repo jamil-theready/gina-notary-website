@@ -320,5 +320,28 @@
       "src/app/notary-services/page.tsx": 1,
       "src/app/about/page.tsx": 1
     }
+  },
+  {
+    "week": "2026-06-29",
+    "runDate": "2026-06-29T16:53:28.700Z",
+    "fixesCount": 0,
+    "schemaBefore": {
+      "src/app/page.tsx": 1,
+      "src/app/layout.tsx": 1,
+      "src/app/service-areas/[slug]/page.tsx": 3,
+      "src/app/blog/[slug]/page.tsx": 4,
+      "src/app/notary-services/[slug]/page.tsx": 3,
+      "src/app/notary-services/page.tsx": 1,
+      "src/app/about/page.tsx": 1
+    },
+    "schemaAfter": {
+      "src/app/page.tsx": 1,
+      "src/app/layout.tsx": 1,
+      "src/app/service-areas/[slug]/page.tsx": 3,
+      "src/app/blog/[slug]/page.tsx": 4,
+      "src/app/notary-services/[slug]/page.tsx": 3,
+      "src/app/notary-services/page.tsx": 1,
+      "src/app/about/page.tsx": 1
+    }
   }
 ]
