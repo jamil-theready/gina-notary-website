@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-19T01:40:12.188Z",
-  "totalEntries": 57,
+  "generatedAt": "2026-07-03T20:52:10.710Z",
+  "totalEntries": 59,
   "totalServices": 15,
-  "totalBlogPosts": 42,
+  "totalBlogPosts": 44,
   "byCluster": {
     "apostille": [
       {
@@ -80,6 +80,13 @@
         "slug": "apostille-services-sacramento-complete-guide",
         "title": "Apostille Services in Sacramento: Complete Guide",
         "url": "/blog/apostille-services-sacramento-complete-guide/",
+        "type": "blog",
+        "language": "en"
+      },
+      {
+        "slug": "apostille-turnaround-time-california",
+        "title": "Apostille Turnaround Time California 2026",
+        "url": "/blog/apostille-turnaround-time-california/",
         "type": "blog",
         "language": "en"
       },
@@ -410,6 +417,13 @@
         "language": "en"
       },
       {
+        "slug": "notario-publico-cerca-mi-sacramento",
+        "title": "Notario Público Cerca de Mí: Su Guía en Sacramento (2026)",
+        "url": "/blog/notario-publico-cerca-mi-sacramento/",
+        "type": "blog",
+        "language": "es"
+      },
+      {
         "slug": "notary-immigration-documents-sacramento",
         "title": "Need a Notary for Immigration Documents Sacramento? Your Guide (2026)",
         "url": "/blog/notary-immigration-documents-sacramento/",
@@ -419,9 +433,9 @@
     ],
     "emergency": [
       {
-        "slug": "emergency-notary-sacramento-same-day",
-        "title": "Emergency Notary in Sacramento: Same Day Service",
-        "url": "/blog/emergency-notary-sacramento-same-day/",
+        "slug": "notary-public-sacramento-same-day",
+        "title": "Notary Public Sacramento Near Me: Same Day & Emergency Service",
+        "url": "/blog/notary-public-sacramento-same-day/",
         "type": "blog",
         "language": "en"
       }
@@ -917,6 +931,29 @@
     },
     {
       "type": "blog",
+      "slug": "apostille-turnaround-time-california",
+      "title": "Apostille Turnaround Time California 2026",
+      "url": "/blog/apostille-turnaround-time-california/",
+      "language": "en",
+      "serviceType": "Apostille Services",
+      "cluster": "apostille",
+      "keywords": [
+        "apostille",
+        "turnaround",
+        "time",
+        "california",
+        "2026",
+        "notary",
+        "sacramento",
+        "processing",
+        "international",
+        "documents"
+      ],
+      "date": "2026-05-19",
+      "draft": false
+    },
+    {
+      "type": "blog",
       "slug": "california-grant-deed-vs-quitclaim-deed-explained",
       "title": "California Grant Deed vs Quitclaim Deed Explained",
       "url": "/blog/california-grant-deed-vs-quitclaim-deed-explained/",
@@ -1080,27 +1117,6 @@
     },
     {
       "type": "blog",
-      "slug": "emergency-notary-sacramento-same-day",
-      "title": "Emergency Notary in Sacramento: Same Day Service",
-      "url": "/blog/emergency-notary-sacramento-same-day/",
-      "language": "en",
-      "serviceType": "Mobile Notary",
-      "cluster": "emergency",
-      "keywords": [
-        "emergency",
-        "notary",
-        "sacramento",
-        "same",
-        "service",
-        "mobile",
-        "urgent",
-        "notarization"
-      ],
-      "date": "2026-04-06",
-      "draft": false
-    },
-    {
-      "type": "blog",
       "slug": "first-time-homebuyer-sacramento-2026-2026-04-15",
       "title": "Sacramento First-Time Homebuyer Guide 2026",
       "url": "/blog/first-time-homebuyer-sacramento-2026-2026-04-15/",
@@ -1257,6 +1273,28 @@
     },
     {
       "type": "blog",
+      "slug": "notario-publico-cerca-mi-sacramento",
+      "title": "Notario Público Cerca de Mí: Su Guía en Sacramento (2026)",
+      "url": "/blog/notario-publico-cerca-mi-sacramento/",
+      "language": "es",
+      "serviceType": "Mobile Notary",
+      "cluster": "immigration",
+      "keywords": [
+        "notario",
+        "blico",
+        "cerca",
+        "sacramento",
+        "2026",
+        "publico",
+        "servicios",
+        "notariales",
+        "biling"
+      ],
+      "date": "2026-07-03",
+      "draft": false
+    },
+    {
+      "type": "blog",
       "slug": "notarize-tax-deadline-documents-2026-04-15",
       "title": "Notarizing Your Tax Deadline Documents (2026)",
       "url": "/blog/notarize-tax-deadline-documents-2026-04-15/",
@@ -1299,6 +1337,28 @@
         "uscis"
       ],
       "date": "2026-04-09",
+      "draft": false
+    },
+    {
+      "type": "blog",
+      "slug": "notary-public-sacramento-same-day",
+      "title": "Notary Public Sacramento Near Me: Same Day & Emergency Service",
+      "url": "/blog/notary-public-sacramento-same-day/",
+      "language": "en",
+      "serviceType": "Mobile Notary",
+      "cluster": "emergency",
+      "keywords": [
+        "notary",
+        "public",
+        "sacramento",
+        "near",
+        "same",
+        "emergency",
+        "service",
+        "mobile",
+        "bilingual"
+      ],
+      "date": "2026-07-03",
       "draft": false
     },
     {
