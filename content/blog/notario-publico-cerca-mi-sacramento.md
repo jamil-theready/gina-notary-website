@@ -106,7 +106,7 @@ Mi experiencia como abogada en Perú me brinda una perspectiva única y un profu
 
 La vida no siempre sigue un horario. A veces, necesita un documento notarizado de inmediato. Entiendo esas situaciones urgentes. Mi servicio de notario móvil está diseñado para ser flexible y receptivo. Estoy disponible de 7 AM a 9 PM, siete días a la semana, y puedo atender citas de emergencia el mismo día.
 
-Ya sea que necesite notarizar documentos en el último minuto para una transacción importante, un poder notarial para una emergencia médica en un hospital de Sacramento, o cualquier otro documento urgente, estoy aquí para ayudar. Simplemente comuníquese conmigo y haré todo lo posible para llegar a usted rápidamente. Soy su [notario de emergencia en Sacramento](/blog/emergency-notary-sacramento-same-day/).
+Ya sea que necesite notarizar documentos en el último minuto para una transacción importante, un poder notarial para una emergencia médica en un hospital de Sacramento, o cualquier otro documento urgente, estoy aquí para ayudar. Simplemente comuníquese conmigo y haré todo lo posible para llegar a usted rápidamente. Soy su [notario de servicio el mismo día en Sacramento](/blog/notary-public-sacramento-same-day/).
 
 Cuando busca un "notario público cerca de mí" en Sacramento, busca más que un servicio. Busca una solución confiable y eficiente. Con mi experiencia, mi fluidez en inglés y español, y mi compromiso con la conveniencia, soy su notario de confianza en la región.
 

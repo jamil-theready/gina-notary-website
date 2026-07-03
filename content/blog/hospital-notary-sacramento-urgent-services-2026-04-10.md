@@ -100,6 +100,6 @@ As a USCIS-accepted certified English/Spanish translator and a former attorney, 
 
 When you need a **hospital notary Sacramento**, you need a service that is reliable, professional, and empathetic to your situation. With over 10 years of experience and 6,000+ documents notarized, I am NNA certified, insured, and bonded. I understand the sensitivity and urgency involved in hospital visits, offering flexible hours from 7 AM to 9 PM, 7 days a week, across Sacramento and surrounding areas including West Sacramento, Elk Grove, and Roseville.
 
-Whether you are at Sutter Medical Center, Mercy General, or another facility, I can provide fast and accurate service. If you require emergency notarization, please visit my page on [Emergency Notary Sacramento](/blog/emergency-notary-sacramento-same-day/). For specific details on Power of Attorney documents, check out my [Power of Attorney Notary Sacramento Guide](/notary-services/power-of-attorney-notary-sacramento/).
+Whether you are at Sutter Medical Center, Mercy General, or another facility, I can provide fast and accurate service. If you require emergency notarization, please visit my page on [Same Day Notary Sacramento](/blog/notary-public-sacramento-same-day/). For specific details on Power of Attorney documents, check out my [Power of Attorney Notary Sacramento Guide](/notary-services/power-of-attorney-notary-sacramento/).
 
 Call (415) 948-9967 to schedule your hospital notary Sacramento appointment. Available 7 days a week, 7AM to 9PM across Sacramento and surrounding areas.
