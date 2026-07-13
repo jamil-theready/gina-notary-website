@@ -11,7 +11,7 @@ imageAlt: "Sacramento notary helping client with DMV vehicle title documents"
 faqTitle: "Frequently Asked Questions About DMV Document Notarization"
 faqs:
   - question: "What DMV documents need to be notarized?"
-    answer: "Common DMV documents that require notarization include vehicle title transfers (REG 227), power of attorney for vehicle transactions (REG 260), duplicate title applications, lien sale documents, and affidavits for correcting vehicle records. Not all DMV forms require notarization — check with the DMV or call Gina for guidance."
+    answer: "Common DMV documents that require notarization include vehicle title transfers (REG 227), power of attorney for vehicle transactions (REG 260), duplicate title applications, lien sale documents, and affidavits for correcting vehicle records. Not all DMV forms require notarization. Check with the DMV or call Gina for guidance."
   - question: "Can you notarize a vehicle title transfer?"
     answer: "Yes. When transferring vehicle ownership, the seller's signature on the title must be notarized in many cases, especially when the seller is not present at the DMV. Gina notarizes vehicle title transfers throughout the Sacramento area."
   - question: "Do I need a notary for a DMV power of attorney?"
@@ -28,7 +28,7 @@ faqs:
 
 Many DMV transactions require notarized documents. Vehicle title transfers, powers of attorney, lien sales, and record corrections all need a notary's seal to be accepted by the California Department of Motor Vehicles.
 
-Gina Gonzalez provides mobile notary services for all DMV-related documents throughout Sacramento. She comes to your location — no need to find a notary near the DMV office and wait in another line.
+Gina Gonzalez provides mobile notary services for all DMV-related documents throughout Sacramento. She comes to your location, no need to find a notary near the DMV office and wait in another line.
 
 ## DMV Documents We Notarize
 
@@ -58,10 +58,10 @@ The DMV sometimes requires notarized affidavits to correct errors on vehicle rec
 
 ## Why Choose a Mobile Notary for DMV Documents
 
-- **Skip the extra trip** — Gina comes to you instead of making you find a notary near the DMV
-- **Same-day service** — meet DMV deadlines without delay
-- **Bilingual** — Spanish-speaking clients get full support
-- **Experienced** — Gina knows which DMV forms require notarization and how to execute them correctly
+- **Skip the extra trip**: Gina comes to you instead of making you find a notary near the DMV
+- **Same-day service**: meet DMV deadlines without delay
+- **Bilingual**: Spanish-speaking clients get full support
+- **Experienced**: Gina knows which DMV forms require notarization and how to execute them correctly
 
 ## Schedule Your DMV Document Notarization
 

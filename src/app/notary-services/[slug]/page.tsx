@@ -123,6 +123,14 @@ export default async function ServicePage({
       <section className="py-12 sm:py-20">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
+            {/* Quick Answer */}
+            {service.quickAnswer && (
+              <div className="mb-8 p-5 rounded-2xl border-l-4 border-brand-gold bg-brand-gold/5">
+                <p className="text-xs font-bold uppercase tracking-wider text-brand-gold-text mb-1">Quick Answer</p>
+                <p className="text-brand-black font-medium leading-relaxed text-[15px]">{service.quickAnswer}</p>
+              </div>
+            )}
+
             <div
               className="prose"
               dangerouslySetInnerHTML={{ __html: contentHtml }}

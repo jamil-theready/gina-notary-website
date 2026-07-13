@@ -21,6 +21,7 @@ export interface ServiceFrontmatter {
   order: number;
   parentService?: string;
   schemaType?: string;
+  quickAnswer?: string;
 }
 
 export interface BlogFrontmatter {

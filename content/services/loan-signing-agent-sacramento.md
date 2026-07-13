@@ -56,9 +56,9 @@ Home equity loans and lines of credit require their own set of notarized documen
 
 - **NNA certified** loan signing agent
 - **Former lawyer** who understands legal document requirements
-- **Bilingual English and Spanish** — serves diverse borrowers
+- **Bilingual English and Spanish**: serves diverse borrowers
 - **Same-day availability** 7 days a week, 7 AM to 9 PM
-- **Fast document return** — scanned and shipped same day
+- **Fast document return**: scanned and shipped same day
 - **Error-free track record** with thousands of signings completed
 
 ## Schedule a Loan Signing

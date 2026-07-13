@@ -39,7 +39,7 @@ export default function ServiceAreasPage() {
             Mobile Notary Service Areas
           </h1>
           <p className="text-brand-gray-600 text-lg max-w-2xl">
-            Gina travels to you — home, office, hospital, or anywhere in Sacramento, Placer, and Yolo counties. Same-day service available throughout the region.
+            Gina travels to you: home, office, hospital, or anywhere in Sacramento, Placer, and Yolo counties. Same-day service available throughout the region.
           </p>
         </div>
       </section>
@@ -111,7 +111,7 @@ export default function ServiceAreasPage() {
             ))}
           </div>
           <p className="text-brand-gray-400 text-xs mt-6">
-            Do not see your ZIP code? Call (415) 948-9967 — we likely serve your area too.
+            Do not see your ZIP code? Call (415) 948-9967, we likely serve your area too.
           </p>
         </div>
       </section>

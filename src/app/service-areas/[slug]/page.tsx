@@ -214,8 +214,8 @@ export default async function ServiceAreaPage({
                 </div>
                 <div className="mt-4 pt-4 border-t border-brand-gray-100 space-y-2 text-sm text-brand-gray-600">
                   <div className="flex justify-between">
-                    <span>Mon – Sun</span>
-                    <span className="font-medium text-brand-black">7 AM – 9 PM</span>
+                    <span>Mon-Sun</span>
+                    <span className="font-medium text-brand-black">7 AM-9 PM</span>
                   </div>
                   <p className="text-xs text-brand-gray-400">Same-day and after-hours available</p>
                 </div>

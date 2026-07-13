@@ -54,12 +54,12 @@ California provides a streamlined process for name and gender changes. Gina prov
 
 ## The Name Change Process in Sacramento County
 
-1. **Prepare your petition** — the Petition for Change of Name (form NC-100 for adults, NC-110 for minors)
-2. **Get it notarized** — Gina meets you at your location to notarize your signature
-3. **File with the court** — submit the notarized petition to Sacramento County Superior Court
-4. **Publish the order** — the court may require publication in a local newspaper (exceptions apply for safety or gender identity reasons)
-5. **Attend the hearing** — if required, appear before a judge
-6. **Update your records** — use the court order to update SSA, DMV, banks, and other institutions
+1. **Prepare your petition**: the Petition for Change of Name (form NC-100 for adults, NC-110 for minors)
+2. **Get it notarized**: Gina meets you at your location to notarize your signature
+3. **File with the court**: submit the notarized petition to Sacramento County Superior Court
+4. **Publish the order**: the court may require publication in a local newspaper (exceptions apply for safety or gender identity reasons)
+5. **Attend the hearing**: if required, appear before a judge
+6. **Update your records**: use the court order to update SSA, DMV, banks, and other institutions
 
 ## Schedule Your Name Change Notarization
 

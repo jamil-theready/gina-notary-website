@@ -102,6 +102,8 @@ En California, y en todo Estados Unidos, un notario público es un testigo impar
 
 Mi experiencia como abogada en Perú me brinda una perspectiva única y un profundo respeto por los procesos legales. Sin embargo, en California, mi rol como notario público se limita a las funciones establecidas por la ley, como se describe en el [Código Civil de California](https://leginfo.legislature.ca.gov/faces/codes.xhtml).
 
+Esta misma experiencia legal en Perú es la razón por la que muchos clientes de la comunidad hispana en Sacramento me buscan específicamente para [servicios de apostilla](/notary-services/apostille-services-in-sacramento-ca/) cuando necesitan enviar documentos a México, Perú, Colombia u otro país de habla hispana.
+
 ## ¿Necesita un notario de emergencia en Sacramento?
 
 La vida no siempre sigue un horario. A veces, necesita un documento notarizado de inmediato. Entiendo esas situaciones urgentes. Mi servicio de notario móvil está diseñado para ser flexible y receptivo. Estoy disponible de 7 AM a 9 PM, siete días a la semana, y puedo atender citas de emergencia el mismo día.

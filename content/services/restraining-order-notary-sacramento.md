@@ -11,7 +11,7 @@ imageAlt: "Sacramento notary assisting client with restraining order court docum
 faqTitle: "Frequently Asked Questions About Restraining Order Notarization"
 faqs:
   - question: "Do restraining order documents need to be notarized?"
-    answer: "Some restraining order filings require notarized declarations or proof of service documents. Requirements vary by case type — domestic violence, civil harassment, elder abuse, and workplace violence restraining orders each have different procedural requirements. Check with the court clerk or your attorney for your specific case."
+    answer: "Some restraining order filings require notarized declarations or proof of service documents. Requirements vary by case type: domestic violence, civil harassment, elder abuse, and workplace violence restraining orders each have different procedural requirements. Check with the court clerk or your attorney for your specific case."
   - question: "Can you notarize a proof of service for a restraining order?"
     answer: "Yes. A proof of service confirms that the restrained party was properly served with the court documents. Gina notarizes proof of service declarations throughout the Sacramento area. She can meet you at a location where you feel safe and comfortable."
   - question: "Is the appointment confidential?"
@@ -50,10 +50,10 @@ Restraining orders may need to be modified or extended. These filings can requir
 
 ## Types of Restraining Orders in California
 
-- **Domestic Violence Restraining Order (DVRO)** — protection from abuse by a spouse, partner, family member, or household member
-- **Civil Harassment Restraining Order** — protection from harassment, stalking, or threats by someone you do not have a close relationship with
-- **Elder Abuse Restraining Order** — protection for adults 65 and older
-- **Workplace Violence Restraining Order** — filed by an employer to protect employees
+- **Domestic Violence Restraining Order (DVRO)**: protection from abuse by a spouse, partner, family member, or household member
+- **Civil Harassment Restraining Order**: protection from harassment, stalking, or threats by someone you do not have a close relationship with
+- **Elder Abuse Restraining Order**: protection for adults 65 and older
+- **Workplace Violence Restraining Order**: filed by an employer to protect employees
 
 ## Your Safety Comes First
 

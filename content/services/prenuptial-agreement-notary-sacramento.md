@@ -17,7 +17,7 @@ faqs:
   - question: "How far in advance should we get our prenup notarized before the wedding?"
     answer: "California law requires that the less wealthy spouse have at least 7 days between receiving the final prenup and signing it. Plan to have your prenup notarized at least 2 to 4 weeks before your wedding to avoid any challenges about timing or pressure."
   - question: "Is the prenup appointment confidential?"
-    answer: "Absolutely. Gina treats all notarization appointments with complete confidentiality. She meets you at a private location of your choosing — your home, office, or another comfortable setting. Financial details in the document are not recorded in her notary journal."
+    answer: "Absolutely. Gina treats all notarization appointments with complete confidentiality. She meets you at a private location of your choosing, your home, office, or another comfortable setting. Financial details in the document are not recorded in her notary journal."
   - question: "Can you notarize a prenup in Spanish?"
     answer: "Yes. Gina is bilingual in English and Spanish and regularly assists couples where one or both parties prefer to communicate in Spanish. Understanding every clause in a prenup is critical, and Gina ensures nothing is lost in translation."
   - question: "How much does it cost to notarize a prenuptial agreement?"
@@ -34,16 +34,16 @@ Gina Gonzalez provides confidential mobile notary services for prenuptial agreem
 
 While California does not strictly require prenup notarization, there are compelling reasons to do it:
 
-- **Proof of identity** — notarization confirms both parties are who they claim to be
-- **Proof of voluntary signing** — the notary witnesses that neither party was coerced
-- **Harder to challenge** — courts give more weight to notarized agreements
-- **Accepted everywhere** — banks, courts, and attorneys prefer notarized documents
+- **Proof of identity**: notarization confirms both parties are who they claim to be
+- **Proof of voluntary signing**: the notary witnesses that neither party was coerced
+- **Harder to challenge**: courts give more weight to notarized agreements
+- **Accepted everywhere**: banks, courts, and attorneys prefer notarized documents
 
 ## What to Expect at Your Prenup Notarization
 
-1. **Schedule** your appointment at a private location — your home, office, or another comfortable setting
+1. **Schedule** your appointment at a private location, your home, office, or another comfortable setting
 2. **Both parties** bring valid government-issued photo ID
-3. **Do not sign** the prenup before the appointment — the notary must witness your signatures
+3. **Do not sign** the prenup before the appointment. The notary must witness your signatures
 4. **Gina verifies** both identities and confirms you understand what you are signing
 5. **Both parties sign** in the presence of the notary
 6. **Gina applies** her notary seal and completes the notary certificate
@@ -52,11 +52,11 @@ The entire process typically takes 15 to 20 minutes.
 
 ## Bilingual Prenup Notarization
 
-For couples where one or both partners speak Spanish, Gina provides fully bilingual service. Understanding every provision in a prenuptial agreement is essential. Gina ensures both parties comprehend the document before signing — no separate translator needed.
+For couples where one or both partners speak Spanish, Gina provides fully bilingual service. Understanding every provision in a prenuptial agreement is essential. Gina ensures both parties comprehend the document before signing, no separate translator needed.
 
 ## Confidential and Professional
 
-Prenuptial agreements involve sensitive financial information. Gina handles every appointment with complete discretion. She meets you at a location where you feel comfortable — no crowded office, no waiting room. The financial details of your prenup are not recorded in her notary journal. Only the document title, date, and signer information are logged as required by California law.
+Prenuptial agreements involve sensitive financial information. Gina handles every appointment with complete discretion. She meets you at a location where you feel comfortable, no crowded office, no waiting room. The financial details of your prenup are not recorded in her notary journal. Only the document title, date, and signer information are logged as required by California law.
 
 ## Schedule Your Prenup Notarization
 

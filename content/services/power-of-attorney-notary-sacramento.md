@@ -26,7 +26,7 @@ faqs:
 
 ## Power of Attorney Notarization in Sacramento
 
-A Power of Attorney is one of the most important legal documents you can have. It gives someone you trust the authority to act on your behalf when you cannot do so yourself. Getting it notarized correctly is essential — banks, courts, and government agencies regularly reject improperly executed POA documents.
+A Power of Attorney is one of the most important legal documents you can have. It gives someone you trust the authority to act on your behalf when you cannot do so yourself. Getting it notarized correctly is essential. Banks, courts, and government agencies regularly reject improperly executed POA documents.
 
 Gina Gonzalez is a mobile notary public serving Sacramento and surrounding areas. As a former lawyer and Legal Advisor for the Regional Government of Cusco, Peru, she brings legal expertise to every POA notarization. She reviews each document for completeness before applying her seal.
 
@@ -55,8 +55,8 @@ A Financial POA specifically authorizes your agent to manage your financial affa
 ## Why Choose Gina Gonzalez for POA Notarization
 
 - **Former lawyer** with deep understanding of legal document requirements
-- **Mobile service** — she comes to your home, hospital, office, or care facility
-- **Bilingual English and Spanish** — no translator needed
+- **Mobile service**: she comes to your home, hospital, office, or care facility
+- **Bilingual English and Spanish**: no translator needed
 - **Same-day appointments** available 7 days a week, 7 AM to 9 PM
 - **NNA certified** with over 6,000 documents notarized
 - **Serving all of Sacramento County** including West Sacramento, Roseville, Folsom, Elk Grove, and surrounding areas
