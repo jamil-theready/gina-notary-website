@@ -111,8 +111,23 @@ def slugify(s: str) -> str:
     return "-".join(s.split("-")[:6])
 
 
+DATE_SUFFIX_RE = re.compile(r"-\d{4}-\d{2}-\d{2}$")
+
+
+def strip_date_suffix(slug: str) -> str:
+    """'apostille-for-mexico-2026-07-16' -> 'apostille-for-mexico'."""
+    return DATE_SUFFIX_RE.sub("", slug)
+
+
 def existing_slugs() -> set[str]:
-    return {f.stem for f in BLOG_DIR.glob("*.md")}
+    """Slugs already published, plus their date-stripped forms.
+
+    Older duplicates were written as '<slug>-<date>.md'. Without stripping the
+    date, 'x-2026-07-16' reads as a different topic from 'x' and we duplicate
+    a duplicate.
+    """
+    stems = {f.stem for f in BLOG_DIR.glob("*.md")}
+    return stems | {strip_date_suffix(s) for s in stems}
 
 
 def load_context() -> dict:
@@ -224,7 +239,7 @@ def fetch_gsc_queries() -> list[dict]:
         return []
 
 
-def pick_keyword(context: dict, used: set[str]) -> tuple[str, str]:
+def pick_keywords(context: dict, used: set[str], n: int = 3) -> list[tuple[str, str]]:
     """Pick a keyword to target. Combines strategic priorities, opportunity queries,
     and seasonal pool. Applies a cluster-diversity penalty so we don't post the same
     cluster repeatedly (apostille pile-up fix, 2026-05-19)."""
@@ -285,8 +300,12 @@ def pick_keyword(context: dict, used: set[str]) -> tuple[str, str]:
     print(f"Top {len(top)} candidates:")
     for kw, src, cluster, score in top:
         print(f"  {score:5.1f}  [{cluster or '?':>15}]  {kw}  ({src})")
-    chosen = random.choice(top)
-    return chosen[0], chosen[1]
+    # Return several, not one. The keyword filter above compares slugify(keyword)
+    # (capped at 6 words) against real filenames, so it cannot catch every
+    # near-duplicate — the true collision check happens on the slug the model
+    # returns, and main() needs alternates to fall back to.
+    random.shuffle(top)
+    return [(kw, src) for kw, src, _cluster, _score in top[:n]]
 
 
 def pick_category() -> str:
@@ -555,26 +574,42 @@ def main() -> int:
     internal_links = load_internal_links()
     used = existing_slugs()
 
-    keyword, source = pick_keyword(context, used)
-    category = pick_category()
-    print(f"Topic: {keyword!r} | source={source} | category={category}")
-
     system_prompt = build_system_prompt(internal_links)
-    user_prompt = build_user_prompt(keyword, category, source)
-
-    raw = call_gemini(system_prompt, user_prompt, api_key)
-    slug, content = validate_and_extract(raw)
-
+    category = pick_category()
     date_str = datetime.now().strftime("%Y-%m-%d")
-    final_slug = slug if slug not in used else f"{slug}-{date_str}"
-    content = re.sub(r'slug:\s*"[^"]+"', f'slug: "{final_slug}"', content, count=1)
-    content = re.sub(r'date:\s*"[^"]+"', f'date: "{date_str}"', content, count=1)
 
-    out_path = BLOG_DIR / f"{final_slug}.md"
-    out_path.write_text(content)
-    print(f"WROTE: {out_path}")
+    # Try several topics. A slug that collides with an existing post means we
+    # already cover that topic, so we move to the next candidate.
+    #
+    # This used to read:
+    #     final_slug = slug if slug not in used else f"{slug}-{date_str}"
+    # i.e. on collision it appended the date and published anyway. That turned
+    # every detected duplicate into a REAL duplicate competing with the
+    # original for the same keyword — the source of the apostille dupes and of
+    # notary-public-sacramento-same-day-2026-07-16 (2026-07-16).
+    for attempt, (keyword, source) in enumerate(pick_keywords(context, used), start=1):
+        print(f"Attempt {attempt}: {keyword!r} | source={source} | category={category}")
 
-    log_to_sheet(final_slug, extract_title(content), category, source, "published")
+        user_prompt = build_user_prompt(keyword, category, source)
+        raw = call_gemini(system_prompt, user_prompt, api_key)
+        slug, content = validate_and_extract(raw)
+
+        if strip_date_suffix(slug) in used:
+            print(f"  SKIP: {slug!r} already covered - not publishing a duplicate.")
+            continue
+
+        content = re.sub(r'slug:\s*"[^"]+"', f'slug: "{slug}"', content, count=1)
+        content = re.sub(r'date:\s*"[^"]+"', f'date: "{date_str}"', content, count=1)
+
+        out_path = BLOG_DIR / f"{slug}.md"
+        out_path.write_text(content)
+        print(f"WROTE: {out_path}")
+
+        log_to_sheet(slug, extract_title(content), category, source, "published")
+        return 0
+
+    # Better to publish nothing than to cannibalise our own rankings.
+    print("No non-duplicate topic found. No post today.")
     return 0
 
 
