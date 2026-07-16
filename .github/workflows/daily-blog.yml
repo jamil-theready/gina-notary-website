@@ -1,6 +1,20 @@
 name: Daily Blog
 
 on:
+  # Multi-fire on purpose. GitHub's scheduler drops or delays cron under load,
+  # and a single daily fire meant 44 days of silent zero-output (May 20 - Jul 3).
+  # Three attempts a day makes a dropped fire a non-event.
+  #
+  # Safe to fire repeatedly: scripts/daily-blog.py::already_posted_today()
+  # exits cleanly if a post carrying today's date already exists, so at most
+  # ONE post lands per day no matter how many times this runs.
+  #
+  # All times are UTC and deliberately inside the SAME UTC day, so the
+  # already-posted guard sees a consistent date across all three fires.
+  schedule:
+    - cron: '0 15 * * *'   # 08:00 PDT
+    - cron: '0 18 * * *'   # 11:00 PDT
+    - cron: '0 21 * * *'   # 14:00 PDT
   workflow_dispatch:
 
 permissions:
