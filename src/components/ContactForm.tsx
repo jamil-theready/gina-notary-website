@@ -1,19 +1,14 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useState } from "react";
 import { useRouter } from "next/navigation";
-import HCaptcha from "@hcaptcha/react-hcaptcha";
-
-const HCAPTCHA_SITEKEY = "50b2fe65-b00b-4b9e-ad62-3ba471098be2";
 
 export default function ContactForm() {
   const [sending, setSending] = useState(false);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
   const router = useRouter();
-  const hcaptchaRef = useRef<HCaptcha>(null);
-  const formDataRef = useRef<FormData | null>(null);
 
-  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setSending(true);
     setErrorMsg(null);
@@ -21,14 +16,6 @@ export default function ContactForm() {
     const form = e.target as HTMLFormElement;
     const formData = new FormData(form);
     formData.append("access_key", "5e8e1438-0329-46cf-8df5-31ef556220bf");
-    formDataRef.current = formData;
-    hcaptchaRef.current?.execute();
-  }
-
-  async function handleVerify(token: string) {
-    const formData = formDataRef.current;
-    if (!formData) return;
-    formData.append("h-captcha-response", token);
 
     try {
       const res = await fetch("https://api.web3forms.com/submit", {
@@ -51,8 +38,6 @@ export default function ContactForm() {
       console.error("Web3Forms network error:", err);
       setErrorMsg("Network error. Please call (415) 948-9967 or email travelnotarynow@gmail.com.");
       setSending(false);
-    } finally {
-      hcaptchaRef.current?.resetCaptcha();
     }
   }
 
@@ -150,16 +135,6 @@ export default function ContactForm() {
             {errorMsg}
           </div>
         )}
-
-        <HCaptcha
-          sitekey={HCAPTCHA_SITEKEY}
-          size="invisible"
-          reCaptchaCompat={false}
-          onVerify={handleVerify}
-          onError={() => setSending(false)}
-          onExpire={() => setSending(false)}
-          ref={hcaptchaRef}
-        />
 
         <button
           type="submit"
