@@ -2,7 +2,7 @@
 title: "Apostille for Mexico from Sacramento Made Easy"
 metaTitle: "Get Your Apostille for Mexico from Sacramento 2026"
 metaDescription: "Need an apostille for Mexico documents in Sacramento? I offer mobile notary and apostille services, bilingual English Spanish. Call Gina (415) 948-9967."
-slug: "apostille-mexico-sacramento-2026-05-14"
+slug: "apostille-mexico-sacramento"
 date: "2026-05-14"
 image: "/images/blog/apostille.jpg"
 imageAlt: "Apostille certificate attached to a document, important for Mexico documents in Sacramento"

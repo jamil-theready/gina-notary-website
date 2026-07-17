@@ -47,3 +47,14 @@
 # Cannibalization consolidation 2026-07-03 — near-me/same-day/emergency merged to canonical
 /blog/emergency-notary-sacramento-same-day/ /blog/notary-public-sacramento-same-day/ 301
 /blog/notary-near-me-sacramento/ /blog/notary-public-sacramento-same-day/ 301
+
+# Cannibalization consolidation 2026-07-17 — pre-5/19 topic-selector duplicates + 7/16 artifact
+/blog/notary-public-sacramento-same-day-2026-07-16/ /blog/notary-public-sacramento-same-day/ 301
+/blog/apostille-academic-transcripts-sacramento-2026-05-04/ /blog/apostille-academic-transcripts-sacramento/ 301
+/blog/apostille-academic-transcripts-sacramento-2026-05-14/ /blog/apostille-academic-transcripts-sacramento/ 301
+/blog/apostille-colombia-sacramento-2026-05-04/ /blog/apostille-colombia-sacramento/ 301
+/blog/apostille-colombia-sacramento-2026-05-14/ /blog/apostille-colombia-sacramento/ 301
+/blog/apostille-mexico-sacramento-2026-05-04/ /blog/apostille-mexico-sacramento/ 301
+/blog/apostille-mexico-sacramento-2026-05-14/ /blog/apostille-mexico-sacramento/ 301
+/blog/notarize-tax-deadline-documents-2026-04-15/ /blog/tax-deadline-documents-notary-2026-04-14/ 301
+/blog/tax-deadline-notary-documents-2026-04-14/ /blog/tax-deadline-documents-notary-2026-04-14/ 301
