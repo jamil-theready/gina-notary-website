@@ -2,7 +2,7 @@
 title: "Apostille for Colombia from Sacramento"
 metaTitle: "Get Your Apostille for Colombia in Sacramento 2026"
 metaDescription: "Sending documents to Colombia from Sacramento, CA? I provide accurate, bilingual apostille services for international use. Call Gina Gonzalez Notary..."
-slug: "apostille-colombia-sacramento-2026-05-14"
+slug: "apostille-colombia-sacramento"
 date: "2026-05-14"
 image: "/images/blog/apostille.jpg"
 imageAlt: "Documents being processed for apostille for Colombia in Sacramento"
