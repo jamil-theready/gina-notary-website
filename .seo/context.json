@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-05-04T00:00:00.000Z",
+  "lastUpdated": "2026-07-17T00:00:00.000Z",
   "windowDays": 28,
   "seedReason": "Initial seed based on AEO truth test 2026-05-03. Will be overwritten by Flow 6 weekly.",
   "decliningPosts": [],
@@ -127,6 +127,19 @@
         "fbi background check apostille california",
         "academic transcript apostille sacramento",
         "apostille turnaround time california"
+      ]
+    },
+    {
+      "cluster": "emergency",
+      "reason": "Near-me/same-day regressed out of top 10 (was #4 in May). The emergency cluster (weekend/after-hours/sunday/late-night long-tails) was never picked by the selector because it was not a strategic priority. Promote it so it seeds spokes that reinforce the same-day intent WITHOUT cannibalizing the canonical /blog/notary-public-sacramento-same-day page.",
+      "currentPostCount": 0,
+      "currentAvgPosition": null,
+      "targetPostsThisMonth": 2,
+      "spokeSeeds": [
+        "after hours notary sacramento",
+        "sunday notary sacramento",
+        "emergency notary sacramento weekend",
+        "late night notary sacramento"
       ]
     }
   ],
