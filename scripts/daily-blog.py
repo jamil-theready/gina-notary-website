@@ -592,7 +592,16 @@ def main() -> int:
 
         user_prompt = build_user_prompt(keyword, category, source)
         raw = call_gemini(system_prompt, user_prompt, api_key)
-        slug, content = validate_and_extract(raw)
+        try:
+            slug, content = validate_and_extract(raw)
+        except ValueError as e:
+            # Gemini occasionally returns content that fails our quality bar
+            # (missing H2s, no frontmatter, too short). That used to crash
+            # the whole run and fail the workflow even though a later
+            # candidate keyword would have generated fine. Skip this
+            # candidate and try the next one instead of dying here.
+            print(f"  SKIP: generation failed validation - {e}")
+            continue
 
         if strip_date_suffix(slug) in used:
             print(f"  SKIP: {slug!r} already covered - not publishing a duplicate.")

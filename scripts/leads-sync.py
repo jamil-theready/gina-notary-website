@@ -15,6 +15,7 @@ import json
 import os
 import re
 import sys
+import time
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
@@ -47,8 +48,25 @@ def main() -> int:
         scopes=["https://www.googleapis.com/auth/spreadsheets"],
     )
     gc = gspread.authorize(creds)
-    sh = gc.open_by_key(SHEET_ID)
-    ws = sh.worksheet(SHEET_TAB)
+
+    # Google Sheets API returns transient 5xx errors occasionally (e.g. the
+    # 2026-07-18 "503 The service is currently unavailable" run). Retry a
+    # couple times with backoff instead of failing the whole workflow run.
+    def _open_sheet_with_retry():
+        from gspread.exceptions import APIError  # type: ignore
+        last_err = None
+        for attempt in range(3):
+            try:
+                sh = gc.open_by_key(SHEET_ID)
+                return sh.worksheet(SHEET_TAB)
+            except APIError as e:
+                last_err = e
+                print(f"Sheets API attempt {attempt + 1} failed: {e}", file=sys.stderr)
+                if attempt < 2:
+                    time.sleep(10 * (attempt + 1))
+        raise last_err
+
+    ws = _open_sheet_with_retry()
     existing_rows = ws.get_all_values()
     existing_dates = {row[0] for row in existing_rows[1:] if row}  # dedup on Date column
 
