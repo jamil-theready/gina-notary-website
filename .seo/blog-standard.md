@@ -24,7 +24,12 @@ this repository.
    then `decliningPosts` (refresh candidates ranking ~5–15).
 2. **Dedup:** list existing slugs in `content/blog/`. Skip any query already covered
    by an existing post (match on the core topic, not just exact slug).
-3. Pick the **single highest-priority UNCOVERED** opportunity query.
+3. **Rank by BUYER INTENT, not traffic.** The point of a post is a phone call, not a
+   pageview. Prefer queries that signal someone ready to hire — "near me", "same day",
+   "emergency", "open now", "cost / price / how much", "how to get a [service]",
+   "[service] + city". **Deprioritize** purely informational queries ("what is …",
+   "history of …") unless they clearly precede a hire. Among uncovered queries, pick the
+   **highest buyer-intent one**, not just the highest impressions.
 4. **If everything is already covered** and there are no declining posts to refresh:
    **STOP. Do not invent a thin topic.** Instead open a PR titled
    `chore(seo): keyword queue is dry — needs refresh` with an empty commit or a note
@@ -90,10 +95,32 @@ faqs:
 - Name **2–3 real service-area cities** naturally (GEO local relevance).
 - **Internal links:** link to 2–3 relevant existing pages (a service page and/or a
   related blog post — check `content/blog/` and `src/app/` for real URLs; never invent a link).
-- **CTA** near the end: mobile service + phone (415) 948-9967.
 - **Voice:** professional, warm, plain. **No em dashes. No smart quotes. No AI filler**
   ("in today's fast-paced world", "look no further", "unlock", "delve"). Match the tone
   of recent posts in `content/blog/`.
+
+## 5b. Conversion — THE POINT OF THE POST IS A LEAD
+
+A post that ranks but gets no calls has failed. Every post must move the reader to
+contact Gina. Build these in, do not bolt them on:
+
+- **Early click-to-call.** Within the first ~150 words, a clear line to call/text
+  **(415) 948-9967** (a `tel:` link). Do not make the reader scroll to find how to hire.
+- **Link to the money page, not just blogs.** At least ONE of the 2–3 internal links must
+  point to a **service or contact page** (the page that converts), phrased as an action
+  ("book a mobile notary", "request same-day service"). Verify the URL exists.
+- **Mid-post CTA.** After the main "how / what it costs" section, one sentence that names
+  the reader's situation and invites the call ("Need this notarized today in Elk Grove?
+  Gina comes to you — call (415) 948-9967.").
+- **Trust signals** the buyer needs before calling: bonded & commissioned CA notary,
+  bilingual (English/Spanish), mobile / comes to you, same-day availability, service-area
+  cities. Weave 2–3 in naturally.
+- **Closing CTA block** with phone + the fact that she travels to the client.
+- **Reduce friction:** tell them what to have ready (valid ID, the document) so calling
+  feels easy, not daunting.
+
+If the site has a lead form component, prefer linking to the page that hosts it over a
+raw email address.
 
 ## 6. Image
 
