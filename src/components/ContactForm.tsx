@@ -16,6 +16,10 @@ export default function ContactForm() {
     const form = e.target as HTMLFormElement;
     const formData = new FormData(form);
     formData.append("access_key", "5e8e1438-0329-46cf-8df5-31ef556220bf");
+    // Lead attribution: which page the form was on, and where they came from
+    // (often the blog post that drove the lead). Captured on every submission.
+    formData.append("lead_page", window.location.pathname);
+    formData.append("lead_referrer", document.referrer || "direct");
 
     try {
       const res = await fetch("https://api.web3forms.com/submit", {
