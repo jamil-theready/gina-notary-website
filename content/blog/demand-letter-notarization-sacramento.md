@@ -1,7 +1,7 @@
 ---
 title: "Demand Letters in Sacramento: When and Why to Get One Notarized"
-metaTitle: "Demand Letter Notarization Sacramento CA: Complete Guide (2026)"
-metaDescription: "Need a demand letter notarized in Sacramento? Learn when notarization strengthens your case, how to write an effective demand letter, and get same-day service. Call (415) 948-9967."
+metaTitle: "Demand Letter Notarization Sacramento CA (2026)"
+metaDescription: "Need a demand letter notarized in Sacramento? Learn when notarization strengthens your case and get same-day service. Call (415) 948-9967."
 slug: "demand-letter-notarization-sacramento"
 date: "2026-04-12"
 image: "/images/blog/grant-deed.jpg"

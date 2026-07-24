@@ -2,8 +2,8 @@
 title: "Name Change Notary in Sacramento"
 shortTitle: "Name Changes"
 slug: "name-change-notary-sacramento"
-metaTitle: "Name Change Notary Sacramento | Legal Name Change Notarization"
-metaDescription: "Mobile notary for name change documents in Sacramento. Court petitions, marriage, divorce, and gender identity name changes. Bilingual. Call (415) 948-9967."
+metaTitle: "Name Change Notary Sacramento | Legal Notarization"
+metaDescription: "Mobile notary for name change documents in Sacramento: court petitions, marriage, divorce, gender identity changes. Call (415) 948-9967."
 serviceType: "Name Changes"
 order: 12
 image: "/images/legal.png"

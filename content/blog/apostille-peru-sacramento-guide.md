@@ -1,7 +1,7 @@
 ---
 title: "Apostille for Peru in Sacramento: Your Guide"
 metaTitle: "Get Your Apostille for Peru in Sacramento 2026"
-metaDescription: "Need an apostille for documents going to Peru from Sacramento? I provide fast, reliable apostille services for Peruvian documents. Call Gina at (415) 948-9967."
+metaDescription: "Need an apostille for documents going to Peru from Sacramento? I provide fast apostille services for Peruvian documents. Call (415) 948-9967."
 slug: "apostille-peru-sacramento-guide"
 date: "2026-05-18"
 image: "/images/blog/apostille.jpg"

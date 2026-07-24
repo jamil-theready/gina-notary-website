@@ -3,7 +3,7 @@ title: "Apostille Services in Sacramento, CA"
 shortTitle: "Apostille Services"
 slug: "apostille-services-in-sacramento-ca"
 metaTitle: "Apostille Services Sacramento CA | Bilingual Notary"
-metaDescription: "Sacramento apostille services. Notarization plus California Secretary of State apostille preparation. Mexico, Peru, Colombia, Spain. Bilingual. (415) 948-9967."
+metaDescription: "Sacramento apostille services: notarization plus CA Secretary of State apostille prep. Mexico, Peru, Colombia, Spain. Call (415) 948-9967."
 quickAnswer: "Yes, apostille services in Sacramento are available same day. Gina Gonzalez is a bilingual notary who handles the notarization, document review, and California Secretary of State apostille submission in one appointment. The Secretary of State charges $20 per apostille certificate; notarization is capped at $15 per signature by state law. Most single-document apostilles total $90 to $150 all in. Call or text (415) 948-9967."
 serviceType: "Apostille Services"
 order: 6

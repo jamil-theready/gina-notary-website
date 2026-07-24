@@ -2,7 +2,7 @@
 title: "Power of Attorney Notary in Sacramento"
 shortTitle: "Power of Attorney"
 slug: "power-of-attorney-notary-sacramento"
-metaTitle: "Power of Attorney Notary Sacramento | Mobile POA Notarization"
+metaTitle: "Power of Attorney Notary Sacramento | Mobile POA"
 metaDescription: "Mobile notary for power of attorney documents in Sacramento. General, durable, limited, and healthcare POA. Bilingual English/Spanish. Call (415) 948-9967."
 serviceType: "Power of Attorney"
 order: 10

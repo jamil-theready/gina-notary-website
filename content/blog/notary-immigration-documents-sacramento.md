@@ -1,7 +1,7 @@
 ---
 title: "Need a Notary for Immigration Documents Sacramento? Your Guide (2026)"
 metaTitle: "Sacramento Notary for Immigration Documents (2026)"
-metaDescription: "Secure a reliable notary for immigration documents in Sacramento, CA. Gina Gonzalez Notary offers bilingual mobile services for USCIS forms. Call (415) 948-9967."
+metaDescription: "Secure a reliable notary for immigration documents in Sacramento. Bilingual mobile service for USCIS forms. Call (415) 948-9967."
 slug: "notary-immigration-documents-sacramento"
 date: "2026-04-09"
 image: "/images/blog/notary-immigration-documents-sacramento-featured.jpg"

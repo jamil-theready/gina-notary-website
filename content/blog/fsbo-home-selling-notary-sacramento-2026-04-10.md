@@ -1,7 +1,7 @@
 ---
 title: "FSBO Home Selling in Sacramento: What Notary Documents Do You Need?"
 metaTitle: "Sacramento FSBO Notary Documents Guide (2026)"
-metaDescription: "Selling your home For Sale By Owner (FSBO) in Sacramento? Understand essential notary documents and simplify your closing. Call Gina Gonzalez Notary: (415) 948-9967."
+metaDescription: "Selling your home For Sale By Owner in Sacramento? Understand essential notary documents and simplify closing. Call (415) 948-9967."
 slug: "fsbo-home-selling-notary-sacramento-2026-04-10"
 date: "2026-04-10"
 image: "/images/blog/fsbo-home-selling-notary-sacramento-featured.png"

@@ -1,7 +1,7 @@
 ---
 title: "Wedding Officiant in Elk Grove, CA"
-metaTitle: "Wedding Officiant in Elk Grove CA: Ceremonies & Pricing (2026)"
-metaDescription: "Looking for a wedding officiant in Elk Grove CA? Gina Gonzalez performs bilingual ceremonies at any venue. Civil, religious, or custom. Call (415) 948-9967."
+metaTitle: "Wedding Officiant Elk Grove CA | Ceremonies & Pricing"
+metaDescription: "Looking for a wedding officiant in Elk Grove CA? Gina performs bilingual ceremonies at any venue: civil, religious, or custom. Call (415) 948-9967."
 slug: "wedding-officiant-elk-grove-ca"
 date: "2026-04-06"
 image: "/images/blog/courthouse-wedding.jpg"

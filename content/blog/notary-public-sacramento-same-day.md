@@ -1,7 +1,7 @@
 ---
 title: "Notary Public Sacramento Near Me: Same Day & Emergency Service"
-metaTitle: "Notary Public Sacramento Near Me | Same Day & Emergency (2026)"
-metaDescription: "Searching for a notary public in Sacramento near you for same day or emergency service? Gina Gonzalez comes to you 7AM-9PM, 7 days a week. Call (415) 948-9967."
+metaTitle: "Notary Sacramento Near Me | Same Day & Emergency"
+metaDescription: "Searching for a same day or emergency notary in Sacramento? Gina Gonzalez comes to you 7AM-9PM, 7 days a week. Call (415) 948-9967."
 slug: "notary-public-sacramento-same-day"
 date: "2026-07-03"
 image: "/images/blog/grant-deed.jpg"

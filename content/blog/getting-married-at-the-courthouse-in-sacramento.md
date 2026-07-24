@@ -1,6 +1,6 @@
 ---
 title: "Sacramento Courthouse Wedding: Complete Guide"
-metaTitle: "Getting Married at the Courthouse in Sacramento: Complete Guide"
+metaTitle: "Courthouse Wedding in Sacramento: Complete Guide"
 metaDescription: "Everything you need to know about a courthouse wedding in Sacramento. Marriage license steps, costs, and officiant options. Call (415) 948-9967 to book."
 slug: "getting-married-at-the-courthouse-in-sacramento"
 date: "2026-03-04"

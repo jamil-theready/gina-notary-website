@@ -242,12 +242,17 @@ function loadReviewsData(): ReviewsData {
   } catch {
     // fall through to defaults
   }
-  // Fallback — conservative defaults consistent with actual reviewBody count
+  // Fallback — matches the verified live Google Business Profile count
+  // (29 reviews, confirmed 2026-07-17 backlink NAP audit; see CLIENT.md).
+  // Previously hardcoded "47" here did not match GBP and risked losing
+  // rich-result stars; previously "3" undercounted vs GBP. Update this
+  // default whenever the GBP review count changes, or wire .seo/reviews.json
+  // to a live Google Places sync so it never drifts again.
   return {
     aggregateRating: {
       ratingValue: "5.0",
-      ratingCount: "3",
-      reviewCount: "3",
+      ratingCount: "29",
+      reviewCount: "29",
     },
     reviews: [
       {

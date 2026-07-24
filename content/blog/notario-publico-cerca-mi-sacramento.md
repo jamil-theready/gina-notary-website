@@ -1,6 +1,6 @@
 ---
 title: "Notario Público Cerca de Mí: Su Guía en Sacramento (2026)"
-metaTitle: "Notario Público Cerca de Mí en Sacramento | Gina Gonzalez (2026)"
+metaTitle: "Notario Público Cerca de Mí en Sacramento (2026)"
 metaDescription: "Busca un notario público cerca de mí en Sacramento? Soy Gina Gonzalez, notario bilingüe. Servicios móviles rápidos. Llame (415) 948-9967."
 slug: "notario-publico-cerca-mi-sacramento"
 date: "2026-07-03"

@@ -3,7 +3,7 @@ title: "Legal & Personal Document Notary in Sacramento"
 shortTitle: "Legal & Personal"
 slug: "legal-personal"
 metaTitle: "Legal & Personal Document Notary in Sacramento, CA"
-metaDescription: "Mobile notary for power of attorney, healthcare directives, affidavits, name changes, and prenuptial agreements in Sacramento. Bilingual English/Spanish. Call (415) 948-9967."
+metaDescription: "Mobile notary for power of attorney, healthcare directives, affidavits, and name changes in Sacramento. Bilingual. Call (415) 948-9967."
 serviceType: "Legal & Personal"
 order: 1
 image: "/images/legal.png"

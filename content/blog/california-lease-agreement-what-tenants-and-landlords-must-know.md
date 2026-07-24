@@ -1,6 +1,6 @@
 ---
 title: "California Lease Agreement: Tenant & Landlord Guide"
-metaTitle: "California Lease Agreement: What Tenants and Landlords Must Know"
+metaTitle: "CA Lease Agreement Guide for Tenants & Landlords"
 metaDescription: "Essential guide to CA lease agreements for tenants and landlords. Sacramento notary Gina Gonzalez covers key terms and notarization. Call (415) 948-9967."
 slug: "california-lease-agreement-what-tenants-and-landlords-must-know"
 date: "2026-03-12"

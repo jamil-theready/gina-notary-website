@@ -1,7 +1,7 @@
 ---
 title: "Understanding the Sacramento Housing Market in 2026"
 metaTitle: "Sacramento Housing Market Trends & Notary (2026)"
-metaDescription: "Navigate the Sacramento housing market with expert notary services. Gina Gonzalez provides mobile notarization for real estate documents. Call (415) 948-9967."
+metaDescription: "Navigate the Sacramento housing market with expert notary services. Mobile notarization for real estate documents. Call (415) 948-9967."
 slug: "sacramento-housing-market-notary-2026-04-10"
 date: "2026-04-10"
 image: "/images/blog/sacramento-housing-market-notary-featured.png"

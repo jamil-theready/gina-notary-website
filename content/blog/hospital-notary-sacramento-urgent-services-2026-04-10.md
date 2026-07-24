@@ -1,7 +1,7 @@
 ---
 title: "Hospital Notary Sacramento: Urgent Mobile Notary Services (2026)"
 metaTitle: "Hospital Notary Sacramento: Urgent Mobile Services (2026)"
-metaDescription: "Need a hospital notary in Sacramento quickly? Gina Gonzalez Notary provides urgent mobile notarization for patients and families 7 days a week. Call (415) 948-9967."
+metaDescription: "Need a hospital notary in Sacramento quickly? Gina provides urgent mobile notarization for patients and families, 7 days a week. Call (415) 948-9967."
 slug: "hospital-notary-sacramento-urgent-services-2026-04-10"
 date: "2026-04-10"
 image: "/images/blog/hospital-notary-sacramento-urgent-services-featured.png"

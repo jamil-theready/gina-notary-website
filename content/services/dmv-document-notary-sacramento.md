@@ -2,8 +2,8 @@
 title: "DMV Document Notary in Sacramento"
 shortTitle: "DMV Documents"
 slug: "dmv-document-notary-sacramento"
-metaTitle: "DMV Document Notary Sacramento | Vehicle Title & Transfer Notarization"
-metaDescription: "Mobile notary for DMV documents in Sacramento. Vehicle titles, transfers, POA for DMV, and registration forms. Bilingual English/Spanish. Call (415) 948-9967."
+metaTitle: "DMV Document Notary Sacramento | Title & Transfer"
+metaDescription: "Mobile notary for DMV documents in Sacramento: vehicle titles, transfers, POA for DMV, registration forms. Bilingual. Call (415) 948-9967."
 serviceType: "DMV Documents"
 order: 15
 image: "/images/personal.png"

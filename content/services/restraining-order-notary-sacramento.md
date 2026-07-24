@@ -2,7 +2,7 @@
 title: "Restraining Order Notary in Sacramento"
 shortTitle: "Restraining Orders"
 slug: "restraining-order-notary-sacramento"
-metaTitle: "Restraining Order Notary Sacramento | Court Document Notarization"
+metaTitle: "Restraining Order Notary Sacramento | Court Docs"
 metaDescription: "Mobile notary for restraining order documents in Sacramento. Confidential, same-day service. Bilingual English/Spanish. Call (415) 948-9967."
 serviceType: "Restraining Orders"
 order: 14
