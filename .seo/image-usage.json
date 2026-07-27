@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-07-13T20:16:11.243Z",
-  "totalPostsAnalyzed": 59,
+  "lastUpdated": "2026-07-24T20:16:57.076Z",
+  "totalPostsAnalyzed": 67,
   "totalImagesInLibrary": 28,
   "distinctImagesUsed": 29,
   "unusedImagesCount": 6,
@@ -15,8 +15,29 @@
   ],
   "overusedImages": [
     {
+      "image": "/images/blog/grant-deed.jpg",
+      "useCount": 15,
+      "posts": [
+        "california-grant-deed-vs-quitclaim-deed-explained",
+        "demand-letter-notarization-sacramento",
+        "emergency-notary-sacramento-same-day",
+        "emergency-notary-sacramento-weekend",
+        "late-night-notary-sacramento",
+        "legal-name-change-california-guide",
+        "mobile-notary-near-me-sacramento",
+        "notario-publico-cerca-mi-sacramento",
+        "notary-near-me-sacramento",
+        "notary-public-sacramento-same-day",
+        "power-of-attorney-notary-sacramento-guide",
+        "restraining-order-notary-sacramento-guide",
+        "spanish-notary-near-me-sacramento",
+        "tax-deadline-documents-notary-2026-04-14",
+        "temporary-custody-notarized-letter-california"
+      ]
+    },
+    {
       "image": "/images/blog/apostille.jpg",
-      "useCount": 11,
+      "useCount": 13,
       "posts": [
         "apostilla-en-sacramento-california-guia",
         "apostille-academic-transcripts-sacramento-2026-05-04",
@@ -24,32 +45,19 @@
         "apostille-academic-transcripts-sacramento",
         "apostille-colombia-sacramento-2026-05-04",
         "apostille-colombia-sacramento-2026-05-14",
+        "apostille-colombia-sacramento",
         "apostille-mexico-sacramento-2026-05-04",
         "apostille-mexico-sacramento-2026-05-14",
+        "apostille-mexico-sacramento",
         "apostille-peru-sacramento-guide",
         "apostille-services-sacramento-complete-guide",
         "apostille-turnaround-time-california"
       ]
-    },
-    {
-      "image": "/images/blog/grant-deed.jpg",
-      "useCount": 9,
-      "posts": [
-        "california-grant-deed-vs-quitclaim-deed-explained",
-        "demand-letter-notarization-sacramento",
-        "legal-name-change-california-guide",
-        "notario-publico-cerca-mi-sacramento",
-        "notary-public-sacramento-same-day",
-        "power-of-attorney-notary-sacramento-guide",
-        "restraining-order-notary-sacramento-guide",
-        "tax-deadline-documents-notary-2026-04-14",
-        "temporary-custody-notarized-letter-california"
-      ]
     }
   ],
-  "mostUsedShare": 0.19,
+  "mostUsedShare": 0.22,
   "needsFreshImages": true,
-  "reminder": "2 image(s) used 5+ times. Consider generating fresh images. Most-used image accounts for 19% of all uses.",
+  "reminder": "2 image(s) used 5+ times. Consider generating fresh images. Most-used image accounts for 22% of all uses.",
   "thresholds": {
     "overusePerImage": 5,
     "categorySaturation": 0.4
