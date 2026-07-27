@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-24T20:16:56.953Z",
-  "totalEntries": 67,
+  "generatedAt": "2026-07-27T21:24:31.656Z",
+  "totalEntries": 57,
   "totalServices": 15,
-  "totalBlogPosts": 52,
+  "totalBlogPosts": 42,
   "byCluster": {
     "apostille": [
       {
@@ -21,20 +21,6 @@
         "language": "es"
       },
       {
-        "slug": "apostille-academic-transcripts-sacramento-2026-05-04",
-        "title": "Apostille Academic Transcripts Sacramento: Your Guide (2026)",
-        "url": "/blog/apostille-academic-transcripts-sacramento-2026-05-04/",
-        "type": "blog",
-        "language": "en"
-      },
-      {
-        "slug": "apostille-academic-transcripts-sacramento-2026-05-14",
-        "title": "Apostille Academic Transcripts Sacramento: Your Guide",
-        "url": "/blog/apostille-academic-transcripts-sacramento-2026-05-14/",
-        "type": "blog",
-        "language": "en"
-      },
-      {
         "slug": "apostille-academic-transcripts-sacramento",
         "title": "Apostille Academic Transcripts Sacramento: Your Guide",
         "url": "/blog/apostille-academic-transcripts-sacramento/",
@@ -42,37 +28,9 @@
         "language": "en"
       },
       {
-        "slug": "apostille-colombia-sacramento-2026-05-04",
-        "title": "Apostille Colombia in Sacramento: Your Guide (2026)",
-        "url": "/blog/apostille-colombia-sacramento-2026-05-04/",
-        "type": "blog",
-        "language": "en"
-      },
-      {
-        "slug": "apostille-colombia-sacramento-2026-05-14",
-        "title": "Apostille for Colombia from Sacramento",
-        "url": "/blog/apostille-colombia-sacramento-2026-05-14/",
-        "type": "blog",
-        "language": "en"
-      },
-      {
         "slug": "apostille-colombia-sacramento",
         "title": "Apostille for Colombia from Sacramento",
         "url": "/blog/apostille-colombia-sacramento/",
-        "type": "blog",
-        "language": "en"
-      },
-      {
-        "slug": "apostille-mexico-sacramento-2026-05-04",
-        "title": "Get Your Apostille for Mexico in Sacramento 2026",
-        "url": "/blog/apostille-mexico-sacramento-2026-05-04/",
-        "type": "blog",
-        "language": "en"
-      },
-      {
-        "slug": "apostille-mexico-sacramento-2026-05-14",
-        "title": "Apostille for Mexico from Sacramento Made Easy",
-        "url": "/blog/apostille-mexico-sacramento-2026-05-14/",
         "type": "blog",
         "language": "en"
       },
@@ -174,30 +132,9 @@
         "language": "en"
       },
       {
-        "slug": "notarize-tax-deadline-documents-2026-04-15",
-        "title": "Notarizing Your Tax Deadline Documents (2026)",
-        "url": "/blog/notarize-tax-deadline-documents-2026-04-15/",
-        "type": "blog",
-        "language": "en"
-      },
-      {
-        "slug": "notary-near-me-sacramento",
-        "title": "Notary Near Me Sacramento: Your Mobile Notary Solution",
-        "url": "/blog/notary-near-me-sacramento/",
-        "type": "blog",
-        "language": "en"
-      },
-      {
         "slug": "tax-deadline-documents-notary-2026-04-14",
         "title": "Tax Deadline Documents: Your Notary Checklist",
         "url": "/blog/tax-deadline-documents-notary-2026-04-14/",
-        "type": "blog",
-        "language": "en"
-      },
-      {
-        "slug": "tax-deadline-notary-documents-2026-04-14",
-        "title": "Tax Deadline Documents: Your Notary Guide",
-        "url": "/blog/tax-deadline-notary-documents-2026-04-14/",
         "type": "blog",
         "language": "en"
       }
@@ -467,13 +404,6 @@
       }
     ],
     "emergency": [
-      {
-        "slug": "emergency-notary-sacramento-same-day",
-        "title": "Emergency Notary in Sacramento: Same Day Service",
-        "url": "/blog/emergency-notary-sacramento-same-day/",
-        "type": "blog",
-        "language": "en"
-      },
       {
         "slug": "emergency-notary-sacramento-weekend",
         "title": "Emergency Notary Sacramento Weekend: Urgent Service",
@@ -786,53 +716,6 @@
     },
     {
       "type": "blog",
-      "slug": "apostille-academic-transcripts-sacramento-2026-05-04",
-      "title": "Apostille Academic Transcripts Sacramento: Your Guide (2026)",
-      "url": "/blog/apostille-academic-transcripts-sacramento-2026-05-04/",
-      "language": "en",
-      "serviceType": "Apostille Services",
-      "cluster": "apostille",
-      "keywords": [
-        "apostille",
-        "academic",
-        "transcripts",
-        "sacramento",
-        "guide",
-        "2026",
-        "notary",
-        "international",
-        "documents",
-        "education",
-        "mobile",
-        "bilingual"
-      ],
-      "date": "2026-05-04",
-      "draft": false
-    },
-    {
-      "type": "blog",
-      "slug": "apostille-academic-transcripts-sacramento-2026-05-14",
-      "title": "Apostille Academic Transcripts Sacramento: Your Guide",
-      "url": "/blog/apostille-academic-transcripts-sacramento-2026-05-14/",
-      "language": "en",
-      "serviceType": "Apostille Services",
-      "cluster": "apostille",
-      "keywords": [
-        "apostille",
-        "academic",
-        "transcripts",
-        "sacramento",
-        "guide",
-        "2026",
-        "notary",
-        "education",
-        "international"
-      ],
-      "date": "2026-05-14",
-      "draft": false
-    },
-    {
-      "type": "blog",
       "slug": "apostille-academic-transcripts-sacramento",
       "title": "Apostille Academic Transcripts Sacramento: Your Guide",
       "url": "/blog/apostille-academic-transcripts-sacramento/",
@@ -856,50 +739,6 @@
     },
     {
       "type": "blog",
-      "slug": "apostille-colombia-sacramento-2026-05-04",
-      "title": "Apostille Colombia in Sacramento: Your Guide (2026)",
-      "url": "/blog/apostille-colombia-sacramento-2026-05-04/",
-      "language": "en",
-      "serviceType": "Apostille Services",
-      "cluster": "apostille",
-      "keywords": [
-        "apostille",
-        "colombia",
-        "sacramento",
-        "guide",
-        "2026",
-        "international",
-        "documents",
-        "mobile",
-        "notary",
-        "bilingual"
-      ],
-      "date": "2026-05-04",
-      "draft": false
-    },
-    {
-      "type": "blog",
-      "slug": "apostille-colombia-sacramento-2026-05-14",
-      "title": "Apostille for Colombia from Sacramento",
-      "url": "/blog/apostille-colombia-sacramento-2026-05-14/",
-      "language": "en",
-      "serviceType": "Apostille Services",
-      "cluster": "apostille",
-      "keywords": [
-        "apostille",
-        "colombia",
-        "sacramento",
-        "2026",
-        "international",
-        "documents",
-        "notary",
-        "spanish"
-      ],
-      "date": "2026-05-14",
-      "draft": false
-    },
-    {
-      "type": "blog",
       "slug": "apostille-colombia-sacramento",
       "title": "Apostille for Colombia from Sacramento",
       "url": "/blog/apostille-colombia-sacramento/",
@@ -914,49 +753,6 @@
         "documents",
         "notary",
         "spanish"
-      ],
-      "date": "2026-05-14",
-      "draft": false
-    },
-    {
-      "type": "blog",
-      "slug": "apostille-mexico-sacramento-2026-05-04",
-      "title": "Get Your Apostille for Mexico in Sacramento 2026",
-      "url": "/blog/apostille-mexico-sacramento-2026-05-04/",
-      "language": "en",
-      "serviceType": "Apostille Services",
-      "cluster": "apostille",
-      "keywords": [
-        "apostille",
-        "mexico",
-        "sacramento",
-        "2026",
-        "international",
-        "documents",
-        "bilingual",
-        "notary"
-      ],
-      "date": "2026-05-04",
-      "draft": false
-    },
-    {
-      "type": "blog",
-      "slug": "apostille-mexico-sacramento-2026-05-14",
-      "title": "Apostille for Mexico from Sacramento Made Easy",
-      "url": "/blog/apostille-mexico-sacramento-2026-05-14/",
-      "language": "en",
-      "serviceType": "Apostille Services",
-      "cluster": "apostille",
-      "keywords": [
-        "apostille",
-        "mexico",
-        "sacramento",
-        "made",
-        "easy",
-        "2026",
-        "notary",
-        "mobile",
-        "bilingual"
       ],
       "date": "2026-05-14",
       "draft": false
@@ -1214,27 +1010,6 @@
     },
     {
       "type": "blog",
-      "slug": "emergency-notary-sacramento-same-day",
-      "title": "Emergency Notary in Sacramento: Same Day Service",
-      "url": "/blog/emergency-notary-sacramento-same-day/",
-      "language": "en",
-      "serviceType": "Mobile Notary",
-      "cluster": "emergency",
-      "keywords": [
-        "emergency",
-        "notary",
-        "sacramento",
-        "same",
-        "service",
-        "mobile",
-        "urgent",
-        "notarization"
-      ],
-      "date": "2026-04-06",
-      "draft": false
-    },
-    {
-      "type": "blog",
       "slug": "emergency-notary-sacramento-weekend",
       "title": "Emergency Notary Sacramento Weekend: Urgent Service",
       "url": "/blog/emergency-notary-sacramento-weekend/",
@@ -1476,29 +1251,6 @@
     },
     {
       "type": "blog",
-      "slug": "notarize-tax-deadline-documents-2026-04-15",
-      "title": "Notarizing Your Tax Deadline Documents (2026)",
-      "url": "/blog/notarize-tax-deadline-documents-2026-04-15/",
-      "language": "en",
-      "serviceType": "Legal & Personal",
-      "cluster": "general",
-      "keywords": [
-        "notarizing",
-        "deadline",
-        "documents",
-        "2026",
-        "notarize",
-        "notary",
-        "public",
-        "sacramento",
-        "mobile",
-        "legal"
-      ],
-      "date": "2026-04-14",
-      "draft": false
-    },
-    {
-      "type": "blog",
       "slug": "notary-immigration-documents-sacramento",
       "title": "Need a Notary for Immigration Documents Sacramento? Your Guide (2026)",
       "url": "/blog/notary-immigration-documents-sacramento/",
@@ -1518,25 +1270,6 @@
         "uscis"
       ],
       "date": "2026-04-09",
-      "draft": false
-    },
-    {
-      "type": "blog",
-      "slug": "notary-near-me-sacramento",
-      "title": "Notary Near Me Sacramento: Your Mobile Notary Solution",
-      "url": "/blog/notary-near-me-sacramento/",
-      "language": "en",
-      "serviceType": "Mobile Notary",
-      "cluster": "general",
-      "keywords": [
-        "notary",
-        "near",
-        "sacramento",
-        "mobile",
-        "solution",
-        "bilingual"
-      ],
-      "date": "2026-05-19",
       "draft": false
     },
     {
@@ -1828,29 +1561,6 @@
         "sacramento",
         "deadlines",
         "legal"
-      ],
-      "date": "2026-04-14",
-      "draft": false
-    },
-    {
-      "type": "blog",
-      "slug": "tax-deadline-notary-documents-2026-04-14",
-      "title": "Tax Deadline Documents: Your Notary Guide",
-      "url": "/blog/tax-deadline-notary-documents-2026-04-14/",
-      "language": "en",
-      "serviceType": "Legal & Personal",
-      "cluster": "general",
-      "keywords": [
-        "deadline",
-        "documents",
-        "notary",
-        "guide",
-        "2026",
-        "public",
-        "sacramento",
-        "mobile",
-        "financial",
-        "season"
       ],
       "date": "2026-04-14",
       "draft": false
