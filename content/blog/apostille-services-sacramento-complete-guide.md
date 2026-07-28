@@ -1,7 +1,7 @@
 ---
 title: "Apostille Services in Sacramento: Complete Guide"
-metaTitle: "Apostille Services in Sacramento CA: Complete Guide (2026)"
-metaDescription: "Everything you need to know about apostille services in Sacramento. Bilingual notary Gina Gonzalez walks you through the process. Call (415) 948-9967."
+metaTitle: "Sacramento Apostille Services: Cost, Time, Steps (2026)"
+metaDescription: "Need an apostille in Sacramento? Bilingual notary Gina Gonzalez breaks down the $20 fee, same-day processing, and the step-by-step process. Call today."
 slug: "apostille-services-sacramento-complete-guide"
 date: "2026-03-16"
 image: "/images/blog/apostille.jpg"
