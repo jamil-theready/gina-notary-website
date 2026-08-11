@@ -7,6 +7,9 @@ import FloatingPhoneCTA from "@/components/FloatingPhoneCTA";
 import { localBusinessSchema } from "@/lib/schema";
 import "./globals.css";
 
+import CookieConsent from "@/components/CookieConsent";
+import { consentBootstrap } from "@/lib/consent";
+import ConsentGatedScripts from "@/components/ConsentGatedScripts";
 const manrope = Manrope({
   variable: "--font-manrope",
   subsets: ["latin"],
@@ -88,6 +91,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Consent Mode v2 defaults. Must precede the GA4 tag. */}
+        <script dangerouslySetInnerHTML={{ __html: consentBootstrap() }} />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -106,9 +111,12 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-4CP7XECRCV');`}
         </Script>
-        <Script id="metricool-tracker" strategy="afterInteractive">
-          {`function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"a8711df1c33500db10ba2a36d20910d1"})});`}
-        </Script>
+        {/* Ignores Google Consent Mode, so it loads only after acceptance. */}
+        <ConsentGatedScripts>
+          <Script id="metricool-tracker" strategy="afterInteractive">
+            {`function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"a8711df1c33500db10ba2a36d20910d1"})});`}
+          </Script>
+        </ConsentGatedScripts>
         <a href="#main-content" className="sr-only focus:not-sr-only focus:absolute focus:z-[100] focus:top-2 focus:left-2 focus:bg-brand-gold focus:text-brand-black focus:px-4 focus:py-2 focus:rounded-lg focus:font-semibold">
           Skip to content
         </a>
@@ -116,6 +124,7 @@ gtag('config', 'G-4CP7XECRCV');`}
         <main id="main-content" className="pt-[60px] md:pt-[96px]">{children}</main>
         <Footer />
         <FloatingPhoneCTA />
+        <CookieConsent />
       </body>
     </html>
   );

@@ -67,6 +67,14 @@ export default function PrivacyPolicyPage() {
             time on site, and referring sources. You can control cookie
             preferences through your browser settings.
           </p>
+          <p className="mt-4">
+            We use Google Analytics and Metricool. A banner on your first visit lets
+            you accept or decline these cookies, and the <strong>Cookie Settings</strong>{" "}
+            link in the footer lets you change that choice at any time. If you decline,
+            Metricool is not loaded at all, analytics collection stops, and the analytics
+            cookies already stored in your browser are removed. Visitors in the EU, UK,
+            and Switzerland have these disabled by default until they accept.
+          </p>
         </section>
 
         <section>
