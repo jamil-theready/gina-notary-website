@@ -273,8 +273,18 @@ export default async function BlogPostPage({
               </div>
             )}
 
-            {/* Article body */}
+            {/* Article body.
+                `lang` is set from the post's own frontmatter. The root layout
+                hardcodes <html lang="en">, so without this every Spanish post
+                — apostilla-en-sacramento-california-guia,
+                notario-publico-cerca-mi-sacramento and
+                apostilla-documentos-escolares-estudiar-extranjero — declared
+                itself as English to Google and to screen readers, while the
+                hreflang alternates above correctly said otherwise. An
+                element-level lang is the right fix in the App Router, where a
+                page cannot change the <html> attribute of its parent layout. */}
             <div
+              lang={post.language === "es" ? "es" : "en"}
               className="prose"
               dangerouslySetInnerHTML={{ __html: contentHtml }}
             />
