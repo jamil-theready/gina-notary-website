@@ -1,7 +1,7 @@
 ---
 title: "Apostilla en Sacramento California: Guia Completa"
-metaTitle: "Apostilla en Sacramento CA: Guia Completa (2026)"
-metaDescription: "Todo lo que necesita saber sobre servicios de apostilla en Sacramento. Notaria bilingue Gina Gonzalez lo guia paso a paso. Llame al (415) 948-9967."
+metaTitle: "Apostillar Acta de Nacimiento en Sacramento, CA"
+metaDescription: "Como apostillar su acta de nacimiento u otro documento en Sacramento: costo de $20, tiempos de procesamiento y los pasos exactos. (415) 948-9967."
 slug: "apostilla-en-sacramento-california-guia"
 date: "2026-04-06"
 image: "/images/blog/apostille.jpg"

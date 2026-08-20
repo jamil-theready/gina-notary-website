@@ -2,8 +2,8 @@
 title: "Wedding Officiant Services in Sacramento, CA"
 shortTitle: "Wedding Officiant"
 slug: "wedding-officiant-services-in-sacramento-ca"
-metaTitle: "Wedding Officiant Sacramento CA | Bilingual Ceremonies"
-metaDescription: "Bilingual wedding officiant in Sacramento. English and Spanish ceremonies. Licensed notary to sign your marriage license on the spot. Call (415) 948-9967."
+metaTitle: "Spanish-Speaking Wedding Officiant in Sacramento, CA"
+metaDescription: "Bilingual wedding officiant in Sacramento for ceremonies in English or Spanish. Licensed notary who signs your marriage license on site. Call today."
 serviceType: "Wedding Officiant"
 order: 5
 image: "/images/wedding.png"

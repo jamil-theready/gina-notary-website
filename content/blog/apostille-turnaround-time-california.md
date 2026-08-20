@@ -1,7 +1,7 @@
 ---
 title: "Apostille Turnaround Time California 2026"
-metaTitle: "Apostille Turnaround Time California: Your Guide (2026)"
-metaDescription: "Understand apostille turnaround time in California. Learn about mail and in person processing. Call Gina Gonzalez Notary (415) 948-9967 for help."
+metaTitle: "California Apostille Processing Time: Mail vs In Person"
+metaDescription: "California apostille processing takes 5 to 10 business days by mail, or same day in person in Sacramento. What drives delays and how to avoid them."
 slug: "apostille-turnaround-time-california"
 date: "2026-05-19"
 image: "/images/blog/apostille.jpg"
