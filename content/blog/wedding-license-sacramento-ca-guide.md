@@ -1,7 +1,7 @@
 ---
 title: "How to Get a Wedding License in Sacramento, CA"
-metaTitle: "Wedding License Sacramento CA: Cost & Steps (2026)"
-metaDescription: "Get your wedding license in Sacramento CA. Learn the requirements, $90 fee, where to apply, and how to get married the same day. Call (415) 948-9967."
+metaTitle: "Marriage License Sacramento: $90 Fee, ID & Same-Day"
+metaDescription: "Sacramento marriage license: $90 public or $100 confidential, both parties apply in person at 600 8th Street. No waiting period to marry."
 slug: "wedding-license-sacramento-ca-guide"
 date: "2026-04-06"
 image: "/images/blog/courthouse-wedding.jpg"

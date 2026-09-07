@@ -1,7 +1,7 @@
 ---
 title: "Sacramento Courthouse Marriage Ceremony Guide"
-metaTitle: "Sacramento Courthouse Wedding: What to Expect (2026)"
-metaDescription: "Getting married at the Sacramento courthouse? Real cost (about $125), dress code, parking, witness rules, plus how to book a private officiant instead."
+metaTitle: "Sacramento Courthouse Wedding: Cost, Booking & Rules"
+metaDescription: "Sacramento courthouse wedding runs about $125 total. Ceremony fee, witness rules, dress code, parking, and how to bring your own officiant instead."
 slug: "sacramento-courthouse-marriage-civil-ceremony"
 date: "2026-04-06"
 image: "/images/blog/courthouse-wedding.jpg"

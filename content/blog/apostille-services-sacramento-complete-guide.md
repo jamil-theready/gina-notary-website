@@ -1,7 +1,7 @@
 ---
 title: "Apostille Services in Sacramento: Complete Guide"
-metaTitle: "Sacramento Apostille Services: Cost, Time, Steps (2026)"
-metaDescription: "Need an apostille in Sacramento? Bilingual notary Gina Gonzalez breaks down the $20 fee, same-day processing, and the step-by-step process. Call today."
+metaTitle: "Apostille Sacramento: Birth Certificate, Cost & Steps"
+metaDescription: "How to apostille a birth certificate or any document in Sacramento. The $20 state fee, same-day in person vs mail, and every step. (415) 948-9967."
 slug: "apostille-services-sacramento-complete-guide"
 date: "2026-03-16"
 image: "/images/blog/apostille.jpg"

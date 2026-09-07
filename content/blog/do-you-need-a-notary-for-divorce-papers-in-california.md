@@ -1,7 +1,7 @@
 ---
 title: "Do You Need a Notary for Divorce Papers in California?"
-metaTitle: "Do You Need a Notary for Divorce Papers in California?"
-metaDescription: "Learn which divorce papers need notarization in California. Sacramento divorce notary Gina Gonzalez explains the process. Call (415) 948-9967 to schedule."
+metaTitle: "Can a Notary Notarize Divorce Papers? California Rules"
+metaDescription: "Which California divorce forms actually need notarizing, which do not, and what a notary can and cannot do. Sacramento mobile notary, (415) 948-9967."
 slug: "do-you-need-a-notary-for-divorce-papers-in-california"
 date: "2026-03-06"
 image: "/images/blog/divorce-papers.jpg"

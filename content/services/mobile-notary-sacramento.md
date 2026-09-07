@@ -2,8 +2,8 @@
 title: "Mobile Notary in Sacramento"
 shortTitle: "Mobile Notary"
 slug: "mobile-notary-sacramento"
-metaTitle: "Mobile Notary Sacramento | Same Day Service"
-metaDescription: "Same day mobile notary in Sacramento. Travel to your home, office, or hospital. Bilingual English/Spanish. Available 7 days. Call (415) 948-9967."
+metaTitle: "Mobile Notary Sacramento: We Come to You, Same Day"
+metaDescription: "Mobile notary who travels to your home, office, or hospital across Sacramento. Bilingual English and Spanish, 7 AM to 9 PM daily. (415) 948-9967."
 serviceType: "Mobile Notary"
 order: 7
 image: "/images/gina-gonzalez-notary.jpg"
